@@ -33,7 +33,7 @@ Made by Tuomas Väisänen, Sakari Sarjakoski, Rami Ratvio, Sara Todorovic, Paula
 
 **Launch QGIS** and the QGIS graphical user interface (GUI) opens (Figure 1).
 
-![QGIS layout](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_layout.png)
+![QGIS layout](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_layout.png)
  1. Toolbars
  2. Layers list / Browser panel
  3. Map canvas
@@ -53,13 +53,13 @@ The state of a working session in QGIS is called a **project**. Similarly, to a 
 
 ![](https://docs.qgis.org/3.28/en/_images/mActionFileNew.png) ![](https://docs.qgis.org/3.28/en/_images/mActionFileOpen.png) **Creating and opening a project in QGIS:** If you want to start a new project, you can click on the *New* icon ![](https://docs.qgis.org/3.28/en/_images/mActionFileNew.png) with a blank page, or alternatively go to *Project* \> *New* or use the keyboard shortcut *Ctrl + N* (or Command + N). To open an already existing project, click on the folder-like *Open* icon ![](https://docs.qgis.org/3.28/en/_images/mActionFileOpen.png) to pick up where you left off.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_project_CRS.PNG) **Changing the coordinate system of a project in QGIS:** You can see the current coordinate system of the project in the status bar in the lower right corner. You can change the coordinate system by clicking on the sign and selecting a new coordinate system from the list in the project properties window that pops open. You can access the same window also by going to *Project* \> *Properties* \> *CRS*. The default coordinate system in QGIS is set automatically to EPSG:4326 (WGS 84). You can change the default if you wish by going to *Settings* \> *Options* \> *CRS*. The data used in this course will mostly be in EPSG 3067 (ETRS-TM35FIN), which is the standard for nationwide data in Finland.
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_project_CRS.PNG) **Changing the coordinate system of a project in QGIS:** You can see the current coordinate system of the project in the status bar in the lower right corner. You can change the coordinate system by clicking on the sign and selecting a new coordinate system from the list in the project properties window that pops open. You can access the same window also by going to *Project* \> *Properties* \> *CRS*. The default coordinate system in QGIS is set automatically to EPSG:4326 (WGS 84). You can change the default if you wish by going to *Settings* \> *Options* \> *CRS*. The data used in this course will mostly be in EPSG 3067 (ETRS-TM35FIN), which is the standard for nationwide data in Finland.
 
 (QGIS supports ‘**on the fly**’ (**OTF**) coordinate system transformation for both vector and raster layers. This means that the program will automatically draw the layers to match the coordinate system defined for the map canvas, if a transformation formula is available.)
 
 ### 1.1 Toolbars
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_toolbars.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_toolbars.png)
 
 Here is a brief introduction to the **basic toolbars** in QGIS. The toolbars can be toggled in *View* \> *Toolbars* by ticking the boxes. If you can’t find a toolbar mentioned below – the toolbar might not be toggled on!
 
@@ -71,7 +71,7 @@ The **Attributes toolbar** includes some of the most common tools that enable fo
 
 ![Attributes toolbar](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_attributes_toolbar.PNG)
 
- ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_data_source_manager.png) **Adding data in QGIS:** The **Data Source Manager** offers a handy way to add a vector or raster layer. There are also special buttons for different kinds of database layers and interface services. The figure below offers a closer look at the Data Source Manager. Similar functionality can be found in *Layer* \> *Add Layer*.
+ ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_data_source_manager.png) **Adding data in QGIS:** The **Data Source Manager** offers a handy way to add a vector or raster layer. There are also special buttons for different kinds of database layers and interface services. The figure below offers a closer look at the Data Source Manager. Similar functionality can be found in *Layer* \> *Add Layer*.
 
 ![Data Source Manager](https://docs.qgis.org/3.28/en/_images/datasource_manager.png)
 If you want to create new empty layers, go to *Layer* \> *Create Layer*. You would use this, for example, if you're creating your own data. 
@@ -82,11 +82,11 @@ If you want to create new empty layers, go to *Layer* \> *Create Layer*. You wou
 
 The ***Browser panel*** is a tool for browsing, searching, inspecting, copying and loading QGIS resources. Using the Browser panel you can locate, inspect and add data. 
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_browser_panel.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_browser_panel.png)
 
 The ***Layer panel*** lists all the layers in the project and helps you manage their visibility and shape the map. You can access the layers by right clicking them, and toggle their visibility by toggling the check box in the layer panel. 
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_layer_panel.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_layer_panel.png)
 
 The ***Processing Toolbox*** shows the list of all available **algorithms** grouped in different blocks, this is where you will find most of the tools we will be using in this course. If you ever want to do something and you're wondering if it is available in QGIS, this is a good place to start!  
 
@@ -113,7 +113,7 @@ Let’s download a very handy plugin called **QuickMapServices**, which gives ac
 
 ### 2.1 Add and explore data
 
-In order to get a proper touch of QGIS and how the different tools work, we will of course need data. Download 1_CrashCourse_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
+In order to get a proper touch of QGIS and how the different tools work, we will of course need data. Download 1_CrashCourse_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
 1.  Open the Data Source Manager (see 1.2)
 2.  Select *Vector* from the menu
@@ -144,13 +144,13 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
  1.  Start by **changing the order of the layers** by dragging them in the layers panel on the left side of the map view. What do you think could be a good order? For example, the order can be as follows from top to bottom: HSL_Helsinki_stops, Helsinki_buildings, Waterbodies, Helsinki_small_areas and Helsinki_Municipality.
  2.  You can also **change the visibility of the layers** by checking or unchecking the tick boxes next to the layer name or by adjusting **transparency**. The latter can be done under the *Style* tab in the *Layer properties* window, which can be accessed by right-clicking on the layer name and selecting *Properties*. This is also where you can change other style properties such as **symbol size and color**, **layer rendering** or create e.g. **choropleth maps** (we will look into these in more detail later on).
  
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_layers.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_layers.png)
  In addition to editing a layer’s style properties, the Layer properties window can also be used for e.g. examining the **layer’s general information** such as its coordinate system and source, adding **labels** to the map as well as managing **joins** and layer **metadata**.
 
  3.  Next, we want to **change the styles and the symbology of the layers**. You can navigate back to the *Symbology* tab in the *Layer Properties* window. The window looks slightly different depending on whether we have a raster or vector file, and what feature type is in question. You can see this for instance by comparing the style tabs of the HSL Stops (point feature) and Waterbodies (polygon feature) layers.
 	 1.  Open the *symbology* properties for the Waterbodies layer
 	 2. Apart from the color fill and a few ready-made styles, the main view does not offer very sophisticated visualizing options, so it is suggested to click on the *Simple fill*
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_symbology1.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_symbology1.png)
 	 3. Press the *Fill color* button and change the color of the layer to blue
 	 4. If you want a transparent fill, change the *Opacity* under the *Fill color* section
 	 5. Once you are satisfied with the layer styles, press *Apply* and *OK*
@@ -164,7 +164,7 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	5. Set the *Mode* to *Natural breaks (Jenks)* and press *Classify* again to update the classes
 	6. Select a fitting *Color ramp* from the drop-down menu
 	7. Press *Apply* and *OK*
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_symbology2.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_symbology2.png)
 
 **Now, using the previous tips and tricks as your support, change the styles of all the layers in the project.**
 
@@ -183,10 +183,10 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	 6. Click *OK*
 	 7. Finally, click the *Save Edits* button ![](https://docs.qgis.org/3.28/en/_images/mActionSaveEdits.png) and disable *Editing* mode ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png) to make the changes permanent
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/1_CrashCourse_exercise_expression.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/1_CrashCourse_exercise_expression.png)
 
  7.  **Using the field we just created in the attribute table, explore the small areas of Helsinki**, which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_select_by_expression1.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_select_by_expression1.png)
  
 	 1. Open the *Field and Values* drop-down menu, which will show all the attribute fields
 	 2. Double-click on the area field you made earlier (Area_km2)
@@ -206,7 +206,7 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 	2. Type “Join attributes by location” into the search bar. Select the one that has (Summary) after it.
 		- Read the information about this function, what do you think it does? 
 		- This tool could look different to you depending on the version of your QGIS install. 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_join_attributes_by_location.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_join_attributes_by_location.png)
 	3. The parameter window for the algorithm opens and here you have to specify what the algorithm does and with what data
 	4. Set the follow values:
 	- *Base layer*: Helsinki_small_areas
@@ -215,13 +215,13 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 	-  *Field to summarise*: Boardings
 	- *Summaries to calculate*: *Sum*
 	- *Discard records which could not be joined*: Yes
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_join_attributes_by_location1.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_join_attributes_by_location1.png)
 	5. Click *Run*
 	6. A new temporary layer, Joined Layer, was created in the *Layers Panel* and by opening its *attribute table* you should see it’s similar to the Helsinki_small_areas *attribute table*, but with a new field, "Boardings_sum", which is the sum of all the passengers from every bus and train stop within that particular small area of Helsinki.
 	7. Right-click the Joined Layer and select *Make permanent* to save the temporary scratch layer for further processing
 	- Temporary layers will be lost when closing QGIS and are best not used for further processing
 	- Make sure to save the data in your project folder when doing this! Double check the location, as QGIS sometimes does weird things and saves it somewhere else. 
-![](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exercise_icons_diagram.drawio.png?raw=true)
+![](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exercise_icons_diagram.drawio.png?raw=true)
 	8. Save the joined layer as ESRI Shapefile, with a sensible name (for example "Helsinki_small_areas_HSL.shp"), and within the folder for your project you made earlier
 	9. Delete the temporary Joined Layer from the Layers window
 
@@ -231,7 +231,7 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 		3. Then you must enter the calculation into the Expression field, you can either use the drop-down menus (Fields and values) or simply type it in. The calculation should be similar to this (change if your fields are named differently): "Boardings_sum" / "Area_km2"
 		4. Click OK. Remember to *Save edits* and *Disable editing mode*.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_attribute_table.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_attribute_table.png)
 
 10.  Head to the layer’s *symbology* tab and select **Graduated** from the drop-down menu. **Select the PassArea column as the data source and press Classify**. Try out different classification methods. What are their differences and which do you think is best for this purpose? Choose which you think is best and visualize the data as desired. You can edit the class bounds and the legend values manually by double clicking on them. Which areas are the most passenger heavy and which are not? Why?
 
@@ -246,15 +246,15 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 ### 2.2 Creating a map output in QGIS
 The last phase of this practical will concentrate on creating a map output.
 
-![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/1_CrashCouse_exercise_layout.png)
+![enter image description here](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/1_CrashCouse_exercise_layout.png)
 
 1. In QGIS, the map layout is done in a separate window called a **Print layout**. Press on the *New Print layout* button ![](https://docs.qgis.org/3.28/en/_images/mActionNewLayout.png) in the *File toolbar* or go to *Project* > *New print layout*. Give a name for the composer in the opening window, and an empty map window should appear on the screen.
 
 2. The next step is to add the content to the screen. Press the *Add map* button ![](https://docs.qgis.org/3.28/en/_images/mActionNewMap.png) in the left side panel and drag from the corners to match the paper orientation. Now, you should see the same view as in the working view. If you want, you can change the paper orientation in the right-side *Composition panel* under the section *Paper and quality*.
 
 	You can orientate in two ways in the composer: 
-- To move the window, select *Move item* ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_move_item.png) or press the keyboard shortcut **V** and drag as desired 
-- To move the content on the map, select *Move item content* ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_move_item_content.png) or press the keyboard shortcut C and drag as desired 
+- To move the window, select *Move item* ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_move_item.png) or press the keyboard shortcut **V** and drag as desired 
+- To move the content on the map, select *Move item content* ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_move_item_content.png) or press the keyboard shortcut C and drag as desired 
 
 	***Hint**: If you are not satisfied with your layers for the final map, you can always go back to the main panel and adjust them while you are in the layout manager.*
 	NB! Remember, that **if you make changes in your working view, you need to press ***Refresh view*** ![](https://docs.qgis.org/3.28/en/_images/mActionRefresh.png) in order to see the changes in the print composer view!
