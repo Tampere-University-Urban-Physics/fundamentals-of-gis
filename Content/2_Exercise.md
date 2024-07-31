@@ -41,7 +41,7 @@ It is good to be familiar with the area you will be working with in this exercis
 - https://en.wikipedia.org/wiki/Nokia_Arena_(Tampere)
 - https://goo.gl/maps/MifgU6b51S6QKacf7
 
-1. Download 2_Exercise_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
+1. Download 2_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
 2. Open QGIS and load the tampere_buildings.shp, tampere_roads.shp, and tampere_railway.shp into QGIS (See Crash Course exercise 2.1), the project CRS will change to the CRS of these layers (ETS89/TM35FIN).
 	- *TIP: Select all your vector layers at once by arranging the files by file type when you are adding your layers. Click on the file type header > click on the first SHP file in the list > press and hold SHIFT key > click on the last SHP file on the list.*
@@ -78,7 +78,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 7. When you are finished adding reference points, you can now perform the georeferencing calculation for the image.
 
-	- Press the *Settings* button ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/QGIS_georeferencer_settings.png) on the *Georeferencer* menu, and set the *Transformation type* to *Projective*, set the *Target SRS* to the *Project CRS*, give your *Output Raster* an informative name (e.g. arena_plan_modified), and save it in your folder. The *Transformation type* describes the type of mathematical algorithm used to modify (like rotate, twist, skew) the raster. Press OK.
+	- Press the *Settings* button ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Exercise/QGIS_georeferencer_settings.png) on the *Georeferencer* menu, and set the *Transformation type* to *Projective*, set the *Target SRS* to the *Project CRS*, give your *Output Raster* an informative name (e.g. arena_plan_modified), and save it in your folder. The *Transformation type* describes the type of mathematical algorithm used to modify (like rotate, twist, skew) the raster. Press OK.
 
 	- Press the *Run* arrow in the *Georeferencer* menu, and the georeferencing will start. It will show you the progress on the georeferencing.
 
@@ -96,11 +96,11 @@ So, the tampere_buildings data is old and we need to update it – there are now
 11. Click on the tampere_buildings layer in the layers panel to highlight it, then toggle editing on ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png)  in the *Editing Toolbar*.
 
 Editing toolbar:
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/QGIS_editing_toolbar.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Exercise/QGIS_editing_toolbar.png)
 
 12. First, let’s remove a building that no longer exists. There is one building at the south of the arena that has been demolished .
 
-	- First, choose the *Select* tool ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Exercise/QGIS_select_tool.png) (if you don’t see it, you may need to add the Selection Toolbar like you did for the Digitizing Toolbar).
+	- First, choose the *Select* tool ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Exercise/QGIS_select_tool.png) (if you don’t see it, you may need to add the Selection Toolbar like you did for the Digitizing Toolbar).
 
 	- Select the building to be removed by clicking it. It will turn yellow when selected.
 
