@@ -5,7 +5,7 @@
 *By Rowan van der Kaaden*
 
 ## Heatmap analysis
-Spatial phenomena tend to vary in intensity across a geographical area. When the occurrence of a certain phenomenon is significantly higher in one area than in the surrounding area, you could describe it as a “hotspot” for that phenomenon. For instance, cities are hotspots of buildings and human activity, forests are hotspots of trees etc. There are many ways to locate these hotspots: interpolation, cluster analysis, and heatmap analysis, to name a few. Today we’re taking a look at heatmaps and heatmap analysis. 
+Spatial phenomena tend to vary in intensity across a geographical area. When the occurrence of a certain phenomenon is significantly higher in one area than in the surrounding area, you could describe it as a “hotspot” for that phenomenon. For instance, cities are hotspots of buildings and human activity, forests are hotspots of trees etc. If you work for the police, you may use GIS to locate crime hotspots. There are many ways to locate these hotspots: interpolation, cluster analysis, and heatmap analysis, to name a few. Today we’re taking a look at heatmaps and heatmap analysis. 
 
 As the name would suggest, heatmaps describe the “heat,” or intensity, of the phenomenon in question. Heatmaps are generated with point feature data and form a raster layer. In its most rudimentary form, the pixel values of a heatmap depict proximity to other point features within a certain, user-specified, radius. A slightly more advanced form of heatmaps can be given a weight (from the point features’ attribute table) that will influence the pixel values.
 
@@ -46,7 +46,7 @@ Here's how Thiessen polygons work:
 
 Thiessen polygons have various applications in GIS analysis and spatial modeling. They can be used for proximity analysis, such as determining service areas or catchment areas around facilities. They are also useful for interpolation, as they provide a way to estimate values at unsampled locations based on the values at the input points within each polygon.
 
-# Time to get your hands dirty! Move on to the [6th exercise](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/6_Exercise.md) to apply this new knowledge
+# Time to get your hands dirty! Move on to the [6th exercise](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/6_Exercise.md) to apply this new knowledge
 
 [^1]: http://www.geography.hunter.cuny.edu/~jochen/gtech361/lectures/lecture11/concepts/Kernel%20density%20calculations.htm
 [^2]:https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/create-thiessen-polygons.htm
