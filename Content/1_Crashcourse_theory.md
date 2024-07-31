@@ -25,6 +25,7 @@ These are just a few examples of the diverse applications of GIS. This course is
 PPDAC is a problem-solving framework commonly used in the field of data analysis and decision-making. It stands for Problem, Plan, Data, Analysis, and Conclusion. This framework provides a systematic approach to tackle complex problems and make informed decisions based on data-driven analysis. While PPDAC is not specifically tied to Geographic Information Systems (GIS), it can be applied within a GIS context to enhance the problem-solving process.
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Theory/GIS_PPDAC_v2.drawio.png)
+
 By following the PPDAC framework, you can ensure a structured and systematic approach to problem-solving within the GIS domain. It helps in organizing your thoughts, guiding your analysis, and ensuring that your conclusions are based on robust data analysis.
 
 For more information about the PPDAC Model: http://wiki.gis.com/wiki/index.php/PPDAC_Model
@@ -56,11 +57,17 @@ In GIS, both vector and raster data have their respective strengths and applicat
 How and where to find spatial data is discussed in detail here: 
 
 ### Coordinate Reference Systems (CRS) and map projections
-The basic idea of projection is to project the shape of the earth, or a specific area, onto a flat plane like a map. Due to the original shape of the earth, a rough sphere, we will always get some kind of distortion when we project it onto a flat plane. This is shown well here: https://unchartedterritories.tomaspueyo.com/p/maps-distort-how-we-see-the-world 
+The Earth is round. Well, not perfectly round, as it is wider at the equator because of the forces of the earth's rotation, so more of an ellipsoid. To be technical, it is a bumpy ellipsoid (because of mountains and other bumpy things) that we call a geoid.
+
+A Geographic coordinate system is a way of describing a location on a round/ellipsoid/geodetic object. You are probably familiar with this coordinate system through longitude and latitude. Consider a point in the centre of the Earth. Draw a line from the centre of the earth to the equator. And another line from the centre of the earth to a location you are interested in. The angle between these two lines that goes North/South is called Latitude. The angle East/West is called Longitude. And both are given in degrees (because that's how we've measured angles in the past). So, the North Pole has a latitue of 90 degrees north, te equator has a latitude of 0 degrees. For longitude, the Greenwich Meridian in southeast London is usually the 0 degree reference point (in you are in London, you can visit it!).
+
+If you have ever had to wrap a round present with wrapping paper, you will know that round surfaces don't translate that well to flat pieces of paper. This is why we need projections. The basic idea of projection is to project the shape of the earth (or a specific area that is big enough to be round and bumpy) onto a flat plane like the 2D maps you see on your computer screens or an atlas. Due to the original shape of the earth, a rough sphere, we will always get some kind of distortion when we project it onto a flat plane. This is shown well here: https://unchartedterritories.tomaspueyo.com/p/maps-distort-how-we-see-the-world 
 
 ![](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f76b16e-edbe-4bc7-8781-f87f389ba29e_1224x1036.png)
 
-Coordinate Reference Systems (CRS) are frameworks that define how geographic locations are represented and referenced in a coordinate system. There are different CRS which use different Earth shape models and projection methods. The specific CRS used is often depending on the region where the data is located. When we are working with different kind of data, it is common that we have layers that are in different CRS. **Thus, it is important to check that the layers and the project are in the same CRS!** Most GIS data that we get comes with some CRS, if we decide to do something in some other projection, you can do reproject data into a different CRS. We will go into how to do this later. 
+Coordinate Reference Systems (CRS) are frameworks that define how geographic locations are represented and referenced in a coordinate system. There are many different CRS which use different Earth shape models and projection methods. The specific CRS used often depends on the region where the data is located, and have been specifically developed to reflect the curvature of the Earth in this location. Rather than longitude or latitude, map locations in CRS are usually given in metres where the X direction represents the location East/West and the Y direction the location North/South.
+
+When we are working with different kind of data, it is common that we have layers that are in different CRS. **Thus, it is important to check that the layers and the project are in the same CRS!** Most GIS data that we get comes with some CRS, if we decide to do something in some other projection, you can reproject data into a different CRS. We will go into how to do this later. 
 
 ![Map Projection Families](https://docs.qgis.org/3.4/en/_images/projection_families.png)
 
@@ -99,7 +106,7 @@ These are some of the most common GIS analysis types, but the field of GIS offer
 ## What is QGIS?
 In short, QGIS is a GIS application that can be used for various GIS analyses. There are other GIS applications, the other most common of which is ArcGIS. We are using QGIS for this course since it is open-source and free, meaning it is accesible for all, in contrast to ArcGIS which is proprietary software. 
 
-So, you're going to need QGIS for this course! Please take a moment now to ensure you have it installed: https://qgis.org/en/site/forusers/download.html# Our recommendation is to install the Long Term Release (LTR) version, since there is less change of problems with this version. 
+So, you're going to need QGIS for this course! Please take a moment now to ensure you have it installed: https://qgis.org/en/site/forusers/download.html# Our recommendation is to install the Long Term Release (LTR) version, since there is less change of problems with this version. The exercises in this course have been developed for the English language installation of QGIS.
 
 You can find more information about the usage of QGIS here: https://docs.qgis.org/3.28/en/docs/index.html
 
