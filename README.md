@@ -62,12 +62,12 @@ Following this process will help you **develop the independent troubleshooting s
 ## Tools
 ### Github
 This is where you will find the course content (theory and exercises) as well as the required data: 
-https://github.com/rowan8k/fundamentals-of-gis/tree/master/Content
+https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Content
 
 It is is recommended that you use Github in light mode: https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-your-theme-settings
 
 You can download the data from Github by opening the page for the data you want to download and clicking the 3 dots in the top right:
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/0_Course_introduction/Github_download.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/0_Course_introduction/Github_download.png)
 
 ### Microsoft Teams
 As mentioned earlier, there is a chat available to get support from other people doing this course and teachers. Each exercise has its own channel where you can ask questions about that specific exercise. 
@@ -107,7 +107,7 @@ Based on work and with help from:
 - Okkonen, Pasi
 - Conenna, Irene
 
-# Let's get started with the [first theory section](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
+# Let's get started with the [first theory section](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE1MDM3MTYzNSwtNDI5MjEyNTM3LDIxMj
 YyMjY0NiwzNDIwNjQ4NTAsOTIxNDAxNDgzXX0=
