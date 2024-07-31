@@ -1,16 +1,18 @@
 
 ### Fundamentals of Geographic Information Systems (GIS)
 
-# Theory 4: Buffer and Overlay Analysis
+# Theory 4: Spatial Operations
 
 *By Rowan van der Kaaden*
+
+Spatial operations take spatial data, use a geometry function to analyse the data, and produce a new outputs derived from this analysis.
 
 ## Buffer analysis
 GIS buffer analysis is a spatial analysis technique used to create buffers around spatial features. A buffer is a defined area around a geographic object, such as a point, line, or polygon, that represents a specific distance or range - or zones that represent the proximity to the feature. The buffer can be created by measuring a fixed distance from the object or by using other criteria, such as travel time.
 
 ![](http://gsp.humboldt.edu/olm/Lessons/GIS/06%20Vector%20Analysis%20Attributes/Images/BufferDissolve.png)[^1]
 
-Buffer analysis is commonly used in GIS to answer questions about spatial relationships and proximity. By creating buffers around specific features, analysts can determine which other features fall within or intersect those buffers. This can be helpful in various applications, including urban planning, environmental impact assessment, transportation analysis, and emergency response planning.
+Buffer analysis is commonly used in GIS to answer questions about spatial relationships and proximity. By creating buffers around specific features, analysts can determine which other features fall within or intersect those buffers. For example, you may want to know how many schools there are within 200m of a busy road? How many shops there are within 100m of this train station? This can be helpful in various applications, including urban planning, environmental impact assessment, transportation analysis, and emergency response planning.
 
 The **process of buffer analysis** involves the following steps:
 
@@ -24,7 +26,7 @@ The **overlay analysis process** involves the following steps:
 
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/4_Theory/4_Theory_overlay_diagram.drawio.png)
     
-Overlay analysis is a powerful tool in GIS because it allows the combination and integration of multiple datasets to generate new information and support decision-making processes. It is commonly used in various applications, such as land-use planning, environmental analysis, market research, demographic analysis, and infrastructure development. GIS software provides tools and functions to perform overlay analysis, and the specific capabilities may vary depending on the software used.
+Overlay analysis is a powerful tool in GIS because it allows the combination and integration of multiple datasets to generate new information and support decision-making processes. It is commonly used in various applications, such as land-use planning, environmental analysis, market research, demographic analysis, and infrastructure development. GIS software provides tools and functions to perform overlay analysis, and the specific capabilities may vary depending on the software used. You may recall having used this already when you looked at the boarding data in the crash course.
 
 ### Overlay operations 
 
