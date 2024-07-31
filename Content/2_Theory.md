@@ -8,6 +8,8 @@
 
 Spatial data is available through various sources, some of which are restricted, but a good amount is freely available. Common providers of spatial data are governmental institutions, local governments(cities and municipalities), education institutes, crowd sourced data, among others. Even some commercial companies provide open data. But there is also data that is restricted, for example because of commercial motivation, but also privacy or other reasons. It is however good to practice **open science** with GIS as well to make the data and research as accessible as possible.   
 
+Data can also come in a variety of formats. Vector data can be saved in formats such as a shapefile (.shp) which is a proprietary format from ArcGIS. If you want to work with Google Earth, then you would use the Google vector formats of .kml or .kmz. And there are many other forms, too. Raster data can be saved as a geoTiff (.tiff) file, .jpeg2000, netCDF or others. Sometimes, geospatial data is saved in a geopackage, which can have different vectors and rasters in the same file. QGIS is pretty good at knowing how to open these many different file formats. Sometimes, you may connect to a special database which is used to store large amounts of GIS data.
+
 Examples of data sources are:
 | Provider | Data | Note |
 |--|--|--|
@@ -17,7 +19,7 @@ Examples of data sources are:
 | OpenStreetMap | https://www.openstreetmap.org/about | Community maintained data |
 | Natural Earth | https://www.naturalearthdata.com/ | Various international datasets |
 
-Data can either be accessed by downloading the dataset locally and importing the data, as we have done in the crash course, or by accessing the data through an online source and importing that. While this has some benefits for the user and provider, it can cause issues when there's any connection issues. Thus, we recommend downloading and saving locally the datasets whenever possible. Some examples of online data access methods are:
+Data can often be accessed by downloading the dataset locally and importing the data, as we have done in the crash course. However, some providers allow you to download data directly to your GIS software using an online connection. While this has some benefits for the user and provider, it can cause issues when there's any connection issues. Thus, we recommend downloading and saving locally the datasets whenever possible. Some examples of online data access methods are:
 - WMS/WMTS (For raster data viewing)
 - WFS
 - WCS
@@ -30,11 +32,11 @@ It is important when choosing your data to **be critical of the data you use!** 
 
 And be particularly careful when joining data from different sources! As these for example might not be on the same scale, CRS, units, or accuracy. 
 
-But what if the data we need isn't already available or outdated? That's when we start gathering or making our own data, and where digitizing comes in.  
-
 ## Digitizing
 
-When some kind of urban development happens, the data we use in GIS needs to updated. Someone has to go in and update the changes to the roads, buildings, and others. This would be done by digitizing the changes, which is the process of **converting geographic data into digital form**. 
+Where does GIS data come from? We can go out and collect it ourselves, like surveyors do. Maybe we attach a GPS system to a bird, and use that to track location for nature conservation. Or maybe, we trace over a building outline from an aerial photograph. Or, perhaps we have some spatial data (like a plan for a new development) but it is not able to be analysed because the drawing doesn't have the coordinate information yet? Or, if the data we need isn't already available or outdated? That's when we start gathering or making our own data, and where digitizing comes in.  
+
+When some kind of urban development happens, the data we use in GIS needs to updated. Someone has to go in and update the changes to the roads, buildings, and others. This can be done by digitizing the changes, which is the process of **converting geographic data into digital form**. 
 
 For this practice we are going to use the Nokia Arena development in Tampere, as you can see below, there have been a significant amount of changes with this project.
 
