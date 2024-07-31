@@ -50,9 +50,9 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 
 #### 1.1: Getting to know the digital elevation model
 
-![](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exercise_DEM_hillshade.drawio.png?raw=true)
+![](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exercise_DEM_hillshade.drawio.png?raw=true)
 
-1. Download 5_Exercise_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
+1. Download 5_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
 2. You have to download the Digital Elevation Model (DEM) from PaITuli. 
 	- Open the following link: https://paituli.csc.fi/download.html
@@ -81,7 +81,7 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 		- The output of this will be the DEM we will be using from now on! 
 	- As you can see by the icon next to the filled DEM, there is no CRS associated with it, give it the same CRS as the original DEM
 
-![](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exercise_icons_diagram.drawio.png?raw=true)
+![](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exercise_icons_diagram.drawio.png?raw=true)
 
 5. One of the important features of DEM is that it can be used to create a hillshade relief. Hillshade is mostly used in visualization to create an imposing 3D-effect of the surface. Let's create a hillshade using this DEM. 
 	- Open the *Hillshade* tool 
@@ -114,7 +114,7 @@ It is quite common in GIS that data has to be converted from one type to another
 	- Run the tool
 	- Don't forget to make your layer permanent
 
-![](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exercise_vector_to_raster.drawio.png?raw=true)
+![](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exercise_vector_to_raster.drawio.png?raw=true)
 
 ---
 
@@ -131,7 +131,7 @@ The aim is to classify the study area based on its suitability for cultivation. 
 
 In the earlier phase you already clipped the DEM, filled the DEM, calculated the slope and made the feature to raster conversion for the soil so some phases are already done. The following flow chart shows the different stages of the optimal cultivation areas analysis.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/5_Exercise/5_Exercise_diagram.drawio.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/5_Exercise/5_Exercise_diagram.drawio.png)
 
 #### 2.1: Defining the unsuitable areas
 
@@ -144,7 +144,7 @@ In the earlier phase you already clipped the DEM, filled the DEM, calculated the
 		- Add the reclassification table as pictured below
 		- Run the tool and save the output
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/5_Exercise/5_Exercise_water_reclassification.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/5_Exercise/5_Exercise_water_reclassification.png)
 
 11. Let’s continue with defining the unsuitable areas by determining the “bad slopes”. 
 	- Use the *Reclassify by table* tool again, choose this time the slope raster as the input
@@ -152,7 +152,7 @@ In the earlier phase you already clipped the DEM, filled the DEM, calculated the
 		- What do you think the 1 and 0 values represent in this analysis?
 	- Run the tool and save the output
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/5_Exercise/5_Exercise_slope_reclassification.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/5_Exercise/5_Exercise_slope_reclassification.png)
 
 The “water buffer” and the “bad slopes” will be classified as “0” so that they can be removed from the calculations later on with multiplication.
 
@@ -162,7 +162,7 @@ The “water buffer” and the “bad slopes” will be classified as “0” so
 	- As you will notice, the output has a border around it with the value 0. This is because the merge tool used the extent of the largest layer, which is the water bodies because we added a 10m buffer to this. This is outside our study area, so we need to clip this to the Muurla_Frame again. Use the instructions given earlier to do this and save the clipped result for the next steps. 
 
 The unsuitable areas:
-![](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exercise_unsuitable.png?raw=true)
+![](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exercise_unsuitable.png?raw=true)
 
 #### 2.2: Defining the suitable areas
 
@@ -171,7 +171,7 @@ The unsuitable areas:
 	- Choose the original Slope_Muurla file as the input raster
 	- Add the reclassification table as pictured below
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/5_Exercise/5_Exercise_slope_rank.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/5_Exercise/5_Exercise_slope_rank.png)
 
 Let’s move on to ranking the soil. You can see the explanation for the soil codes below.
 
@@ -195,7 +195,7 @@ Let’s move on to ranking the soil. You can see the explanation for the soil co
 14. Open the *Reclassify by table* tool, use the soil raster we converted earlier (from step 7) and specify the values as in the figure below. The higher the value the better the soil fits for cultivation.
 	- This time set the *Range boundaries* under *Advanced Parameters* on "min <= value <= max", why do you think this is necessary? (hint: <= means less than or equal to")
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/5_Exercise/5_Exercise_soil_ranking_classifications.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/5_Exercise/5_Exercise_soil_ranking_classifications.png)
 
 ***Note**: for simplicity, we did not identify an ‘unsuitable_soil’ layer but only the soil_rank, i.e. areas with soil type as rock will show a low suitability, but they will not be identified as completely unsuitable if they e.g. are located in a suitable slope pixel. This is ok for the purpose of the exercise, but it is good to keep it in mind. As an optional task, you can add them to unsuitable areas and make another analysis as well.*
 
@@ -210,11 +210,11 @@ Let’s move on to ranking the soil. You can see the explanation for the soil co
 	- Set the reference layer to the original filled DEM layer (why do you think this reference is necessary?)
 	- Run the calculation and save the output
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/5_Exercise/5_Exericse_final_expression.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/5_Exercise/5_Exericse_final_expression.png)
 
 16. Open once more *Reclassify by table* and select the result from step 15 layer as the input. Reclassify the layer so to have 4 classes so that one represents unsuitable values (0) and others have interval of 1 (with rank values 0, 1, 2, 3, see the figure below)
 
-![](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exericse_final_classifications.png?raw=true)
+![](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exericse_final_classifications.png?raw=true)
 
 17. Now, you should see the optimal cultivation areas in the study area. You can add a basemap from XYZ tiles or QMS  and see whether your optimal areas match with the real fields located in the area.
 
