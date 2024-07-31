@@ -24,12 +24,20 @@ It is important to notice that the IDW interpolation method also has some disadv
 
 In GIS, interpolation results are usually shown as a 2 dimensional raster layer.
 
+### Natural Neighbour
+
+Similar to IDW, Natural Neighbour looks for the closest input samples, but applies weights to them based on areas rather than distances
+
+### Kriging
+
+This is a more complicated method of interpolation, where a mathematical function is fit against the data. It can account for the changes in values across distances better than other functions, while co-Kriging can bring in other spatial data as well (for example if you wanted to interpolate temperatures, accounting for land cover data from a second dataset).
+
 (*Hungry for more or learn better using different methods? Check out videos on youtube, such as*:
 - Spatial Interpolation in GIS: https://www.youtube.com/watch?v=Km7Haa82L7M
 - Spatial Interpolation (IDW) using QGIS: https://www.youtube.com/watch?v=gKPGnN38ReE
 - A "Crash Course" to Spatial Interpolation: https://www.youtube.com/watch?v=i0Zrk68EkFE)
 
-# Time to get your hands dirty! Move on to the [7th exercise](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/7_Exericse.md) to apply this new knowledge
+# Time to get your hands dirty! Move on to the [7th exercise](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/7_Exericse.md) to apply this new knowledge
 
 [^1]: https://gisgeography.com/inverse-distance-weighting-idw-interpolation/
 [^2]: https://docs.qgis.org/2.18/en/docs/gentle_gis_introduction/spatial_analysis_interpolation.html 
