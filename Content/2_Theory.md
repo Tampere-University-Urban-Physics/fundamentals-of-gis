@@ -40,17 +40,17 @@ When some kind of urban development happens, the data we use in GIS needs to upd
 
 For this practice we are going to use the Nokia Arena development in Tampere, as you can see below, there have been a significant amount of changes with this project.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Theory/GIS_theory1_example.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Theory/GIS_theory1_example.png)
 
 And if we look at the data set we are working with, you can see that some of the demolished buildings are still present and new buildings lacking. 
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Theory/QGIS_theory1_nokia_outdated.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Theory/QGIS_theory1_nokia_outdated.png)
 
 In practice, updating this new development would consist of removing the old buildings from the data, and digitizing the new buildings, which would mean making new buildings in the data by **tracing** the buildings from some kind of reference picture. 
 
 In this case we could potentially use the google imagery of the area, as this has already been updated. But this is not always the case, and satellite imagery is not the most accurate as the resolution is not high enough and pictures are taken at an angle. To get the most accuracy, we would survey the area and record the locations using high-accuracy equipment. But for our purpose we don't require high accuracy and we will use the following project plan as a source for the digitizing. 
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/2_Theory/GIS_theory1_plan.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Theory/GIS_theory1_plan.png)
 
 This source is however missing geographic data, as it is just a picture taken from a PDF. To align this picture with our geographic data, we need to apply a process called georeferencing. 
 
@@ -62,7 +62,7 @@ In practice, georeferencing involves identifying a set of control points on the 
 
 In our case we can use the buildings that remained unchanged and are on the project plan for reference to georeference the project plan, which we can then use to digitize the new buildings. 
 
-# Time to get your hands dirty! Move on to the [2nd exercise](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/2_Exercise.md) to apply this new knowledge
+# Time to get your hands dirty! Move on to the [2nd exercise](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/2_Exercise.md) to apply this new knowledge
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI1UHlscWNNVWkwdWQxR2pWIjp7In
