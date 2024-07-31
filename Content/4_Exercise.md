@@ -51,7 +51,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 ### Part 1: The ring rail line visualization
 #### 1.1: Getting the data
-1. Download 4_Exercise_data from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and add it to your QGIS project. 
+1. Download 4_Exercise_data from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and add it to your QGIS project. 
 	- Go through the data, what does it describe? What order of layers would be good to work with?
 
 2. We need to have the Ring Rail Line in geospatial format. One option is to digitize it based on a basic map. Other is to find the data online – let’s do that for practice!
@@ -68,7 +68,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- When the selection is done, you can download it by going to the Download tab under the Filter data tabcolumn jl_laji (has information on public transport type (bus, tram, …)
 		- Select column value 12 from jl_laji, 12 = VR local trains
 	- When the selection is done, you can download it. Click the “toggle filters” to choose only the selected features, and download .
- ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/4_Exercise/4_Exercise_data_selection.png)
+ ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/4_Exercise/4_Exercise_data_selection.png)
 
 3. Add the data you downloaded to your QGIS project and inspect the features, what do you notice? 
 	- There are still duplicate entries for the Ring Rail Line and there are other entries we do not need and are in the way
