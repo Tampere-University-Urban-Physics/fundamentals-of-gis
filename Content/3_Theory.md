@@ -21,7 +21,7 @@ With GIS, it is possible to conduct spatial analyses and modeling to assess the 
 
 Furthermore, GIS allows for the monitoring and evaluation of policies and interventions aimed at reducing socio-spatial differentiation. By analyzing spatial data over time, planners can assess the effectiveness of urban development strategies and determine whether they contribute to more equitable spatial patterns and improved social outcomes.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Theory/3_Theory_socio-spatial_differentiation_analysis_example.png)*Geographical distribution of relative wellbeing in the Tampere City Region in 2017. The map depicts the two lowest and two highest levels (lowest and highest quintiles) of wellbeing in grid cells based on unemployment rates, median income of inhabitants, and proportion of highly educated people in the respective grid cells.*[^2]
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/3_Theory/3_Theory_socio-spatial_differentiation_analysis_example.png)*Geographical distribution of relative wellbeing in the Tampere City Region in 2017. The map depicts the two lowest and two highest levels (lowest and highest quintiles) of wellbeing in grid cells based on unemployment rates, median income of inhabitants, and proportion of highly educated people in the respective grid cells.*[^2]
 
 
 Another example of an socio-spatial differentiation study using GIS can be found here: https://helda.helsinki.fi/handle/10138/301865
@@ -42,13 +42,13 @@ But what happens if we do an analysis without excluding these -1 values? This de
 
 There are other reasons why we might need to prepare the data, such as: 
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Theory/3_Theory_data_preperation_reasons.drawio.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/3_Theory/3_Theory_data_preperation_reasons.drawio.png)
 
 ### How? 
 
 In our case we will be using expressions to select the data we want, the entries where our selected fields don't contain -1, and export them into a new file. There are other ways of data preparation, here are the typical processes involved in preparing data for GIS analysis: 
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Theory/3_Theory_data_preperation_methods.drawio.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/3_Theory/3_Theory_data_preperation_methods.drawio.png)
 
 ## Data classification 
 Data classification refers to **the process of categorizing or grouping data based on common characteristics, attributes, or criteria**. It involves organizing data into distinct classes or categories to facilitate analysis, interpretation, and communication of information.
@@ -57,7 +57,7 @@ In the context of GIS (Geographic Information System), data classification is of
 
 There are several methods of data classification, including:
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Theory/3_Theory_data_classification_v2.drawio.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/3_Theory/3_Theory_data_classification_v2.drawio.png)
 
 The choice of classification method depends on the nature of the data, the research question or objective, and the desired visualization or analysis outcomes. The classification method can significantly influence the interpretation and understanding of the data, so it is important to select an appropriate method that best represents the underlying patterns or characteristics in the dataset.
 
@@ -80,12 +80,12 @@ These are some common examples of how expressions are used in GIS:
 
 For this exercise, we will be cleaning up the data by selecting the entries we want, calculating proportions, and reclassifying the data to quantiles using expressions. One of the expressions you will be using is as follows:
 
-![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_reclassification.png)
+![enter image description here](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_reclassification.png)
 
 What do you think is the purpose of this expression?
 
 
-# Time to get your hands dirty! Move on to the [3rd exercise](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/3_Exercise.md) to apply this new knowledge
+# Time to get your hands dirty! Move on to the [3rd exercise](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/3_Exercise.md) to apply this new knowledge
 
 [^1]: https://www.theguardian.com/cities/gallery/2016/jun/23/south-africa-divided-cities-apartheid-photographed-drone
 [^2]: Hynynen, K. (2020). _Raportti Tampereen kaupunkiseudun asuinalueiden eriytymiskehityksestä ja toimenpidesuositukset eriytymiskehityksen hillintään ja ennaltaehkäisyyn [Report of segregation of residential areas in the Tampere City Region and action proposals for the mitigation and prevention of segregation]_. Tampere City Region.
