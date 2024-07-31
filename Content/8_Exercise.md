@@ -10,7 +10,7 @@ By Sara Todorovic & Tatu Leppämäki for USP-303 at the Helsinki University.
 
 In this exercise your task is to **calculate building efficiency ratio on different spatial scales**. Efficiency ratios (e) describe the level of land use intensity on zoned city areas. The building efficiency ratio is calculated by **dividing the total floor area** of each story of a building (or buildings) **by the size of the piece of land the building is in**. The piece of land can be the real estate, a neighborhood, a city district or any specified area. This ratio can be used to identify areas which are urban (more efficient) from non-built (less efficient) areas. Conversely, “sparsity ratio” is the total area of all non-built features to the size of the piece of land. When calculating the building efficiency on a city district (or similar) scale, it depicts regional efficiency. When building efficiency is calculated on a property/plot scale it’s known as plot efficiency (see Table 1). During this exercise, you will discover the different forms and levels of urbanity in Helsinki.
 
-![Table 1](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/8_Exercise/8_Exercise_diagram.png) *Table 1*
+![Table 1](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/8_Exercise/8_Exercise_diagram.png) *Table 1*
 
 **The purpose of this exercise** is to get familiar with efficiency ratios and to understand how different spatial scales affect the apparent intensity of different phenomena (in our case building efficiency ratio). Simultaneously, we’re trying to analyze whether the building efficiency ratio is a sufficient indicator of urbanity.
 
@@ -62,7 +62,7 @@ Work individually or in pairs. Complete the exercise and write a short reflectio
 
 ### Getting familiar with the data
 
-1. Download 8_Exercise_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip.
+1. Download 8_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip.
 Then explore the attribute tables to familiarize yourself with what sorts of data you actually have.
 	1. The fields you want to focus on (total floor area, m2) are: 
 		- kara_yht in the SeutuRAMAVA layer
