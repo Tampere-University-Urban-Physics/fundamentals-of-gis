@@ -29,7 +29,7 @@ The process of filling sinks typically involves identifying the depressions or s
 ### Hillshade
 The hillshade technique is a method used to create a shaded relief representation of a DEM or terrain surface. It simulates the effects of lighting on the terrain to enhance the visual perception of the three-dimensional characteristics of the landscape. The resulting hillshade image provides a sense of depth and helps to emphasize the topographic features of the terrain.
 
-![](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Assets/5_Theory/5_Theory_hillsade_finland.png?raw=true)
+![](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Assets/5_Theory/5_Theory_hillsade_finland.png?raw=true)
 
 The hillshade technique calculates the illumination and shadows on the terrain surface based on the direction of the light source, the elevation values of the DEM, and the slope and aspect of each pixel. 
 
@@ -61,7 +61,7 @@ Raster overlay analysis is used in various GIS applications, such as land suitab
 - Raster calculator
 - Raster overlay analysis (calculations)
 
-# Time to get your hands dirty! Move on to the [5th exercise](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/5_Exercise.md) to apply this new knowledge
+# Time to get your hands dirty! Move on to the [5th exercise](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/5_Exercise.md) to apply this new knowledge
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJRYmU0dGF0bkVJcTZ3N0dCIjp7In
 RleHQiOiJhbmQgRCIsInN0YXJ0IjozMjMsImVuZCI6MzI4fSwi
