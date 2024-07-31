@@ -24,7 +24,7 @@ These are just a few examples of the diverse applications of GIS. This course is
 
 PPDAC is a problem-solving framework commonly used in the field of data analysis and decision-making. It stands for Problem, Plan, Data, Analysis, and Conclusion. This framework provides a systematic approach to tackle complex problems and make informed decisions based on data-driven analysis. While PPDAC is not specifically tied to Geographic Information Systems (GIS), it can be applied within a GIS context to enhance the problem-solving process.
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Theory/GIS_PPDAC_v2.drawio.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Theory/GIS_PPDAC_v2.drawio.png)
 
 By following the PPDAC framework, you can ensure a structured and systematic approach to problem-solving within the GIS domain. It helps in organizing your thoughts, guiding your analysis, and ensuring that your conclusions are based on robust data analysis.
 
@@ -124,12 +124,12 @@ Important to keep in mind is that: **maps are images that inherently selective a
 
 Another important thing to keep in mind is to **make your maps accessible to all readers, including those who have some form of color blindness**. This is relatively simple, since QGIS already has a tool build-in to simulate a few color blind examples:
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Theory/1_CrashCourse_theory_QGIS_color_blindness.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Theory/1_CrashCourse_theory_QGIS_color_blindness.png)
 
 You can get color advice for your maps here: https://colorbrewer2.org/ 
 
 
-# Time to get your hands dirty! Move on to the [Crash Course exercise](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/1_Crashcourse_exercise.md) to get started with (Q)GIS  
+# Time to get your hands dirty! Move on to the [Crash Course exercise](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/1_Crashcourse_exercise.md) to get started with (Q)GIS  
 
 [^1]: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html
 <!--stackedit_data:
