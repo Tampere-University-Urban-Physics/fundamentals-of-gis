@@ -58,7 +58,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 ### Getting familiar with the data
 
-1. Download 3_Exercise_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
+1. Download 3_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
 2. **Go through the attribute table and use the pdf-files to decipher the meanings of each field**. The attribute table consists of a few themes (recognizable by the prefixes) and slightly over 100 fields.
 	- The fields we’re using depict the following:
@@ -84,7 +84,7 @@ ways to do this. Here we’re focusing on selections.
 	- And same thing for the low-income variables hr_pi_tul and hr_tuy.
 2.1 step 7
 4. **You could use select by expression** to select the features that have values in the two wanted fields (ko_perus, hr_pi_tul) that are 0 or greater AND have people living in them (ko_ika18y, hr_tuy):
-![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_datacleanup_expression.png)
+![enter image description here](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_datacleanup_expression.png)
 	- Hint: Crash Course 2.1 step 7
 	- After the selection, save the selected features as a new shapefile (Right click layer with selection > *Export* > *Save selected features as…*).
 		- Don't forget to give the new file an informative name and save it in your folder! 
@@ -127,7 +127,7 @@ SPSS etc.) to find out the boundaries.
 		- E.g., Basic-level education proportion
 	-  Switch mode to *Quantiles (Equal Count)* and drop the number of classes from 5 down to 4. Click *Classify*
 		- Make notes about the class boundaries because you’re going to use them soon. For Basic-level education they look something like this:
-![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_data_classification_edu.png)
+![enter image description here](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_data_classification_edu.png)
 		- Do the same for the remaining proportion field (level of income percentage) and make notes about the class boundaries for that field as well.
 
 10. **Now that we have the boundaries for the two classifications, it’s time to reclassify the data
@@ -136,7 +136,7 @@ into four classes.**
 		- Note! Do all the analyses in the same layer so that you get the new columns in the same layer.
 	- The logic behind the numbering of the classes should be the same across all the reclassifications. In this instance our logic can be as follows: class 1 is the lowest (e.g. lowest share of inhabitants with no qualification after basic-level studies) and class 4 is the highest quartile (e.g. highest share of inhabitants with no qualification after basic level studies).
 	- Let’s use the conditional statement first for basic-level education proportions. This is where you use the class boundary notes. The expression looks something like this:
-![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_reclassification.png)
+![enter image description here](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_reclassification.png)
 	- NOTE: Use a dot as a decimal separator instead of comma.
 	- Check the *attribute table* that the values are correct (click the new column field name to order the values in order to see the highest and lowest values, you should only have numbers 1, 2, 3 and 4).
 		- If the fields turn out empty , check that “Only update X selected features” is ticked off in the field calculator.
@@ -168,9 +168,9 @@ Don't forget to include the requirements for a good map (See Crash Course)!
 
 13. Optional: You can use the plugin we installed during the Crash Course, QuickMapServices (QMS), to get more basemap options
 	- You can open the *Search QMS* panel using this icon, it should open below your toolbox:
-![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_QMS_1.png)
+![enter image description here](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_QMS_1.png)
 	-  Here are some examples of basemaps you could use:
-![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_QMS_2.png)
+![enter image description here](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_QMS_2.png)
 	- Note: These are online sources, which means they might be slow and/or limited to certain scales
 
 
