@@ -16,7 +16,7 @@ Buffer analysis is commonly used in GIS to answer questions about spatial relati
 
 The **process of buffer analysis** involves the following steps:
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/4_Theory/4_Theory_buffer_diagram.drawio_blue.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/4_Theory/4_Theory_buffer_diagram.drawio_blue.png)
 Buffer analysis can be performed using GIS software, which provides tools and functions for creating buffers and analyzing the spatial relationships. The specific capabilities and options for buffer analysis may vary depending on the GIS software being used.
 
 ## Overlay analysis
@@ -24,7 +24,7 @@ GIS overlay analysis, also known as spatial overlay analysis, is a technique use
 
 The **overlay analysis process** involves the following steps:
 
-![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/4_Theory/4_Theory_overlay_diagram.drawio.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/4_Theory/4_Theory_overlay_diagram.drawio.png)
     
 Overlay analysis is a powerful tool in GIS because it allows the combination and integration of multiple datasets to generate new information and support decision-making processes. It is commonly used in various applications, such as land-use planning, environmental analysis, market research, demographic analysis, and infrastructure development. GIS software provides tools and functions to perform overlay analysis, and the specific capabilities may vary depending on the software used. You may recall having used this already when you looked at the boarding data in the crash course.
 
@@ -72,7 +72,7 @@ Using the figure above, we are looking for the green circles by spatially compar
 
 - **Cross**: Returns 1 (true) if the supplied geometries have some, but not all, interior points in common and the actual crossing is of a lower dimension than the highest supplied geometry. For example, a line crossing a polygon will cross as a line (true). Two lines crossing will cross as a point (true). Two polygons cross as a polygon (false). In the picture, no circles will be returned.
 
-# Time to get your hands dirty! Move on to the [4th exercise](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/4_Exercise.md) to apply this new knowledge
+# Time to get your hands dirty! Move on to the [4th exercise](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/4_Exercise.md) to apply this new knowledge
 
 [^1]:http://gsp.humboldt.edu/olm/Lessons/GIS/06%20Vector%20Analysis%20Attributes/001_IntroOverlayAndBuffer21.html
 [^2]: https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-02-multiple-layer-analysis.html
