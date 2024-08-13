@@ -45,7 +45,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 ### Part 1 - Loading data
 
-1. Download 7_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip.  We have data on the location of air pollution monitoring sites in the Helsinki region.
+1. Download 7_Exercise_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip.  We have data on the location of air pollution monitoring sites in the Helsinki region.
 
 2. Load the file *Air_pollution_monitoring_points.shp* into your QGIS project.
 
