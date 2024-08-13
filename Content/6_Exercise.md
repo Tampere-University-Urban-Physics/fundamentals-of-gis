@@ -36,7 +36,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 ### Getting familiar with the data
 
-1. Download 6_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip.  The data includes:
+1. Download 6_Exercise_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip.  The data includes:
 	- deathAddresses.csv, a file with the locations of households with cholera deaths and the number of deaths 
 	- Study_Area.shp – A shapefile that describes our area of interest.
 	- Snow-cholera-map-1_modified - this is a georeferenced image of the map from John Snow’s original report on the cholera outbreak of 1854 
