@@ -51,7 +51,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 ### Part 1: The ring rail line visualization
 #### 1.1: Getting the data
-1. Download 4_Exercise_data from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and add it to your QGIS project. 
+1. Download 4_Exercise_data from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and add it to your QGIS project. 
 	- Go through the data, what does it describe? What order of layers would be good to work with?
 
 2. We need to have the Ring Rail Line in geospatial format. One option is to digitize it based on a basic map. Other is to find the data online – let’s do that for practice!
