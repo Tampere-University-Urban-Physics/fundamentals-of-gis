@@ -113,7 +113,7 @@ Let’s download a very handy plugin called **QuickMapServices**, which gives ac
 
 ### 2.1 Add and explore data
 
-In order to get a proper touch of QGIS and how the different tools work, we will of course need data. Download 1_CrashCourse_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
+In order to get a proper touch of QGIS and how the different tools work, we will of course need data. Download 1_CrashCourse_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
 1.  Open the Data Source Manager (see 1.2)
 2.  Select *Vector* from the menu
