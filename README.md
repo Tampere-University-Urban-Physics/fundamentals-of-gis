@@ -22,15 +22,15 @@ The course consists of **9 exercises**, each accompanied by a piece of theory. I
 
 | Exercise | Topic | Methods |
 |--|--|--|
-| [1](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md) | Crash Course| QGIS interface & Vector analysis |
-| [2](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/2_Theory.md) | Vector analysis introduction | Digitizing, georeferencing, clipping |
-| [3](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/3_Theory.md) | Socio-spatial differentiation | Raster analysis |
-| [4](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/4_theory.md) | Finding the optimal location for a new development | Buffer analysis, overlay analysis |
-| [5](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/5_Theory.md) | Determining optimal land for cultivation | Digital Elevation Model (DEM), slope, hillshade, overlay analysis |
-| [6](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/6_Theory.md) | Understanding disease transmission | Heatmap analysis (Kernel Density), Voronoi diagram, text processing |
-| [7](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/7_Theory.md) | Air quality analysis | Spatial interpolation
-| [8](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/8_Theory.md) | Calculating building efficiency | Expressions, creating grids |
-| [9](https://github.com/rowan8k/fundamentals-of-gis/blob/master/Content/9_Theory.md) | Wind power NIMBY (Not in my backyard) analysis | Public Participation GIS/SoftGIS, Directional Distribution |
+| [1](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md) | Crash Course| QGIS interface & Vector analysis |
+| [2](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/2_Theory.md) | Vector analysis introduction | Digitizing, georeferencing, clipping |
+| [3](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/3_Theory.md) | Socio-spatial differentiation | Raster analysis |
+| [4](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/4_theory.md) | Finding the optimal location for a new development | Buffer analysis, overlay analysis |
+| [5](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/5_Theory.md) | Determining optimal land for cultivation | Digital Elevation Model (DEM), slope, hillshade, overlay analysis |
+| [6](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/6_Theory.md) | Understanding disease transmission | Heatmap analysis (Kernel Density), Voronoi diagram, text processing |
+| [7](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/7_Theory.md) | Air quality analysis | Spatial interpolation
+| [8](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/8_Theory.md) | Calculating building efficiency | Expressions, creating grids |
+| [9](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/9_Theory.md) | Wind power NIMBY (Not in my backyard) analysis | Public Participation GIS/SoftGIS, Directional Distribution |
 
 ## Evaluation
 To get the credits for this course, the following criteria have to be met:
