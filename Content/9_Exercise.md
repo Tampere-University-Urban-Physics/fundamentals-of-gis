@@ -114,42 +114,43 @@ the residents**)
 
 ---
 
-### Creating the directional distribution analysis for the region 
+### Hexa-grid analysis for wind park locations
 
-10. **Download the plugin *Standard Deviational Ellipse***
+10. UsingMMQGIS plugin, create a hexagonal grid that covers the municipal borders of Helsinki
+	1. A good size for the hexagons could be approximately 500m x ~500m or 750m x ~750m.
+	2. Make sure that the grid has a same coordinate system as your point features. (To change it: Save features as → select the correct coordinate system.)
+
+11. Calculate the number of preferred and unpreferred points within each grid.
+	1. Hint: Count points in polygon -tool might be helpful here
+	2. Create a new field to represent whether the grid has more preferred locations or unpreferred points.
+
+12. Compose a map of the outcome, include it in your report and analysis.
+	- Visualize to highlight the most preferred and most unpreferred areas for wind turbines
+	- What kind of spatial patterns do the preferred and unpreferred places for wind turbines show?
+	- Can you identify any potential conflict areas?
+
+---
+
+
+### Optional: Creating the directional distribution analysis for the region. Note - this plugin does not currently work for everyone.
+
+13. **Download the plugin *Standard Deviational Ellipse***
 	- After the download and installation is complete, it should be found under the Vector
 drop-down menu.
 
-11. **Use the plugin to create the default Yuill ellipses for the unpreferred locations of the Töölö
+14. **Use the plugin to create the default Yuill ellipses for the unpreferred locations of the Töölö
 and Vuosaari respondents**
 	1. Save the resulting ellipses as shapefiles (Make permanent)
 	2. To make the interpretation easier, you can make the ellipses transparent or have them have outlines only and no fill
 	3. If you wish, you can calculate standard deviational ellipses for other kinds of places, too – e.g., preferred locations
 		- Or if you want to calculate an ellipse that takes into consideration the unpreferred locations of both Töölö and Vuosaari residents, but not those of respondents from other parts: first create a new shapefile layer containing the Töölö and Vuosaari residents using the Merge vector layers tool (found in Processing toolbox), for example.
-
----
-
-### Optional: Hexa-grid analysis for wind park locations
-
-12. UsingMMQGIS plugin, create a hexagonal grid that covers the municipal borders of Helsinki
-	1. A good size for the hexagons could be approximately 500m x ~500m or 750m x ~750m.
-	2. Make sure that the grid has a same coordinate system as your point features. (To change it: Save features as → select the correct coordinate system.)
-
-13. Calculate the number of preferred and unpreferred points within each grid.
-	1. Hint: Count points in polygon -tool might be helpful here
-	2. Create a new field to represent whether the grid has more preferred locations or unpreferred points.
-
-14. Compose a map of the outcome, include it in your report and analysis.
-	- Visualize to highlight the most preferred and most unpreferred areas for wind turbines
-	- What kind of spatial patterns do the preferred and unpreferred places for wind turbines show?
-	- Can you identify any potential conflict areas?
-
+	
 
 ---
 
 ### Map visualization  
 
-12. **Compose maps about the possible NIMBY attitudes of Töölö and Vuosaari regarding windmills.**
+15. **Compose maps about the possible NIMBY attitudes of Töölö and Vuosaari regarding windmills.**
 	1. You decide the number of maps and what exactly each map contains.
 		- But the map should support your analysis and its conclusion
 		- Thinking about what to include and how included features are visualized on the map is always important, but increasingly so when there’s high numbers of features on the map.
