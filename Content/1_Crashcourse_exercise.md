@@ -12,9 +12,9 @@ Made by Tuomas Väisänen, Sakari Sarjakoski, Rami Ratvio, Sara Todorovic, Paula
 
 ### The contents of this exercise in a nutshell:
 
-**The aim of this practical is to** get familiar with the QGIS software. The first practical exercises will introduce the QGIS graphical user interface (GUI) and its basic tools and features to create a foundation for the later practicals. After some basic introduction, you will create a choropleth map[^2] with the aim of showing the number of transit boardings in areas across Helsinki.
+**The aim of this practical is to** get familiar with the QGIS software. The first practical exercises will introduce the QGIS graphical user interface (GUI) and its basic tools and features to create a foundation for the later practicals. After some basic introduction, you will create a **choropleth map** with the aim of showing the number of transit boardings in areas across Helsinki. A choropleth map is a type of map that uses colours to summarise the statistics within different spatial units. We recommend the excellent [Colorbrewer tool](https://colorbrewer2.org/) to help you choose palettes which match your data and the information you want to communicate.
 
-[^2]: What is a choropleth map?
+
 
 
 **By the end of today’s crash course, you will:**
