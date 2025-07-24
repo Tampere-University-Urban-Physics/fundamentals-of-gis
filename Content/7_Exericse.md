@@ -74,10 +74,11 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 		- *Interpolation Attribute*: NO2, the value associated with the monitoring stations that we want to interpolate.
 		- Click the + symbol to add it to the list of items to interpolate
 		- *Extent*: click the down arrow to the right of the extent box and choose *Calculate from Layer* > Air_pollution_monitoring_points. This will limit the interpolation to the areas covered by the monitoring stations – where we have data. Otherwise, the tool may try to interpolate over a wider area, and could lead to errors when it tries to calcuate concentrations where we do not have data.
-		- *Output Raster Size* will define the spatial resolution of the interpolation – meaning the size of the grid (or pixels). Too small a grid size, and you create a very large file and the results could be misleading (i.e. it could make people think we know the pollution in a 1m2 area, which we don’t). Too large, and we won’t get a good idea of the variation because the grid will be so large. We don’t have many monitoring stations, and it is computationally more difficult to produce a large raster, so let’s make it quite coarse. Set the X and Y pixel size as 50 for both. What kind of unit do you think this is?
+		- *Output Raster Size* will define the spatial resolution of the raster the interpolation produces – meaning the size of the grid (or pixels). Too small a grid size, and you create a very large file and the results could be misleading (i.e. it could make people think we know the pollution in a 1m2 area, which we don’t). Too large, and we won’t get a good idea of the variation because the grid will be so large. We don’t have many monitoring stations, and it is computationally more difficult to produce a large raster, so let’s make it quite coarse. Set the X and Y pixel size as 50 for both. What kind of unit do you think this is?
 	- Run the tool
 
 10. The interpolation has produced a raster from point data. We can see how the IDW algorithm has estimated the concentration of air pollution between the different points as a continuous grid, where each pixel has a value. In reality, the spatial concentration of air pollution is more varying, with differences due to the presence of pollution emission sources, urban canyons, wind, and other factors, and will vary over time as well. But, this gives us an initial estimate of how concentrations change across Helsinki.
+11. Change the symbology. Try Singleband psuedocolor. What about the labels? Do we know pollution to this level of precision? The data from the stations had no decimal places, while the interpolated layer has many. **Hint** Reduce the Label precision in the Symbology to the same as the data you used to create the interpolation.
 
 ---
 
@@ -109,7 +110,8 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 ### Map visualization  
 
-15. You’ve now answered your research questions. Make a nice informative map, showing the interpolated air pollution raster, and the air pollution monitoring points. Insert a legend for concentrations, so we know how the air pollution is varying across the city.
+15. You’ve now answered your research questions. Make a nice informative map, showing the interpolated air pollution raster, the air pollution monitoring points, and the postcode boundaries. Insert a legend for concentrations, so we know how the air pollution is varying across the city. In your reflection, consider how accurate or realistic you think the interpolation is.
+    
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI5RU9OYjRkcFQ2MVpxcDk0Ijp7In
 RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjM3
