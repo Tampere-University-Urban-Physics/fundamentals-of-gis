@@ -40,11 +40,11 @@ Spatial data refers to **information that is associated with specific locations 
 	-  Lines: Represent linear features, such as roads, rivers, or boundaries. Lines are defined by a series of connected nodes.
 	-  Polygons: Represent enclosed areas or regions, such as administrative boundaries, land parcels, or thematic zones. Polygons are defined by a series of connected nodes forming a closed shape.
 
-	Vector data provides precise and accurate representations of spatial features. This type of way of looking at spatial features is often called the **object view**, where space is considered to be empty except when occupied by a feature. 
+	Vector data provides precise and accurate representations of spatial features. Vector data does not lose resolution the more you zoom in - because it is based on coordinates of points or nodes, the GIS software simply redraws the feature. This type of way of looking at spatial features is often called the **object view**, where space is considered to be empty except when occupied by a feature.
 
 2. **Raster Data** represents spatial information by a continuous surface divided into a grid of cells or pixels. Each cell corresponds to a specific location and contains a value representing a particular attribute. Imagine you are standing on the same hill as in the last example. Rather than identifying different features, you classify every surface. Key characteristics of raster data include:
 	-  Grid: The analyzed surface is divided into a regular grid of cells, where each cell represents a specific location or area.
-	-  Resolution: Raster data has a spatial resolution that defines the size or extent of each cell. Higher resolution means smaller cell sizes, resulting in more detailed data representation.
+	-  Resolution: Raster data has a spatial resolution that defines the size or extent of each cell. Higher resolution means smaller cell sizes, resulting in more detailed data representation. This means that it has a set resolution, and can be blurry when you zoom in.
 	-  Attribute Value: Each cell contains a value that represents a specific attribute, such as elevation, temperature, land cover type, or satellite reflectance.
 	
 	Raster data is commonly used for continuous and regularly sampled data, such as satellite imagery, digital elevation models (DEMs), or climate data. It is suitable for analyzing continuous phenomena, interpolating values, and performing terrain analysis. Raster data is less suitable for representing discrete features or sharp boundaries. In contrast to object view, raster data represents a **field view** way of looking at spatial data, where every spatial location has something, even if it is a zero value.
