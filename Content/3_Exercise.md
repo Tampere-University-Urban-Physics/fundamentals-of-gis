@@ -69,7 +69,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 			- Level of income: hr_tuy (Total number of people in grid cell, aged 18 or over)
 			Note: ko_ika18y and hr_tuy both contain the same values. However, for clarity you might want to use the one with the same prefix as the one you are comparing it to.
 	- Background map.
-		- You can use for example satellite imagery like we did in the Crash Course, or OpenStreetMaps, which you can add using the same steps as for google satellite imagery. 
+		- You can use for example satellite imagery like we did in Exercise 2, or OpenStreetMaps, which you can add using the same steps as for google satellite imagery. 
 		- Tip: Remember that if you first bring in your data (from the practical folder), the background map should project automatically to the right coordinate system.
 
 --- 
@@ -162,7 +162,7 @@ education & low-income areas in Helsinki metropolitan region.**
 12. Time to make your maps! Think of which maps would be good to describe this analysis, hints:
 	- Map highlighting grid squares that have been given the classification 4 in both of the reclassified fields
 	- Map with graduated symbology for reclassified fields
-	- Think about whether you should include the data we removed earlier(-1 entries), would it be valuable to the viewer of the map? Is the map accurate without them? How would you visualize them? 
+	- Think about whether you should include the data we removed earlier(-1 entries), would it be valuable to the viewer of the map? Is the map accurate without them? How would you visualize them? Justify your choices in the reflection.
 
 Don't forget to include the requirements for a good map (See Crash Course)! 
 
