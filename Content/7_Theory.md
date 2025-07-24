@@ -26,11 +26,12 @@ In GIS, interpolation results are usually shown as a 2 dimensional raster layer.
 
 ### Natural Neighbour
 
-Similar to IDW, Natural Neighbour looks for the closest input samples, but applies weights to them based on areas rather than distances
+Similar to IDW, Natural Neighbour looks for the closest input samples, but applies weights to them based on the proportionate areas rather than distances.
+
 
 ### Kriging
 
-This is a more complicated method of interpolation, where a mathematical function is fit against the data. It can account for the changes in values across distances better than other functions, while co-Kriging can bring in other spatial data as well (for example if you wanted to interpolate temperatures, accounting for land cover data from a second dataset).
+This is a more complicated method of interpolation, where a mathematical function is fit against the data. It can account for the changes in values across distances better than other functions, while co-Kriging can bring in other spatial data as well (for example if you wanted to interpolate temperatures, accounting for land cover data from a second dataset). Conducting Kriging requires doing a thorough investigation of the data (for example how values changes with distance) to know the best estimation method to apply.
 
 (*Hungry for more or learn better using different methods? Check out videos on youtube, such as*:
 - Spatial Interpolation in GIS: https://www.youtube.com/watch?v=Km7Haa82L7M
