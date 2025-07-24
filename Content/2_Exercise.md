@@ -59,12 +59,13 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 ### Georeferencing the arena plans 
 
-5. In the downloaded data, there is a file - nokia_areena_plan.tif – that has been saved from a pdf file downloaded off the Tampere City website. It is a raster file, but it doesn’t have any spatial information associated with the grid cells or pixels. That means that QGIS doesn’t know where the raster is – it cannot project it onto a map. Luckily, there are methods for providing this information to QGIS. This process is called Georeferencing. Let’s now **georeference this image**. To open the georeferencer tool:
+5. In the downloaded data, there is a file - nokia_areena_plan.tif – that has been saved from a pdf file downloaded off the Tampere City website. It is a raster file, but it doesn’t have any spatial information associated with the grid cells or pixels. That means that QGIS doesn’t know where the raster is – it cannot project it onto a map. Luckily, there are methods for providing this information to QGIS. This process is called Georeferencing, where we assign geographic coordinates to a digital image by identifying and matching recognisable features (or control points) that exist in the spatial and non-spatial data.
+6. Let’s **georeference this image**. To open the georeferencer tool:
 	- From the main window, choose *Layers* -> *Georeferencer*. This will open up the *Georeferencer* window
 
 	- In the *Georeferencer* window, choose *File* -> *Open Raster*, and choose the nokia_areena_plan.tif from the folder for this exercise. This will load the image into the *Georeferencer* window. Now, we can provide spatial data to ‘reference’ the image!
 
-6. Let’s do at least four reference points. The more locations, the more spread-out, and the more precise the better the georeferencing result will be. To Georeference: 
+7. Let’s do at least four reference points. The more locations, the more spread-out, and the more precise the better the georeferencing result will be. To Georeference: 
 
 	- Click an easily identifiable location point on the nokia_areena_plan.tiff in the *Georeferencer* window, such as the corner of an easily recognizable building. You can zoom in and out of the window to get a more precise location.
 	
@@ -76,13 +77,13 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- Repeat this at least three more times in different locations, preferably well distributed across the map.
 
-7. When you are finished adding reference points, you can now perform the georeferencing calculation for the image.
+8. When you are finished adding reference points, you can now perform the georeferencing calculation for the image.
 
 	- Press the *Settings* button ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Exercise/QGIS_georeferencer_settings.png) on the *Georeferencer* menu, and set the *Transformation type* to *Projective*, set the *Target SRS* to the *Project CRS*, give your *Output Raster* an informative name (e.g. arena_plan_modified), and save it in your folder. The *Transformation type* describes the type of mathematical algorithm used to modify (like rotate, twist, skew) the raster. Press OK.
 
 	- Press the *Run* arrow in the *Georeferencer* menu, and the georeferencing will start. It will show you the progress on the georeferencing.
 
-8. Once the calculation is complete, close the *Georeferencer* window (there is no need to save the GCP Points). The new raster that has been georeferenced is saved and you will need add it to your QGIS map now (Hint: Use the Data Source Manager and add it as a raster instead of a vector) . Once its been added, you can drag it below the building, road, and railway layers to see how it fits. Now would be a good time to save your QGIS project again.
+9. Once the calculation is complete, close the *Georeferencer* window (there is no need to save the GCP Points). The new raster that has been georeferenced is saved and you will need add it to your QGIS map now (Hint: Use the Data Source Manager and add it as a raster instead of a vector) . Once its been added, you can drag it below the building, road, and railway layers to see how it fits. Now would be a good time to save your QGIS project again.
 	- Check whether the plans line up with the buildings layer (it doesn't have to be perfect for this exercise)! If it doesn't retry the georeferencing with more points and more spacing between them
 
 ---
@@ -140,7 +141,7 @@ Editing toolbar:
 	- Press OK
 
 
-16. We have now created a new layer, but it is empty – there is nothing in it yet. Now, we can edit the new tam-pere_bus_stops layer we have created to add a location and road name. This happens in a similar way to how we edited the buildings layer, but we are also going to use the identify features tool to find out the name of the roads where each bus stop is located and add it to the tampere_bus_stops attribute table as we add points.
+16. We have now created a new layer, but it is empty – there is nothing in it yet. Now, we can edit the new tampere_bus_stops layer we have created to add a location and road name. This happens in a similar way to how we edited the buildings layer, but we are also going to use the identify features tool to find out the name of the roads where each bus stop is located and add it to the tampere_bus_stops attribute table as we add points.
 
 	- Select tampere_bus_stops in the layers panel
 
@@ -164,7 +165,8 @@ Editing toolbar:
 
 17. You’ve finished your edits. Remove the georeferenced raster (you no longer need it), and make a nice informative map. You can choose whether or not to include the Google Satellite data. Insert a scale bar to show the distances in the map, a North Arrow, and a title.
 	- Hint: Look at the crash course exercise for instructions on how to make a map
-	- Don't forget to change the symbology of your layers to your liking! 
+	- Don't forget to change the symbology of your layers to your liking!
+	- The layer names have good for saving data, but the underscores are not ideal for the legend. Try renaming them in the layer panel.
 	
 
 # Time to get your hands dirty! Move on to the Crash Course exercise to get started with (Q)GIS. 
