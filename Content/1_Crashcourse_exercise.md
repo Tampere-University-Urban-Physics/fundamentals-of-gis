@@ -49,7 +49,7 @@ The state of a working session in QGIS is called a **project**. Similarly, to a 
 
 *Here a few basic functions that are worth knowing before starting to play around with data and layers:*
 
-![Save icon](https://docs.qgis.org/3.28/en/_images/mActionFileSave.png) **Saving in QGIS**: You can save your project by clicking either the *save* ![](https://docs.qgis.org/3.28/en/_images/mActionFileSave.png) or the *save as* icon. You can also use the keyboard shortcut *Ctrl + S* (or *Command + S*) or go to *Project* \> *Save*. The file format of a project file is \*.qgs
+![Save icon](https://docs.qgis.org/3.28/en/_images/mActionFileSave.png) **Saving in QGIS**: You can save your project by clicking either the *save* ![](https://docs.qgis.org/3.28/en/_images/mActionFileSave.png) or the *save as* icon. You can also use the keyboard shortcut *Ctrl + S* (or *Command + S*) or go to *Project* \> *Save*. The file format of a project file is \*.qgs. **Hint** - GIS visualises datasets that are typically saved elsewhere. When you save a project file, you save the link to the layers you use, their symbology, the scale, and other map elements. Layers that you edit or create in QGIS are not saved when you save the project file - these need to be saved seperately. Because QGIS saves the link to the data you use, if you move or rename this data, QGIS will no longer be able to find it, and you will need to tell QGIS where to find it again.
 
 ![](https://docs.qgis.org/3.28/en/_images/mActionFileNew.png) ![](https://docs.qgis.org/3.28/en/_images/mActionFileOpen.png) **Creating and opening a project in QGIS:** If you want to start a new project, you can click on the *New* icon ![](https://docs.qgis.org/3.28/en/_images/mActionFileNew.png) with a blank page, or alternatively go to *Project* \> *New* or use the keyboard shortcut *Ctrl + N* (or Command + N). To open an already existing project, click on the folder-like *Open* icon ![](https://docs.qgis.org/3.28/en/_images/mActionFileOpen.png) to pick up where you left off.
 
@@ -195,7 +195,7 @@ Managing the **layers** is key in GIS. Right now, the added layers are arbitrari
 	![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_select_by_expression.png)
 Your selection now includes all the areas under 5 square kilometers in this layer, with selected objects shown in **yellow in on the map** and **blue on the attribute table**.
 	Examples of ofther expressions include:
- -  "Area_km2" = 5, select the features the area of which is exactly 5 square meters
+ -  "Area_km2" = 5, select the features the area of which is exactly 5 square km
  - "Area_km2" > 2 AND "Area_km2" < 5, select the features the area of which is between 2 and 5 square kilometers  
 
 	5. Close the *Select by expression* window and deselect all the features by clicking *Deselect all* ![](https://docs.qgis.org/3.28/en/_images/mActionDeselectAll.png)
@@ -233,7 +233,7 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_attribute_table.png)
 
-10.  Head to the layer’s *symbology* tab and select **Graduated** from the drop-down menu. **Select the PassArea column as the data source and press Classify**. Try out different classification methods. What are their differences and which do you think is best for this purpose? Choose which you think is best and visualize the data as desired. You can edit the class bounds and the legend values manually by double clicking on them. Which areas are the most passenger heavy and which are not? Why?
+10.  Head to the layer’s *symbology* tab and select **Graduated** from the drop-down menu. **Select the PassArea column as the data source and press Classify**. Try out different classification Modes. What are their differences and which do you think is best for this purpose? Choose which you think is best and visualize the data as desired (you can check ColorBrewer for ideas). You can edit the class bounds and the legend values manually by double clicking on them. Which areas are the most passenger heavy and which are not? Why?
 
 11. Now it is time for the finishing touches. To make the map easier to interpret, we are going to **add labels** to it.
 	1. Right-click the layer we just visualized and go to *Layer properties* > *Labels*
