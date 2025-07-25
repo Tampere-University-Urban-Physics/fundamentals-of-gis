@@ -121,9 +121,8 @@ In order to get a proper touch of QGIS and how the different tools work, we will
 4.  Navigate to the folder where you saved the data for this practical and select the following files from the folder (Click + Ctrl to select multiple items):
     1.  Helsinki_small_areas.shp
     2.  Helsinki_Municipality.shp
-    3.  Helsinki_buildings.shp
-    4.  HSL_helsinki_stops.shp
-    5. Waterbodies.shp
+    3.  HSL_helsinki_stops.shp
+    4. Waterbodies.shp
 5.  Press *Open*
 6.  Press *Add*
 
@@ -141,7 +140,7 @@ For a start, take your time to move around and get acquainted with the basic too
 
 Managing the **layers** is key in GIS. Right now, the added layers are arbitrarily symbolized and ordered, and do not come out very useful or informative. Thus, we need to get our hands dirty.
 
- 1.  Start by **changing the order of the layers** by dragging them in the layers panel on the left side of the map view. What do you think could be a good order? For example, the order can be as follows from top to bottom: HSL_Helsinki_stops, Helsinki_buildings, Waterbodies, Helsinki_small_areas and Helsinki_Municipality.
+ 1.  Start by **changing the order of the layers** by dragging them in the layers panel on the left side of the map view. What do you think could be a good order? For example, the order can be as follows from top to bottom: HSL_Helsinki_stops, Waterbodies, Helsinki_small_areas and Helsinki_Municipality.
  2.  You can also **change the visibility of the layers** by checking or unchecking the tick boxes next to the layer name or by adjusting **transparency**. The latter can be done under the *Style* tab in the *Layer properties* window, which can be accessed by right-clicking on the layer name and selecting *Properties*. This is also where you can change other style properties such as **symbol size and color**, **layer rendering** or create e.g. **choropleth maps** (we will look into these in more detail later on).
  
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_layers.png)
