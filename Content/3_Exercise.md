@@ -97,15 +97,14 @@ ways to do this. Here we’re focusing on selections.
 
 ### Calculating the proportions
 
-6. **In the newly created layer, use the *field calculator* to calculate new fields for the proportions
-(percentages)**
-	- Calculate the proportions of the wanted fields (Basic education, low-income inhabitants etc.)
-		- Make sure to use the correct variables when calculating. Use the total number field of each theme in the calculation.
+6. **In the newly created layer, use the *field calculator* to calculate new fields with the percentage of the population of different education or income levels**
+	- Calculate the proportions of the wanted fields 
+		- Make sure to use the correct variables when calculating. To get the percentage, we want to divide by the total number field of each theme in the calculation.
 			- Level of education: ko_ika18y (Aged 18 or over, total)
 			- Level of income: hr_tuy (Aged 18 or over, total)
-		- For example: to calculate the share of residents with only a basic-level studies in grid cells: (ko_perus / ko_ika18y) * 100 (Studied value divided by total value gives the share, *100 makes the result as %)
+		- For example: to calculate the share of residents with only a basic-level studies in grid cells: (ko_perus / ko_ika18y) * 100 (Studied value divided by total value gives the share, *100 makes the result as %). For income, use the hr_pi_tul and hr_tuy fields.
 		- Make sure the field type is set to decimal numbers and make the values have at least 2 decimal numbers (precision).
-		- Name the fields accordingly. Note: Shapefile allows only 10 characters in the field name.
+		- Name the fields accordingly. Note: Shapefile allows only 10 characters in the field name and no spaces.
 	- Hint: Crash Course 2.1 step 5, 6, and 9
 
 7. **You should end up with two new fields that all have percentage values.**
@@ -116,7 +115,7 @@ ways to do this. Here we’re focusing on selections.
 
 8. **Our newly created proportion fields are tempting, but let’s take it to the next level with
 quantiles**
-	- In the Symbology-tab and under the *Graduated* symbols you can find different classification methods.
+	- In the Layer Properties Symbology-tab and under the *Graduated* symbols you can find different classification modes.
 	- When classifying data with *Equal Count* as the classification method and setting the number of classes to four, each class is called a quartile.
 		- Thus, each class has the same number of entries (hence equal count)
 
@@ -159,7 +158,7 @@ education & low-income areas in Helsinki metropolitan region.**
 
 ### Map outputs
 
-12. Time to make your maps! Think of which maps would be good to describe this analysis, hints:
+12. Time to make your maps! Think of which maps would be good to describe this analysis. What information do you want to communicate? **Hints:**
 	- Map highlighting grid squares that have been given the classification 4 in both of the reclassified fields
 	- Map with graduated symbology for reclassified fields
 	- Think about whether you should include the data we removed earlier(-1 entries), would it be valuable to the viewer of the map? Is the map accurate without them? How would you visualize them? Justify your choices in the reflection.
