@@ -5,7 +5,7 @@
 *Updated by Rowan van der Kaaden* 
 
 ## OVERVIEW & PURPOSE
-The purpose of this GIS exercise is to classify the study area based on its suitability for cultivation, specifically considering factors such as water bodies, slope, and soil types. By integrating and analyzing these spatial datasets, we aim to assess the agricultural potential of the study area. Understanding the suitability for cultivation is crucial for effective land management, optimizing agricultural practices, and making informed decisions related to agricultural development.
+The aim of this GIS exercise is to get you familiar with working with raster data. The purpose of this GIS exercise is to classify the study area based on its suitability for cultivation, specifically considering factors such as water bodies, slope, and soil types. By integrating and analyzing these spatial datasets, we aim to assess the agricultural potential of the study area. Understanding the suitability for cultivation is crucial for effective land management, optimizing agricultural practices, and making informed decisions related to agricultural development.
 
 Studying an area for its suitability for cultivation provides valuable insights and information for various reasons:
 
@@ -74,7 +74,7 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 *Reminder: Don't forget to give your files and layers informative names and save them in a folder for this exercise*
 
 4. Before we can use the DEM, we need to fill its sinks
-	- Open the *Fill sinks (Wang & Liu)* tool (Remember where we search for all our tools?)
+	- Open the *Fill sinks (Wang & Liu)* tool (Remember where we search for all our tools? You may also need to look for a SAGA plugin)
 		- You can ignore the warning message that SAGA version....is not officially supported
 	- Choose the clipped DEM as the DEM, leave the rest as default
 	- Run the tool, you can remove the flow directions and watershed basins outputs, save the Filled DEM
@@ -101,7 +101,7 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 - What is the maximum slope of the study area based on the DEM10m_Muurla?
 - How about the mean slope of the study area based on the DEM10m_Muurla?
 
-*Hint: Layer Properties contain information about the layers, including some statistics)*
+**Hint**: *Layer Properties contain information about the layers, including some statistics)*
 
 #### 1.2: Data type conversions - feature to raster
 It is quite common in GIS that data has to be converted from one type to another; some analyses for instance require a certain file type to work. In part two of this exercise you are going to need to convert the vector shapefile “Muurla_Soil.shp” to a raster file to be able to perform the raster overlay analyses.
@@ -109,7 +109,7 @@ It is quite common in GIS that data has to be converted from one type to another
 7. Let's convert the Muurla_Soil.shp to a raster file
 	- Open the *Rasterize (Vector to Raster)* tool
 	- Use the Muurla_soil layer as the input
-	- Since rasters can’t have multiple attributes like shapefiles we need to select which field to use, column “PINTA” has the information which we want to use for the analysis, so this is the column you should select for “Field to use for a burn-in value” -parameter. 
+	- Since rasters can’t have multiple attributes like shapefiles we need to select which field to use. Column “PINTA” has the information which we want to use for the analysis, so this is the column you should select for “Field to use for a burn-in value” -parameter. 
 	- Set the size units to Georeferenced units, and the resolution to the same as the resolution of the DEM (see step 2) 
 	- Run the tool
 	- Don't forget to make your layer permanent
@@ -118,9 +118,9 @@ It is quite common in GIS that data has to be converted from one type to another
 
 ---
 
-### 2: Modelling optimal cultivation areas
+### 2: Calculating the optimal cultivation areas
 
-Southwest Finland is sometimes called as the bread-basket of Finland that refers to its plentiful fields and agricultural productivity. In this exercise your task is to model optimal cultivation areas using raster data analyses in Muurla, which is a district of Salo, a city between Turku and Helsinki.
+Southwest Finland is sometimes called as the bread-basket of Finland, which refers to its plentiful fields and agricultural productivity. In this exercise your task is to model optimal cultivation areas using raster data analyses in Muurla, which is a district of Salo, a city between Turku and Helsinki.
 
 The aim is to classify the study area based on its suitability for cultivation. The criteria are the following:
 
