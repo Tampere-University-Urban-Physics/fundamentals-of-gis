@@ -52,7 +52,7 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 
 ![](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exercise_DEM_hillshade.drawio.png?raw=true)
 
-1. Download 5_Exercise_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
+1. Download 5_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
 2. You have to download the Digital Elevation Model (DEM) from PaITuli. 
 	- Open the following link: https://paituli.csc.fi/download.html
