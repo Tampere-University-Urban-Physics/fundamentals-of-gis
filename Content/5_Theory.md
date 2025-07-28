@@ -16,7 +16,9 @@ DEM data is collected using various methods, including remote sensing techniques
 
 The resulting elevation data is then processed and interpolated to create a continuous representation of the terrain. The grid of elevation values in a DEM is often represented as a raster dataset, where each cell or pixel contains the elevation information for that location.
 
-DEM data has numerous applications in various fields, including geography, geology, environmental science, urban planning, and engineering. It is used for visualizing and analyzing terrain characteristics, mapping landforms, identifying slopes and aspect, hydrological modeling, determining visibility and line of sight, and more. DEMs are essential in creating accurate maps, conducting terrain analysis, and supporting decision-making processes in numerous industries and research domains.
+DEM data has numerous applications in various fields, including geography, geology, environmental science, urban planning, and engineering. It is used for visualizing and analyzing terrain characteristics, mapping landforms, identifying slopes and aspect, hydrological modeling, determining visibility and line of sight, and more. DEMs are essential in creating accurate maps, conducting terrain analysis, and supporting decision-making processes in numerous industries and research domains. 
+
+DEMs are often used as a generic term for Digital Surface Models (DSMs) and Digital Terrain Models (DTMs). A DSM represents the elevation of the earth's surface and all the objects on it. For example, a city would have a variable DSM that shows the changes in heights due to buildings. In contrast, a DTM model represents the ground without any objects on it.
 
 ### DEM
 Filling sinks in a DEM is an important preprocessing step that addresses a common issue in elevation data. A sink refers to a depression or low-lying area in the terrain where water can accumulate, such as a small basin or a closed contour. When sinks are present in a DEM, they can introduce inaccuracies and create problems in subsequent analyses or applications. 
@@ -40,8 +42,11 @@ A DEM provides the necessary data to perform slope analysis. With a DEM, you can
 
 Slope analysis using a DEM is valuable in a range of applications, including terrain characterization, land management, environmental assessment, and infrastructure planning. It provides insights into the topographic features of the landscape, supporting decision-making processes and aiding in understanding the terrain's behavior and suitability for various purposes.
 
-## Raster overlay analysis
-Just like with vectors, we can do analyses and calculations with rasters. Raster overlay analysis is a fundamental geospatial analysis technique in GIS that involves combining and analyzing multiple raster layers to derive new information or gain insights into the relationships between different spatial datasets. It enables you to perform complex operations by overlaying and integrating raster datasets, pixel by pixel, to generate output layers with new attributes or identify areas that meet specific criteria.
+### Contours
+When looking at a topological map, you may also have come across maps that have contours. Conours are another way of visualising slope (using vectors), with lines which represent similar elevations. The closeness of the contour lines provide an idea of areas with gradual and rapid slope changes, as well as peaks and valleys.
+
+## Raster  analysis
+Just like with vectors, we can do analyses and calculations with rasters. Raster overlay analysis is a fundamental geospatial analysis technique in GIS that involves combining and analyzing multiple raster layers to derive new information or gain insights into the relationships between different spatial datasets. It enables you to perform complex operations by overlaying and integrating raster datasets, pixel by pixel, to generate output layers with new attributes or identify areas that meet specific criteria. In QGIS, the Raster Calculator tool is commonly used to male calculations on rasters.
 
 In raster overlay analysis, each raster layer is composed of a grid of cells or pixels, with each cell containing a value representing a specific attribute or measurement. When overlaying two or more raster layers, the values of the corresponding cells are compared and combined based on predefined rules or operations. The most common operations used in raster overlay analysis include:
 
@@ -53,13 +58,11 @@ In raster overlay analysis, each raster layer is composed of a grid of cells or 
 
 2.  **Mathematical operations**: These operations perform mathematical calculations on the values of corresponding cells in different layers. Common mathematical operations include addition, subtraction, multiplication, division, and statistical calculations like mean, median, or standard deviation.
     
-3.  **Boolean operations**: These operations utilize Boolean logic (AND, OR, NOT) to determine the presence or absence of certain conditions or attributes. They help create binary or categorical output layers based on specified criteria.
+3.  **Boolean operations**: These operations utilize Boolean logic (AND, OR, NOT) to determine the presence or absence of certain conditions or attributes. They help create binary or categorical output layers based on specified criteria. They can also be used to reclassify raster data.
 
 Raster overlay analysis is used in various GIS applications, such as land suitability analysis, environmental modeling, habitat analysis, urban planning, and natural resource management. It allows for the integration of diverse datasets, including DEMs, satellite imagery, land cover maps, and thematic data, to generate valuable information and support decision-making processes. By overlaying and combining raster layers, you can explore spatial relationships, identify patterns, quantify spatial characteristics, and derive meaningful insights from the data.
-- Slope
-- Data reclassification
-- Raster calculator
-- Raster overlay analysis (calculations)
+
+
 
 # Time to get your hands dirty! Move on to the [5th exercise](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/5_Exercise.md) to apply this new knowledge
 <!--stackedit_data:
