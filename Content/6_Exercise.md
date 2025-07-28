@@ -114,7 +114,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- Select the deaths_locations layer as the Point Layer.
 	- Try out the radius and pixel size options, what settings do you think would be good? (Hint: Radius 50, pixel 1x1)
 	- Select Num_Cases as the Weight Field. This will take into account the number of deaths at each address.
-	- Press Run
+	- Press Run to produce a heatmap. What do you think the numbers in the heatmap correspond to?
 
 14. Edit the Symbology of the heatmap layer in it’s properties. This can include:
 	- Changing the symbology to singleband pseudocolour
