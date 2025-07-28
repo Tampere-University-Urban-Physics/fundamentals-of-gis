@@ -28,6 +28,9 @@ In GIS, interpolation results are usually shown as a 2 dimensional raster layer.
 
 Similar to IDW, Natural Neighbour looks for the closest input samples, but applies weights to them based on the proportionate areas rather than distances.
 
+### Triangulated Irregular Network (TIN)
+
+This is a way of interpolating a 3D surface using a vector-based structure. Most interpolations produce a raster, or a grid where each cell has a value. With TINs, surfaces are represented by a series of interconnected, non-overlapping triangles. The nodes of each triangle have an x, y, and z coordinate. They can be good for terrain mapping because their spacing is irregular, rather than a regular grid, meaning they are often used for detailed projects in engineering and construction.
 
 ### Kriging
 
