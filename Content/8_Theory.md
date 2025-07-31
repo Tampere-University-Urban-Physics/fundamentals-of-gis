@@ -13,6 +13,8 @@ Geographer Mark Monmonier wrote an [important book](https://press.uchicago.edu/u
 ### Projection Distortion
 Remember the theory about projections? One of the most common ways maps lie is through projection distortion. The Earth is a three-dimensional sphere, and any attempt to represent it on a flat surface requires a trade-off. Different map projections preserve different qualities—some maintain shape, others preserve area or distance—but none can keep all aspects accurate at once. The Mercator projection, widely used in schools and online maps, preserves navigational angles but greatly distorts the size of landmasses, especially near the poles. This makes countries in the Global North (like Europe) appear far larger than they are, while shrinking regions near the equator like Africa and South America. These visual distortions can reinforce Eurocentric or colonial narratives by inflating the visual significance of northern nations.
 
+![](https://miro.medium.com/v2/resize:fit:960/1*AqlNEMH4WPZO43uxVBYzRw.gif)
+
 ### What is included in the map
 Another deceptive aspect of maps is selective inclusion and omission. No map can show everything, so cartographers must decide what features to highlight. These choices are often influenced by the map’s intended use, but they can also reflect political, cultural, or ideological biases. For example, a political map might display national borders in a way that supports one side of a territorial dispute, omitting contested claims altogether. Similarly, a city map made for tourists might show major attractions and shopping areas while leaving out lower-income neighborhoods or sites of social tension, effectively erasing parts of the urban experience.
 
