@@ -144,29 +144,33 @@ Fill in the answers to the Moodle quiz.
 |
 - The Hotel & Congress Center requires **at least 5000 m2 of free building space**. |
 
-2. This sounds complicated, but can be done step by step, by creating buffers around the airport area, ring rail line stations, and road network, setting the distance based on the requirements
-	- **Hint 1** You may notice that the roads buffer has drawn buffers around the road segments. You can disolve the result of the roads buffer to make future steps easier. Search for Dissolve in the processing toolbox. The dissolve tool removes boundaries between adjacent polygons or lines that share the same attribute value.
-	-**Hint 2**: When creating a buffer for the roads, don't forget to make your outputs permanent in between processing
-- For roads, airport area, and ring stations, you are looking for where the layers overlap. Use the *Intersection*  tool to combine intersect these buffers to get the areas which are only within 2km of the airport area, within a 1km radius from the stations, and within 500m from the road network. 
+This sounds complicated, but can be done step by step, by creating buffers around the airport area, ring rail line stations, and road network, setting the distance based on the requirements. **Hint**: When creating buffers, don't forget to make your outputs permanent in between processing. You can make yor life a lot easier if you clearly name the layers that you create.
+
+2. First, let's make a 2km buffer around the airport area layer (Hki_Vnt_Airport_Area) using the Buffer tool. Note: In the buffer tool, you can switch the units to km if you want.
+
+
+3. Next, make a 1km buffer around the Ring Rail Line stations (both planned and under construction). 
+
+
+4. Then, make a buffer around the roads. **Hint** You can select disolve the result of the roads buffer to make future steps easier. Dissolve removes boundaries between adjacent polygons or lines that share the same attribute value.
+	
+5. For roads, airport area, and ring stations, you are looking for where the layers overlap. Use the *Intersection*  tool to combine intersect these buffers to get the areas which are only within 2km of the airport area, within a 1km radius from the stations, and within 500m from the road network. 
 	- You have to run this intersect with two buffers first, then run the output of that with the final buffer to get the desired result
 
-*Hint 1: The Multipart to Singlepart- geoprocessing tool can be used to detach the polygons individual features to be able to calculate their areas. This is useful when the overlay operations combine the features, but because their topology information is still stored, they can be separated using this tool.*
 
-
-3. Now we need to remove the areas that are not suitable from this layer, namely the airport area itself, the stations themselves, the roads themselves, the 55 dB noise zone, and the build up areas. 
-	- We can do this using the *Difference* tool, read its description, what does it do? In short, it outputs the parts of the input layer that fall outside the overlay layer. 
-	- So we need to run this for all our areas that we do not want to build the hotel (similar to last time we ran *Difference*) and then run it again with its output and the next criteria
-		- **Hint** Use *Selected features only* again where necessary (the aircraft noise goes from 50dB, and you want to be selecting and differencing only those above 55dB)
+6. Now we need to remove the areas that are not suitable from this layer, namely the airport area itself, the stations themselves, the roads themselves, the 55 dB noise zone, and the build up areas. We can do this using the *Difference* tool, read its description, what does it do? In short, it outputs the parts of the input layer that fall outside the overlay layer. We need to run this for all our areas that we do not want to build the hotel step by step, like we did with the intersect tool before.
+		- **Hint** Use *Selected features only* again where necessary (the aircraft noise goes from 50dB, and you want to be selecting and differencing those only equal to or above 55dB)
 		-**Hint** The roads are polylines, not polygons. Draw a new buffer around the roads with an estimated width of a road to be able to difference them
-- Once we have the final suitable areas we need to determine which have at least 5000m2 of free building space
+7. Now we should have some kind of idea of the areas that fit most of criteria. The catch? If you use the identify tool or attribute table to select polygons, you will notice that some polygons that look seperate are, in fact, the same polygon that we have split when using the difference tool. THis means we can't yet eliminate areas that are too small to build on. Use the Multipart to Singlepart- geoprocessing tool to convert these to seperate polygons. We want to do this to be able to calculate the total area of the combined land. 
 
-4. Try to make the map as clear and informative as possible and insert the finished map with all the necessary map elements to your current layer and its features. Could we select the areas which have at least 5000m2 free space right now? Why not? 
-	- Some features that are not physically connected are still 1 feature, so we need to separate them. 
-		- Do this by running the *Promote to Multipart* tool on your current layer, this will seperate the features into seperate parts
-	- Let's extract areas of at least 5000m2 using the *Extract by Expression* tool (Hint: Crash Course, step 7)
-- Done! You should now have the areas that meet all the criteria
+8. Once we have the final suitable areas we need to determine which have at least 5000m2 of free building space. You can use the *Extract by Expression* tool (Hint: Crash Course, step 7).
 
-5. Make your final map of the suitable areas for the new airport hotel & congress center.
+#### 2.3: Finalising your map
+
+1. Make your final map of the suitable areas for the new airport hotel & congress center. Try to make the map as clear and informative as possible and insert the finished map with all the necessary map elements to your current layer and its features.
+  - **Hint** Just include the layers necessary to communicate the results for the maps we want (the ring rail map and the hotel location map).
+  - **Hint** Rename the layers so that they have names that a map reader can understand clearly
+  - **Hint** Remember all the elements of a good map!
 
 
 
