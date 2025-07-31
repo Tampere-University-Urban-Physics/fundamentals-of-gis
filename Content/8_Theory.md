@@ -37,6 +37,10 @@ Gerrymandering is probably the most commonly know way in which maps and mapmakin
 
 This can be illustrated by the figure below. Consider a population that is 40% in favour of the yellow party and 60% in favour of the blue party. The blue party should win the election, right? Let’s divide them into five voting districts. Depending on how you draw them will lead to a different electoral result. This effect is called gerrymandering, and you can still see some pretty funky electoral boundaries in some countries because of this.
 
+![]([(https://commons.wikimedia.org/wiki/File:DifferingApportionment.svg)]
+
+
+
 ## Summary
 
 In making maps, we make many decisions - big and small - which can lead to different intepretations of what the map is communicating. Small lies include standard cartographic decisions, including projection, symbolization, standardization, classification, aggregation, and zonation, which can guide the interpretation of maps. Then, there are bigger of lies —gerrymandering, propaganda maps, maps that push a particular political perspective, and misleading advertising maps. The hope is that you are now a critical map reader and map maker that is able to identify and understand the ways that maps lie.
