@@ -119,7 +119,7 @@ The Ring Rail Line is likely to increase the attraction for the real estate in t
 	- ...the noise levels in 2006? And 
 	- ...the noise levels in 2010?
 	- This time you don't need to create a buffer, as the dB zones already exist
-	- Repeat the same steps as in step 5 to get the number of residents living within the 65 and 50 dB zones in 2006 and 2010
+	- What would you do if you wanted to calculate the population within the 65 and 50 dB zones in 2006 and 2010
 		- Hint: Look at the attribute tables of the noise layers (use *Selected features only* in *Select by location*)
 
 Fill in the answers to the Moodle quiz.
