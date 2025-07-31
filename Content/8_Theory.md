@@ -37,8 +37,8 @@ Gerrymandering is probably the most commonly know way in which maps and mapmakin
 
 This can be illustrated by the figure below. Consider a population that is 40% in favour of the yellow party and 60% in favour of the blue party. The blue party should win the election, right? Let’s divide them into five voting districts. Depending on how you draw them will lead to a different electoral result. This effect is called gerrymandering, and you can still see some pretty funky electoral boundaries in some countries because of this.
 
-![](https://commons.wikimedia.org/wiki/File:DifferingApportionment.svg)
-
+![](https://upload.wikimedia.org/wikipedia/commons/d/d3/DifferingApportionment.svg)
+![](http://www.geography.hunter.cuny.edu/~jochen/gtech361/lectures/lecture11/concepts/Kernel%20density%20calculations_files/image002.gif)
 
 
 ## Summary
