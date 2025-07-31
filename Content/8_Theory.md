@@ -14,12 +14,18 @@ Geographer Mark Monmonier wrote an [important book](https://press.uchicago.edu/u
 Remember the theory about projections? One of the most common ways maps lie is through projection distortion. The Earth is a three-dimensional sphere, and any attempt to represent it on a flat surface requires a trade-off. Different map projections preserve different qualities—some maintain shape, others preserve area or distance—but none can keep all aspects accurate at once. The Mercator projection, widely used in schools and online maps, preserves navigational angles but greatly distorts the size of landmasses, especially near the poles. This makes countries in the Global North (like Europe) appear far larger than they are, while shrinking regions near the equator like Africa and South America. These visual distortions can reinforce Eurocentric or colonial narratives by inflating the visual significance of northern nations.
 
 ![](https://miro.medium.com/v2/resize:fit:960/1*AqlNEMH4WPZO43uxVBYzRw.gif)
+*The shrunken sizes are the actual relative sizes of countries vs the standard Mercator projection.(Credit: Jakub Nowosad)*
 
 ### What is included in the map
 Another deceptive aspect of maps is selective inclusion and omission. No map can show everything, so cartographers must decide what features to highlight. These choices are often influenced by the map’s intended use, but they can also reflect political, cultural, or ideological biases. For example, a political map might display national borders in a way that supports one side of a territorial dispute, omitting contested claims altogether. Similarly, a city map made for tourists might show major attractions and shopping areas while leaving out lower-income neighborhoods or sites of social tension, effectively erasing parts of the urban experience.
 
 ### Design Choices
 Maps also lie through symbol manipulation and design choices. Colors, labels, font sizes, and symbols all carry meaning. A map might use red to mark enemy territory, evoking danger or aggression, while using calm blues or greens for allies or home regions. Similarly, the size of a capital city's icon or the boldness of its name can exaggerate its importance. These visual cues guide the reader’s interpretation, often without them realizing it.
+
+This can also include our choice of how we classify our data. The image below shows the same data on poverty in the USA, classified by equal intervals, natural breaks, and quantiles (you may recognise these from playing around with symbologies). The different classifications lead to different conclusions being drawn from the map. Likewise, the number of classifications we use can also lead to differt nuances in maps.
+
+![](https://open.lib.umn.edu/app/uploads/sites/302/2024/03/Image111-768x768.jpg)
+*Poverty via equal interval, natural breaks, and quantile classifications. Each maps uses the same data, the same number of classes, the same color scheme, and standardization, but tells a different story about the data. Credit Steven Manson, 2005.*
 
 ### Scale and Zoom
 The map scale represents the relationship between distances on a map and the corresponding distances on the ground. It is what changes when you zoom in and out of the map in QGIS. Even scale and zoom can be misleading. A map that zooms in on a specific region can give undue importance to local events, while a zoomed-out global map might minimize critical details. Strategic use of scale can highlight or obscure information, shaping the viewer’s sense of proportion and relevance.
