@@ -35,13 +35,13 @@ Work individually or in pairs. Complete the exercise and write a short reflectio
 1. Download the date from the data sources given above, save it in a folder for this exercise. And importing the spreadsheet data as point layers
 2. Finding where the respondents from Töölö and Vuosaari (neighbourhoods in Helsinki) prefer and don’t prefer to have windmills
 	- Discovering the standard deviational ellipses of the preferences of respondents from Töölö and Vuosaari.
-3. Visualizing and composing at least 3 maps of the NIMBY attitudes, including:
+3. Visualizing and composing at **least 3 maps** of the NIMBY attitudes, including:
 	- Maps depicting Töölö and Vuosaari respondents’ preferred and unpreferred wind power plant locations and personally important places, and
-	- Map of the directional distribution of unpreferred locations.
-4. Analyzing in writing the NIMBY attitudes between the two respondent areas:
+	- Map of the combined unpreferred and unpreferred locations.
+4. Analyzing in the reflection the NIMBY attitudes between the two respondent areas:
 	- Are the preferred locations for wind power turbines located near or far away from the respondents’ own neighbourhood? How about unpreferred locations? Pay special attention to the sea and coastal areas.
 	- Are the places that are important to the respondents located in the same areas as the locations where they prefer not to have wind power turbines? Can you think of why/why not?
-	- What do the standard deviational ellipses reveal of the respondents’ preferences? Are there any overlaps between the two groups of respondents?
+	- What do the hexagons reveal of the respondents’ preferences? Are there any overlaps between the two groups of respondents?
 	- Are there any potential conflict areas?
 
 ## EXERCISE PHASES
@@ -67,7 +67,7 @@ the residents**)
 	3. If the names of the columns in the sample data are not ID, postinumero, and so on, but field_1, field_2, etc. (compare pictures above and below): make sure to tick the First record has field values checkbox.
 - Figure
 	4.  To transform the geographic information of your text file into a visual map, we have to tell QGIS where in the text locations are specified. Therefore, under Geometry Definition, choose the right **X field** (= Lng) and **Y field** (= Lat) from the menu. Also set the correct **Geometry CRS** (= EPSG:4326 - WGS 84). Then Add.
-		- The coordinate system used for the points is a global coordinate system WGS84 (also used by e.g. Google Maps/Earth). What do you think might be the reason that the coordinates are inWGS84 instead of a Finnish coordinate system?
+		- The coordinate system used for the points is a global coordinate system WGS84 (also used by e.g. Google Maps/Earth). What do you think might be the reason that the coordinates are in WGS84 instead of a Finnish coordinate system?
 	5. Once you have imported all three text files into QGIS, save each of the layers on your computer in shapefile format. Name these layers informatively (e.g., preferred (‘soveltuvat’), unpreferred (‘kielletyt’), and important (‘omat’)). From here on, continue with the exercise working on these new layers.
 
 4. **Explore the attribute tables for the three layers**
@@ -109,25 +109,37 @@ the residents**)
 
 9. To help with later analysis and map composition, **add a WFS layer showing the zip code areas.** Do this by connecting to either: 
 	1.  Helsinki Region EnvironmentalServices’WFS, https://kartta.hsy.fi/geoserver/wfs – the title of the right zip code layer is pks_postinumeroalueet_2022, and in the attribute table of this layer, the field name for zip codes is posno – or
-	2. City of HelsinkiWFS, http://kartta.hel.fi/ws/geoserver/avoindata/wfs – the title of the right layer is Postinumeroalue, and the right field is named tunnus
-	3. Select the zip code areas of Vuosaari and Töölö, and save them as separate layers you can use for your visualization.
+	2. City of HelsinkiWFS, http://kartta.hel.fi/ws/geoserver/avoindata/wfs – the title of the right layer is Postinumeroalue, and the right field is named tunnus - or
+	3. Use the postcode layer you saved in exercise 7.
+	4. Select the zip code areas of Vuosaari and Töölö, and save them as separate layers you can use for your visualization.
 
 ---
 
 ### Hexa-grid analysis for wind park locations
 
-10. UsingMMQGIS plugin, create a hexagonal grid that covers the municipal borders of Helsinki
-	1. A good size for the hexagons could be approximately 500m x ~500m or 750m x ~750m.
+10. Using the MMQGIS plugin, create a hexagonal grid that covers the municipal borders of Helsinki
+	1. A good size for the hexagons could be approximately 500m x ~500m or 750m x ~750m. Too small, and most will be empty. Too large, and you may run into issues with high levels of variability in the answers in each hexagon cell.
 	2. Make sure that the grid has a same coordinate system as your point features. (To change it: Save features as → select the correct coordinate system.)
 
-11. Calculate the number of preferred and unpreferred points within each grid.
+11. Calculate the number of preferred and unpreferred points within each grid cell for Töölö, Vuosaari, and combined.
 	1. Hint: Count points in polygon -tool might be helpful here
 	2. Create a new field to represent whether the grid has more preferred locations or unpreferred points.
 
-12. Compose a map of the outcome, include it in your report and analysis.
+12. Compose a map of the outcomes, include it in your report and analysis.
 	- Visualize to highlight the most preferred and most unpreferred areas for wind turbines
 	- What kind of spatial patterns do the preferred and unpreferred places for wind turbines show?
 	- Can you identify any potential conflict areas?
+
+---
+
+### Map visualization  
+
+15. **Compose maps about the possible NIMBY attitudes of Töölö and Vuosaari regarding windmills.**
+	1. You decide the number of maps and what exactly each map contains.
+		- But the map should support your analysis and its conclusion
+		- Thinking about what to include and how included features are visualized on the map is always important, but increasingly so when there’s high numbers of features on the map.
+	2. Remember to include a north arrow, a legend, and a scale bar into each map!
+	3. Hint: You can reproject the data on-the-fly to EPSG:3067 for visual purposes – this ought to look better than the global projection. Select current project CRS from the bottom right corner.
 
 ---
 
@@ -144,20 +156,6 @@ and Vuosaari respondents**
 	2. To make the interpretation easier, you can make the ellipses transparent or have them have outlines only and no fill
 	3. If you wish, you can calculate standard deviational ellipses for other kinds of places, too – e.g., preferred locations
 		- Or if you want to calculate an ellipse that takes into consideration the unpreferred locations of both Töölö and Vuosaari residents, but not those of respondents from other parts: first create a new shapefile layer containing the Töölö and Vuosaari residents using the Merge vector layers tool (found in Processing toolbox), for example.
-	
-
----
-
-### Map visualization  
-
-15. **Compose maps about the possible NIMBY attitudes of Töölö and Vuosaari regarding windmills.**
-	1. You decide the number of maps and what exactly each map contains.
-		- But the map should support your analysis and its conclusion
-		- Thinking about what to include and how included features are visualized on the map is always important, but increasingly so when there’s high numbers of features on the map.
-	2. Remember to include a north arrow, a legend, and a scale bar into each map!
-	3. Hint: You can reproject the data on-the-fly to EPSG:3067 for visual purposes – this ought to look better than the global projection. Select current project CRS from the bottom right corner.
-
-
 	
 
 <!--stackedit_data:
