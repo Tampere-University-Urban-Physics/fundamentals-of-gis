@@ -30,6 +30,8 @@ However, this can lead to issues. One of these is the Ecological Fallacy. The ec
 The Modifiable Areal Unit Problem (MAUP) is another example of how maps can lie through aggregation. It relates to how the scale at which you look at a geographic pattern can lead you to derive completely different results from the same underlying data - where the boundaries of zones are drawn can easily change data patterns and analysis outcomes. 
 We can illustrate MAUP through an analysis of the rate of a disease in a population. To analyse the broader trends in disease prevalence and to protect the privacy of patients, health officials may count the number of cases by city block, postcode, or another zonation. But, dividing spaces into larger areas can change the apparent patterns of disease. For example, see the figure below on the rates of respiratory diseases in Ottawa, Canada. The maps use the same underlying data, and each uses the same classification scheme (quartiles), but have different spatial aggregations. However, these maps look very different, highlighting challenges with MAUP, and how you should be cautious when aggregating and viewing aggregated data.
 
+![](https://open.lib.umn.edu/app/uploads/sites/302/2024/03/Image116-768x266.jpg)
+
 ### Political Lies
 
 Ok, obviously this could be a big section, but let’s focus on a couple of example relating to maps. Political lies in mapping can include e.g. propaganda, campaign advertisements, and even the way we draw borders around contested regions (e.g. how does Google Maps choose to draw the border between Crimea and Ukraine/Russia)? However, here we will focus on something called Gerrymandering.
@@ -38,7 +40,6 @@ Gerrymandering is probably the most commonly know way in which maps and mapmakin
 This can be illustrated by the figure below. Consider a population that is 40% in favour of the yellow party and 60% in favour of the blue party. The blue party should win the election, right? Let’s divide them into five voting districts. Depending on how you draw them will lead to a different electoral result. This effect is called gerrymandering, and you can still see some pretty funky electoral boundaries in some countries because of this.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/d/d3/DifferingApportionment.svg)
-![](http://www.geography.hunter.cuny.edu/~jochen/gtech361/lectures/lecture11/concepts/Kernel%20density%20calculations_files/image002.gif)
 
 
 ## Summary
