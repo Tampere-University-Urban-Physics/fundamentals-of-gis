@@ -146,10 +146,11 @@ For a start, take your time to move around and get acquainted with the basic too
 4. Next, we want to **change the styles and the symbology of the layers**. You can navigate back to the *Symbology* tab in the *Layer Properties* window. The window looks slightly different depending on whether we have a raster or vector file, and what feature type is in question. You can see this for instance by comparing the style tabs of the HSL Stops (point feature) and Waterbodies (polygon feature) layers.
 	- Open the *symbology* properties for the Waterbodies layer
 	- Apart from the color fill and a few ready-made styles, the main view does not offer very sophisticated visualizing options, so it is suggested to click on the *Simple fill*
-![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_symbology1.png)
 	- Press the *Fill color* button and change the color of the layer to blue
 	- If you want a transparent fill, change the *Opacity* under the *Fill color* section
 	- Once you are satisfied with the layer styles, press *Apply* and *OK*
+
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_symbology1.png)
 
  5. It is also possible to **visualize the layers based on the information stored in the attribute table**. This can be done by selecting Categorized or Graduated instead of Single Symbol from the dropdown menu on the top of the page.	
 	
@@ -160,7 +161,10 @@ For a start, take your time to move around and get acquainted with the basic too
 	- Set the *Mode* to *Natural breaks (Jenks)* and press *Classify* again to update the classes
 	- Select a fitting *Color ramp* from the drop-down menu
 	- Press *Apply* and *OK*
+
+
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_symbology2.png)
+
 
 **Now, using the previous tips and tricks as your support, change the styles of all the layers in the project.** Keep in mind what was discussed in the theory before - e.g. could a colourblind person read this map?
 
@@ -187,12 +191,13 @@ For a start, take your time to move around and get acquainted with the basic too
 	- Double-click on the area field you made earlier (Area_km2)
 	- Type "< 5" to the right of the field in the text field
 	- Click *Select features*
-	![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_select_by_expression.png)
 	- Your selection now includes all the areas under 5 square kilometers in this layer, with selected objects shown in **yellow in on the map** and **blue on the attribute table**.
 	- Examples of ofther expressions include:
  		- "Area_km2" = 5, select the features the area of which is exactly 5 square km
    		- "Area_km2" > 2 AND "Area_km2" < 5, select the features the area of which is between 2 and 5 square kilometers  
 	- Close the *Select by expression* window and deselect all the features by clicking *Deselect all* ![](https://docs.qgis.org/3.28/en/_images/mActionDeselectAll.png)
+
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_select_by_expression.png)
 
 9. Next, we’re going to create and calculate another field into the Helsinki_small_areas attribute table using the HSL_Helsinki_stops point data. First open the *attribute table* of HSL_Helsinki_stops to familiarize yourself with its contents. The "Boardings" column depicts the number of boardings on stops in Helsinki on average per day. Say we want to learn where the areas are with the most boardings in Helsinki? We have the point locations of boardings and the outlines of the small areas, so we can combine them and find out **We will calculate and visualize the public transit passenger numbers per area for every Helsinki small area using something called a spatial join.** 
 	
