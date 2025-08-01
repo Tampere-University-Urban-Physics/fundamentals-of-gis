@@ -181,9 +181,10 @@ For a start, take your time to move around and get acquainted with the basic too
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/1_CrashCourse_exercise_expression.png)
 
- 8.  **Using the field we just created in the attribute table, explore the small areas of Helsinki**. By clicking on attribute table columns, you can sort the data. Which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
+ 8. **Using the field we just created in the attribute table, explore the small areas of Helsinki**. By clicking on attribute table columns, you can sort the data. Which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
+
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_select_by_expression1.png)
- 
+
 	- Open the *Field and Values* drop-down menu, which will show all the attribute fields
 	- Double-click on the area field you made earlier (Area_km2)
 	- Type "< 5" to the right of the field in the text field
@@ -191,7 +192,7 @@ For a start, take your time to move around and get acquainted with the basic too
 	![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_select_by_expression.png)
 	- Your selection now includes all the areas under 5 square kilometers in this layer, with selected objects shown in **yellow in on the map** and **blue on the attribute table**.
 	- Examples of ofther expressions include:
- 		-"Area_km2" = 5, select the features the area of which is exactly 5 square km
+ 		- "Area_km2" = 5, select the features the area of which is exactly 5 square km
    		- "Area_km2" > 2 AND "Area_km2" < 5, select the features the area of which is between 2 and 5 square kilometers  
 
 	- Close the *Select by expression* window and deselect all the features by clicking *Deselect all* ![](https://docs.qgis.org/3.28/en/_images/mActionDeselectAll.png)
