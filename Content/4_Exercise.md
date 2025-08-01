@@ -128,18 +128,13 @@ Fill in the answers to the Moodle quiz.
 1. You work in a team that is supposed to find an optimal location for a new Airport Hotel & Congress Center to the Helsinki-Vantaa Airport area based on accessibility. Your task is to follow the given requirements and make a map visualization of the area(s) to be shown at the company meeting of where the new Hotel & Congress center could possibly be located.
 
 | **The requirements are as follows** |
-|---|
+|:---|
 |- The Hotel & Congress Center has to be located within the maximum **distance of 2 kilometers from the Airport area** (but not inside it the airport area itself) |
-|.
-- The Hotel & Congress Center has to be easily accessible, thus located **within the radius of 1 kilometer from the new Ring Rail Line stations** (including the reserved ones) |
-|
-- It has to be **within the radius of 500 meters from the road network**. |
-|
-- The Hotel & Congress Center has to be **outside the ≥ 55 dB noise zones** caused by the airport traffic. |
-|
-- The Hotel & Congress Center **cannot be built on already built up areas**. |
-|
-- The Hotel & Congress Center requires **at least 5000 m2 of free building space**. |
+|- The Hotel & Congress Center has to be easily accessible, thus located **within the radius of 1 kilometer from the new Ring Rail Line stations** (including the reserved ones) |
+|- It has to be **within the radius of 500 meters from the road network**. |
+|- The Hotel & Congress Center has to be **outside the ≥ 55 dB noise zones** caused by the airport traffic. |
+|- The Hotel & Congress Center **cannot be built on already built up areas**. |
+|- The Hotel & Congress Center requires **at least 5000 m2 of free building space**. |
 
 This sounds complicated, but can be done step by step, by creating buffers around the airport area, ring rail line stations, and road network, setting the distance based on the requirements. **Hint**: When creating buffers, don't forget to make your outputs permanent in between processing. You can make yor life a lot easier if you clearly name the layers that you create.
 
