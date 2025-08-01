@@ -181,9 +181,9 @@ For a start, take your time to move around and get acquainted with the basic too
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/1_CrashCourse_exercise_expression.png)
 
- 8. **Using the field we just created in the attribute table, explore the small areas of Helsinki**. By clicking on attribute table columns, you can sort the data. Which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
+ 8. **Using the field we just created in the attribute table, explore the small areas of Helsinki**. By clicking on attribute table columns, you can sort the data. Which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.\
 
-![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_select_by_expression1.png)
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_select_by_expression1.png)\
 
 	- Open the *Field and Values* drop-down menu, which will show all the attribute fields
 	- Double-click on the area field you made earlier (Area_km2)
