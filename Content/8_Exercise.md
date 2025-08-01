@@ -21,7 +21,6 @@ In this exercise your task is to **calculate building efficiency ratio on differ
 	
 	- City district level (Helsinki ‘small areas’)
 	- 250 m grid level
-	- Optional: Real estate registry (or property) level
 
 2. Composing at least two maps depicting building efficiency ratios on different spatial scales
 
@@ -44,8 +43,6 @@ In this exercise your task is to **calculate building efficiency ratio on differ
 3. A 250-meter grid, which you will create (Plugin: MMQGIS)
 	- Can be a grid of squares, diamonds or hexagons
 
-4. Optional: HSY’s SeutuCD Real estate registry 2013
-	- This data has been modified for privacy reasons
 
 ## COMPLETION
 
@@ -134,22 +131,15 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 	
 	1. Categorize the results using Table 1 like in the previous map
 		- Be critical when interpreting the efficiency values
+		- In the reflection, think: How have the decision I made make this map 'lie'?
 
 --- 
 
-### Optional challenge 1
+### Optional challenge
 
-11. Calculate the building efficiency ratio using SeutuCD Real estate registry and building registry datasets.
-
-12. Compose a map of the outcome.
-
----
-
-### Optional challenge 2
-
-13. Create a heatmap visualization of either the building efficiency ratio grid data or/and real estate data.
+13. Create a heatmap visualization of either the building efficiency ratio grid data
 	
-	1. Create centroids out of efficiency grid or/and real estate registry data
+	1. Create centroids out of efficiency grid
 		1. Tip: Vector > Geometry Tools > Centroids
 	2. Create a heatmap (Tip: Heatmap (Kernel Density Estimation)) using the centroids
 		1. Set Weight from field to your efficiency ratio field (found under Advanced Parameters)
