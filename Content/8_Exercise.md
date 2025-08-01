@@ -4,7 +4,7 @@
 
 By Sara Todorovic & Tatu Leppämäki for USP-303 at the Helsinki University. 
 
-*Updated by Rowan van der Kaaden* 
+*Updated by Rowan van der Kaaden and Jonathon Taylor* 
 
 ## OVERVIEW & PURPOSE
 
