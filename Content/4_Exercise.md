@@ -144,10 +144,15 @@ This sounds complicated, but can be done step by step, by creating buffers aroun
 3. Next, make a 1km buffer around the Ring Rail Line stations (both planned and under construction). 
 
 
-4. Then, make a buffer around the roads. **Hint** You can select disolve the result of the roads buffer to make future steps easier. Dissolve removes boundaries between adjacent polygons or lines that share the same attribute value.
+4. Then, make a buffer around the roads. **Hint** You can select disolve the result of the roads buffer to make future steps easier. Dissolve removes boundaries between adjacent polygons or lines that share the same attribute value. You might end up with something that looks like below, depending on the order of your layers and symbologies.
 	
+ ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/4_Exercise/step3_roads_buffer.png)
+
 5. For roads, airport area, and ring stations, you are looking for where the layers overlap. Use the *Intersection*  tool to combine intersect these buffers to get the areas which are only within 2km of the airport area, within a 1km radius from the stations, and within 500m from the road network. 
-	- You have to run this intersect with two buffers first, then run the output of that with the final buffer to get the desired result
+	- You have to run this intersect with two buffers first, then run the output of that with the final buffer to get the desired result.
+	- The result could look something  like this:
+
+
 
 
 6. Now we need to remove the areas that are not suitable from this layer, namely the airport area itself, the stations themselves, the roads themselves, the 55 dB noise zone, and the build up areas. We can do this using the *Difference* tool, read its description, what does it do? In short, it outputs the parts of the input layer that fall outside the overlay layer. We need to run this for all our areas that we do not want to build the hotel step by step, like we did with the intersect tool before.
