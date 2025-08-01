@@ -85,7 +85,7 @@ ways to do this. Here we’re focusing on selections.
 
 2. **You could use select by expression** to select the features that have values in the two wanted fields (ko_perus, hr_pi_tul) that are 0 or greater AND have people living in them (ko_ika18y, hr_tuy):
 ![enter image description here](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_datacleanup_expression.png)
-	- Hint: Crash Course 2.1 step 7
+	- Hint: Crash Course 2.1 step 3
 	- After the selection, save the selected features as a new shapefile (Right click layer with selection > *Export* > *Save selected features as…*).
 		- Don't forget to give the new file an informative name and save it in your folder! 
 
@@ -105,7 +105,7 @@ ways to do this. Here we’re focusing on selections.
 		- For example: to calculate the share of residents with only a basic-level studies in grid cells: (ko_perus / ko_ika18y) * 100 (Studied value divided by total value gives the share, *100 makes the result as %). For income, use the hr_pi_tul and hr_tuy fields.
 		- Make sure the field type is set to decimal numbers and make the values have at least 2 decimal numbers (precision).
 		- Name the fields accordingly. Note: Shapefile allows only 10 characters in the field name and no spaces.
-	- Hint: Crash Course 2.1 step 5, 6, and 9
+	- Hint: Crash Course 2.1 step 7
 
 2. **You should end up with two new fields that all have percentage values.**
 
@@ -146,7 +146,7 @@ into four classes.**
 education & low-income areas in Helsinki metropolitan region.**
 	
 	- Select the grid squares that have been given the classification 4 in both of the reclassified fields
-		- Do you remember how to select attributes based on their value? Hint: check step number 4
+		- Do you remember how to select attributes based on their value? Hint: check section 1.2 in this exercise, step 2.
 	- Save the selection as a new layer and give it an informative name
 	- Compose a map of the results
 
