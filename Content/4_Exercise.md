@@ -101,7 +101,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 As already mentioned, the Ring Rail line improves the commuter traffic network and accessibility of the suburbs along the track, but how does this show on real numbers?
 
 1. Find out how many are affected by the new stations by calculating how many people live within a radius of 1 kilometer of them, and the new and planned stations combined.
-	- You can do this by doing a buffer analysis using the ring_rail_line_stations and capital_region_people data (which gives a count of residents in the area). Keep a note of these results - you will be asked about them later.
+	- You can do this by doing a buffer analysis using the ring_rail_line_stations and capital_region_people data (which gives a count of residents in the area). Now is a good time to open the Moodle quiz to get the answers to these questions.
 	- Open the *Buffer* tool from the *Processing Toolbox*
 	- Make a 1km buffer around the ring_rail_line_stations (input: ring_rail_line_stations, distance: 1000)
 		- To only make a buffer around the planned stations, select those stations and use the *Selected features only* function in the *Buffer* tool
@@ -113,14 +113,13 @@ As already mentioned, the Ring Rail line improves the commuter traffic network a
 
 The Ring Rail Line is likely to increase the attraction for the real estate in the nearby area. This, however, will also raise the question of the noise levels caused by the Aircraft traffic around the Helsinki-Vantaa Airport. Thanks to new improved technology the aircraft noise levels have slightly dropped in recent years.
 
-2. Find out how many people approximately live inside the dB zone: 50 or more in Helsinki region based on :
-	- ...the noise levels in 2006? And 
-	- ...the noise levels in 2010?
+2. Find out how many people approximately live :
+	- ...above 50dB in 2006? And 
+	- ...above 55dB in 2010?
 	- This time you don't need to create a buffer, as the dB zones already exist
-	- What would you do if you wanted to calculate the population within the 65 and 50 dB zones in 2006 and 2010
-		- Hint: Look at the attribute tables of the noise layers (use *Selected features only* in *Select by location*)
+		- **Hint**: Use the attribute table to select where the relevant dB levels in the 2010 layer
+		- **Hint**: Use *Selected features only* in *Select by location*
 
-Fill in the answers to the Moodle quiz.
 
 *Tip : For the Capital_region_people layer field name metadata, see Appendix in Exercise 4 instructions*
 
