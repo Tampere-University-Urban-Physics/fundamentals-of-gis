@@ -113,7 +113,7 @@ Let’s download a very handy plugin called **QuickMapServices**, which gives ac
 
 1. In order to get a proper touch of QGIS and how the different tools work, we will of course need data. Download 1_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
-a)  Open the Data Source Manager (see 1.2)
+a) Open the Data Source Manager (see 1.2)\
 b)  Select *Vector* from the menu
 c)  Press the “…” button next to the *Vector Dataset(s)* field
 d)  Navigate to the folder where you saved the data for this practical and select the following files from the folder (Click + Ctrl to select multiple items):
