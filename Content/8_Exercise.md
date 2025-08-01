@@ -59,7 +59,7 @@ Work individually or in pairs. Complete the exercise and write a short reflectio
 
 ### Getting familiar with the data
 
-1. Download 8_Exercise_data.zip from the [Github repository](https://github.com/rowan8k/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip.
+1. Download 8_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip.
 Then explore the attribute tables to familiarize yourself with what sorts of data you actually have.
 	1. The fields you want to focus on (total floor area, m2) are: 
 		- kara_yht in the SeutuRAMAVA layer
