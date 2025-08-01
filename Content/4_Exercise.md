@@ -2,9 +2,7 @@
 
 # Exercise 4: Vector buffer & overlay analysis
 
-By
-
-*Updated by Rowan van der Kaaden* 
+*Adapted from the EEB-313 course (Helsinki University) by Rowan van der Kaaden and Jonathon Taylor* 
 
 ## OVERVIEW & PURPOSE
 
