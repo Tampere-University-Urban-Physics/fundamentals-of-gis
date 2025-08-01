@@ -36,7 +36,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 2. A short reflection (200-300 words) on this exercise and your map
 
 ## Exercise phases
-### Getting familiar with the data
+### 1.1. Getting familiar with the data
 It is good to be familiar with the area you will be working with in this exercise:
 - https://en.wikipedia.org/wiki/Nokia_Arena_(Tampere)
 - https://goo.gl/maps/MifgU6b51S6QKacf7
@@ -57,15 +57,15 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 ---
 
-### Georeferencing the arena plans 
+### 1.2. Georeferencing the arena plans 
 
-5. In the downloaded data, there is a file - nokia_areena_plan.tif – that has been saved from a pdf file downloaded off the Tampere City website. It is a raster file, but it doesn’t have any spatial information associated with the grid cells or pixels. That means that QGIS doesn’t know where the raster is – it cannot project it onto a map. Luckily, there are methods for providing this information to QGIS. This process is called Georeferencing, where we assign geographic coordinates to a digital image by identifying and matching recognisable features (or control points) that exist in the spatial and non-spatial data.
-6. Let’s **georeference this image**. To open the georeferencer tool:
+1. In the downloaded data, there is a file - nokia_areena_plan.tif – that has been saved from a pdf file downloaded off the Tampere City website. It is a raster file, but it doesn’t have any spatial information associated with the grid cells or pixels. That means that QGIS doesn’t know where the raster is – it cannot project it onto a map. Luckily, there are methods for providing this information to QGIS. This process is called Georeferencing, where we assign geographic coordinates to a digital image by identifying and matching recognisable features (or control points) that exist in the spatial and non-spatial data.
+2. Let’s **georeference this image**. To open the georeferencer tool:
 	- From the main window, choose *Layers* -> *Georeferencer*. This will open up the *Georeferencer* window
 
 	- In the *Georeferencer* window, choose *File* -> *Open Raster*, and choose the nokia_areena_plan.tif from the folder for this exercise. This will load the image into the *Georeferencer* window. Now, we can provide spatial data to ‘reference’ the image!
 
-7. Let’s do at least four reference points. The more locations, the more spread-out, and the more precise the better the georeferencing result will be. To Georeference: 
+3. Let’s do at least four reference points. The more locations, the more spread-out, and the more precise the better the georeferencing result will be. To Georeference: 
 
 	- Click an easily identifiable location point on the nokia_areena_plan.tiff in the *Georeferencer* window, such as the corner of an easily recognizable building. You can zoom in and out of the window to get a more precise location.
 	
@@ -77,29 +77,29 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- Repeat this at least three more times in different locations, preferably well distributed across the map.
 
-8. When you are finished adding reference points, you can now perform the georeferencing calculation for the image.
+4. When you are finished adding reference points, you can now perform the georeferencing calculation for the image.
 
 	- Press the *Settings* button ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Exercise/QGIS_georeferencer_settings.png) on the *Georeferencer* menu, and set the *Transformation type* to *Projective*, set the *Target SRS* to the *Project CRS*, give your *Output Raster* an informative name (e.g. arena_plan_modified), and save it in your folder. The *Transformation type* describes the type of mathematical algorithm used to modify (like rotate, twist, skew) the raster. Press OK.
 
 	- Press the *Run* arrow in the *Georeferencer* menu, and the georeferencing will start. It will show you the progress on the georeferencing.
 
-9. Once the calculation is complete, close the *Georeferencer* window (there is no need to save the GCP Points). The new raster that has been georeferenced is saved and you will need add it to your QGIS map now (Hint: Use the Data Source Manager and add it as a raster instead of a vector) . Once its been added, you can drag it below the building, road, and railway layers to see how it fits. Now would be a good time to save your QGIS project again.
+5. Once the calculation is complete, close the *Georeferencer* window (there is no need to save the GCP Points). The new raster that has been georeferenced is saved and you will need add it to your QGIS map now (Hint: Use the Data Source Manager and add it as a raster instead of a vector) . Once its been added, you can drag it below the building, road, and railway layers to see how it fits. Now would be a good time to save your QGIS project again.
 	- Check whether the plans line up with the buildings layer (it doesn't have to be perfect for this exercise)! If it doesn't retry the georeferencing with more points and more spacing between them
 
 ---
 
-### Editing the buildings layer
+### 1.3. Editing the buildings layer
 
-9. Let’s now **remove a building from the buildings layer that no longer exists and add the arena and some surrounding buildings**. This involves editing the tampere_buildings layer.
+1. Let’s now **remove a building from the buildings layer that no longer exists and add the arena and some surrounding buildings**. This involves editing the tampere_buildings layer.
 
-10. You may need to enable the *Digitizing Toolbar*, which enables you to edit the vector files. To do this, choose *View* -> *Toolbars* and make sure *Digitizing Toolbar* is selected. 
+2. You may need to enable the *Digitizing Toolbar*, which enables you to edit the vector files. To do this, choose *View* -> *Toolbars* and make sure *Digitizing Toolbar* is selected. 
 
-11. Click on the tampere_buildings layer in the layers panel to highlight it, then toggle editing on ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png)  in the *Editing Toolbar*.
+3. Click on the tampere_buildings layer in the layers panel to highlight it, then toggle editing on ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png)  in the *Editing Toolbar*.
 
 Editing toolbar:
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Exercise/QGIS_editing_toolbar.png)
 
-12. First, let’s remove a building that no longer exists. There is one building at the south of the arena that has been demolished .
+4. First, let’s remove a building that no longer exists. There is one building at the south of the arena that has been demolished .
 
 	- First, choose the *Select* tool ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Exercise/QGIS_select_tool.png) (if you don’t see it, you may need to add the Selection Toolbar like you did for the Digitizing Toolbar).
 
@@ -108,7 +108,7 @@ Editing toolbar:
 	- Press *Delete* on your keyboard. The building is now deleted.
 
 
-13. Now, let’s add some new buildings to the layer.
+5. Now, let’s add some new buildings to the layer.
 	
 	- Select the *Add Polygon Feature* in the *Editing Toolbar*.
 	
@@ -120,9 +120,9 @@ Editing toolbar:
 ---
 
 ### Bus stops
-14. Now, let’s **create a new layer with bus stops around the arena**. These are marked in red in the arena_plan_modified.tiff. GIS data on bus stops will be available from Tampere City or OpenStreetMaps, but here we will make our own layer to practice how this is done.
+6. Now, let’s **create a new layer with bus stops around the arena**. These are marked in red in the arena_plan_modified.tiff. GIS data on bus stops will be available from Tampere City or OpenStreetMaps, but here we will make our own layer to practice how this is done.
 
-15. First, let’s create a new layer for the bus stops. In the previous step, we learned how to edit an existing layer, but we can also make a new layer ourselves. In this case, we want points to represent bus stops, so we need to create a new point layer.
+7. First, let’s create a new layer for the bus stops. In the previous step, we learned how to edit an existing layer, but we can also make a new layer ourselves. In this case, we want points to represent bus stops, so we need to create a new point layer.
 
 	- On the menu, choose *Layer* -> *Create Layer* -> *New Shapefile Layer*
 
@@ -141,7 +141,7 @@ Editing toolbar:
 	- Press OK
 
 
-16. We have now created a new layer, but it is empty – there is nothing in it yet. Now, we can edit the new tampere_bus_stops layer we have created to add a location and road name. This happens in a similar way to how we edited the buildings layer, but we are also going to use the identify features tool to find out the name of the roads where each bus stop is located and add it to the tampere_bus_stops attribute table as we add points.
+8. We have now created a new layer, but it is empty – there is nothing in it yet. Now, we can edit the new tampere_bus_stops layer we have created to add a location and road name. This happens in a similar way to how we edited the buildings layer, but we are also going to use the identify features tool to find out the name of the roads where each bus stop is located and add it to the tampere_bus_stops attribute table as we add points.
 
 	- Select tampere_bus_stops in the layers panel
 
@@ -163,7 +163,7 @@ Editing toolbar:
 
 ### Map output
 
-17. You’ve finished your edits. Remove the georeferenced raster (you no longer need it), and make a nice informative map. You can choose whether or not to include the Google Satellite data. Insert a scale bar to show the distances in the map, a North Arrow, and a title.
+9. You’ve finished your edits. Remove the georeferenced raster (you no longer need it), and make a nice informative map. You can choose whether or not to include the Google Satellite data. Insert a scale bar to show the distances in the map, a North Arrow, and a title.
 	- Hint: Look at the crash course exercise for instructions on how to make a map
 	- Don't forget to change the symbology of your layers to your liking!
 	- The layer names have good for saving data, but the underscores are not ideal for the legend. Try renaming them in the layer panel.
