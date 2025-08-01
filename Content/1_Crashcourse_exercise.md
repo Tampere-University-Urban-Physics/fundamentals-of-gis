@@ -113,16 +113,16 @@ Let’s download a very handy plugin called **QuickMapServices**, which gives ac
 
 1. In order to get a proper touch of QGIS and how the different tools work, we will of course need data. Download 1_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
-a) Open the Data Source Manager (see 1.2)\
-b)  Select *Vector* from the menu
-c)  Press the “…” button next to the *Vector Dataset(s)* field
-d)  Navigate to the folder where you saved the data for this practical and select the following files from the folder (Click + Ctrl to select multiple items):
-    - Helsinki_small_areas.shp
-    - Helsinki_Municipality.shp
-    - HSL_helsinki_stops.shp
-    - Waterbodies.shp
-e) Press *Open*
-f) Press *Add*
+2. Open the Data Source Manager (see 1.2)
+	- Select *Vector* from the menu
+	- Press the “…” button next to the *Vector Dataset(s)* field
+	- Navigate to the folder where you saved the data for this practical and select the following files from the folder (Click + Ctrl to select multiple items):
+    		- Helsinki_small_areas.shp
+    		- Helsinki_Municipality.shp
+    		- HSL_helsinki_stops.shp
+    		- Waterbodies.shp
+	- Press *Open*
+	- Press *Add*
 
 These data sets are all downloaded from Paituli and Helsinki Region Infoshare data and map services, the data itself is produced by numerous entities (National Land Survey, Helsinki Regional Transport and the City of Helsinki). You can also add the Helsinki_roads.shp layer later for visualization purposes.
 
