@@ -88,7 +88,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 ---
 
-### 1.3. Editing the buildings layer
+### 1.3. Editing the layers
 
 1. Let’s now **remove a building from the buildings layer that no longer exists and add the arena and some surrounding buildings**. This involves editing the tampere_buildings layer.
 
@@ -117,9 +117,6 @@ Editing toolbar:
 	- When you are finished adding the new buildings, press the *Save* symbol in the Digitizing Toolbar, and toggle off *editing*.
 
 
----
-
-### Bus stops
 6. Now, let’s **create a new layer with bus stops around the arena**. These are marked in red in the arena_plan_modified.tiff. GIS data on bus stops will be available from Tampere City or OpenStreetMaps, but here we will make our own layer to practice how this is done.
 
 7. First, let’s create a new layer for the bus stops. In the previous step, we learned how to edit an existing layer, but we can also make a new layer ourselves. In this case, we want points to represent bus stops, so we need to create a new point layer.
@@ -161,9 +158,9 @@ Editing toolbar:
 
 ---
 
-### Map output
+### 1.4. Map output
 
-9. You’ve finished your edits. Remove the georeferenced raster (you no longer need it), and make a nice informative map. You can choose whether or not to include the Google Satellite data. Insert a scale bar to show the distances in the map, a North Arrow, and a title.
+1. You’ve finished your edits. Remove the georeferenced raster (you no longer need it), and make a nice informative map. You can choose whether or not to include the Google Satellite data. Insert a scale bar to show the distances in the map, a North Arrow, and a title.
 	- Hint: Look at the crash course exercise for instructions on how to make a map
 	- Don't forget to change the symbology of your layers to your liking!
 	- The layer names have good for saving data, but the underscores are not ideal for the legend. Try renaming them in the layer panel.
