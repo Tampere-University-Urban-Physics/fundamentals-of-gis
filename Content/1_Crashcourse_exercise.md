@@ -111,18 +111,18 @@ Let’s download a very handy plugin called **QuickMapServices**, which gives ac
 
 ### 2.1 Add and explore data
 
-In order to get a proper touch of QGIS and how the different tools work, we will of course need data. Download 1_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
+1. In order to get a proper touch of QGIS and how the different tools work, we will of course need data. Download 1_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
-1.  Open the Data Source Manager (see 1.2)
-2.  Select *Vector* from the menu
-3.  Press the “…” button next to the *Vector Dataset(s)* field
-4.  Navigate to the folder where you saved the data for this practical and select the following files from the folder (Click + Ctrl to select multiple items):
-    1.  Helsinki_small_areas.shp
-    2.  Helsinki_Municipality.shp
-    3.  HSL_helsinki_stops.shp
-    4. Waterbodies.shp
-5.  Press *Open*
-6.  Press *Add*
+a)  Open the Data Source Manager (see 1.2)
+b)  Select *Vector* from the menu
+c)  Press the “…” button next to the *Vector Dataset(s)* field
+d)  Navigate to the folder where you saved the data for this practical and select the following files from the folder (Click + Ctrl to select multiple items):
+    - Helsinki_small_areas.shp
+    - Helsinki_Municipality.shp
+    - HSL_helsinki_stops.shp
+    - Waterbodies.shp
+e) Press *Open*
+f) Press *Add*
 
 These data sets are all downloaded from Paituli and Helsinki Region Infoshare data and map services, the data itself is produced by numerous entities (National Land Survey, Helsinki Regional Transport and the City of Helsinki). You can also add the Helsinki_roads.shp layer later for visualization purposes.
 
@@ -136,59 +136,59 @@ For a start, take your time to move around and get acquainted with the basic too
 
 ![](https://docs.qgis.org/3.28/en/_images/mActionMeasure.png) The **measure** tool can be used to make simple distance and area calculations on the map, as well as for measuring angles. The tool can calculate both the length of single line segments and the sum of all drawn lines. The measurement unit can be changed from the tool options.
 
-Managing the **layers** is key in GIS. Right now, the added layers are arbitrarily symbolized and ordered, and do not come out very useful or informative. Thus, we need to get our hands dirty.
+2. Managing the **layers** is key in GIS. Right now, the added layers are arbitrarily symbolized and ordered, and do not come out very useful or informative. Thus, we need to get our hands dirty.
 
- 1.  Start by **changing the order of the layers** by dragging them in the layers panel on the left side of the map view. What do you think could be a good order? For example, the order can be as follows from top to bottom: HSL_Helsinki_stops, Waterbodies, Helsinki_small_areas and Helsinki_Municipality.
- 2.  You can also **change the visibility of the layers** by checking or unchecking the tick boxes next to the layer name or by adjusting **transparency**. The latter can be done under the *Style* tab in the *Layer properties* window, which can be accessed by right-clicking on the layer name and selecting *Properties*. This is also where you can change other style properties such as **symbol size and color**, **layer rendering** or create e.g. **choropleth maps** (we will look into these in more detail later on).
+   a) Start by **changing the order of the layers** by dragging them in the layers panel on the left side of the map view. What do you think could be a good order? For example, the order can be as follows from top to bottom: HSL_Helsinki_stops, Waterbodies, Helsinki_small_areas and Helsinki_Municipality.
+   b) You can also **change the visibility of the layers** by checking or unchecking the tick boxes next to the layer name or by adjusting **transparency**. The latter can be done under the *Style* tab in the *Layer properties* window, which can be accessed by right-clicking on the layer name and selecting *Properties*. This is also where you can change other style properties such as **symbol size and color**, **layer rendering** or create e.g. **choropleth maps** (we will look into these in more detail later on).
  
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_layers.png)
  In addition to editing a layer’s style properties, the Layer properties window can also be used for e.g. examining the **layer’s general information** such as its coordinate system and source, adding **labels** to the map as well as managing **joins** and layer **metadata**.
 
  3.  Next, we want to **change the styles and the symbology of the layers**. You can navigate back to the *Symbology* tab in the *Layer Properties* window. The window looks slightly different depending on whether we have a raster or vector file, and what feature type is in question. You can see this for instance by comparing the style tabs of the HSL Stops (point feature) and Waterbodies (polygon feature) layers.
-	 1.  Open the *symbology* properties for the Waterbodies layer
-	 2. Apart from the color fill and a few ready-made styles, the main view does not offer very sophisticated visualizing options, so it is suggested to click on the *Simple fill*
+	 a) Open the *symbology* properties for the Waterbodies layer
+	 b) Apart from the color fill and a few ready-made styles, the main view does not offer very sophisticated visualizing options, so it is suggested to click on the *Simple fill*
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_symbology1.png)
-	 3. Press the *Fill color* button and change the color of the layer to blue
-	 4. If you want a transparent fill, change the *Opacity* under the *Fill color* section
-	 5. Once you are satisfied with the layer styles, press *Apply* and *OK*
+	 c) Press the *Fill color* button and change the color of the layer to blue
+	 d) If you want a transparent fill, change the *Opacity* under the *Fill color* section
+	 e) Once you are satisfied with the layer styles, press *Apply* and *OK*
 
 4. It is also possible to **visualize the layers based on the information stored in the attribute table**. This can be done by selecting Categorized or Graduated instead of Single Symbol from the dropdown menu on the top of the page.	
 	
-	1. Open the HSL_Helsinki_stops layer symbology
-	2. Choose *Graduated* from the dropdown menu
-	3. Choose "Boardings" as the value from which the data is gathered
-	4. Click *Classify* to add data classification
-	5. Set the *Mode* to *Natural breaks (Jenks)* and press *Classify* again to update the classes
-	6. Select a fitting *Color ramp* from the drop-down menu
-	7. Press *Apply* and *OK*
+	a) Open the HSL_Helsinki_stops layer symbology
+	b) Choose *Graduated* from the dropdown menu
+	c) Choose "Boardings" as the value from which the data is gathered
+	d) Click *Classify* to add data classification
+	e) Set the *Mode* to *Natural breaks (Jenks)* and press *Classify* again to update the classes
+	f) Select a fitting *Color ramp* from the drop-down menu
+	g) Press *Apply* and *OK*
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_symbology2.png)
 
 **Now, using the previous tips and tricks as your support, change the styles of all the layers in the project.** Keep in mind what was discussed in the theory before - e.g. could a colourblind person read this map?
 
  5.  Next, we shall move the focus from visualization to the **actual data**. Start by examining what data is included in the project and what information is stored in the layers by right clicking on the layer name and selecting *Open Attribute Table*.
-	 1. Open the *attribute table* of the layer called Helsinki_small_areas. Take a moment to examine the table, what can you see?
+	 a) Open the *attribute table* of the layer called Helsinki_small_areas. Take a moment to examine the table, what can you see?
 	 - The attribute table is similar to data in excel, in a sense that it's data in a table on which you can perform calculations on. The main difference is that in GIS each row corresponds to a spatial feature. 
 	 - As you can see, the file consists of a list of the small-sized areas within the city of Helsinki with their corresponding codes and creation dates but little else. Next, we are going to calculate the area for each small area of Helsinki. 
-	 2.  In the *attribute table*, toggle *Editing mode* ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png) and then click on the *Field Calculator* button ![](https://docs.qgis.org/3.28/en/_images/mActionCalculateField.png)
+	 b) In the *attribute table*, toggle *Editing mode* ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png) and then click on the *Field Calculator* button ![](https://docs.qgis.org/3.28/en/_images/mActionCalculateField.png)
  
  6.  Now we’ll **write an expression that calculates the area of each small area of Helsinki in square kilometers**. On the right side of the Expression window is a list of drop-down menus.
-	 1. Open the *Geometry* drop-down menu
-	 2. Double-click the *\$area* expression (you can also type *\$area* in the blank *Expression window*)
-	 3. Just the *\$area* expression would calculate the area in square meters, but we want square kilometers. So we will divide it by 1 000 000. Click or type the division symbol (/), and type 1000000 after the division
-	 4. Set an informative *Output field name* (For example: Area_km2)
-	 5. Set the *Output field type* to *Decimal number (real)*, and *Output field length* to 10 and 2 (try the other options and look how this changes the preview value) 
-	 6. Click *OK*
-	 7. Finally, click the *Save Edits* button ![](https://docs.qgis.org/3.28/en/_images/mActionSaveEdits.png) and disable *Editing* mode ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png) to make the changes permanent
+	 a) Open the *Geometry* drop-down menu
+	 b) Double-click the *\$area* expression (you can also type *\$area* in the blank *Expression window*)
+	 c) Just the *\$area* expression would calculate the area in square meters, but we want square kilometers. So we will divide it by 1 000 000. Click or type the division symbol (/), and type 1000000 after the division
+	 d) Set an informative *Output field name* (For example: Area_km2)
+	 e) Set the *Output field type* to *Decimal number (real)*, and *Output field length* to 10 and 2 (try the other options and look how this changes the preview value) 
+	 f) Click *OK*
+	 g) Finally, click the *Save Edits* button ![](https://docs.qgis.org/3.28/en/_images/mActionSaveEdits.png) and disable *Editing* mode ![](https://docs.qgis.org/3.28/en/_images/mActionToggleEditing.png) to make the changes permanent
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/1_CrashCourse_exercise_expression.png)
 
  7.  **Using the field we just created in the attribute table, explore the small areas of Helsinki**. By clicking on attribute table columns, you can sort the data. Which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_select_by_expression1.png)
  
-	 1. Open the *Field and Values* drop-down menu, which will show all the attribute fields
-	 2. Double-click on the area field you made earlier (Area_km2)
-	 3. Type "< 5" to the right of the field in the text field
-	 4. Click *Select features*
+	 a) Open the *Field and Values* drop-down menu, which will show all the attribute fields
+	 b) Double-click on the area field you made earlier (Area_km2)
+	 c) Type "< 5" to the right of the field in the text field
+	 d) Click *Select features*
 	![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_select_by_expression.png)
 Your selection now includes all the areas under 5 square kilometers in this layer, with selected objects shown in **yellow in on the map** and **blue on the attribute table**.
 	Examples of ofther expressions include:
@@ -199,13 +199,13 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 
  8. Next, we’re going to create and calculate another field into the Helsinki_small_areas attribute table using the HSL_Helsinki_stops point data. First open the *attribute table* of HSL_Helsinki_stops to familiarize yourself with its contents. The "Boardings" column depicts the number of boardings on stops in Helsinki on average per day. Say we want to learn where the areas are with the most boardings in Helsinki? We have the point locations of boardings and the outlines of the small areas, so we can combine them and find out **We will calculate and visualize the public transit passenger numbers per area for every Helsinki small area using something called a spatial join.** 
 	
-	1. Check if the *Processing Toolbox* is active in the top right of the main QGIS window, if not open it by selecting *Processing* > *Toolbox* from the top of the window
-	2. Type “Join attributes by location” into the search bar. Select the one that has (Summary) after it.
+	a) Check if the *Processing Toolbox* is active in the top right of the main QGIS window, if not open it by selecting *Processing* > *Toolbox* from the top of the window
+	b) Type “Join attributes by location” into the search bar. Select the one that has (Summary) after it.
 		- Read the information about this function, what do you think it does? 
 		- This tool could look different to you depending on the version of your QGIS install. 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_join_attributes_by_location.png)
-	3. The parameter window for the algorithm opens and here you have to specify what the algorithm does and with what data
-	4. Set the follow values:
+	c) The parameter window for the algorithm opens and here you have to specify what the algorithm does and with what data
+	d) Set the follow values:
 	- *Base layer*: Helsinki_small_areas
 	- *Join layer*: HSL_Helsinki_stops
 	- *Geometric predicate*: contains (What do you think the other options mean?)
@@ -213,30 +213,30 @@ Your selection now includes all the areas under 5 square kilometers in this laye
 	- *Summaries to calculate*: *Sum*
 	- *Discard records which could not be joined*: Yes
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_join_attributes_by_location1.png)
-	5. Click *Run*
-	6. A new temporary layer, Joined Layer, was created in the *Layers Panel* and by opening its *attribute table* you should see it’s similar to the Helsinki_small_areas *attribute table*, but with a new field, "Boardings_sum", which is the sum of all the passengers from every bus and train stop within that particular small area of Helsinki.
-	7. Right-click the Joined Layer and select *Make permanent* to save the temporary scratch layer for further processing
+	e) Click *Run*
+	f) A new temporary layer, Joined Layer, was created in the *Layers Panel* and by opening its *attribute table* you should see it’s similar to the Helsinki_small_areas *attribute table*, but with a new field, "Boardings_sum", which is the sum of all the passengers from every bus and train stop within that particular small area of Helsinki.
+	g) Right-click the Joined Layer and select *Make permanent* to save the temporary scratch layer for further processing
 	- Temporary layers will be lost when closing QGIS and are best not used for further processing
 	- Make sure to save the data in your project folder when doing this! Double check the location, as QGIS sometimes does weird things and saves it somewhere else. 
 ![](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exercise_icons_diagram.drawio.png?raw=true)
-	8. Save the joined layer as ESRI Shapefile, with a sensible name (for example "Helsinki_small_areas_HSL.shp"), and within the folder for your project you made earlier
-	9. Delete the temporary Joined Layer from the Layers window
+	h) Save the joined layer as ESRI Shapefile, with a sensible name (for example "Helsinki_small_areas_HSL.shp"), and within the folder for your project you made earlier
+	i) Delete the temporary Joined Layer from the Layers window
 
 9.   **Now we’ll calculate yet another field** using the *field calculator* by dividing the number of passengers by the square kilometer area of the Helsinki small areas.
-		1.  Calculate this field using the *Field calculator* (don’t forget to toggle editing mode): output field name should be informative e.g. “PassArea”
-		2. Set *Output field type* to decimal, Set output *field length* to 10 and *precision* to 2
-		3. Then you must enter the calculation into the Expression field, you can either use the drop-down menus (Fields and values) or simply type it in. The calculation should be similar to this (change if your fields are named differently): "Boardings_sum" / "Area_km2"
-		4. Click OK. Remember to *Save edits* and *Disable editing mode*.
+		a) Calculate this field using the *Field calculator* (don’t forget to toggle editing mode): output field name should be informative e.g. “PassArea”
+		b) Set *Output field type* to decimal, Set output *field length* to 10 and *precision* to 2
+		c) Then you must enter the calculation into the Expression field, you can either use the drop-down menus (Fields and values) or simply type it in. The calculation should be similar to this (change if your fields are named differently): "Boardings_sum" / "Area_km2"
+		d) Click OK. Remember to *Save edits* and *Disable editing mode*.
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_attribute_table.png)
 
 10.  Head to the layer’s *symbology* tab and select **Graduated** from the drop-down menu. **Select the PassArea column as the data source and press Classify**. Try out different classification Modes. What are their differences and which do you think is best for this purpose? Choose which you think is best and visualize the data as desired (you can check ColorBrewer for ideas). You can edit the class bounds and the legend values manually by double clicking on them. Which areas are the most passenger heavy and which are not? Why?
 
 11. Now it is time for the finishing touches. To make the map easier to interpret, we are going to **add labels** to it.
-	1. Right-click the layer we just visualized and go to *Layer properties* > *Labels*
-	2. Select *Single labels* form the drop-down menu to enable labeling
-	3. Choose the column from the list that contains the area names (name_fi)
-	4. You can edit the label placement and appearance, for example add a halo around it by selecting buffer in the lower section
+	a) Right-click the layer we just visualized and go to *Layer properties* > *Labels*
+	b) Select *Single labels* form the drop-down menu to enable labeling
+	c) Choose the column from the list that contains the area names (name_fi)
+	d) You can edit the label placement and appearance, for example add a halo around it by selecting buffer in the lower section
 
 ---
 
@@ -258,12 +258,12 @@ The last phase of this practical will concentrate on creating a map output. In t
 
 3. A proper map should always have at least these three elements: a **north arrow**, a **scale bar** and a **legend**. All of these can be found in QGIS under the Layout-tab or the left hand-side toolbar in the Print layout. Add the mentioned elements to your map and visualize them as desired.
 		
-	1. ![](https://docs.qgis.org/3.28/en/_images/mActionLabel.png) **Adding a label**: You can change the default text as well as the font and colors of the label from the Item properties window in the lower right corner.
-	2. ![](https://docs.qgis.org/3.28/en/_images/mActionScaleBar.png) **Adding a scale bar**: Click where you want to add it and customize it as desired. The size and the colors can be modified from the right-side Item properties panel.
-	3. ![](https://docs.qgis.org/3.28/en/_images/mActionAddLegend.png) **Adding a legend**: You probably have to modify the legend a bit so that it looks informative on the map. The modification can be done from the Item properties. 
+	a) ![](https://docs.qgis.org/3.28/en/_images/mActionLabel.png) **Adding a label**: You can change the default text as well as the font and colors of the label from the Item properties window in the lower right corner.
+	b) ![](https://docs.qgis.org/3.28/en/_images/mActionScaleBar.png) **Adding a scale bar**: Click where you want to add it and customize it as desired. The size and the colors can be modified from the right-side Item properties panel.
+	c) ![](https://docs.qgis.org/3.28/en/_images/mActionAddLegend.png) **Adding a legend**: You probably have to modify the legend a bit so that it looks informative on the map. The modification can be done from the Item properties. 
 		-  *TIP: To remove unnecessary information from the legend of your map, make sure that the Auto Update box is unchecked in the Legend Items section of Item Properties in the print layout composer. Then remove (using the buttons with + and – symbols) and rename (by double-clicking on the title) items as you wish.*
 
-	5. ![](https://docs.qgis.org/3.28/en/_images/north_arrow.png) **Adding a North arrow or an image**: To do this, press Add North Arrow and click on the layout. If you want to modify the look of the arrow, go to Item properties and open the Search directories tab (see the picture on the right). Click on the desired arrow.
+	d) ![](https://docs.qgis.org/3.28/en/_images/north_arrow.png) **Adding a North arrow or an image**: To do this, press Add North Arrow and click on the layout. If you want to modify the look of the arrow, go to Item properties and open the Search directories tab (see the picture on the right). Click on the desired arrow.
 
 4. Once you are satisfied with your map, **save the project** and go to *Layout* > *Export as image* to **save your layout as an image file**. If you want to adjust the export resolution (default is 300 dpi, higher value = higher resolution image and larger file size), you can do that prior to exporting from the Layout panel. **Save your map under your course folder and submit the finished map on Moodle.**
 
