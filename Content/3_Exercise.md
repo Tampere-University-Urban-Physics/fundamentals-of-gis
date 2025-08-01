@@ -56,7 +56,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 ## EXERCISE PHASES
 
-### Getting familiar with the data
+### 1.1. Getting familiar with the data
 
 1. Download 3_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
@@ -74,16 +74,16 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 --- 
 
-### Cleaning up the data
+### 1.2. Cleaning up the data
 
-3. As you browsed the attribute table of the data, you might’ve noticed that **some fields have
+1. As you browsed the attribute table of the data, you might’ve noticed that **some fields have
 the value -1. This is because the population within the grid cell is sufficiently small that providing the value would violate data privacy protection laws. You’ll have to clean up the data** and there are a few
 ways to do this. Here we’re focusing on selections.
 	- -1 is a placeholder value for NoData or NotAvailable and not an actual value. It does not mean that there are actually -1 people in the cell...
 	- The Basic-level studies field (ko_perus) depicts the amount of people whose highest achieved level of education is basic-level studies. It has values of -1 for those grids that have less than 10 people over 18 years old (ko_ika18y).
 	- And same thing for the low-income variables hr_pi_tul and hr_tuy.
 
-4. **You could use select by expression** to select the features that have values in the two wanted fields (ko_perus, hr_pi_tul) that are 0 or greater AND have people living in them (ko_ika18y, hr_tuy):
+2. **You could use select by expression** to select the features that have values in the two wanted fields (ko_perus, hr_pi_tul) that are 0 or greater AND have people living in them (ko_ika18y, hr_tuy):
 ![enter image description here](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_datacleanup_expression.png)
 	- Hint: Crash Course 2.1 step 7
 	- After the selection, save the selected features as a new shapefile (Right click layer with selection > *Export* > *Save selected features as…*).
@@ -91,13 +91,13 @@ ways to do this. Here we’re focusing on selections.
 
 	*Tip: If you are confused with the formula, try reading it aloud: “Select the features where X is greater than 0 AND Y is greater or equal than 0, AND…”*
 
-5. **You should end up with a new layer without any -1 values in the four wanted fields.**
+3. **You should end up with a new layer without any -1 values in the four wanted fields.**
 
 ---
 
-### Calculating the proportions
+### 1.3. Calculating the proportions
 
-6. **In the newly created layer, use the *field calculator* to calculate new fields with the percentage of the population of different education or income levels**
+1. **In the newly created layer, use the *field calculator* to calculate new fields with the percentage of the population of different education or income levels**
 	- Calculate the proportions of the wanted fields 
 		- Make sure to use the correct variables when calculating. To get the percentage, we want to divide by the total number field of each theme in the calculation.
 			- Level of education: ko_ika18y (Aged 18 or over, total)
@@ -107,19 +107,19 @@ ways to do this. Here we’re focusing on selections.
 		- Name the fields accordingly. Note: Shapefile allows only 10 characters in the field name and no spaces.
 	- Hint: Crash Course 2.1 step 5, 6, and 9
 
-7. **You should end up with two new fields that all have percentage values.**
+2. **You should end up with two new fields that all have percentage values.**
 
 --- 
 
-### Quantiles and reclassification
+### 1.4. Quantiles and reclassification
 
-8. **Our newly created proportion fields are tempting, but let’s take it to the next level with
+1. **Our newly created proportion fields are tempting, but let’s take it to the next level with
 quantiles**
 	- In the Layer Properties Symbology-tab and under the *Graduated* symbols you can find different classification modes.
 	- When classifying data with *Equal Count* as the classification method and setting the number of classes to four, each class is called a quartile.
 		- Thus, each class has the same number of entries (hence equal count)
 
-9. **We’re going to have to utilize QGIS’s visualization tools to find out the class boundaries for
+2. **We’re going to have to utilize QGIS’s visualization tools to find out the class boundaries for
 quantiles within QGIS.** You could also use any statistical analysis application (Excel, LibreCalc,
 SPSS etc.) to find out the boundaries.
 	- So, open the *symbology* tab of the layer, select *graduated*, select the correct field
@@ -129,7 +129,7 @@ SPSS etc.) to find out the boundaries.
 ![enter image description here](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_data_classification_edu.png)
 		- Do the same for the remaining proportion field (level of income percentage) and make notes about the class boundaries for that field as well.
 
-10. **Now that we have the boundaries for the two classifications, it’s time to reclassify the data
+3. **Now that we have the boundaries for the two classifications, it’s time to reclassify the data
 into four classes.**
 	- Open the *attribute table* and *field calculator*, we’re creating new fields for the reclassified values using a slightly more complex conditional statement this time. 
 		- Note! Do all the analyses in the same layer so that you get the new columns in the same layer.
@@ -142,11 +142,7 @@ into four classes.**
 	- Do the same for the remaining proportion field.
 		- Again, read the expression aloud if you don’t understand it!
 
----
-
-### Finding the low education/low-income areas
-
-11. **Now that you’ve reclassified the proportions into classes 1, 2, 3 or 4 it’s time to find the low
+4. **Now that you’ve reclassified the proportions into classes 1, 2, 3 or 4 it’s time to find the low
 education & low-income areas in Helsinki metropolitan region.**
 	
 	- Select the grid squares that have been given the classification 4 in both of the reclassified fields
@@ -156,16 +152,16 @@ education & low-income areas in Helsinki metropolitan region.**
 
 ---
 
-### Map outputs
+### 1.5. Map outputs
 
-12. Time to make your maps! Think of which maps would be good to describe this analysis. What information do you want to communicate? **Hints:**
+1. Time to make your maps! Think of which maps would be good to describe this analysis. What information do you want to communicate? **Hints:**
 	- Map highlighting grid squares that have been given the classification 4 in both of the reclassified fields
 	- Map with graduated symbology for reclassified fields
 	- Think about whether you should include the data we removed earlier(-1 entries), would it be valuable to the viewer of the map? Is the map accurate without them? How would you visualize them? Justify your choices in the reflection.
 
 Don't forget to include the requirements for a good map (See Crash Course)! 
 
-13. Optional: You can use the plugin we installed during the Crash Course, QuickMapServices (QMS), to get more basemap options
+2. Optional: You can use the plugin we installed during the Crash Course, QuickMapServices (QMS), to get more basemap options
 	- You can open the *Search QMS* panel using this icon, it should open below your toolbox:
 ![enter image description here](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_QMS_1.png)
 	-  Here are some examples of basemaps you could use:
@@ -177,22 +173,22 @@ Don't forget to include the requirements for a good map (See Crash Course)!
 
 ### Optional: Refining the analysis 
 
-14. The analysis we’ve done above is quite coarse. You can refine it by using the following fields:
+1. The analysis we’ve done above is quite coarse. You can refine it by using the following fields:
 	- te_vuok_as (Households living in rental dwellings, Household life theme’s prefix te_)
 		- Household life: te_taly (Households, total)
 	- pt_tyott (Unemployed, Main type of activity theme’s prefix pt_)
 		- Main type of activity: pt_tyovy (Labour force, total)
 
-15.  You should use the original grid data and not the one you’ve been working with. Why?
+2.  You should use the original grid data and not the one you’ve been working with. Why?
 		- You’ll have an untampered dataset and won’t lose any progress you’ve made with education and income data due to unfortunate errors. 
 		- Note: The education and income fields’ total number fields have the population 18 years old and older (can you think of why?), but the totals for household and unemployment fields use different metrics: Total number of households and total number of available workforces.
 		- Before tampering with the original grid file, you should save it as a new file, so you have a clean backup to fall back on. 
 
-16. When you’ve reclassified the proportions to the quartiles, you can join the layers using the id_nro field.
+3. When you’ve reclassified the proportions to the quartiles, you can join the layers using the id_nro field.
 	- You can select which fields to join, so you don’t have to join all the fields, just the
 reclassified fields for rented dwellings and unemployment.
 
-17. Compose a map of the results
+4. Compose a map of the results
 	- How do the refined results differ from the coarser results?
 	- Are these refined results enough to delineate segregated areas?
 		- Would you need additional data? What data?
