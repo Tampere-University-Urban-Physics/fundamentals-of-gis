@@ -181,10 +181,8 @@ For a start, take your time to move around and get acquainted with the basic too
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/1_CrashCourse_exercise_expression.png)
 
- 8. **Using the field we just created in the attribute table, explore the small areas of Helsinki**. By clicking on attribute table columns, you can sort the data. Which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.\
-
-![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_select_by_expression1.png)\
-
+ 8. **Using the field we just created in the attribute table, explore the small areas of Helsinki**. By clicking on attribute table columns, you can sort the data. Which is the tiniest? How about the largest? By clicking on the attribute table on a certain row, for instance Viikki, you select that area and highlight in the map view. You can also select features with expression. Click open *Select features by expression*. Alternatively you can find tools from the *Processing Toolbox*.
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_select_by_expression1.png)
 	- Open the *Field and Values* drop-down menu, which will show all the attribute fields
 	- Double-click on the area field you made earlier (Area_km2)
 	- Type "< 5" to the right of the field in the text field
@@ -194,7 +192,6 @@ For a start, take your time to move around and get acquainted with the basic too
 	- Examples of ofther expressions include:
  		- "Area_km2" = 5, select the features the area of which is exactly 5 square km
    		- "Area_km2" > 2 AND "Area_km2" < 5, select the features the area of which is between 2 and 5 square kilometers  
-
 	- Close the *Select by expression* window and deselect all the features by clicking *Deselect all* ![](https://docs.qgis.org/3.28/en/_images/mActionDeselectAll.png)
 
 9. Next, we’re going to create and calculate another field into the Helsinki_small_areas attribute table using the HSL_Helsinki_stops point data. First open the *attribute table* of HSL_Helsinki_stops to familiarize yourself with its contents. The "Boardings" column depicts the number of boardings on stops in Helsinki on average per day. Say we want to learn where the areas are with the most boardings in Helsinki? We have the point locations of boardings and the outlines of the small areas, so we can combine them and find out **We will calculate and visualize the public transit passenger numbers per area for every Helsinki small area using something called a spatial join.** 
