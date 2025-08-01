@@ -47,7 +47,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 3. Import the Study_Area.shp file, to add it to your map project. Change the symbology to make the study area hollow (no fill, only borders)
 
-4. Let’s bring in some Google Earth data into our map using XYZ tiles to give the map some more context (Hint: Exercise 2 step 3)
+4. Let’s bring in some Google Earth data into our map using XYZ tiles to give the map some more context (Hint: Exercise 2 section 1.1)
 
 
 5. Often the data sets that you want to work with will not come as spatial data sets. They might come, for example, from observations during field work that you record in a spreadsheet. In this step we will **add a table of data that contains fields with the latitude and longitude coordinates of the deaths addresses we want to analyze**. In our case, this data comes in a comma-separated values (CSV) file, or a text file that uses a comma to separate values.
