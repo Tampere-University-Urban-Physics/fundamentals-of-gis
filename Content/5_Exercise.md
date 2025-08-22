@@ -230,7 +230,7 @@ For suitability analysis it’s common to make a map collection showing the crit
 • Water bodies (can be combined to terrain or slopes)
 • Final suitability analysis map (final rank)
 
-Visualize the rasters as desired (hint: you can change the symbology of raster layers as well). For this type of maps base maps are in general not used. Feel free to include any additional map visualizations.
+Visualize the rasters as desired (hint: you can change the symbology of raster layers as well. Think about whether this should be continuous values, or whether using a categorical symbology would be better). For this type of maps base maps are in general not used. Feel free to include any additional map visualizations.
 
 As your final task, write a short reflection on what was done and why and add it also to your report.
 
