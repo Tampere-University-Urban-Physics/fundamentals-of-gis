@@ -26,6 +26,8 @@ We can do better than this. We can choose colours that are appropriate for the d
 
 Below is a (hopefully) improved version of our ugly ugly map. Notice how the issues we have identified have been corrected? Let's aim for good maps.
 
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Theory/good_map.png)
+
 ## Spatial data sources
 
 Spatial data is available through various sources, some of which are restricted, but a good amount is freely available. Common providers of spatial data are governmental institutions, local governments(cities and municipalities), education institutes, crowd sourced data, among others. Even some commercial companies provide open data. But there is also data that is restricted, for example because of commercial motivation, but also privacy or other reasons. It is however good to practice **open science** with GIS as well to make the data and research as accessible as possible.   
