@@ -2,7 +2,15 @@
 
 # Theory 2: Georeferencing & digitizing
 
-*By Rowan van der Kaaden*
+*By Rowan van der Kaaden. Updated by Jonathon Taylor*
+
+## More about good maps
+
+In the last theory section, we touched upon some principles for good maps. For example, they should have a scale bar, a north arrow, and a be suitable for colour blind people. They way we present maps can help them be interpreted, and can help guide the message we want to communicate.
+
+Below is an example of a (purposely-made) bad map of air pollution across Great Britain. Have a look and try to list all the things that you think are bad about it.
+
+
 
 ## Spatial data sources
 
@@ -58,9 +66,9 @@ This source is however missing geographic data, as it is just a picture taken fr
 
 ## Georeferencing
 
-Georeferencing is essentially giving data without any CRS, a CRS. But more specifically, it is the process of **associating geographic data (coordinates) to a digital or physical object**, such as a map, image, or dataset, in our case a project plan. The goal of georeferencing is to establish a spatial reference for the object, enabling it to be positioned correctly within a coordinate system. It is essential for integrating different sources of geospatial data, enabling them to be overlaid and analyzed together. By assigning geographic coordinates or a coordinate system to an object, it becomes possible to accurately locate and spatially relate features, points, or areas represented within that object.
+Georeferencing is essentially giving data without any CRS, a CRS. But more specifically, it is the process of **associating geographic data (coordinates) to a digital or physical object**, such as a map, image, or dataset, in our case a project plan. The goal of georeferencing is to establish a spatial reference for the object, enabling it to be positioned correctly within a coordinate system - essentially, applying spatial data to something that currently lacks it. It is essential for integrating different sources of geospatial data, enabling them to be overlaid and analyzed together. By assigning geographic coordinates or a coordinate system to an object, it becomes possible to accurately locate and spatially relate features, points, or areas represented within that object.
 
-In practice, georeferencing involves identifying a set of control points on the object and matching them to corresponding locations on a reference map or in some form of software, such as QGIS. These control points represent identifiable features, such as road intersections or landmarks, and are used to create a transformation function that aligns the object with the reference system.
+In practice, georeferencing involves identifying a set of control points on the object and matching them to corresponding locations on a reference map or in some form of software, such as QGIS. These control points represent identifiable features, such as road intersections or landmarks. A specific algorithm is then used by the GIS software to transforms the object to get it to match the reference system. This transformation can include rotating, stretching, or skewing the image you are referencing. Control points can be corners of easily identifiable buildings, or other features, and the more control points, and the more accurately they are placed, the better the match.
 
 In our case we can use the buildings that remained unchanged and are on the project plan for reference to georeference the project plan, which we can then use to digitize the new buildings. 
 
