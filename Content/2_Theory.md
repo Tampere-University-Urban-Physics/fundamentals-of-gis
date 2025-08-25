@@ -24,9 +24,11 @@ When we are working with different kind of data, it is common that we have layer
 
 Why does using the CRS matter? Have you even flown a long distance, for example to Asia or North America from Finland? You may have wondered why you have flown so far North/South. I mean, should't you just be going in a straight line based on the planar distance (or the blue line below)?
 
-Well, as established - the world is not planar, it is geodesic. Using planar distances is fine for short distances, but in fact the shortest distance between two points is the geodesic distance. hence, using planar coordinate systems can introduce errors as you look across larger distances.
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Theory/planar.png)
 
+Well, as established - the world is not planar, it is geodesic. Using planar distances is fine for short distances, but in fact the shortest distance between two points is the geodesic distance. Hence, using planar coordinate systems can introduce errors as you look across larger distances. When you travel long distances in an airplane, you are in fact travelling the shortest route - in this case, we would call this the great circle route.
 
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Theory/geodesic.png)
 
 (Hungry for more? Coordinate Reference Systems are described in more detail in the QGIS documentation: https://docs.qgis.org/3.4/en/docs/gentle_gis_introduction/coordinate_reference_systems.html
 
@@ -34,7 +36,7 @@ You can also search for Youtube videos on this topic:
 - CRS in QGIS: https://www.youtube.com/watch?v=EKKXXAahu3w
 - Why all world maps are wrong: https://www.youtube.com/watch?v=kIID5FDi2JQ
 - How do Map Projections work? https://www.youtube.com/watch?v=NAzy4S4EOwc )
-<img width="1612" height="829" alt="image" src="https://github.com/user-attachments/assets/0ba1d876-0202-4835-9823-e09e894a33d8" />
+
 
 
 ## Spatial data sources
