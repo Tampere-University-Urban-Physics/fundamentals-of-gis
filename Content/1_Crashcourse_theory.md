@@ -90,13 +90,33 @@ A **good map**:
 5. Has a legend with explanations of used symbology/colours etc.
 6. Notes the data sources, used projection, and credits
 
-Important to keep in mind is that: **maps are images that inherently selective and result from choices made by a cartographer**. There is no such thing as an "objective map". In reality, maps always emphasize some elements while ignoring others (or pushing them to the "background") and there's power involved. The fact that maps are images also means that a map is often accompanied by a caption that tells the reader what they are expected to see on the map. Making good captions is a skill in itself, as captions influence the way in which people interpret the maps (as well as the reality they are attempting to depict).  
+It is important to keep in mind is that: **maps are images that inherently selective and result from choices made by a cartographer**. There is no such thing as an "objective map". In reality, maps always emphasize some elements while ignoring others (or pushing them to the "background") and there's power involved. The fact that maps are images also means that a map is often accompanied by a caption that tells the reader what they are expected to see on the map. Making good captions is a skill in itself, as captions influence the way in which people interpret the maps (as well as the reality they are attempting to depict).  
 
 Another important thing to keep in mind is to **make your maps accessible to all readers, including those who have some form of color blindness**. This is relatively simple, since QGIS already has a tool build-in to simulate a few color blind examples:
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Theory/1_CrashCourse_theory_QGIS_color_blindness.png)
 
 You can get color advice for your maps here: https://colorbrewer2.org/ 
+
+Below is an example of a (purposely-made) bad map of air pollution across Great Britain. Have a look and try to list all the things that you think are bad about it.
+
+
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Theory/bad_map.png)
+
+There's a lot going on there, and just by looking at it you may instinctively feel like it doesn't quite make sense. How many of these things did you notice:
+- It does not look good. Not at all. 
+- Where did the data come from? There should be some kind of acknowledgement of it somewhere...
+- The legend title doesn't make sense. This is in fact a map of particulate air pollution below 2.5um in size, but from the title you would not get that. There aren't even units.
+- The numbers in the legend have a huge number of significant figures. There is no measurement device on earth that can get a value this precise. Do viewers really need this kind of precision, anyway?
+- In addition to being ugly, the colours don't make sense. We have (kind of) established that this is a map of air pollution concentrations, but the colours are random and don't show any kind of sequence from low to high concentrations.
+- Why is the outline red?!
+- There is no scale bar or north arrow.
+
+We can do better than this. We can choose colours that are appropriate for the data, whether it is sequential (like our air pollution data), diverging (e.g. deviations of differences from a central value of midpoint), or qualitative data (like categories). You can choose the approriate number of classes to display the data, so there are not too many different categories. Again, Colorbrewer (https://colorbrewer2.org/) is a really useful reference for helping you find good colours for the type of data you want to show. Visit colorbrewer and play with the different sequential, diverging, or qualitative suggestions they show. Some show variations by changing the hue (particularly diverging or qualitative) while sequential also has options just to change the brightness of the colour.
+
+Below is a (hopefully) improved version of our ugly ugly map. Notice how the issues we have identified have been corrected? Let's aim for good maps.
+
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Theory/good_map.png)
 
 
 # Time to get your hands dirty! Move on to the [Crash Course exercise](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/1_Crashcourse_exercise.md) to get started with (Q)GIS  
