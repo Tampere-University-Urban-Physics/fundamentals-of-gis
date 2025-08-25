@@ -2,7 +2,7 @@
 
 # Introduction to Geographic Information System (GIS) and QGIS
 
-*By Rowan van der Kaaden*
+*By Rowan van der Kaaden. Updated by Jonathon Taylor*
 
 ## What is GIS and why do we use it?
 
@@ -19,6 +19,14 @@ GIS is used in a wide range of fields and industries, including:
 7.  **Business and Marketing**: GIS helps businesses in market analysis, site selection, and customer profiling. It assists in identifying target markets, optimizing sales territories, and visualizing market trends.
 
 These are just a few examples of the diverse applications of GIS. This course is not specifically tailored for a specific field, but it aims to give you a fundamental skillset in GIS that you can use to apply GIS in almost any field. 
+
+## What is QGIS?
+In short, QGIS is a GIS application that can be used for various GIS analyses. There are other GIS applications, the other most common of which is ArcGIS. We are using QGIS for this course since it is open-source and free, meaning it is accessible for all, in contrast to ArcGIS which is proprietary software. 
+
+So, you're going to need QGIS for this course! Please take a moment now to ensure you have it installed: https://qgis.org/en/site/forusers/download.html# Our recommendation is to install the Long Term Release (LTR) version, since there is less change of problems with this version. The exercises in this course have been developed for the English language installation of QGIS.
+
+You can find more information about the usage of QGIS here: https://docs.qgis.org/3.28/en/docs/index.html
+
 
 ### GIS workflow
 
@@ -53,39 +61,6 @@ In GIS, both vector and raster data have their respective strengths and applicat
 
 (Hungry for more? Further reading on vector and raster data in the QGIS documentation: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html, https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/raster_data.html)
 
-#### Spatial data sources
-How and where to find spatial data is discussed in detail here: 
-
-### Coordinate Reference Systems (CRS) and map projections
-The Earth is round. Well, not perfectly round, as it is wider at the equator because of the forces of the earth's rotation, so more of an ellipsoid. To be technical, it is a bumpy ellipsoid (because of mountains and other bumpy things) that we call a geoid.
-
-A Geographic coordinate system is a way of describing a location on a round/ellipsoid/geodetic object. You are probably familiar with this coordinate system through longitude and latitude. Consider a point in the centre of the Earth. Draw a line from the centre of the earth to the equator. And another line from the centre of the earth to a location you are interested in. The angle between these two lines that goes North/South is called Latitude. The angle East/West is called Longitude. And both are given in degrees (because that's how we've measured angles in the past). So, the North Pole has a latitue of 90 degrees north, the equator has a latitude of 0 degrees. For longitude, the Greenwich Meridian in southeast London is usually the 0 degree reference point (in you are in London, you can visit it!).
-
-If you have ever had to wrap a round present with wrapping paper, you will know that round surfaces don't translate that well to flat pieces of paper/a computer screen. This is why we need projections. The basic idea of projection is to project the shape of the earth (or a specific area that is big enough to be round and bumpy) onto a flat plane like the 2D maps you see on your computer screens or an atlas. Due to the original shape of the earth, a rough sphere, we will always get some kind of distortion when we project it onto a flat plane. This is shown well here: https://unchartedterritories.tomaspueyo.com/p/maps-distort-how-we-see-the-world 
-
-![](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f76b16e-edbe-4bc7-8781-f87f389ba29e_1224x1036.png)
-
-Coordinate Reference Systems (CRS) are frameworks that define how geographic locations are represented and referenced in a coordinate system. There are many different CRS which use different Earth shape models and projection methods. The specific CRS used often depends on the region where the data is located, and have been specifically developed to reflect the curvature of the Earth in this location. Rather than longitude or latitude, map locations in CRS are usually given in metres where the X direction represents the location East/West and the Y direction the location North/South.
-
-When we are working with different kind of data, it is common that we have layers that are in different CRS. **Thus, it is important to check that the layers and the project are in the same CRS!** Most GIS data that we get comes with some CRS, if we decide to do something in some other projection, you can reproject data into a different CRS. We will go into how to do this later. 
-
-![Map Projection Families](https://docs.qgis.org/3.4/en/_images/projection_families.png)
-
-Some common CRS include:
-- Finland: ETRS-TM35FIN (EPSG:3067) (Shown in the picture below)
-- GPS: WGS 84 (EPSG:4326)
-
-![ETRS=TM35FIN](https://upload.wikimedia.org/wikipedia/fi/1/15/ETRSTM35FIN.png)
-
-(Hungry for more? Coordinate Reference Systems are described in more detail in the QGIS documentation: https://docs.qgis.org/3.4/en/docs/gentle_gis_introduction/coordinate_reference_systems.html
-
-You can also search for Youtube videos on this topic:
-- CRS in QGIS: https://www.youtube.com/watch?v=EKKXXAahu3w
-- Why all world maps are wrong: https://www.youtube.com/watch?v=kIID5FDi2JQ
-- How do Map Projections work? https://www.youtube.com/watch?v=NAzy4S4EOwc )
- 
-
-
 ### GIS analysis types
 The most common GIS (Geographic Information System) analysis types can vary depending on the specific application and industry. However, some of the widely used and common GIS analysis types are:
 
@@ -103,12 +78,7 @@ The most common GIS (Geographic Information System) analysis types can vary depe
 These are some of the most common GIS analysis types, but the field of GIS offers a vast range of analysis techniques and tools that can be tailored to specific needs and applications. 
 
 
-## What is QGIS?
-In short, QGIS is a GIS application that can be used for various GIS analyses. There are other GIS applications, the other most common of which is ArcGIS. We are using QGIS for this course since it is open-source and free, meaning it is accesible for all, in contrast to ArcGIS which is proprietary software. 
 
-So, you're going to need QGIS for this course! Please take a moment now to ensure you have it installed: https://qgis.org/en/site/forusers/download.html# Our recommendation is to install the Long Term Release (LTR) version, since there is less change of problems with this version. The exercises in this course have been developed for the English language installation of QGIS.
-
-You can find more information about the usage of QGIS here: https://docs.qgis.org/3.28/en/docs/index.html
 
 ## What is a good map?
 
