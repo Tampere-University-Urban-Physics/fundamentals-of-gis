@@ -12,23 +12,19 @@ A map projection is used to portray part of the geoid on a flat surface, for exa
 
 ![](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f76b16e-edbe-4bc7-8781-f87f389ba29e_1224x1036.png)
 
+
 There are numerous different projections that are used, and they all lead to some kind of distortion in some way. depending on the purpose of the map, some distortions are acceptible, others are not; they can all lead to differences in area, shape, direction, or distances shown, with different projctions prioritising soe things over others. There are different models for projections which are useful for describing understanding, and developing map projections (such as plane, cylinder, and cone). 
 
 ![Map Projection Families](https://docs.qgis.org/3.4/en/_images/projection_families.png)
 
+
 A Geographic coordinate system is a way of describing a location on a round/ellipsoid/geodetic object. You are probably familiar with this coordinate system through longitude and latitude. Consider a point in the centre of the Earth. Draw a line from the centre of the earth to the equator. And another line from the centre of the earth to a location you are interested in. The angle between these two lines that goes North/South is called Latitude. The angle East/West is called Longitude. And both are given in degrees (because that's how we've measured angles in the past). So, the North Pole has a latitue of 90 degrees north, the equator has a latitude of 0 degrees. For longitude, the Greenwich Meridian in southeast London is usually the 0 degree reference point (in you are in London, you can visit it!). In the olden days, if you were sailing aorund the world exploring, you may have measured longitude and latitude in degrees, minutes, and seconds (with 60 minutes in a degree, and 60 seconds in a minute). Nowadawys, we tend to use decimal degrees.
 
-
-
 When we are working with different kind of data, it is common that we have layers that are in different CRS. **Thus, it is important to check that the layers and the project are in the same CRS!** Most GIS data that we get comes with some CRS, if we decide to do something in some other projection, you can reproject data into a different CRS. This transformation is based on a known mathematical relationship between different CRS, where the location information is converted from one CRS to another.
-
-
 
 Coordinate Reference Systems (CRS) are frameworks that define how geographic locations are represented and referenced in a coordinate system. There are many different CRS which use different Earth shape models and projection methods. The specific CRS used often depends on the region where the data is located, and have been specifically developed to reflect the curvature of the Earth in this location. For example, a global CRS is WGS84 (the code is EPSG:4326), which has latitude and longitude. But, if you use local maps, you may be more used to seeing the Finnish ETRS-TM35FIN (EPSG:3067) (Shown in the picture below), where map locations in CRS are given in metres where the X direction represents the location East/West and the Y direction the location North/South.
 
 ![ETRS=TM35FIN](https://upload.wikimedia.org/wikipedia/fi/1/15/ETRSTM35FIN.png)
-
-
 
 Why does using the CRS matter? Have you even flown a long distance, for example to Asia or North America from Finland? You may have wondered why you have flown so far North/South. I mean, should't you just be going in a straight line based on the planar distance (or the blue line below)?
 
