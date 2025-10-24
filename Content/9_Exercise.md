@@ -128,7 +128,7 @@ the residents**)
 12. Compose a map of the outcomes, include it in your report and analysis.
 	- Visualize to highlight the most preferred and most unpreferred areas for wind turbines
 	- What kind of spatial patterns do the preferred and unpreferred places for wind turbines show?
-	- Can you identify any potential conflict areas?
+	- Can you identify any potential conflict areas? Where are the best places to build the turbines that make people in both areas happy?
 
 ---
 
