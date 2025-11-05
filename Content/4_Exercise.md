@@ -107,7 +107,7 @@ As already mentioned, the Ring Rail line improves the commuter traffic network a
 		- To only make a buffer around the planned stations, select those stations and use the *Selected features only* function in the *Buffer* tool
 	- Don't forget to make the temporary layers from the buffer permanent
 	- Use *Select by Location* to select the entries from the capital_region_people data that intersect with the buffers
-	- Run *Basic Statistics for Fields* to get the total amount of residents living within the buffer (Input layer: Capital_region_people, selected feature only, Field to calculate: ASYHT(Persons in total in the building))
+	- Run *Basic Statistics for Fields* (from the *Processing Toolbox*) to get the total amount of residents living within the buffer (Input layer: Capital_region_people, selected feature only, Field to calculate: ASYHT(Persons in total in the building))
 		- Look the output log for the SUM output, this shows the total amount
 	- Repeat the same steps for the new and planned stations combined.
 
