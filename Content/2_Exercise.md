@@ -166,7 +166,7 @@ Editing toolbar:
 	- The layer names have good for saving data, but the underscores are not ideal for the legend. Try renaming them in the layer panel.
 	
 
-# Time to get your hands dirty! Move on to the Crash Course exercise to get started with (Q)GIS. 
+
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJGTXBrOTlHWEFKTzhFNEhOIjp7In
 N0YXJ0Ijo3OTgyLCJlbmQiOjgwMDAsInRleHQiOiIqRGlnaXRp
