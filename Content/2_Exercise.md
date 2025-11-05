@@ -83,7 +83,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 
 	- Press the *Run* arrow in the *Georeferencer* menu, and the georeferencing will start. It will show you the progress on the georeferencing.
 
-5. Once the calculation is complete, close the *Georeferencer* window (there is no need to save the GCP Points). The new raster that has been georeferenced is saved and you will need add it to your QGIS map now (Hint: Use the Data Source Manager and add it as a raster instead of a vector) . Once its been added, you can drag it below the building, road, and railway layers to see how it fits. Now would be a good time to save your QGIS project again.
+5. Once the calculation is complete, close the *Georeferencer* window (there is no need to save the GCP Points). The new raster that has been georeferenced is saved and you will need add it to your QGIS map now (Hint: Use the Data Source Manager and add it as a raster instead of a vector). Once it's been added, you can drag it below the building, road, and railway layers to see how it fits. Now would be a good time to save your QGIS project again.
 	- Check whether the plans line up with the buildings layer (it doesn't have to be perfect for this exercise)! If it doesn't retry the georeferencing with more points and more spacing between them
 
 ---
@@ -99,7 +99,7 @@ So, the tampere_buildings data is old and we need to update it – there are now
 Editing toolbar:
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Exercise/QGIS_editing_toolbar.png)
 
-4. First, let’s remove a building that no longer exists. There is one building at the south of the arena that has been demolished .
+4. First, let’s remove a building that no longer exists. There is one building at the south of the arena that has been demolished.
 
 	- First, choose the *Select* tool ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Exercise/QGIS_select_tool.png) (if you don’t see it, you may need to add the Selection Toolbar like you did for the Digitizing Toolbar).
 
@@ -160,10 +160,10 @@ Editing toolbar:
 
 ### 1.4. Map output
 
-1. You’ve finished your edits. Remove the georeferenced raster (you no longer need it), and make a nice informative map. You can choose whether or not to include the Google Satellite data. Insert a scale bar to show the distances in the map, a North Arrow, and a title.
+1. You’ve finished your edits. Remove the georeferenced raster (you no longer need it) and make a nice informative map. You can choose whether or not to include the Google Satellite data. Insert a scale bar to show the distances in the map, a North Arrow, and a title.
 	- Hint: Look at the crash course exercise for instructions on how to make a map
 	- Don't forget to change the symbology of your layers to your liking!
-	- The layer names have good for saving data, but the underscores are not ideal for the legend. Try renaming them in the layer panel.
+	- The layer names are good for saving data, but the underscores are not ideal for the legend. Try renaming them in the layer panel.
 	
 
 
