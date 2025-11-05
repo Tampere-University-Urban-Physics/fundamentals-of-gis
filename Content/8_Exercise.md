@@ -59,6 +59,9 @@ Work individually or in pairs. Complete the exercise and write a short reflectio
 
 ### Getting familiar with the data
 
+*TIP: When working with data that will probably contain values with umlauts (Å, Ä, Ö), change the encoding to e.g. UTF-8 already when adding your layers, so you won’t run into problems later. Choose UTF-8 in the Encoding dropdown menu (in the data source manager)  and write UTF-8 into Encoding field.*
+
+
 1. Download 8_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip.
 Then explore the attribute tables to familiarize yourself with what sorts of data you actually have.
 	1. The fields you want to focus on (total floor area, m2) are: 
@@ -66,7 +69,7 @@ Then explore the attribute tables to familiarize yourself with what sorts of dat
 		- KERALA2 in the Building registry layer
 	2.  Have a look at the lowest and highest values and the different field names. We have for example ones that seem to refer to municipality (kunta), small area codes (kauposanro), and  small area names (nimi).
 
-*TIP: When working with data that will probably contain values with umlauts (Å, Ä, Ö), change the encoding to e.g. UTF-8 already when adding your layers, so you won’t run into problems later. Choose UTF-8 in the Encoding dropdown menu and write UTF-8 into Encoding field.*
+
 
 2. **You might want to have a background map to help you get your bearings.**
 	1. Use QuickMapServices or XYZ tiles as we have done earlier
