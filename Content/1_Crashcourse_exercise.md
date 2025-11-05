@@ -45,9 +45,9 @@ The state of a working session in QGIS is called a **project**. Similarly, to a 
 
 ![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_save_meme.jpg)
 
-*Here a few basic functions that are worth knowing before starting to play around with data and layers:*
+*Here are a few basic functions that are worth knowing before starting to play around with data and layers:*
 
-![Save icon](https://docs.qgis.org/3.28/en/_images/mActionFileSave.png) **Saving in QGIS**: You can save your project by clicking either the *save* ![](https://docs.qgis.org/3.28/en/_images/mActionFileSave.png) or the *save as* icon. You can also use the keyboard shortcut *Ctrl + S* (or *Command + S*) or go to *Project* \> *Save*. The file format of a project file is \*.qgs. **Hint** - GIS visualises datasets that are typically saved elsewhere. When you save a project file, you save the link to the layers you use, their symbology, the scale, and other map elements. Layers that you edit or create in QGIS are not saved when you save the project file - these need to be saved seperately. Because QGIS saves the link to the data you use, if you move or rename this data, QGIS will no longer be able to find it, and you will need to tell QGIS where to find it again. **Hint**: Save each project and its accompanying data in their own folder to keep things organized! A common source of error is not extracting a zip folder, or saving in some temporary location.  
+![Save icon](https://docs.qgis.org/3.28/en/_images/mActionFileSave.png) **Saving in QGIS**: You can save your project by clicking either the *save* ![](https://docs.qgis.org/3.28/en/_images/mActionFileSave.png) or the *save as* icon. You can also use the keyboard shortcut *Ctrl + S* (or *Command + S*) or go to *Project* \> *Save*. The file format of a project file is \*.qgs. **Hint** - GIS visualises datasets that are typically saved elsewhere. When you save a project file, you save the link to the layers you use, their symbology, the scale, and other map elements. Layers that you edit or create in QGIS are not saved when you save the project file - these need to be saved separately. Because QGIS saves the link to the data you use, if you move or rename this data, QGIS will no longer be able to find it, and you will need to tell QGIS where to find it again. **Hint**: Save each project and its accompanying data in their own folder to keep things organized! A common source of error is not extracting a zip folder, or saving in some temporary location.  
 
 ![](https://docs.qgis.org/3.28/en/_images/mActionFileNew.png) ![](https://docs.qgis.org/3.28/en/_images/mActionFileOpen.png) **Creating and opening a project in QGIS:** If you want to start a new project, you can click on the *New* icon ![](https://docs.qgis.org/3.28/en/_images/mActionFileNew.png) with a blank page, or alternatively go to *Project* \> *New* or use the keyboard shortcut *Ctrl + N* (or Command + N). To open an already existing project, click on the folder-like *Open* icon ![](https://docs.qgis.org/3.28/en/_images/mActionFileOpen.png) to pick up where you left off.
 
@@ -86,7 +86,7 @@ The ***Layer panel*** lists all the layers in the project and helps you manage t
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_layer_panel.png)
 
-The ***Processing Toolbox*** shows the list of all available **algorithms** grouped in different blocks, this is where you will find most of the tools we will be using in this course. If you ever want to do something and you're wondering if it is available in QGIS, this is a good place to start!  
+The ***Processing Toolbox*** shows the list of all available **algorithms** grouped in different blocks. This is where you will find most of the tools we will be using on this course. If you ever want to do something and you're wondering if it is available in QGIS, this is a good place to start!  
 
 ![](https://docs.qgis.org/3.4/en/_images/toolbox3.png)
 
@@ -192,7 +192,7 @@ For a start, take your time to move around and get acquainted with the basic too
 	- Type "< 5" to the right of the field in the text field
 	- Click *Select features*
 	- Your selection now includes all the areas under 5 square kilometers in this layer, with selected objects shown in **yellow in on the map** and **blue on the attribute table**.
-	- Examples of ofther expressions include:
+	- Examples of other expressions include:
  		- "Area_km2" = 5, select the features the area of which is exactly 5 square km
    		- "Area_km2" > 2 AND "Area_km2" < 5, select the features the area of which is between 2 and 5 square kilometers  
 	- Close the *Select by expression* window and deselect all the features by clicking *Deselect all* ![](https://docs.qgis.org/3.28/en/_images/mActionDeselectAll.png)
@@ -207,7 +207,7 @@ For a start, take your time to move around and get acquainted with the basic too
 		- This tool could look different to you depending on the version of your QGIS install. 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_join_attributes_by_location.png)
 	- The parameter window for the algorithm opens and here you have to specify what the algorithm does and with what data
-	- Set the follow values:
+	- Set the following values:
 		- *Base layer*: Helsinki_small_areas
 		- *Join layer*: HSL_Helsinki_stops
 		- *Geometric predicate*: contains (What do you think the other options mean?)
@@ -236,7 +236,7 @@ For a start, take your time to move around and get acquainted with the basic too
 
 12. Now it is time for the finishing touches. To make the map easier to interpret, we are going to **add labels** to it.
 	- Right-click the layer we just visualized and go to *Layer properties* > *Labels*
-	- Select *Single labels* form the drop-down menu to enable labeling
+	- Select *Single labels* from the drop-down menu to enable labeling
 	- Choose the column from the list that contains the area names (name_fi)
 	- You can edit the label placement and appearance, for example add a halo around it by selecting buffer in the lower section
 
