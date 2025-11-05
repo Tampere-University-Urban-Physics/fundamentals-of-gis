@@ -42,7 +42,7 @@ We can illustrate MAUP through an analysis of the rate of a disease in a populat
 
 ### Political Lies
 
-Ok, obviously this could be a big section, but let’s focus on a couple of example relating to maps. Political lies in mapping can include e.g. propaganda, campaign advertisements, and even the way we draw borders around contested regions (e.g. how does Google Maps choose to draw the border between Crimea and Ukraine/Russia)? However, here we will focus on something called Gerrymandering.
+Ok, obviously this could be a big section, but let’s focus on a couple of examples relating to maps. Political lies in mapping can include e.g. propaganda, campaign advertisements, and even the way we draw borders around contested regions (e.g. how does Google Maps choose to draw the border between Crimea and Ukraine/Russia)? However, here we will focus on something called Gerrymandering.
 Gerrymandering is probably the most commonly know way in which maps and mapmaking can be used to influence political results. Here, boundaries are manipulated to favour a certain political party or group. It originates from a portmanteau of the the Governor of Massachusetts in 1812 (Elbridge Gerry) and salamander. Governor Gerry signed a bill that created a district in the Boston area whose shape was compared to a salamander in order to create a partisan voting district that favoured his party.
 
 This can be illustrated by the figure below. Consider a population that is 40% in favour of the yellow party and 60% in favour of the blue party. The blue party should win the election, right? Let’s divide them into five voting districts. Depending on how you draw them will lead to a different electoral result. This effect is called gerrymandering, and you can still see some pretty funky electoral boundaries in some countries because of this.
@@ -52,7 +52,7 @@ This can be illustrated by the figure below. Consider a population that is 40% i
 
 ## Summary
 
-In making maps, we make many decisions - big and small - which can lead to different intepretations of what the map is communicating. Small lies include standard cartographic decisions, including projection, symbolization, standardization, classification, aggregation, and zonation, which can guide the interpretation of maps. Then, there are bigger of lies —gerrymandering, propaganda maps, maps that push a particular political perspective, and misleading advertising maps. The hope is that you are now a critical map reader and map maker that is able to identify and understand the ways that maps lie.
+In making maps, we make many decisions - big and small - which can lead to different interpretations of what the map is communicating. Small lies include standard cartographic decisions, including projection, symbolization, standardization, classification, aggregation, and zonation, which can guide the interpretation of maps. Then, there are bigger of lies —gerrymandering, propaganda maps, maps that push a particular political perspective, and misleading advertising maps. The hope is that you are now a critical map reader and map maker that is able to identify and understand the ways that maps lie.
 
 
 **You can now move on to the [8th exercise](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/8_Exercise.md)!**
