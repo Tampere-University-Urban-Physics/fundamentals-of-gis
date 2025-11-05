@@ -58,7 +58,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 
 ### 1.1. Getting familiar with the data
 
-1. Download 3_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
+1. Download 3_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. Add the data to your GIS project.
 
 2. **Go through the attribute table and use the pdf-files to decipher the meanings of each field**. The attribute table consists of a few themes (recognizable by the prefixes) and slightly over 100 fields.
 	- The fields we’re using depict the following:
@@ -184,7 +184,7 @@ Don't forget to include the requirements for a good map (See Crash Course)!
 		- Note: The education and income fields’ total number fields have the population 18 years old and older (can you think of why?), but the totals for household and unemployment fields use different metrics: Total number of households and total number of available workforces.
 		- Before tampering with the original grid file, you should save it as a new file, so you have a clean backup to fall back on. 
 
-3. When you’ve reclassified the proportions to the quartiles, you can join the layers using the id_nro field.
+3. When you’ve reclassified the proportions to the quartiles, you can join the layers using the id_nro field. Joining the layers means that you combine data from different layers. The layers to be joined need to have an attribute that is shared (here id_nro field), which is used as the spatial relationship of the layers. 
 	- You can select which fields to join, so you don’t have to join all the fields, just the
 reclassified fields for rented dwellings and unemployment.
 
