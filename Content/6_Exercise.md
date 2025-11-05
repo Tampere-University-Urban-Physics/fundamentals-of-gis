@@ -74,7 +74,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- Go to the symbology of the new reprojected deaths_locations layer
 	- Make the symbology *graduated* and the value "Num_Cases"
 	- Change the method to *size*. Rather than changing the color of the symbol based on the number of cases, this will change the size of the symbol. 
-	- Make the classification mode *Natural Breaks (remember what this means?) with three classes
+	- Make the classification mode *Natural Breaks* (remember what this means?) with three classes
 	- You can change the size range, try out what you think looks best. 
 
 8. We now have the locations of the deaths overlaid on top of a Google image of modern London. But, things have changed a little bit in this area of London since the outbreak. Let’s **bring in an old map of the area**. 
