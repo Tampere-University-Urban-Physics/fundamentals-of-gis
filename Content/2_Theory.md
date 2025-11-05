@@ -15,16 +15,16 @@ A map projection is used to portray part of the geoid on a flat surface, for exa
 
 
 
-There are numerous different projections that are used, and they all lead to some kind of distortion in some way. Depending on the purpose of the map, some distortions are acceptible, others are not; they can all lead to differences in area, shape, direction, or distances shown, with different projections prioritising some things over others. There are different models for projections which are useful for describing, understanding, and developing map projections (such as plane, cylinder, and cone). 
+There are numerous different projections that are used, and they all lead to some kind of distortion in some way. Depending on the purpose of the map, some distortions are acceptable, others are not; they can all lead to differences in area, shape, direction, or distance shown, with different projections prioritising some things over others. There are different models for projections which are useful for describing, understanding, and developing map projections (such as plane, cylinder, and cone). 
 
 
 ![Map Projection Families](https://docs.qgis.org/3.4/en/_images/projection_families.png)
 
 
 
-A Geographic coordinate system is a way of describing a location on a round/ellipsoid/geodetic object. You are probably familiar with this coordinate system through longitude and latitude. Consider a point in the centre of the Earth. Draw a line from the centre of the earth to the equator. And another line from the centre of the earth to a location you are interested in. The angle between these two lines that goes North/South is called Latitude. The angle East/West is called Longitude. And both are given in degrees (because that's how we've measured angles in the past). So, the North Pole has a latitue of 90 degrees north, the equator has a latitude of 0 degrees. For longitude, the Greenwich Meridian in southeast London is usually the 0 degree reference point (in you are in London, you can visit it!). In the olden days, if you were sailing around the world exploring, you may have measured longitude and latitude in degrees, minutes, and seconds (with 60 minutes in a degree, and 60 seconds in a minute). Nowadawys, we tend to use decimal degrees.
+A Geographic coordinate system is a way of describing a location on a round/ellipsoid/geodetic object. You are probably familiar with this coordinate system through longitude and latitude. Consider a point in the centre of the Earth. Draw a line from the centre of the earth to the equator. And another line from the centre of the earth to a location you are interested in. The angle between these two lines that goes North/South is called Latitude. The angle East/West is called Longitude. And both are given in degrees (because that's how we've measured angles in the past). So, the North Pole has a latitude of 90 degrees north, the equator has a latitude of 0 degrees. For longitude, the Greenwich Meridian in southeast London is usually the 0 degree reference point (if you are in London, you can visit it!). In the olden days, if you were sailing around the world exploring, you may have measured longitude and latitude in degrees, minutes, and seconds (with 60 minutes in a degree, and 60 seconds in a minute). Nowadays, we tend to use decimal degrees.
 
-**Coordinate Reference Systems (CRS)** are frameworks that define how geographic locations are represented and referenced in a coordinate system. There are many different CRS which use different Earth shape models and projection methods. The specific CRS used often depends on the region where the data is located, and have been specifically developed to reflect the curvature of the Earth in this location. For example, a global CRS is WGS84 (the code is EPSG:4326), which has latitude and longitude. But, if you use local maps, you may be more used to seeing the Finnish ETRS-TM35FIN (EPSG:3067) (Shown in the picture below), where map locations in CRS are given in metres where the X direction represents the location East/West and the Y direction the location North/South.
+**Coordinate Reference Systems (CRS)** are frameworks that define how geographic locations are represented and referenced in a coordinate system. There are many different CRS which use different Earth shape models and projection methods. The specific CRS used often depends on the region where the data is located and has been specifically developed to reflect the curvature of the Earth in this location. For example, a global CRS is WGS84 (the code is EPSG:4326), which has latitude and longitude. But, if you use local maps, you may be more used to seeing the Finnish ETRS-TM35FIN (EPSG:3067) (Shown in the picture below), where map locations in CRS are given in metres where the X direction represents the location East/West and the Y direction the location North/South.
 
 When we are working with different kind of data, it is common that we have layers that are in different CRS. **Thus, it is important to check that the layers and the project are in the same CRS!** Most GIS data that we get comes with some CRS, if we decide to do something in some other projection, you can reproject data into a different CRS. This transformation is based on a known mathematical relationship between different CRS, where the location information is converted from one CRS to another.
 
@@ -32,7 +32,7 @@ When we are working with different kind of data, it is common that we have layer
 ![ETRS=TM35FIN](https://upload.wikimedia.org/wikipedia/fi/1/15/ETRSTM35FIN.png)
 
 
-Why does using the CRS matter? Have you even flown a long distance, for example to Asia or North America from Finland? You may have wondered why you have flown so far North/South. I mean, should't you just be going in a straight line based on the planar distance (or the blue line below)?
+Why does using the CRS matter? Have you even flown a long distance, for example to Asia or North America from Finland? You may have wondered why you have flown so far North/South. I mean, shouldn't you just be going in a straight line based on the planar distance (or the blue line below)?
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Theory/planar.png)
 
@@ -55,7 +55,7 @@ Spatial data is available through various sources, some of which are restricted,
 
 Data can also come in a variety of formats. Vector data can be saved in formats such as a shapefile (.shp) which is a proprietary format from ArcGIS. If you want to work with Google Earth, then you would use the Google vector formats of .kml or .kmz. And there are many other forms, too. Raster data can be saved as a geoTiff (.tiff) file, .jpeg2000, netCDF or others. Sometimes, geospatial data is saved in a geopackage, which can have different vectors and rasters in the same file. QGIS is pretty good at knowing how to open these many different file formats.
 
-Saving data on your own laptop can be convenient, but it also takes up memory and doesn't get updated unless you do this yourself (spatial data changes often). Sometimes saving the data on your own laptop might be not permitted. So, often you may connect to an external database (for example online) which is used to store large amounts of GIS data and which should be updated by the provider.
+Saving data on your own laptop can be convenient, but it also takes up memory and doesn't get updated unless you do this yourself (spatial data changes often). Sometimes saving the data on your own laptop might not be permitted. So, often you may connect to an external database (for example online) which is used to store large amounts of GIS data, and which should be updated by the provider.
 
 Examples of data sources are:
 | Provider | Data | Note |
@@ -83,13 +83,13 @@ And be particularly careful when joining data from different sources! As these f
 
 Where does GIS data come from? We can go out and collect it ourselves, like surveyors do. Maybe we attach a GPS system to a bird, and use that to track location for nature conservation. Or maybe, we trace over a building outline from an aerial photograph. Or, perhaps we have some spatial data (like a plan for a new development) but it is not able to be analysed because the drawing doesn't have the coordinate information yet? Or, if the data we need isn't already available or outdated? That's when we start gathering or making our own data, and where digitizing comes in.  
 
-When some kind of urban development happens, the data we use in GIS needs to updated. Someone has to go in and update the changes to the roads, buildings, and others. This can be done by digitizing the changes, which is the process of **converting geographic data into digital form**. 
+When some kind of urban development happens, the data we use in GIS needs to be updated. Someone has to go in and update the changes to the roads, buildings, and others. This can be done by digitizing the changes, which is the process of **converting geographic data into digital form**. 
 
-For this practice we are going to use the Nokia Arena development in Tampere, as you can see below, there have been a significant amount of changes with this project.
+For this practice we are going to use the Nokia Arena development in Tampere. As you can see below, there have been a significant number of changes with this project.
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Theory/GIS_theory1_example.png)
 
-And if we look at the data set we are working with, you can see that some of the demolished buildings are still present and new buildings lacking. 
+And if we look at the data set we are working with, you can see that some of the demolished buildings are still present and new buildings are lacking. 
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Theory/QGIS_theory1_nokia_outdated.png)
 
@@ -105,7 +105,7 @@ This source is however missing geographic data, as it is just a picture taken fr
 
 Georeferencing is essentially giving data without any CRS, a CRS. But more specifically, it is the process of **associating geographic data (coordinates) to a digital or physical object**, such as a map, image, or dataset, in our case a project plan. The goal of georeferencing is to establish a spatial reference for the object, enabling it to be positioned correctly within a coordinate system - essentially, applying spatial data to something that currently lacks it. It is essential for integrating different sources of geospatial data, enabling them to be overlaid and analyzed together. By assigning geographic coordinates or a coordinate system to an object, it becomes possible to accurately locate and spatially relate features, points, or areas represented within that object.
 
-In practice, georeferencing involves identifying a set of control points on the object and matching them to corresponding locations on a reference map or in some form of software, such as QGIS. These control points represent identifiable features, such as road intersections or landmarks. A specific algorithm is then used by the GIS software to transforms the object to get it to match the reference system. This transformation can include rotating, stretching, or skewing the image you are referencing. Control points can be corners of easily identifiable buildings, or other features, and the more control points, and the more accurately they are placed, the better the match.
+In practice, georeferencing involves identifying a set of control points on the object and matching them to corresponding locations on a reference map or in some form of software, such as QGIS. These control points represent identifiable features, such as road intersections or landmarks. A specific algorithm is then used by the GIS software to transform the object to get it to match the reference system. This transformation can include rotating, stretching, or skewing the image you are referencing. Control points can be corners of easily identifiable buildings, or other features, and the more control points, and the more accurately they are placed, the better the match.
 
 In our case we can use the buildings that remained unchanged and are on the project plan for reference to georeference the project plan, which we can then use to digitize the new buildings. 
 
