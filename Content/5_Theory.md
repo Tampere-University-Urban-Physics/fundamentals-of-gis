@@ -5,7 +5,7 @@
 
 *By Rowan van der Kaaden*
 
-Let's get back to rasters. As discussed before, rasters are gridded data where each pixel/grid represents some information. We can think of aerial photographs as rasters, where each pixel of the photo tells us the colour of the ground. Or, maybe the pixels tells us the height of the ground, or some kind of climate variable like temepratures. Rasters represent the field view, where the geographical space (each pixel) is filled with some value - this is the opposite of vectors.
+Let's get back to rasters. As discussed before, rasters are gridded data where each pixel/grid represents some information. We can think of aerial photographs as rasters, where each pixel of the photo tells us the colour of the ground. Or, maybe the pixels tells us the height of the ground, or some kind of climate variable like temperatures. Rasters represent the field view, where the geographical space (each pixel) is filled with some value - this is the opposite of vectors.
 
 ## Digital Elevation Model (DEM)
 There are various ways to represent three dimensional surfaces in GIS, including contour maps (which you may have seen before) and Digital Elevation Models. A Digital Elevation Model (DEM) is a three-dimensional representation of the Earth's surface that is created using elevation data. It is a digital representation of the topography of a particular area, typically displayed as a grid of elevation values. 
