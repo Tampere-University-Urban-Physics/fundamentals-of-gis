@@ -112,9 +112,9 @@ There's a lot going on there, and just by looking at it you may instinctively fe
 - Why is the outline red?!
 - There is no scale bar or north arrow.
 
-We can do better than this. We can choose colours that are appropriate for the data, whether it is sequential (like our air pollution data), diverging (e.g. deviations of differences from a central value of midpoint), or qualitative data (like categories). You can choose the approriate number of classes to display the data, so there are not too many different categories. Again, Colorbrewer (https://colorbrewer2.org/) is a really useful reference for helping you find good colours for the type of data you want to show. Visit colorbrewer and play with the different sequential, diverging, or qualitative suggestions they show. Some show variations by changing the hue (particularly diverging or qualitative) while sequential also has options just to change the brightness of the colour.
+We can do better than this. We can choose colours that are appropriate for the data, whether it is sequential (like our air pollution data), diverging (e.g. deviations of differences from a central value of midpoint), or qualitative data (like categories). You can choose the appropriate number of classes to display the data, so there are not too many different categories. Again, Colorbrewer (https://colorbrewer2.org/) is a really useful reference for helping you find good colours for the type of data you want to show. Visit colorbrewer and play with the different sequential, diverging, or qualitative suggestions they show. Some show variations by changing the hue (particularly diverging or qualitative) while sequential also has options just to change the brightness of the colour.
 
-Below is a (hopefully) improved version of our ugly ugly map. Notice how the issues we have identified have been corrected? Let's aim for good maps.
+Below is a (hopefully) improved version of our ugly map. Notice how the issues we have identified have been corrected? Let's aim for good maps.
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Theory/good_map.png)
 
