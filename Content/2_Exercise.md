@@ -46,7 +46,10 @@ It is good to be familiar with the area you will be working with in this exercis
 2. Open QGIS and load the tampere_buildings.shp, tampere_roads.shp, and tampere_railway.shp into QGIS (See Crash Course exercise 2.1), the project CRS will change to the CRS of these layers (ETS89/TM35FIN).
 	- *TIP: Select all your vector layers at once by arranging the files by file type when you are adding your layers. Click on the file type header > click on the first SHP file in the list > press and hold SHIFT key > click on the last SHP file on the list.*
 
-4. Add Google Satellite imagery: Navigate to your browser panel > expand XYZ Tiles > drag "Google Satellite" to you the layers panel (See Crash Course exercise 1.2).
+3. Add Google Satellite imagery: On the browser window, right-click XYZ tiles and choose New Connection. Give it a name (like Google Satellite), and enter the URL for the data: 
+https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
+Press OK and then double-click the Google Satellite in the browser window. The layer will then show up in the layer panel and in your map.
+(Additional instructions: https://mapscaping.com/google-satellite-imagery-and-google-maps-in-qgis/)
 
 5. Take a moment to examine the data you added now, what is it about? What kind of attributes does the data have?
 	- Can you find the location of where the Nokia Arena is constructed? (hint: the coordinates are 328300 east, 6822050 north in the ETS89 / TM35FIN(E,N) coordinate system. Does the arena and new development exist in the tampere_buildings layer? What about in the Google satellite imagery?
