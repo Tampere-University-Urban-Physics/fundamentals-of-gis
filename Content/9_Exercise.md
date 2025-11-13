@@ -60,14 +60,12 @@ the residents**)
 2. Since it’s difficult to import Excel’s native file format (.xlsx) spreadsheet data into QGIS, you should **save those three files in csv-format (in Libre Office: csv, in Excel:Windows -csv/CSV (comma delimited)**. On Mac, you may have to use Libre Office.
 
 3. **Import the csv -files into QGIS using Add Delimited Text Layer**
-	1. By default, as you are importing the text file, you will probably run into a cramped mass of text in the Sample Data display, like in the picture below. Instead, the Sample Data should look like something you would find in an Attribute table.
+	1. You will be familiar with this from Exercise 6. By default, as you are importing the text file, you will probably run into a cramped mass of text in the Sample Data display, as QGIS may not automatically know how columns are seperated (or deliminated). Instead, the Sample Data should look like something you would find in an Attribute table.
 
-![](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Assets/9_Exercise/Figure 1 - Import.png?raw=true)
+	2. Change File Format to Regular expression delimiter. As we can see in the Sample Data box, the semicolon ; is being used in the text. Type ; into Expression. This tells QGIS that the columns are seperated by a semicolon.
 
-	2. Change File Format to Regular expression delimiter. As we can see in the Sample Data box, the semicolon ; is being used in the text. Type ; into Expression.
-- Figure
-	3. If the names of the columns in the sample data are not ID, postinumero, and so on, but field_1, field_2, etc. (compare pictures above and below): make sure to tick the First record has field values checkbox.
-- Figure
+	3. QGIS may also not recognise that the first row of the data has the column names. If the names of the columns in the sample data are not ID, postinumero, and so on, but field_1, field_2, etc. Make sure to tick the First record has field values checkbox.
+
 	4.  To transform the geographic information of your text file into a visual map, we have to tell QGIS where in the text locations are specified. Therefore, under Geometry Definition, choose the right **X field** (= Lng) and **Y field** (= Lat) from the menu. Also set the correct **Geometry CRS** (= EPSG:4326 - WGS 84). Then Add.
 		- The coordinate system used for the points is a global coordinate system WGS84 (also used by e.g. Google Maps/Earth). What do you think might be the reason that the coordinates are in WGS84 instead of a Finnish coordinate system?
 	5. Once you have imported all three text files into QGIS, save each of the layers on your computer in shapefile format. Name these layers informatively (e.g., preferred (‘soveltuvat’), unpreferred (‘kielletyt’), and important (‘omat’)). From here on, continue with the exercise working on these new layers.
@@ -136,7 +134,7 @@ the residents**)
 
 ### Map visualization  
 
-15. **Compose maps about the possible NIMBY attitudes of Töölö and Vuosaari regarding windmills.**
+15. **Compose at least three maps about the possible NIMBY attitudes of Töölö and Vuosaari regarding windmills.**
 	1. You decide the number of maps and what exactly each map contains.
 		- But the map should support your analysis and its conclusion
 		- Thinking about what to include and how included features are visualized on the map is always important, but increasingly so when there’s high numbers of features on the map.
