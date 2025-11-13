@@ -140,9 +140,9 @@ In the earlier phase you already clipped the DEM, filled the DEM, calculated the
 
 9. Next, you have to convert the newly created buffer zone -layer to raster format. As learned before in this practical, use the *Rasterize (Vector to Raster)* tool to make this rasterization. Choose “Pinta” as the field to assign the values to the output raster and check that the cell size matches the DEM.
 
-10.  For further calculations we need to reclassify the data of the water buffer raster layer.
+10.  For further calculations we need to reclassify the data of the water buffer raster layer. Here, reclassifying means that we give the locations with water bodies the value of 0, meaning that those areas are not suitable for the cultivation purposes.
 		- Open the *Reclassify by table* tool
-		- Add the reclassification table as pictured below
+		- Add the reclassification table as pictured below.  
 		- Run the tool and save the output
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/5_Exercise/5_Exercise_water_reclassification.png)
