@@ -49,7 +49,7 @@ It is good to be familiar with the area you will be working with in this exercis
 3. Add Google Satellite imagery: On the browser window, right-click XYZ tiles and choose New Connection. Give it a name (like Google Satellite), and enter the URL for the data: 
 https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
 Press OK and then double-click the Google Satellite in the browser window. The layer will then show up in the layer panel and in your map.
-(Additional instructions: https://mapscaping.com/google-satellite-imagery-and-google-maps-in-qgis/)
+
 
 5. Take a moment to examine the data you added now, what is it about? What kind of attributes does the data have?
 	- Can you find the location of where the Nokia Arena is constructed? (hint: the coordinates are 328300 east, 6822050 north in the ETS89 / TM35FIN(E,N) coordinate system. Does the arena and new development exist in the tampere_buildings layer? What about in the Google satellite imagery?
