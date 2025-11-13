@@ -62,7 +62,7 @@ the residents**)
 3. **Import the csv -files into QGIS using Add Delimited Text Layer**
 	1. By default, as you are importing the text file, you will probably run into a cramped mass of text in the Sample Data display, like in the picture below. Instead, the Sample Data should look like something you would find in an Attribute table.
 
-![](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Assets/9_Exercise/Figre 1 - Import.png?raw=true)
+![](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Assets/9_Exercise/Figure 1 - Import.png?raw=true)
 
 	2. Change File Format to Regular expression delimiter. As we can see in the Sample Data box, the semicolon ; is being used in the text. Type ; into Expression.
 - Figure
