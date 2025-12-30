@@ -155,8 +155,8 @@ education & low-income areas in Helsinki metropolitan region.**
 ### 1.5. Map outputs
 
 1. Time to make your maps! Think of which maps would be good to describe this analysis. What information do you want to communicate? **Hints:**
+	- Make two maps with graduated symbology showing quantiles, one for income and one for education
 	- Make a map highlighting grid squares where both income level and education are classed 4 to highlight issues with social segregation
-	- Maps with graduated symbology for reclassified income and education
 	- Think about whether you should include the data we removed earlier(-1 entries), would it be valuable to the viewer of the map? Is the map accurate without them? How would you visualize them? Justify your choices in the reflection.
 
 Don't forget to include the requirements for a good map (See Crash Course)! 
