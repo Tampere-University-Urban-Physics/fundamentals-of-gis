@@ -115,7 +115,7 @@ Editing toolbar:
 	
 	- Select the *Add Polygon Feature* in the *Editing Toolbar*.
 	
-	- Click around the corners of the raster drawing of the new buildings, gradually drawing a new polygon in the tampere_buildings layer. When you are finished, right-click and the polygon will close. You then get the opportunity to add new Attributes. Add attributes if you want (such as the name of the stadium), then press OK.
+	- Click around the corners of the raster drawing of all the new buildings (e.g. the arena), gradually drawing a new polygon in the tampere_buildings layer. When you are finished, right-click and the polygon will close. You then get the opportunity to add new Attributes. Add attributes if you want (such as the name of the stadium), then press OK.
 	
 	- When you are finished adding the new buildings, press the *Save* symbol in the Digitizing Toolbar, and toggle off *editing*.
 
@@ -163,8 +163,8 @@ Editing toolbar:
 
 ### 1.4. Map output
 
-1. You’ve finished your edits. Remove the georeferenced raster (you no longer need it) and make a nice informative map. You can choose whether or not to include the Google Satellite data. Insert a scale bar to show the distances in the map, a North Arrow, and a title.
-	- Hint: Look at the crash course exercise for instructions on how to make a map
+1. You’ve finished your edits. Remove the georeferenced raster (you no longer need it) and make a nice informative map that shows the new buildings and the bus stops. You can choose whether or not to include the Google Satellite data. Insert a scale bar to show the distances in the map, a North Arrow, and a title.
+	- **Hint**: Look at the crash course exercise for instructions on how to make a map
 	- Don't forget to change the symbology of your layers to your liking!
 	- The layer names are good for saving data, but the underscores are not ideal for the legend. Try renaming them in the layer panel.
 	
