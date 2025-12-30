@@ -111,6 +111,8 @@ Let’s download a very handy plugin called **QuickMapServices**, which gives ac
 
 ### 2.1 Add and explore data
 
+In this warm up exercise, we will be looking at the transit boardings in the Helsinki metropolitan area. You will be creating a choropleth map that whows the number of boardings per area.
+
 1. In order to get a proper touch of QGIS and how the different tools work, we will of course need data. Download 1_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
 2. Open the Data Source Manager (see 1.1)
@@ -243,7 +245,7 @@ For a start, take your time to move around and get acquainted with the basic too
 ---
 
 ### 2.2 Creating a map output in QGIS
-The last phase of this practical will concentrate on creating a map output. In this case, we want a choropleth map of small areas, symbolised according to the number of boardings. **Hint** Think about what layers are important to communicate the result, and what layers you no longer need. A good map only contains the information required.
+The last phase of this practical will concentrate on creating a map output. In this case, we want a choropleth map of small areas, symbolised according to the number of boardings per unit area. **Hint** Think about what layers are important to communicate the result, and what layers you no longer need. A good map only contains the information required. Hide layers that show unnecessary information by unticking them in the layers window.
 
 ![enter image description here](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/1_CrashCouse_exercise_layout.png)
 
