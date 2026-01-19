@@ -76,7 +76,7 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 4. Before we can use the DEM, we need to fill its sinks
 	- If you didn't already watch the video on why filling sinks is important, it might be a good idea to do it now to understand what you will be doing (https://www.youtube.com/watch?v=6rcx4OwnryI)
 	- Open the *Fill sinks (Wang & Liu)* tool (Remember where we search for all our tools? You may also need to look for a SAGA plugin)
-		- You can ignore the warning message that SAGA version....is not officially supported
+		- You can ignore the warning message that SAGA version....is not officially supported. **If you cannot find fill sinks, then you can skip this step.**
 	- Choose the clipped DEM as the DEM, leave the rest as default
 	- Run the tool, you can remove the flow directions and watershed basins outputs, save the Filled DEM
 		- The output of this will be the DEM we will be using from now on! 
