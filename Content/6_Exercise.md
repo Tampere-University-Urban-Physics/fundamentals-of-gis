@@ -75,12 +75,14 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- Make the symbology *graduated* and the value "Num_Cases"
 	- Change the method to *size*. Rather than changing the color of the symbol based on the number of cases, this will change the size of the symbol. 
 	- Make the classification mode *Natural Breaks* (remember what this means?) with three classes
-	- You can change the size range, try out what you think looks best. 
+	- You can change the size range, try out what you think looks best.
+	- Alternatively, you can change the colour to be graduated. Pick which you prefer - varying the size, or having a colour gradient.
 
 8. We now have the locations of the deaths overlaid on top of a Google image of modern London. But, things have changed a little bit in this area of London since the outbreak. Let’s **bring in an old map of the area**. 
 	
 	- Import the raster Snow-cholera-map-1_modified.tif, which is an old streetmap of the area.
-	- Order the layers in such a way that it makes sense to you 
+	- Order the layers in such a way that it makes sense to you
+	- Play around with the zoom in QGIS, focusing on an area with multiple deaths. You'll notice on the old raster map of the area that there are not just roads, but also black features perpendicular to roads, added by John Snow. What do you think these represent? Discuss this in your reflection.
 	- Right-click Snow-cholera-map-1_modified.tif and choose properties. Under the *Transparency* tab, choose a percentage that makes the raster slightly transparent, so you can also see the more modern city underneath.
 
 ---
