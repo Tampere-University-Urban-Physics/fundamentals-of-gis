@@ -55,20 +55,10 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- Go through the data, what does it describe? What order of layers would be good to work with?
 	-**Hint**. This exercise uses a lot of layers. You can help yourself by clearly naming the new layers you create, and keeping notes of what each layer includes. This is good practice for future exercises, too.
 
-2. We need to have the Ring Rail Line in geospatial format. One option is to digitize it based on a basic map. Other is to find the data online – let’s do that for practice!
-	- HRI offers easy access to open data sources between the cities of Helsinki, Espoo, Vantaa and Kauniainen. Follow the link to Helsinki-Region Transport’s public transport lines from 2021-2022 and open the preview in HSL’s website. https://public-transport-hslhrt.opendata.arcgis.com/datasets/HSLHRT::hsln-linjat-4/explore?location=60.470090%2C25.365467%2C9.39
-	- As you can see, the dataset is big and we don’t need everything it contains. You could download the whole data and edit it on your computer, but you can also filter the data before downloading it. You’d have to figure out what different attributes mean – in this case the information is in Finnish, so needed code explanations are provided here. You can also check them also through the link below and clicking “Aineiston kuvaus (pdf)”.
-		- https://public-transport-hslhrt.opendata.arcgis.com/datasets/HSLHRT::hsln-linjat-4/about
-	- You can select features by clicking “Filter data” on the left of the page.
-		- JL_LAJI: 12, filters for local trains
-		- VERKKO: 4, filters on train traffic
-		- AIK_VOIM: 1, filters on in-use tracks
-		- SUUNTA: 1, filter on 1 direction
-		- You will notice when you filter on these that the visual output barely changes, we are filtering to get as little duplicate lines as possible so we have to do as little manual adjustments ourselves. For this purpose we are only looking to extract the rough location of the line, and thus for example a single direction is sufficient. 
-	- When the selection is done, you can download it by going to the Download tab. Click the “toggle filters” to choose only the selected features, and download as a shapefile.
- ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/4_Exercise/4_Exercise_data_selection.png)
+2. We need to have the Ring Rail Line in geospatial format. HRI offers easy access to open data sources between the cities of Helsinki, Espoo, Vantaa and Kauniainen. You can often find data on the Helsinki-Region Transport’s public transport lines from 2021-2022 on HSL’s website. https://public-transport-hslhrt.opendata.arcgis.com/datasets/HSLHRT::hsln-linjat-4/explore?location=60.470090%2C25.365467%2C9.39
+	-However, because HSL has had a tendency to remove the data, or move it, you can find the HSL data for the ring rail in the downloaded exercise data, HSL%3An_linjat.shp
 
-3. Add the data you downloaded to your QGIS project and inspect the features, what do you notice? 
+3. Add HSL%3An_linjat.shp to your QGIS project and inspect the features, what do you notice? 
 	- There are still duplicate entries for the Ring Rail Line and there are other entries we do not need and are in the way
 	- We want to end up with only the Ring Rail Line. Go through the attribute table selecting rows and find which entry describes the full ring Rail Line. Export this (Exercise 3, step 4) this to a new layer. You can remove the original layer by right-clicking it and selecting Remove Layer.
 
@@ -129,7 +119,7 @@ The Ring Rail Line is likely to increase the attraction for the real estate in t
 | **The requirements are as follows** |
 |:---|
 |- The Hotel & Congress Center has to be located within the maximum **distance of 2 kilometers from the Airport area** (but not inside it the airport area itself) |
-|- The Hotel & Congress Center has to be easily accessible, thus located **within the radius of 1 kilometer from the new Ring Rail Line stations** (including the reserved ones) |
+|- The Hotel & Congress Center has to be easily accessible, thus located **within the radius of 1 kilometer from Ring Rail Line stations** |
 |- It has to be **within the radius of 500 meters from the road network**. |
 |- The Hotel & Congress Center has to be **outside the ≥ 55 dB noise zones** caused by the airport traffic. |
 |- The Hotel & Congress Center **cannot be built on already built up areas**. |
