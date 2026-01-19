@@ -60,7 +60,7 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- Change the symbology in such a way that you can see your basemap under it (e.g. remove the fill or change the transparency)  
 
 7. Let’s also change the symbology of the monitoring stations
-	- Let’s make these a graduated symbol. Choose NO2 as the *Value*.  You will now see a map with the monitoring stations colored according to the monitored NO~2~ levels. Does anywhere exceed the EU Air Quality Directive limit of an annual average of 40 micrograms per cubic metre? 
+	- Let’s make these a graduated symbol. Choose NO2 as the *Value*.  You will now see a map with the monitoring stations colored according to the monitored NO~2~ levels. Does anywhere exceed the 2008 EU Air Quality Directive limit of an annual average of 40 micrograms per cubic metre? The new EU Air Quality Directive has targets to meet 20 micrograms per cubic metre. Does anywhere exceed this? The World Health Organisation has a target limit of 10 micrograms per cubic metre. Does anywhere exceed this value?
 
 ---
 
@@ -94,7 +94,8 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- What is the postcode with the highest NO2 concentrations? 
 	- What is the postcode with the lowest? 
 	- What are the concentrations in the postcode with the highest median income? 
-	- What is the pollution in the postcodes with the lowest median income (ignoring those with 0)? 
+	- What is the pollution in the postcodes with the lowest median income (ignoring those with 0)?
+	- How many postcodes have an average concentration that exceeds limit values of 40, 20, and 10 micrograms per cubic metre?
 
 13. We can also join the air pollution monitoring stations point data to the postcodes. This can help us identify the number of monitoring stations in postcodes, and estimate the average concentrations based on only the monitoring stations. To do so, we will perform a spatial join.
 	- Open the *Join Attributes by Location (Summary)* tool
