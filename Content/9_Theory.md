@@ -14,6 +14,10 @@ SoftGIS is a specific implementation of PPGIS that focuses on user-friendly soft
 
 The collected data can be used for various purposes, such as urban planning, environmental management, social impact assessments, or community development initiatives. By involving the public in the GIS process, PPGIS/SoftGIS fosters collaboration, empowers local communities, and enhances the quality and relevance of decision-making processes.
 
+Of course, data contributed by the public can be a little more messy...
+
+![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/9_Exercise/IMG_1250.JPG)
+
 ### PPGIS/SoftGIS tools
 There are several PPGIS/SoftGIS tools that have been developed to facilitate public participation in spatial data collection and analysis, but only few are freely available. A good example of a this is **Epicollect5**, an open mobile data-gathering platform developed by the University of Oxford. It was originally developed to track diseases, but is now freely available to anyone that wants to conduct surveys with location data. Especially worth checking out if you want to conduct some kind of survey with geographical data: https://five.epicollect.net/. Another open-source application is Ushahidi: https://www.ushahidi.com/
 
