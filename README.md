@@ -34,7 +34,7 @@ The course consists of **9 exercises**, each of which is accompanied by an theor
 
 The course is designed to encourage you to be an independent learner. This is because:
 - It is an online course and largely self-taught, at your own speed.
-- When using GIS, you will run into issues  
+- When using GIS, and almost any tool, you will run into issues and challenges which you need to overcome by yourself. This course attempts to help you achieve the ability   
 - The installations of QGIS can differ based on the version and operating system, and we cannot make instructions for all of these
 - We want you to make your own mapping decisions. In some earlier tutorials, we provide a final map as a guide for what your results should look like, but providing these throughout would just lead to students trying to mimic them. Instead, we want you to think independently about the data you want to present and the best ways to do this.
 
@@ -115,7 +115,7 @@ Based on work and with help from:
 
 # Let's get started with the [first theory section](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzI1NjA5OCwtMTUwMzcxNjM1LC00Mj
+eyJoaXN0b3J5IjpbLTM0NzYwOTU0NSwtMTUwMzcxNjM1LC00Mj
 kyMTI1MzcsMjEyNjIyNjQ2LDM0MjA2NDg1MCw5MjE0MDE0ODNd
 fQ==
 -->
