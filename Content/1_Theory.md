@@ -10,13 +10,13 @@ GIS, which stands for Geographic Information Systems, is a technology that invol
 
 GIS is used in a wide range of fields and industries, such as:
 
-1.  **Urban Planning**: GIS helps in analyzing land use patterns, transportation networks, and infrastructure planning. It enables urban planners to make informed decisions about zoning, growth management, and resource allocation.
-2.  **Environmental Management**: GIS assists in monitoring and managing natural resources, such as forests, water bodies, and wildlife habitats. It aids in environmental impact assessments, conservation planning, and disaster management.
-3.  **Public Health**: GIS is used to analyze disease outbreaks, track the spread of infectious diseases, and plan healthcare facilities and resources. It helps in understanding health disparities, identifying high-risk areas, and optimizing public health interventions.
-4.  **Emergency Management**: GIS plays a crucial role in disaster preparedness, response, and recovery. It helps in identifying vulnerable areas, managing evacuation routes, and coordinating emergency services during natural disasters or other crises.
-5.  **Transportation and Logistics**: GIS is utilized in optimizing transportation routes, analyzing traffic patterns, and planning efficient logistics networks. It assists in fleet management, supply chain optimization, and location-based services.
-6.  **Natural Resource Management**: GIS is employed in assessing and managing natural resources like forests, water resources, minerals, and energy sources. It aids in land use planning, resource exploration, and environmental impact assessment.
-7.  **Business and Marketing**: GIS helps businesses in market analysis, site selection, and customer profiling. It assists in identifying target markets, optimizing sales territories, and visualizing market trends.
+-  **Urban Planning**: GIS helps in analyzing land use patterns, transportation networks, and infrastructure planning. It enables urban planners to make informed decisions about zoning, growth management, and resource allocation.
+-  **Environmental Management**: GIS assists in monitoring and managing natural resources, such as forests, water bodies, and wildlife habitats. It aids in environmental impact assessments, conservation planning, and disaster management.
+-  **Public Health**: GIS is used to analyze disease outbreaks, track the spread of infectious diseases, and plan healthcare facilities and resources. It helps in understanding health disparities, identifying high-risk areas, and optimizing public health interventions.
+-  **Emergency Management**: GIS plays a crucial role in disaster preparedness, response, and recovery. It helps in identifying vulnerable areas, managing evacuation routes, and coordinating emergency services during natural disasters or other crises.
+-  **Transportation and Logistics**: GIS is utilized in optimizing transportation routes, analyzing traffic patterns, and planning efficient logistics networks. It assists in fleet management, supply chain optimization, and location-based services.
+-  **Natural Resource Management**: GIS is employed in assessing and managing natural resources like forests, water resources, minerals, and energy sources. It aids in land use planning, resource exploration, and environmental impact assessment.
+-  **Business and Marketing**: GIS helps businesses in market analysis, site selection, and customer profiling. It assists in identifying target markets, optimizing sales territories, and visualizing market trends.
 
 These are just a few examples of the diverse applications of GIS. This course is not specifically tailored for a specific field, but it aims to give you a fundamental skillset in GIS that you can use to apply GIS in almost any field. 
 
@@ -124,17 +124,17 @@ Below is a (hopefully) improved version of our ugly map. Notice how the issues w
 [^1]: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJKQXJmY3BCa3ozaWN1b0ZnIjp7In
-N0YXJ0Ijo5MDU2LCJlbmQiOjkwNzgsInRleHQiOiIjIyMgR0lT
+N0YXJ0Ijo5MDQ5LCJlbmQiOjkwNzEsInRleHQiOiIjIyMgR0lT
 IGFuYWx5c2lzIHR5cGVzIn0sIk5ZQlVJUTdYZHVZWkd1YzUiOn
-sic3RhcnQiOjEyNzk4LCJlbmQiOjEyODIwLCJ0ZXh0IjoiIyMg
+sic3RhcnQiOjEyNzkxLCJlbmQiOjEyODEzLCJ0ZXh0IjoiIyMg
 V2hhdCBpcyBhIGdvb2QgbWFwPyJ9LCJReTZ0eTZGSDBraTFlOG
-NFIjp7InN0YXJ0IjozNTM3LCJlbmQiOjM1NTMsInRleHQiOiIj
+NFIjp7InN0YXJ0IjozNTMwLCJlbmQiOjM1NDYsInRleHQiOiIj
 IyMgU3BhdGlhbCBkYXRhIn0sIm1LMno3ck5ESG9sNDc2OFgiOn
-sic3RhcnQiOjU4MzIsImVuZCI6NjE3MSwidGV4dCI6IlJhc3Rl
+sic3RhcnQiOjU4MjUsImVuZCI6NjE2NCwidGV4dCI6IlJhc3Rl
 ciBkYXRhIGlzIGNvbW1vbmx5IHVzZWQgZm9yIGNvbnRpbnVvdX
 MgYW5kIHJlZ3VsYXJseSBzYW1wbGVkIGRhdGEsIHN1Y2ggYXPi
-gKYifSwiZERWbGw5UXY4Y1hJSFRTOSI6eyJzdGFydCI6NTAwNy
-wiZW5kIjo1MDg1LCJ0ZXh0IjoiVmVjdG9yIGRhdGEgcHJvdmlk
+gKYifSwiZERWbGw5UXY4Y1hJSFRTOSI6eyJzdGFydCI6NTAwMC
+wiZW5kIjo1MDc4LCJ0ZXh0IjoiVmVjdG9yIGRhdGEgcHJvdmlk
 ZXMgcHJlY2lzZSBhbmQgYWNjdXJhdGUgcmVwcmVzZW50YXRpb2
 5zIG9mIHNwYXRpYWwgZmVhdHVyZXMuIn0sInBHZEkzbGRpRkNN
 Y1ZQMjYiOnsic3RhcnQiOjM2NSwiZW5kIjozOTUsInRleHQiOi
@@ -169,5 +169,5 @@ dGVkIjoxNzczMzg2NzQyMTQ2fSwicFJsT1B1bGVkRGdGaEtnOC
 I6eyJkaXNjdXNzaW9uSWQiOiJPVTRzdzdFMW9US1RCdzB0Iiwi
 c3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cm
 VzIiwiY3JlYXRlZCI6MTc3MzM4NzAzNTc3MX19LCJoaXN0b3J5
-IjpbODU1ODQ1ODI5LC0xMTY1NzkyNDEwXX0=
+IjpbODc0NTAyNjYwLDg1NTg0NTgyOSwtMTE2NTc5MjQxMF19
 -->
