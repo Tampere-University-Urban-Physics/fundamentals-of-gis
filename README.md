@@ -48,7 +48,7 @@ To ensure that your submissions are original:
 - Map output: Your name has to be mentioned on the map output and they will be compared with others
 - Map reflection: Anti-plagiarism tool is used
 
-This course is rolling, so you can complete it on your own time. We try to mark new submissions once a week, and when you finish we will pass you on Sisu. Course work submitted by midsummer will be graded by the end of June. Course work submitted after June will be graded in August (so I can have a bit of a holiday).
+This course is rolling, so you can complete it on your own time. We try to mark new submissions once a week, and when you finish we will pass you on Sisu. Course work submitted by midsummer will be graded by the end of June. Course work submitted after June will be graded in August.
 
 *Only applicable to Tampere University students enrolled in the course
 
@@ -58,7 +58,7 @@ If you ever have a question or run in to an issue along this course, please foll
 ![Troubleshooting process](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/0_Course_introduction/GIS_troubleshooting_process.drawio.png)
 1. Start by checking if the information in the **course materials** provide a solution, it might have been covered in the previous theory or exercises as well
 	- If you come across missing information in the materials, please let us know so we can make sure others don't run into the same issue! 
-2. Being a *Professional **Google** Searcher* will get you really far with (Q)GIS. Try searching your question or issue, below you can find some tips on how to improve your google searches
+2. Being a *Professional **Google** Searcher* will get you extremely far with (Q)GIS. Try searching your question or issue, below you can find some tips on how to improve your google searches
 	- [Simple Google Search tips](https://www.youtube.com/watch?v=oIMTM168BK8)
 	- [How to "Google It" like a Senior Software Engineer](https://www.youtube.com/watch?v=cEBkvm0-rg0)
 	- [Refine web searches](https://support.google.com/websearch/answer/2466433?hl=en)
@@ -118,7 +118,7 @@ Based on work and with help from:
 
 # Let's get started with the [first theory section](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjgwMTUzNzUsLTE1MDM3MTYzNSwtND
-I5MjEyNTM3LDIxMjYyMjY0NiwzNDIwNjQ4NTAsOTIxNDAxNDgz
-XX0=
+eyJoaXN0b3J5IjpbMTM3MDk3MzE4MSwtMTUwMzcxNjM1LC00Mj
+kyMTI1MzcsMjEyNjIyNjQ2LDM0MjA2NDg1MCw5MjE0MDE0ODNd
+fQ==
 -->
