@@ -53,7 +53,7 @@ In GIS, both vector and raster data have their respective strengths and applicat
 
 Don't stress about understanding vector and raster data immediately, it will be come easier to understand once you've worked with the different types of data in the exercises!  
 
-Hungry for more? Further reading on vector and raster data in the QGIS documentation: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html, https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/raster_data.html)
+Hungry for more? Further reading on vector and raster data in the QGIS documentation: https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/vector_data.html, https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/raster_data.html
 
 ## GIS analysis types
 The most common GIS (Geographic Information System) analysis types can vary depending on the specific application and industry. However, some of the widely used and common GIS analysis types are:
@@ -126,9 +126,9 @@ Below is a (hopefully) improved version of our ugly map. Notice how the issues w
 [^1]: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJKQXJmY3BCa3ozaWN1b0ZnIjp7In
-N0YXJ0Ijo4MjI4LCJlbmQiOjgyNTAsInRleHQiOiIjIyMgR0lT
+N0YXJ0Ijo4MjI3LCJlbmQiOjgyNDksInRleHQiOiIjIyMgR0lT
 IGFuYWx5c2lzIHR5cGVzIn0sIk5ZQlVJUTdYZHVZWkd1YzUiOn
-sic3RhcnQiOjEyOTg4LCJlbmQiOjEzMDEwLCJ0ZXh0IjoiIyMg
+sic3RhcnQiOjEyOTg3LCJlbmQiOjEzMDA5LCJ0ZXh0IjoiIyMg
 V2hhdCBpcyBhIGdvb2QgbWFwPyJ9LCJwR2RJM2xkaUZDTWNWUD
 I2Ijp7InN0YXJ0IjozNjUsImVuZCI6Mzk1LCJ0ZXh0IjoiZ2Vv
 Z3JhcGhpY2FsbHkgcmVmZXJlbmNlZCBkYXRhIn0sIk9VNHN3N0
@@ -188,6 +188,6 @@ dGFuZCByYXN0ZXIgZGF0YSBmcm9tIHRoaXMgZGVzY3JpcHRpb2
 c3RhbmRhYmxlIGFuZCBzaW1pbGFyIHRvIHRoZSB2ZWN0b3IgZG
 F0YSwgYWRkIGEgcGljdHVyZSBhbmQgbWFwIGFzIGFuIGV4YW1w
 bGUuIiwiY3JlYXRlZCI6MTc3MzM5MTk5NjczN319LCJoaXN0b3
-J5IjpbOTcwMjY1NDExLC0xMDU5MjA0Mzk0LC04NjEzNzY2ODIs
-ODU1ODQ1ODI5LC0xMTY1NzkyNDEwXX0=
+J5IjpbLTMwMDA1Nzk2NCwtMTA1OTIwNDM5NCwtODYxMzc2Njgy
+LDg1NTg0NTgyOSwtMTE2NTc5MjQxMF19
 -->
