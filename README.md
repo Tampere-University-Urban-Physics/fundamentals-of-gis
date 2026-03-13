@@ -83,10 +83,11 @@ As mentioned earlier, there is a chat available to get support from other people
 
 You can find the chat here: https://teams.microsoft.com/l/team/19:HduKwpmM4c7LyKk3vcQFZnV_uIFMB63WvG-e_p6P1wM1@thread.tacv2/conversations?groupId=713525aa-e19b-4ba5-9491-cba5bcfc17be&tenantId=fa6944af-cc7c-4cd8-9154-c01132798910
 
-### Moodle
-This is only relevant for Tampere University students completing this course for credits. 
+### Moodle*
 
 The Moodle environment is where you will submit your reflections and map outputs, as well as complete some quizzes. If you have enrolled to this course on Sisu but have not been added to the Moodle environment, please contact the person listed as responsible on the Sisu page for this course. 
+
+*Only applicable to Tampere University students enrolled in the course
 
 ## Feedback
 
@@ -99,6 +100,7 @@ Everyone can give feedback through the chat, and students can write feedback in 
 This course was made by **Rowan van der Kaaden** and **Jonathon Taylor**.
 
 Based on work and with help from:
+- Huujärvi, Aino 
 - Muukkonen, Petteri S
 - Jylhä, Markus J H
 - Arosuo, Haikku I
@@ -118,7 +120,7 @@ Based on work and with help from:
 
 # Let's get started with the [first theory section](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc5NTc2MTIyLDEzNzA5NzMxODEsLTE1MD
-M3MTYzNSwtNDI5MjEyNTM3LDIxMjYyMjY0NiwzNDIwNjQ4NTAs
-OTIxNDAxNDgzXX0=
+eyJoaXN0b3J5IjpbLTE3MDY5OTkwMjksMTM3MDk3MzE4MSwtMT
+UwMzcxNjM1LC00MjkyMTI1MzcsMjEyNjIyNjQ2LDM0MjA2NDg1
+MCw5MjE0MDE0ODNdfQ==
 -->
