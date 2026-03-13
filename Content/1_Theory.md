@@ -40,7 +40,7 @@ Spatial data refers to **information that is associated with specific locations 
 	-  Lines: Represent linear features, such as roads, rivers, or boundaries. Lines are defined by a series of connected nodes.
 	-  Polygons: Represent enclosed areas or regions, such as administrative boundaries, land parcels, or thematic zones. Polygons are defined by a series of connected nodes forming a closed shape.
 
-	Vector data provides precise and accurate representations of spatial features. Vector data does not lose resolution the more you zoom in, because it is based on coordinates of points or nodes, the GIS software simply redraws the feature. This type of way of looking at spatial features is often called the **object view**, where space is considered to be empty except when occupied by a feature.
+	Vector data provides precise and accurate representations of spatial features. Vector data does not lose resolution the more you zoom in, because it is based on coordinates of points or nodes, the GIS software simply redraws the feature. 
 
 2. **Raster Data** represents spatial information by a continuous surface divided into a grid of cells or pixels. Each cell corresponds to a specific location and contains a value representing a particular attribute. Imagine you are standing on the same hill as in the last example. Rather than identifying different features, you classify every surface. Key characteristics of raster data include:
 	-  Grid: The analyzed surface is divided into a regular grid of cells, where each cell represents a specific location or area.
@@ -124,9 +124,9 @@ Below is a (hopefully) improved version of our ugly map. Notice how the issues w
 [^1]: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJKQXJmY3BCa3ozaWN1b0ZnIjp7In
-N0YXJ0Ijo4MjA3LCJlbmQiOjgyMjksInRleHQiOiIjIyMgR0lT
+N0YXJ0Ijo4MDUwLCJlbmQiOjgwNzIsInRleHQiOiIjIyMgR0lT
 IGFuYWx5c2lzIHR5cGVzIn0sIk5ZQlVJUTdYZHVZWkd1YzUiOn
-sic3RhcnQiOjEyOTY3LCJlbmQiOjEyOTg5LCJ0ZXh0IjoiIyMg
+sic3RhcnQiOjEyODEwLCJlbmQiOjEyODMyLCJ0ZXh0IjoiIyMg
 V2hhdCBpcyBhIGdvb2QgbWFwPyJ9LCJwR2RJM2xkaUZDTWNWUD
 I2Ijp7InN0YXJ0IjozNjUsImVuZCI6Mzk1LCJ0ZXh0IjoiZ2Vv
 Z3JhcGhpY2FsbHkgcmVmZXJlbmNlZCBkYXRhIn0sIk9VNHN3N0
@@ -175,6 +175,6 @@ ck5ZbTlsIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiTW
 F5YmUgZXhhbXBsZXMgZm9yIGFsbCB0eXBlcyBvZiB2ZWN0b3Ig
 ZGF0YT8gT3IgdHJ5IHRvIHB1dCB0aGVtIGFsbCBpbnRvIDE/Ii
 wiY3JlYXRlZCI6MTc3MzM5MTcwMzQwNX19LCJoaXN0b3J5Ijpb
-LTI4NTc4MDA1MCwtMTA1OTIwNDM5NCwtODYxMzc2NjgyLDg1NT
+LTU5NTY2MTE1NSwtMTA1OTIwNDM5NCwtODYxMzc2NjgyLDg1NT
 g0NTgyOSwtMTE2NTc5MjQxMF19
 -->
