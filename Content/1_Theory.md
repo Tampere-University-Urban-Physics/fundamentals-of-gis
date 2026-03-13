@@ -11,7 +11,7 @@ GIS, which stands for Geographic Information Systems, is a technology that invol
 GIS is used in a wide range of fields and industries, such as:
 
 1.  **Urban Planning**: GIS helps in analyzing land use patterns, transportation networks, and infrastructure planning. It enables urban planners to make informed decisions about zoning, growth management, and resource allocation.
-2.  **Environmental Management**: GIS assists in monitoring and managing natural resources, such as forests, water bodies, and wildlife habitats. It aids in environmental impact assessments, conservation planning, and disaster management.
+2.  **Environmental Management**: GIS assists in monitoring and managing natural resources, such as forests, water bodies, and wildlife habitats. It aids in activities like environmental impact assessments, conservation planning, and disaster management.
 3.  **Public Health**: GIS is used to analyze disease outbreaks, track the spread of infectious diseases, and plan healthcare facilities and resources. It helps in understanding health disparities, identifying high-risk areas, and optimizing public health interventions.
 4.  **Emergency Management**: GIS plays a crucial role in disaster preparedness, response, and recovery. It helps in identifying vulnerable areas, managing evacuation routes, and coordinating emergency services during natural disasters or other crises.
 5.  **Transportation and Logistics**: GIS is utilized in optimizing transportation routes, analyzing traffic patterns, and planning efficient logistics networks. It assists in fleet management, supply chain optimization, and location-based services.
@@ -127,17 +127,17 @@ eyJkaXNjdXNzaW9ucyI6eyJyZ3F6bUxVTU9MVnc4ZFpGIjp7In
 N0YXJ0Ijo1ODAsImVuZCI6NjQ0LCJ0ZXh0IjoiR0lTIGlzIHVz
 ZWQgaW4gYSB3aWRlIHJhbmdlIG9mIGZpZWxkcyBhbmQgaW5kdX
 N0cmllcywgaW5jbHVkaW5nOiJ9LCJKQXJmY3BCa3ozaWN1b0Zn
-Ijp7InN0YXJ0Ijo5MDU2LCJlbmQiOjkwNzgsInRleHQiOiIjIy
+Ijp7InN0YXJ0Ijo5MDcyLCJlbmQiOjkwOTQsInRleHQiOiIjIy
 MgR0lTIGFuYWx5c2lzIHR5cGVzIn0sIk5ZQlVJUTdYZHVZWkd1
-YzUiOnsic3RhcnQiOjEyNzk4LCJlbmQiOjEyODIwLCJ0ZXh0Ij
+YzUiOnsic3RhcnQiOjEyODE0LCJlbmQiOjEyODM2LCJ0ZXh0Ij
 oiIyMgV2hhdCBpcyBhIGdvb2QgbWFwPyJ9LCJReTZ0eTZGSDBr
-aTFlOGNFIjp7InN0YXJ0IjozNTM3LCJlbmQiOjM1NTMsInRleH
+aTFlOGNFIjp7InN0YXJ0IjozNTUzLCJlbmQiOjM1NjksInRleH
 QiOiIjIyMgU3BhdGlhbCBkYXRhIn0sIm1LMno3ck5ESG9sNDc2
-OFgiOnsic3RhcnQiOjU4MzIsImVuZCI6NjE3MSwidGV4dCI6Il
+OFgiOnsic3RhcnQiOjU4NDgsImVuZCI6NjE4NywidGV4dCI6Il
 Jhc3RlciBkYXRhIGlzIGNvbW1vbmx5IHVzZWQgZm9yIGNvbnRp
 bnVvdXMgYW5kIHJlZ3VsYXJseSBzYW1wbGVkIGRhdGEsIHN1Y2
 ggYXPigKYifSwiZERWbGw5UXY4Y1hJSFRTOSI6eyJzdGFydCI6
-NTAwNywiZW5kIjo1MDg1LCJ0ZXh0IjoiVmVjdG9yIGRhdGEgcH
+NTAyMywiZW5kIjo1MTAxLCJ0ZXh0IjoiVmVjdG9yIGRhdGEgcH
 JvdmlkZXMgcHJlY2lzZSBhbmQgYWNjdXJhdGUgcmVwcmVzZW50
 YXRpb25zIG9mIHNwYXRpYWwgZmVhdHVyZXMuIn0sInBHZEkzbG
 RpRkNNY1ZQMjYiOnsic3RhcnQiOjM2NSwiZW5kIjozOTUsInRl
@@ -169,5 +169,5 @@ c2N1c3Npb25JZCI6InBHZEkzbGRpRkNNY1ZQMjYiLCJzdWIiOi
 JnaDo0MDMwNDc4OCIsInRleHQiOiJXaGF0IGRvZXMgaXQgbWVh
 biB0aGF0IGRhdGEgaXMgZ2VvZ3JhcGhpY2FsbHkgcmVmZXJlbm
 NlZD8iLCJjcmVhdGVkIjoxNzczMzg2NzQyMTQ2fX0sImhpc3Rv
-cnkiOls4NTM3MjQyMThdfQ==
+cnkiOlstMTE2NTc5MjQxMF19
 -->
