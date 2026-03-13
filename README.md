@@ -18,7 +18,7 @@ After completing the course you should be able to:
 - Develop the ability to perform new analyses, troubleshoot, and find help from the GIS community to solve your problems
 
 ## Structure
-The course consists of **9 sections**, of which each includes a piece and an exercise. It's recommended to go through the theory before attempting the exercise. The first exercise is meant to give you the basic skills in GIS and the software we will be using, QGIS. From there on you will build on these basic skills using the other exercises, covering various analyses and methods, and develop a fundamental skillset in GIS and QGIS. 
+The course consists of **9 exercises**, each of which includes a piece of theory and an exercise. It's recommended to go through the theory before attempting the exercise. The first exercise is meant to give you the basic skills in GIS and the software we will be using, QGIS. From there on you will build on these basic skills using the other exercises, covering various analyses and methods, and develop a fundamental skillset in GIS and QGIS. 
 
 | Exercise | Topic | Methods |
 |--|--|--|
@@ -109,7 +109,7 @@ Based on work and with help from:
 
 # Let's get started with the [first theory section](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NDM1MjU4MCwtMTUwMzcxNjM1LC00Mj
+eyJoaXN0b3J5IjpbMTAzNzIxNTAxNSwtMTUwMzcxNjM1LC00Mj
 kyMTI1MzcsMjEyNjIyNjQ2LDM0MjA2NDg1MCw5MjE0MDE0ODNd
 fQ==
 -->
