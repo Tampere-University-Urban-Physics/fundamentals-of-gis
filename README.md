@@ -32,6 +32,11 @@ The course consists of **9 exercises**, each of which is accompanied by an theor
 | [8](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/8_Theory.md) | Calculating building efficiency | Expressions, creating grids |
 | [9](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/9_Theory.md) | Wind power NIMBY (Not in my backyard) analysis | Public Participation GIS/SoftGIS, Directional Distribution |
 
+The course is designed to encourage you to be an independent learner. This is because:
+- It is an online course and largely self-taught, at your own speed.
+- The installations of QGIS can different based on the version and operating system, and we cannot make instructions for all of these
+- We want you to make your own mapping decisions. In some earlier tutorials, we provide a final map as a guide for what your results should look like - but providing these throughout would just lead to students trying to mimic them. Instead, we want you to think independently about the data you want to present and the best ways to do this.
+
 ## Evaluation
 To get the credits for this course, the following criteria have to be met:
  - [ ] Submitted original map output(s) for each exercise
@@ -109,7 +114,7 @@ Based on work and with help from:
 
 # Let's get started with the [first theory section](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTA5ODk5MywtMTUwMzcxNjM1LC00Mj
-kyMTI1MzcsMjEyNjIyNjQ2LDM0MjA2NDg1MCw5MjE0MDE0ODNd
-fQ==
+eyJoaXN0b3J5IjpbLTE3NTc4MDgyMjQsLTE1MDM3MTYzNSwtND
+I5MjEyNTM3LDIxMjYyMjY0NiwzNDIwNjQ4NTAsOTIxNDAxNDgz
+XX0=
 -->
