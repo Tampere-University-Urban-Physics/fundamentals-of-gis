@@ -20,18 +20,6 @@ GIS is used in a wide range of fields and industries, such as:
 
 These are just a few examples of the diverse applications of GIS. This course is not mean to be specifically tailored for a specific field, but it aims to give you a fundamental skillset in GIS that you can use to apply GIS in almost any field. 
 
-## What is QGIS?
-In short, QGIS is a GIS application that can be used for various GIS analyses. There are other GIS applications, the other most common of which is ArcGIS. We are using QGIS for this course since it is open-source and free, meaning it is accessible for all, in contrast to ArcGIS which is proprietary software. 
-
-So, you're going to need QGIS for this course! Please take a moment now to ensure you have it installed: https://qgis.org/en/site/forusers/download.html# 
-
-Our recommendation is to install the Long Term Release (LTR) version, since this should have the least errors in the software. Alternatively you can also use the Latest Release, with the latest features, but also the latest errors :'). More info on the installation of QGIS can be found here: https://qgis.org/resources/installation-guide/ 
-
-The exercises in this course have been developed for the English language installation of QGIS.
-
-You can find more information about the usage of QGIS here: https://www.qgis.org/resources/hub/
-
-
 ## GIS workflow
 
 PPDAC is a problem-solving framework commonly used in the field of data analysis and decision-making. It stands for Problem, Plan, Data, Analysis, and Conclusion. This framework provides a systematic approach to tackle complex problems and make informed decisions based on data-driven analysis. While PPDAC is not specifically tied to Geographic Information Systems (GIS), it can be applied within a GIS context to enhance the problem-solving process.
@@ -81,8 +69,16 @@ The most common GIS (Geographic Information System) analysis types can vary depe
 
 These are some of the most common GIS analysis types, but the field of GIS offers a vast range of analysis techniques and tools that can be tailored to specific needs and applications. 
 
+## What is QGIS?
+In short, QGIS is a GIS application that can be used for various GIS analyses. There are other GIS applications, the other most common of which is ArcGIS. We are using QGIS for this course since it is open-source and free, meaning it is accessible for all, in contrast to ArcGIS which is proprietary software. 
 
+So, you're going to need QGIS for this course! Please take a moment now to ensure you have it installed: https://qgis.org/en/site/forusers/download.html# 
 
+Our recommendation is to install the Long Term Release (LTR) version, since this should have the least errors in the software. Alternatively you can also use the Latest Release, with the latest features, but also the latest errors :'). More info on the installation of QGIS can be found here: https://qgis.org/resources/installation-guide/ 
+
+The exercises in this course have been developed for the English language installation of QGIS.
+
+You can find more information about the usage of QGIS here: https://www.qgis.org/resources/hub/
 
 ## What is a good map?
 
@@ -128,51 +124,45 @@ Below is a (hopefully) improved version of our ugly map. Notice how the issues w
 [^1]: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJKQXJmY3BCa3ozaWN1b0ZnIjp7In
-N0YXJ0Ijo5MjYzLCJlbmQiOjkyODUsInRleHQiOiIjIyMgR0lT
+N0YXJ0Ijo4MjQxLCJlbmQiOjgyNjMsInRleHQiOiIjIyMgR0lT
 IGFuYWx5c2lzIHR5cGVzIn0sIk5ZQlVJUTdYZHVZWkd1YzUiOn
-sic3RhcnQiOjEzMDA1LCJlbmQiOjEzMDI3LCJ0ZXh0IjoiIyMg
-V2hhdCBpcyBhIGdvb2QgbWFwPyJ9LCJReTZ0eTZGSDBraTFlOG
-NFIjp7InN0YXJ0IjozNzQ2LCJlbmQiOjM3NjIsInRleHQiOiIj
-IyMgU3BhdGlhbCBkYXRhIn0sIm1LMno3ck5ESG9sNDc2OFgiOn
-sic3RhcnQiOjYwNDAsImVuZCI6NjM3OSwidGV4dCI6IlJhc3Rl
-ciBkYXRhIGlzIGNvbW1vbmx5IHVzZWQgZm9yIGNvbnRpbnVvdX
-MgYW5kIHJlZ3VsYXJseSBzYW1wbGVkIGRhdGEsIHN1Y2ggYXPi
-gKYifSwiZERWbGw5UXY4Y1hJSFRTOSI6eyJzdGFydCI6NTIxNS
-wiZW5kIjo1MjkzLCJ0ZXh0IjoiVmVjdG9yIGRhdGEgcHJvdmlk
-ZXMgcHJlY2lzZSBhbmQgYWNjdXJhdGUgcmVwcmVzZW50YXRpb2
-5zIG9mIHNwYXRpYWwgZmVhdHVyZXMuIn0sInBHZEkzbGRpRkNN
-Y1ZQMjYiOnsic3RhcnQiOjM2NSwiZW5kIjozOTUsInRleHQiOi
-JnZW9ncmFwaGljYWxseSByZWZlcmVuY2VkIGRhdGEifSwiT1U0
-c3c3RTFvVEtUQncwdCI6eyJzdGFydCI6NjA4LCJlbmQiOjY3MC
-widGV4dCI6IkdJUyBpcyB1c2VkIGluIGEgd2lkZSByYW5nZSBv
-ZiBmaWVsZHMgYW5kIGluZHVzdHJpZXMsIHN1Y2ggYXM6In19LC
-Jjb21tZW50cyI6eyI1cVlaeTZyaE5POUZBTjVkIjp7ImRpc2N1
-c3Npb25JZCI6IkpBcmZjcEJrejNpY3VvRmciLCJzdWIiOiJnaD
-o0MDMwNDc4OCIsInRleHQiOiJBZGQgZXhhbXBsZSBwaWN0dXJl
-cyBhbmQgc3R1ZGllcyIsImNyZWF0ZWQiOjE2ODcwNjgxMjIwOD
-N9LCJPN0NDTTlFWXpXaUUyNURMIjp7ImRpc2N1c3Npb25JZCI6
-Ik5ZQlVJUTdYZHVZWkd1YzUiLCJzdWIiOiJnaDo0MDMwNDc4OC
-IsInRleHQiOiJBZGQgZ29vZCBhbmQgYmFkIG1hcCBleGFtcGxl
-cyIsImNyZWF0ZWQiOjE2ODcwNjgxNDM0Mjd9LCJtNXRPaVZ0OF
-dOenJHMXRKIjp7ImRpc2N1c3Npb25JZCI6IlF5NnR5NkZIMGtp
-MWU4Y0UiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZG
-QgZGF0YSBmaWxlIHR5cGVzIHNlY3Rpb24iLCJjcmVhdGVkIjox
-Njg3MDY4MjY1ODQ5fSwiRHNjMndzWDFHQlo3NEN2YSI6eyJkaX
-NjdXNzaW9uSWQiOiJtSzJ6N3JOREhvbDQ3NjhYIiwic3ViIjoi
-Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHJlYWwgbGlmZSBleG
-FtcGxlIG9mIHJhc3RlciBkYXRhIiwiY3JlYXRlZCI6MTY5NTEw
-NjM1MTAxMX0sImVXTFJUTmNqRDJCa1hNRkYiOnsiZGlzY3Vzc2
-lvbklkIjoiZERWbGw5UXY4Y1hJSFRTOSIsInN1YiI6ImdoOjQw
-MzA0Nzg4IiwidGV4dCI6IkFkZCByZWFsIGxpZmUgZXhhbXBsZS
-BvZiB2ZWN0b3IgZGF0YSIsImNyZWF0ZWQiOjE2OTUxMDYzNjc2
-Njh9LCJLQ2dVWlV3aGtVMFhkd1hLIjp7ImRpc2N1c3Npb25JZC
-I6InBHZEkzbGRpRkNNY1ZQMjYiLCJzdWIiOiJnaDo0MDMwNDc4
-OCIsInRleHQiOiJXaGF0IGRvZXMgaXQgbWVhbiB0aGF0IGRhdG
-EgaXMgZ2VvZ3JhcGhpY2FsbHkgcmVmZXJlbmNlZD8iLCJjcmVh
-dGVkIjoxNzczMzg2NzQyMTQ2fSwicFJsT1B1bGVkRGdGaEtnOC
-I6eyJkaXNjdXNzaW9uSWQiOiJPVTRzdzdFMW9US1RCdzB0Iiwi
-c3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cm
-VzIiwiY3JlYXRlZCI6MTc3MzM4NzAzNTc3MX19LCJoaXN0b3J5
-IjpbMTY0ODYwMjQ2MSwtODYxMzc2NjgyLDg1NTg0NTgyOSwtMT
-E2NTc5MjQxMF19
+sic3RhcnQiOjEzMDAxLCJlbmQiOjEzMDIzLCJ0ZXh0IjoiIyMg
+V2hhdCBpcyBhIGdvb2QgbWFwPyJ9LCJtSzJ6N3JOREhvbDQ3Nj
+hYIjp7InN0YXJ0Ijo1MDE4LCJlbmQiOjUzNTcsInRleHQiOiJS
+YXN0ZXIgZGF0YSBpcyBjb21tb25seSB1c2VkIGZvciBjb250aW
+51b3VzIGFuZCByZWd1bGFybHkgc2FtcGxlZCBkYXRhLCBzdWNo
+IGFz4oCmIn0sImREVmxsOVF2OGNYSUhUUzkiOnsic3RhcnQiOj
+QxOTMsImVuZCI6NDI3MSwidGV4dCI6IlZlY3RvciBkYXRhIHBy
+b3ZpZGVzIHByZWNpc2UgYW5kIGFjY3VyYXRlIHJlcHJlc2VudG
+F0aW9ucyBvZiBzcGF0aWFsIGZlYXR1cmVzLiJ9LCJwR2RJM2xk
+aUZDTWNWUDI2Ijp7InN0YXJ0IjozNjUsImVuZCI6Mzk1LCJ0ZX
+h0IjoiZ2VvZ3JhcGhpY2FsbHkgcmVmZXJlbmNlZCBkYXRhIn0s
+Ik9VNHN3N0Uxb1RLVEJ3MHQiOnsic3RhcnQiOjYwOCwiZW5kIj
+o2NzAsInRleHQiOiJHSVMgaXMgdXNlZCBpbiBhIHdpZGUgcmFu
+Z2Ugb2YgZmllbGRzIGFuZCBpbmR1c3RyaWVzLCBzdWNoIGFzOi
+J9fSwiY29tbWVudHMiOnsiNXFZWnk2cmhOTzlGQU41ZCI6eyJk
+aXNjdXNzaW9uSWQiOiJKQXJmY3BCa3ozaWN1b0ZnIiwic3ViIj
+oiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGV4YW1wbGUgcGlj
+dHVyZXMgYW5kIHN0dWRpZXMiLCJjcmVhdGVkIjoxNjg3MDY4MT
+IyMDgzfSwiTzdDQ005RVl6V2lFMjVETCI6eyJkaXNjdXNzaW9u
+SWQiOiJOWUJVSVE3WGR1WVpHdWM1Iiwic3ViIjoiZ2g6NDAzMD
+Q3ODgiLCJ0ZXh0IjoiQWRkIGdvb2QgYW5kIGJhZCBtYXAgZXhh
+bXBsZXMiLCJjcmVhdGVkIjoxNjg3MDY4MTQzNDI3fSwiRHNjMn
+dzWDFHQlo3NEN2YSI6eyJkaXNjdXNzaW9uSWQiOiJtSzJ6N3JO
+REhvbDQ3NjhYIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ij
+oiQWRkIHJlYWwgbGlmZSBleGFtcGxlIG9mIHJhc3RlciBkYXRh
+IiwiY3JlYXRlZCI6MTY5NTEwNjM1MTAxMX0sImVXTFJUTmNqRD
+JCa1hNRkYiOnsiZGlzY3Vzc2lvbklkIjoiZERWbGw5UXY4Y1hJ
+SFRTOSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZC
+ByZWFsIGxpZmUgZXhhbXBsZSBvZiB2ZWN0b3IgZGF0YSIsImNy
+ZWF0ZWQiOjE2OTUxMDYzNjc2Njh9LCJLQ2dVWlV3aGtVMFhkd1
+hLIjp7ImRpc2N1c3Npb25JZCI6InBHZEkzbGRpRkNNY1ZQMjYi
+LCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJXaGF0IGRvZX
+MgaXQgbWVhbiB0aGF0IGRhdGEgaXMgZ2VvZ3JhcGhpY2FsbHkg
+cmVmZXJlbmNlZD8iLCJjcmVhdGVkIjoxNzczMzg2NzQyMTQ2fS
+wicFJsT1B1bGVkRGdGaEtnOCI6eyJkaXNjdXNzaW9uSWQiOiJP
+VTRzdzdFMW9US1RCdzB0Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLC
+J0ZXh0IjoiQWRkIHBpY3R1cmVzIiwiY3JlYXRlZCI6MTc3MzM4
+NzAzNTc3MX19LCJoaXN0b3J5IjpbLTU5Njg4OTAzNSwtODYxMz
+c2NjgyLDg1NTg0NTgyOSwtMTE2NTc5MjQxMF19
 -->
