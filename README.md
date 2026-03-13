@@ -1,5 +1,5 @@
 ![](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/logo-en-purple-small.png)
-### Fundamentals of Geographic Information Systems (GIS)
+### RAK.600 - Fundamentals of Geographic Information Systems (GIS)
  
 # Course introduction
 
@@ -120,7 +120,7 @@ Based on work and with help from:
 
 # Let's get started with the [first theory section](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDY5OTkwMjksMTM3MDk3MzE4MSwtMT
-UwMzcxNjM1LC00MjkyMTI1MzcsMjEyNjIyNjQ2LDM0MjA2NDg1
-MCw5MjE0MDE0ODNdfQ==
+eyJoaXN0b3J5IjpbMTkxMTc3MzgyMCwtMTcwNjk5OTAyOSwxMz
+cwOTczMTgxLC0xNTAzNzE2MzUsLTQyOTIxMjUzNywyMTI2MjI2
+NDYsMzQyMDY0ODUwLDkyMTQwMTQ4M119
 -->
