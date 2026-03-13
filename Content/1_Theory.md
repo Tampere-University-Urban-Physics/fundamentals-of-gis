@@ -32,7 +32,7 @@ The exercises in this course have been developed for the English language instal
 You can find more information about the usage of QGIS here: https://www.qgis.org/resources/hub/
 
 
-### GIS workflow
+## GIS workflow
 
 PPDAC is a problem-solving framework commonly used in the field of data analysis and decision-making. It stands for Problem, Plan, Data, Analysis, and Conclusion. This framework provides a systematic approach to tackle complex problems and make informed decisions based on data-driven analysis. While PPDAC is not specifically tied to Geographic Information Systems (GIS), it can be applied within a GIS context to enhance the problem-solving process.
 
@@ -42,7 +42,7 @@ By following the PPDAC framework, you can ensure a structured and systematic app
 
 For more information about the PPDAC Model: http://wiki.gis.com/wiki/index.php/PPDAC_Model
 
-### Spatial data
+## Spatial data
 Spatial data refers to **information that is associated with specific locations or geographic extents**. Vector and raster data are the two fundamental types of spatial data used in Geographic Information Systems (GIS) to represent and analyze spatial information.
 
 ![](https://cdn.mindspritesolutions.com/onestopgis/GIS-Theory-and-Techniques/Raster-Data-Analysis/Comparison-of-Vector-and-Raster-based-Data-Analysis/posts/Comparison-of-Vector-and-Raster-Based-Data-Analysis/Figure-shows-comparison-of-Vector-and-Raster.webp)
@@ -65,7 +65,7 @@ In GIS, both vector and raster data have their respective strengths and applicat
 
 (Hungry for more? Further reading on vector and raster data in the QGIS documentation: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html, https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/raster_data.html)
 
-### GIS analysis types
+## GIS analysis types
 The most common GIS (Geographic Information System) analysis types can vary depending on the specific application and industry. However, some of the widely used and common GIS analysis types are:
 
 1.  **Spatial Query and Selection**: This analysis involves selecting or querying spatial features based on their spatial relationship with other features. It helps answer questions like "Which points are within a certain distance of a line?" or "Which polygons intersect a specific area?"
@@ -128,17 +128,17 @@ Below is a (hopefully) improved version of our ugly map. Notice how the issues w
 [^1]: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJKQXJmY3BCa3ozaWN1b0ZnIjp7In
-N0YXJ0Ijo5MjY2LCJlbmQiOjkyODgsInRleHQiOiIjIyMgR0lT
+N0YXJ0Ijo5MjYzLCJlbmQiOjkyODUsInRleHQiOiIjIyMgR0lT
 IGFuYWx5c2lzIHR5cGVzIn0sIk5ZQlVJUTdYZHVZWkd1YzUiOn
-sic3RhcnQiOjEzMDA4LCJlbmQiOjEzMDMwLCJ0ZXh0IjoiIyMg
+sic3RhcnQiOjEzMDA1LCJlbmQiOjEzMDI3LCJ0ZXh0IjoiIyMg
 V2hhdCBpcyBhIGdvb2QgbWFwPyJ9LCJReTZ0eTZGSDBraTFlOG
-NFIjp7InN0YXJ0IjozNzQ3LCJlbmQiOjM3NjMsInRleHQiOiIj
+NFIjp7InN0YXJ0IjozNzQ2LCJlbmQiOjM3NjIsInRleHQiOiIj
 IyMgU3BhdGlhbCBkYXRhIn0sIm1LMno3ck5ESG9sNDc2OFgiOn
-sic3RhcnQiOjYwNDIsImVuZCI6NjM4MSwidGV4dCI6IlJhc3Rl
+sic3RhcnQiOjYwNDAsImVuZCI6NjM3OSwidGV4dCI6IlJhc3Rl
 ciBkYXRhIGlzIGNvbW1vbmx5IHVzZWQgZm9yIGNvbnRpbnVvdX
 MgYW5kIHJlZ3VsYXJseSBzYW1wbGVkIGRhdGEsIHN1Y2ggYXPi
-gKYifSwiZERWbGw5UXY4Y1hJSFRTOSI6eyJzdGFydCI6NTIxNy
-wiZW5kIjo1Mjk1LCJ0ZXh0IjoiVmVjdG9yIGRhdGEgcHJvdmlk
+gKYifSwiZERWbGw5UXY4Y1hJSFRTOSI6eyJzdGFydCI6NTIxNS
+wiZW5kIjo1MjkzLCJ0ZXh0IjoiVmVjdG9yIGRhdGEgcHJvdmlk
 ZXMgcHJlY2lzZSBhbmQgYWNjdXJhdGUgcmVwcmVzZW50YXRpb2
 5zIG9mIHNwYXRpYWwgZmVhdHVyZXMuIn0sInBHZEkzbGRpRkNN
 Y1ZQMjYiOnsic3RhcnQiOjM2NSwiZW5kIjozOTUsInRleHQiOi
@@ -173,6 +173,6 @@ dGVkIjoxNzczMzg2NzQyMTQ2fSwicFJsT1B1bGVkRGdGaEtnOC
 I6eyJkaXNjdXNzaW9uSWQiOiJPVTRzdzdFMW9US1RCdzB0Iiwi
 c3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cm
 VzIiwiY3JlYXRlZCI6MTc3MzM4NzAzNTc3MX19LCJoaXN0b3J5
-IjpbLTQxNTI3MzU4MiwtODYxMzc2NjgyLDg1NTg0NTgyOSwtMT
+IjpbMTY0ODYwMjQ2MSwtODYxMzc2NjgyLDg1NTg0NTgyOSwtMT
 E2NTc5MjQxMF19
 -->
