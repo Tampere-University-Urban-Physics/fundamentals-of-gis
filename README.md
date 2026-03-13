@@ -73,7 +73,7 @@ Following this process will help you **develop the independent troubleshooting s
 This is where you will find the course content (theory and exercises) as well as the required data: 
 https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Content
 
-It is is recommended that you use Github in light mode: https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-your-theme-settings
+[It is is recommended that you use Github in light mode: https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/managing-your-theme-settings]: #
 
 You can download the data from Github by opening the page for the data you want to download and clicking the 3 dots in the top right:
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/0_Course_introduction/Github_download.png)
@@ -118,7 +118,7 @@ Based on work and with help from:
 
 # Let's get started with the [first theory section](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDk3MzE4MSwtMTUwMzcxNjM1LC00Mj
-kyMTI1MzcsMjEyNjIyNjQ2LDM0MjA2NDg1MCw5MjE0MDE0ODNd
-fQ==
+eyJoaXN0b3J5IjpbOTc5NTc2MTIyLDEzNzA5NzMxODEsLTE1MD
+M3MTYzNSwtNDI5MjEyNTM3LDIxMjYyMjY0NiwzNDIwNjQ4NTAs
+OTIxNDAxNDgzXX0=
 -->
