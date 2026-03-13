@@ -38,7 +38,7 @@ The course is designed to encourage you to be an independent learner. This is be
 - We want you to make your own mapping decisions. In some earlier tutorials, we provide a final map as a guide for what your results should look like, but providing these throughout would just lead to students trying to mimic them. Instead, we want you to think independently about the data you want to present and the best ways to do this.
 - The installations of QGIS can differ based on the version and operating system, and we cannot make instructions for all of these
 
-## Evaluation
+## Evaluation*
 To get the credits for this course, the following criteria have to be met:
  - [ ] Submitted original map output(s) for each exercise with your name on the output
  - [ ] Submitted original map reflection for each exercise
@@ -47,6 +47,10 @@ To get the credits for this course, the following criteria have to be met:
 To ensure that your submissions are original:
 - Map output: Your name has to be mentioned on the map output and they will be compared with others
 - Map reflection: Anti-plagiarism tool is used
+
+This course is rolling, so you can complete it on your own time. We try to mark new submissions once a week, and when you finish we will pass you on Sisu. Course work submitted by midsummer will be graded by the end of June. Course work submitted after June will be graded in August (so I can have a bit of a holiday).
+
+*Only applicable to Tampere University students enrolled in the course
 
 ## Troubleshooting
 If you ever have a question or run in to an issue along this course, please follow the following troubleshooting process: 
@@ -114,7 +118,7 @@ Based on work and with help from:
 
 # Let's get started with the [first theory section](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk0MTgyNTksLTE1MDM3MTYzNSwtND
+eyJoaXN0b3J5IjpbLTExMjgwMTUzNzUsLTE1MDM3MTYzNSwtND
 I5MjEyNTM3LDIxMjYyMjY0NiwzNDIwNjQ4NTAsOTIxNDAxNDgz
 XX0=
 -->
