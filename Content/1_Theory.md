@@ -23,9 +23,13 @@ These are just a few examples of the diverse applications of GIS. This course is
 ## What is QGIS?
 In short, QGIS is a GIS application that can be used for various GIS analyses. There are other GIS applications, the other most common of which is ArcGIS. We are using QGIS for this course since it is open-source and free, meaning it is accessible for all, in contrast to ArcGIS which is proprietary software. 
 
-So, you're going to need QGIS for this course! Please take a moment now to ensure you have it installed: https://qgis.org/en/site/forusers/download.html# Our recommendation is to install the Long Term Release (LTR) version, since this should have the least errors in the software. Alternatively you can also use the Latest Release, with the latest features, but also the latest errors :'). More info on the installation of QGIS can be found here: https://qgis.org/resources/installation-guide/ The exercises in this course have been developed for the English language installation of QGIS.
+So, you're going to need QGIS for this course! Please take a moment now to ensure you have it installed: https://qgis.org/en/site/forusers/download.html# 
 
-You can find more information about the usage of QGIS here: https://docs.qgis.org/3.28/en/docs/index.html
+Our recommendation is to install the Long Term Release (LTR) version, since this should have the least errors in the software. Alternatively you can also use the Latest Release, with the latest features, but also the latest errors :'). More info on the installation of QGIS can be found here: https://qgis.org/resources/installation-guide/ 
+
+The exercises in this course have been developed for the English language installation of QGIS.
+
+You can find more information about the usage of QGIS here: https://www.qgis.org/resources/hub/
 
 
 ### GIS workflow
@@ -124,17 +128,17 @@ Below is a (hopefully) improved version of our ugly map. Notice how the issues w
 [^1]: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJKQXJmY3BCa3ozaWN1b0ZnIjp7In
-N0YXJ0Ijo5MjcyLCJlbmQiOjkyOTQsInRleHQiOiIjIyMgR0lT
+N0YXJ0Ijo5MjY2LCJlbmQiOjkyODgsInRleHQiOiIjIyMgR0lT
 IGFuYWx5c2lzIHR5cGVzIn0sIk5ZQlVJUTdYZHVZWkd1YzUiOn
-sic3RhcnQiOjEzMDE0LCJlbmQiOjEzMDM2LCJ0ZXh0IjoiIyMg
+sic3RhcnQiOjEzMDA4LCJlbmQiOjEzMDMwLCJ0ZXh0IjoiIyMg
 V2hhdCBpcyBhIGdvb2QgbWFwPyJ9LCJReTZ0eTZGSDBraTFlOG
-NFIjp7InN0YXJ0IjozNzUzLCJlbmQiOjM3NjksInRleHQiOiIj
+NFIjp7InN0YXJ0IjozNzQ3LCJlbmQiOjM3NjMsInRleHQiOiIj
 IyMgU3BhdGlhbCBkYXRhIn0sIm1LMno3ck5ESG9sNDc2OFgiOn
-sic3RhcnQiOjYwNDgsImVuZCI6NjM4NywidGV4dCI6IlJhc3Rl
+sic3RhcnQiOjYwNDIsImVuZCI6NjM4MSwidGV4dCI6IlJhc3Rl
 ciBkYXRhIGlzIGNvbW1vbmx5IHVzZWQgZm9yIGNvbnRpbnVvdX
 MgYW5kIHJlZ3VsYXJseSBzYW1wbGVkIGRhdGEsIHN1Y2ggYXPi
-gKYifSwiZERWbGw5UXY4Y1hJSFRTOSI6eyJzdGFydCI6NTIyMy
-wiZW5kIjo1MzAxLCJ0ZXh0IjoiVmVjdG9yIGRhdGEgcHJvdmlk
+gKYifSwiZERWbGw5UXY4Y1hJSFRTOSI6eyJzdGFydCI6NTIxNy
+wiZW5kIjo1Mjk1LCJ0ZXh0IjoiVmVjdG9yIGRhdGEgcHJvdmlk
 ZXMgcHJlY2lzZSBhbmQgYWNjdXJhdGUgcmVwcmVzZW50YXRpb2
 5zIG9mIHNwYXRpYWwgZmVhdHVyZXMuIn0sInBHZEkzbGRpRkNN
 Y1ZQMjYiOnsic3RhcnQiOjM2NSwiZW5kIjozOTUsInRleHQiOi
@@ -169,6 +173,6 @@ dGVkIjoxNzczMzg2NzQyMTQ2fSwicFJsT1B1bGVkRGdGaEtnOC
 I6eyJkaXNjdXNzaW9uSWQiOiJPVTRzdzdFMW9US1RCdzB0Iiwi
 c3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHBpY3R1cm
 VzIiwiY3JlYXRlZCI6MTc3MzM4NzAzNTc3MX19LCJoaXN0b3J5
-IjpbODg2NzI5OCwtODYxMzc2NjgyLDg1NTg0NTgyOSwtMTE2NT
-c5MjQxMF19
+IjpbLTQxNTI3MzU4MiwtODYxMzc2NjgyLDg1NTg0NTgyOSwtMT
+E2NTc5MjQxMF19
 -->
