@@ -5,7 +5,7 @@
 
 **Welcome to the *Fundamentals of Geographic Information Systems (GIS)* course!** This is an open course developed by Tampere University meant to get you started with GIS and give you the ability to work with GIS independently. 
 
-This course can be completed independently, or as a student at the Tampere University. Everyone is able to access the course materials and support, with the exception that students have to complete a number of criteria and if they do so, they are eligible for ECTS credits. 
+This course can be completed independently, or as a student at the Tampere University. Everyone is able to access the course materials, with the exception that students have to complete a number of criteria and if they do so, they are eligible for ECTS credits. 
 
 ## Learning outcomes
 After completing the course you should be able to:
@@ -109,17 +109,7 @@ Based on work and with help from:
 
 # Let's get started with the [first theory section](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/1_Crashcourse_theory.md)!
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJ0UVJGRnoxcmpDallhZkNDIjp7In
-N0YXJ0Ijo1NTMsImVuZCI6NTY0LCJ0ZXh0IjoiYW5kIHN1cHBv
-cnQifSwiU2J0eWcwQU5Ncmp1VmM4cCI6eyJzdGFydCI6NTc1LC
-JlbmQiOjU4NCwidGV4dCI6ImV4Y2VwdGlvbiJ9fSwiY29tbWVu
-dHMiOnsieGVGWFp2RHlZT2J5eFpnaiI6eyJkaXNjdXNzaW9uSW
-QiOiJ0UVJGRnoxcmpDallhZkNDIiwic3ViIjoiZ2g6NDAzMDQ3
-ODgiLCJ0ZXh0IjoiT3V0ZGF0ZWQiLCJjcmVhdGVkIjoxNzczMz
-g0NzIyODIxfSwiUmREalRvc2ZrdnJHUmFOeCI6eyJkaXNjdXNz
-aW9uSWQiOiJTYnR5ZzBBTk1yanVWYzhwIiwic3ViIjoiZ2g6ND
-AzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHN1cHBvcnQgbWVudGlvbiIs
-ImNyZWF0ZWQiOjE3NzMzODQ3MzgyMzl9fSwiaGlzdG9yeSI6Wy
-0xNDcyMDk0NDEzLC0xNTAzNzE2MzUsLTQyOTIxMjUzNywyMTI2
-MjI2NDYsMzQyMDY0ODUwLDkyMTQwMTQ4M119
+eyJoaXN0b3J5IjpbLTEyMTY0NjEyNTUsLTE1MDM3MTYzNSwtND
+I5MjEyNTM3LDIxMjYyMjY0NiwzNDIwNjQ4NTAsOTIxNDAxNDgz
+XX0=
 -->
