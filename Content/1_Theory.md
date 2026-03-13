@@ -2,11 +2,11 @@
 
 # Introduction to Geographic Information System (GIS) and QGIS
 
-*By Rowan van der Kaaden. Updated by Jonathon Taylor*
+*By Rowan van der Kaaden. Updated by Jonathon Taylor and Aino Huujärvi*
 
 ## What is GIS and why do we use it?
 
-GIS, which stands for Geographic Information System, is a technology that involves **capturing, storing, analyzing, and presenting geographically referenced data**. It integrates various types of information, such as maps, aerial imagery, and tabular data, into a digital framework that allows users to **view, understand, and analyze spatial patterns and relationships**.
+GIS, which stands for Geographic Information Systems, is a technology that involves **capturing, storing, analyzing, and presenting geographically referenced data**. It integrates various types of information, such as maps, aerial imagery, and tabular data, into a digital framework that allows users to **view, understand, and analyze spatial patterns and relationships**.
 
 GIS is used in a wide range of fields and industries, including:
 
@@ -124,20 +124,20 @@ Below is a (hopefully) improved version of our ugly map. Notice how the issues w
 [^1]: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJyZ3F6bUxVTU9MVnc4ZFpGIjp7In
-N0YXJ0Ijo1NjEsImVuZCI6NjI1LCJ0ZXh0IjoiR0lTIGlzIHVz
+N0YXJ0Ijo1ODAsImVuZCI6NjQ0LCJ0ZXh0IjoiR0lTIGlzIHVz
 ZWQgaW4gYSB3aWRlIHJhbmdlIG9mIGZpZWxkcyBhbmQgaW5kdX
 N0cmllcywgaW5jbHVkaW5nOiJ9LCJKQXJmY3BCa3ozaWN1b0Zn
-Ijp7InN0YXJ0Ijo5MDM5LCJlbmQiOjkwNjEsInRleHQiOiIjIy
+Ijp7InN0YXJ0Ijo5MDU4LCJlbmQiOjkwODAsInRleHQiOiIjIy
 MgR0lTIGFuYWx5c2lzIHR5cGVzIn0sIk5ZQlVJUTdYZHVZWkd1
-YzUiOnsic3RhcnQiOjEyNzgxLCJlbmQiOjEyODAzLCJ0ZXh0Ij
+YzUiOnsic3RhcnQiOjEyODAwLCJlbmQiOjEyODIyLCJ0ZXh0Ij
 oiIyMgV2hhdCBpcyBhIGdvb2QgbWFwPyJ9LCJReTZ0eTZGSDBr
-aTFlOGNFIjp7InN0YXJ0IjozNTIwLCJlbmQiOjM1MzYsInRleH
+aTFlOGNFIjp7InN0YXJ0IjozNTM5LCJlbmQiOjM1NTUsInRleH
 QiOiIjIyMgU3BhdGlhbCBkYXRhIn0sIm1LMno3ck5ESG9sNDc2
-OFgiOnsic3RhcnQiOjU4MTUsImVuZCI6NjE1NCwidGV4dCI6Il
+OFgiOnsic3RhcnQiOjU4MzQsImVuZCI6NjE3MywidGV4dCI6Il
 Jhc3RlciBkYXRhIGlzIGNvbW1vbmx5IHVzZWQgZm9yIGNvbnRp
 bnVvdXMgYW5kIHJlZ3VsYXJseSBzYW1wbGVkIGRhdGEsIHN1Y2
 ggYXPigKYifSwiZERWbGw5UXY4Y1hJSFRTOSI6eyJzdGFydCI6
-NDk5MCwiZW5kIjo1MDY4LCJ0ZXh0IjoiVmVjdG9yIGRhdGEgcH
+NTAwOSwiZW5kIjo1MDg3LCJ0ZXh0IjoiVmVjdG9yIGRhdGEgcH
 JvdmlkZXMgcHJlY2lzZSBhbmQgYWNjdXJhdGUgcmVwcmVzZW50
 YXRpb25zIG9mIHNwYXRpYWwgZmVhdHVyZXMuIn19LCJjb21tZW
 50cyI6eyIxZXBNRnA1YVdUVW4xWW1wIjp7ImRpc2N1c3Npb25J
@@ -162,5 +162,5 @@ UxMDYzNTEwMTF9LCJlV0xSVE5jakQyQmtYTUZGIjp7ImRpc2N1
 c3Npb25JZCI6ImREVmxsOVF2OGNYSUhUUzkiLCJzdWIiOiJnaD
 o0MDMwNDc4OCIsInRleHQiOiJBZGQgcmVhbCBsaWZlIGV4YW1w
 bGUgb2YgdmVjdG9yIGRhdGEiLCJjcmVhdGVkIjoxNjk1MTA2Mz
-Y3NjY4fX0sImhpc3RvcnkiOlstMTY5NDU4NjkwNl19
+Y3NjY4fX0sImhpc3RvcnkiOlstMTk1Njg0NjYyOV19
 -->
