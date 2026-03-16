@@ -61,7 +61,7 @@ The state of a working session in QGIS is called a **project**. Similarly, to a 
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_toolbars.png)
 
-Here is a brief introduction to the **basic toolbars** in QGIS. The toolbars can be toggled in *View* \> *Toolbars* by ticking the boxes. If you can’t find a toolbar mentioned below – the toolbar might not be toggled on!
+Here is a brief introduction to the **basic toolbars** in QGIS. The toolbars can be toggled in *View* \> *Toolbars* by ticking the boxes. If you can’t find a toolbar mentioned below, the toolbar might not be toggled on!
 
 The **Map Navigation toolbar** lets you zoom and pan the map view.
 
@@ -88,7 +88,7 @@ The ***Layer panel*** lists all the layers in the project and helps you manage t
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_layer_panel.png)
 
-The ***Processing Toolbox*** shows the list of all available **algorithms** grouped in different blocks. This is where you will find most of the tools we will be using on this course. If you ever want to do something and you're wondering if it is available in QGIS, this is a good place to start! You can add the *Processing Toolbox* to your view by going to *View* > 
+The ***Processing Toolbox*** shows the list of all available **algorithms** grouped in different blocks. This is where you will find most of the tools we will be using on this course. If you ever want to do something and you're wondering if it is available in QGIS, this is a good place to start! You can add the *Processing Toolbox* to your view by going to *View* > *Panels* > *Processing Toolbox*.
 
 ![](https://docs.qgis.org/3.4/en/_images/toolbox3.png)
 
@@ -288,6 +288,6 @@ ImNvbW1lbnRzIjp7IjU3TFhqU3pIc3phSGNoSlUiOnsiZGlzY3
 Vzc2lvbklkIjoieW5oNWJvUWlPTVRpbFpNVyIsInN1YiI6Imdo
 OjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBjb3ZlciBwaWN0dX
 JlIiwiY3JlYXRlZCI6MTY4NTk0MzU4NzM1OH19LCJoaXN0b3J5
-IjpbLTQ1MTg2MjAwOSwxNTQ2OTM5MDg0LC0yMDMzNDE3MTc3LD
-UxMTY4MDMzN119
+IjpbMjE3NDg3OTksMTU0NjkzOTA4NCwtMjAzMzQxNzE3Nyw1MT
+E2ODAzMzddfQ==
 -->
