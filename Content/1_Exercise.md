@@ -88,7 +88,7 @@ The ***Layer panel*** lists all the layers in the project and helps you manage t
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_layer_panel.png)
 
-The ***Processing Toolbox*** shows the list of all available **algorithms** grouped in different blocks. This is where you will find most of the tools we will be using on this course. If you ever want to do something and you're wondering if it is available in QGIS, this is a good place to start!  
+The ***Processing Toolbox*** shows the list of all available **algorithms** grouped in different blocks. This is where you will find most of the tools we will be using on this course. If you ever want to do something and you're wondering if it is available in QGIS, this is a good place to start! You can add the *Processing Toolbox* to your view by going to *View* > 
 
 ![](https://docs.qgis.org/3.4/en/_images/toolbox3.png)
 
@@ -288,6 +288,6 @@ ImNvbW1lbnRzIjp7IjU3TFhqU3pIc3phSGNoSlUiOnsiZGlzY3
 Vzc2lvbklkIjoieW5oNWJvUWlPTVRpbFpNVyIsInN1YiI6Imdo
 OjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBjb3ZlciBwaWN0dX
 JlIiwiY3JlYXRlZCI6MTY4NTk0MzU4NzM1OH19LCJoaXN0b3J5
-IjpbMTU0NjkzOTA4NCwtMjAzMzQxNzE3Nyw1MTE2ODAzMzddfQ
-==
+IjpbLTQ1MTg2MjAwOSwxNTQ2OTM5MDg0LC0yMDMzNDE3MTc3LD
+UxMTY4MDMzN119
 -->
