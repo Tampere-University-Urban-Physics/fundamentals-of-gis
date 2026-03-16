@@ -212,8 +212,8 @@ For a start, take your time to move around and get acquainted with the basic too
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_join_attributes_by_location.png)
 	- The parameter window for the algorithm opens and here you have to specify what the algorithm does and with what data
 	- Set the following values:
-		- *Base layer*: Helsinki_small_areas
-		- *Join layer*: HSL_Helsinki_stops
+		- *Join to features in*: Helsinki_small_areas
+		- *Where the features*: HSL_Helsinki_stops
 		- *Geometric predicate*: contains (What do you think the other options mean?)
 		-  *Field to summarise*: Boardings
 		- *Summaries to calculate*: *Sum*
@@ -288,7 +288,7 @@ ImNvbW1lbnRzIjp7IjU3TFhqU3pIc3phSGNoSlUiOnsiZGlzY3
 Vzc2lvbklkIjoieW5oNWJvUWlPTVRpbFpNVyIsInN1YiI6Imdo
 OjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBjb3ZlciBwaWN0dX
 JlIiwiY3JlYXRlZCI6MTY4NTk0MzU4NzM1OH19LCJoaXN0b3J5
-IjpbLTExNTAzODIyMzIsLTEwNTA4MTU5MjAsMTUwOTMyNjMwNy
-wyMTc0ODc5OSwxNTQ2OTM5MDg0LC0yMDMzNDE3MTc3LDUxMTY4
-MDMzN119
+IjpbOTYwNzIzNzIxLC0xMTUwMzgyMjMyLC0xMDUwODE1OTIwLD
+E1MDkzMjYzMDcsMjE3NDg3OTksMTU0NjkzOTA4NCwtMjAzMzQx
+NzE3Nyw1MTE2ODAzMzddfQ==
 -->
