@@ -94,7 +94,7 @@ The ***Processing Toolbox*** shows the list of all available **algorithms** grou
 
 ### 1.3 Plugins
 
-Only a fraction of all the possible tools and functions are visible in the default view of QGIS as a lot of functionality is done via **plugins**. You can manage plugins in the QGIS plugin manager: select *Plugins* \> *Manage* and install plugins. Here you can see what plugins are already installed to your repository and install new or update/uninstall current plugins. In some rare cases, you may not be able to find a tool for an exercise because it was not included in your installation. Plugins is a good place to look for it.
+Only a fraction of all the possible tools and functions are visible in the default view of QGIS as a lot of functionality is done via **plugins**. You can manage plugins in the QGIS plugin manager: select *Plugins* \> *Manage and install plugins*. Here you can see what plugins are already installed to your repository and install new or update/uninstall current plugins. In some rare cases, you may not be able to find a tool for an exercise because it was not included in your installation. Plugins is a good place to look for it.
 
 ![Plugins](https://docs.qgis.org/3.28/en/_images/plugin_details.png)
 
@@ -288,6 +288,6 @@ ImNvbW1lbnRzIjp7IjU3TFhqU3pIc3phSGNoSlUiOnsiZGlzY3
 Vzc2lvbklkIjoieW5oNWJvUWlPTVRpbFpNVyIsInN1YiI6Imdo
 OjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBjb3ZlciBwaWN0dX
 JlIiwiY3JlYXRlZCI6MTY4NTk0MzU4NzM1OH19LCJoaXN0b3J5
-IjpbMjE3NDg3OTksMTU0NjkzOTA4NCwtMjAzMzQxNzE3Nyw1MT
-E2ODAzMzddfQ==
+IjpbMTUwOTMyNjMwNywyMTc0ODc5OSwxNTQ2OTM5MDg0LC0yMD
+MzNDE3MTc3LDUxMTY4MDMzN119
 -->
