@@ -47,7 +47,9 @@ The state of a working session in QGIS is called a **project**. Similarly, to a 
 
 *Here are a few basic functions that are worth knowing before starting to play around with data and layers:*
 
-![Save icon](https://docs.qgis.org/3.28/en/_images/mActionFileSave.png) **Saving in QGIS**: You can save your project by clicking either the *save* ![](https://docs.qgis.org/3.28/en/_images/mActionFileSave.png) or the *save as* icon. You can also use the keyboard shortcut *Ctrl + S* (or *Command + S*) or go to *Project* \> *Save*. The file format of a project file is \*.qgs. **Hint** - GIS visualises datasets that are typically saved elsewhere. When you save a project file, you save the link to the layers you use, their symbology, the scale, and other map elements. Layers that you edit or create in QGIS are not saved when you save the project file - these need to be saved separately. Because QGIS saves the link to the data you use, if you move or rename this data, QGIS will no longer be able to find it, and you will need to tell QGIS where to find it again. **Hint**: Save each project and its accompanying data in their own folder to keep things organized! A common source of error is not extracting a zip folder, or saving in some temporary location.  
+![Save icon](https://docs.qgis.org/3.28/en/_images/mActionFileSave.png) **Saving in QGIS**: You can save your project by clicking either the *save* ![](https://docs.qgis.org/3.28/en/_images/mActionFileSave.png) or the *save as* icon. You can also use the keyboard shortcut *Ctrl + S* (or *Command + S*) or go to *Project* \> *Save*. The file format of a project file is \*.qgs. 
+**Note**: GIS visualises datasets that are typically saved elsewhere. When you save a project file, you save the link to the layers you use, their symbology, the scale, and other map elements. Layers that you edit or create in QGIS are not saved when you save the project file - these need to be saved separately. Because QGIS saves the link to the data you use, if you move or rename this data, QGIS will no longer be able to find it, and you will need to tell QGIS where to find it again. 
+**Hint**: Save each project and its accompanying data in their own folder to keep things organized! A common source of error is not extracting a zip folder, or saving in some temporary location.  
 
 ![](https://docs.qgis.org/3.28/en/_images/mActionFileNew.png) ![](https://docs.qgis.org/3.28/en/_images/mActionFileOpen.png) **Creating and opening a project in QGIS:** If you want to start a new project, you can click on the *New* icon ![](https://docs.qgis.org/3.28/en/_images/mActionFileNew.png) with a blank page, or alternatively go to *Project* \> *New* or use the keyboard shortcut *Ctrl + N* (or Command + N). To open an already existing project, click on the folder-like *Open* icon ![](https://docs.qgis.org/3.28/en/_images/mActionFileOpen.png) to pick up where you left off.
 
@@ -286,6 +288,6 @@ ImNvbW1lbnRzIjp7IjU3TFhqU3pIc3phSGNoSlUiOnsiZGlzY3
 Vzc2lvbklkIjoieW5oNWJvUWlPTVRpbFpNVyIsInN1YiI6Imdo
 OjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBjb3ZlciBwaWN0dX
 JlIiwiY3JlYXRlZCI6MTY4NTk0MzU4NzM1OH19LCJoaXN0b3J5
-IjpbMTM5ODk2Njg0NiwtMjAzMzQxNzE3Nyw1MTE2ODAzMzddfQ
+IjpbMTU0NjkzOTA4NCwtMjAzMzQxNzE3Nyw1MTE2ODAzMzddfQ
 ==
 -->
