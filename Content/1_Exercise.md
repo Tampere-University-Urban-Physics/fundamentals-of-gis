@@ -267,7 +267,7 @@ The last phase of this practical will concentrate on creating a map output. In t
 	- ![](https://docs.qgis.org/3.28/en/_images/mActionLabel.png) **Adding a label**: You can change the default text as well as the font and colors of the label from the Item properties window in the lower right corner.
 	- ![](https://docs.qgis.org/3.28/en/_images/mActionScaleBar.png) **Adding a scale bar**: Click where you want to add it and customize it as desired. The size and the colors can be modified from the right-side Item properties panel.
 	- ![](https://docs.qgis.org/3.28/en/_images/mActionAddLegend.png) **Adding a legend**: You probably have to modify the legend a bit so that it looks informative on the map. The modification can be done from the Item properties. 
-		-  *TIP: To remove unnecessary information from the legend of your map, make sure that the Auto Update box is unchecked in the Legend Items section of Item Properties in the print layout composer. Then remove (using the buttons with + and – symbols) and rename (by double-clicking on the title) items as you wish.*
+		-  *TIP: To remove unnecessary information from the legend of your map, make sure that the *Legend Items* drop down is set to *Manual*. Then remove (using the buttons with + and – symbols) and rename (by double-clicking on the title) items as you wish.*
 
  	- ![](https://docs.qgis.org/3.28/en/_images/north_arrow.png) **Adding a North arrow or an image**: To do this, press Add North Arrow and click on the layout. If you want to modify the look of the arrow, go to Item properties and open the Search directories tab (see the picture on the right). Click on the desired arrow.
 
@@ -288,8 +288,8 @@ ImNvbW1lbnRzIjp7IjU3TFhqU3pIc3phSGNoSlUiOnsiZGlzY3
 Vzc2lvbklkIjoieW5oNWJvUWlPTVRpbFpNVyIsInN1YiI6Imdo
 OjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBjb3ZlciBwaWN0dX
 JlIiwiY3JlYXRlZCI6MTY4NTk0MzU4NzM1OH19LCJoaXN0b3J5
-IjpbMTIwNDc2MDE3NiwxMTc3NTQ2NjU3LDk2MDcyMzcyMSwtMT
-E1MDM4MjIzMiwtMTA1MDgxNTkyMCwxNTA5MzI2MzA3LDIxNzQ4
-Nzk5LDE1NDY5MzkwODQsLTIwMzM0MTcxNzcsNTExNjgwMzM3XX
-0=
+IjpbNDM0NzgyODg0LDEyMDQ3NjAxNzYsMTE3NzU0NjY1Nyw5Nj
+A3MjM3MjEsLTExNTAzODIyMzIsLTEwNTA4MTU5MjAsMTUwOTMy
+NjMwNywyMTc0ODc5OSwxNTQ2OTM5MDg0LC0yMDMzNDE3MTc3LD
+UxMTY4MDMzN119
 -->
