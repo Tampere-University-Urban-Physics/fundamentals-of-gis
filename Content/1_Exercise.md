@@ -39,7 +39,7 @@ Made by Tuomas Väisänen, Sakari Sarjakoski, Rami Ratvio, Sara Todorovic, Paula
  5. Locator bar
  6. Status bar
 
-Start by setting the **default language** in QGIS to English (if it isn’t already) by navigating to the language settings: *Settings menu* \> *Options* \> *General* \> *User Interface Translation*. Tick the “*Override system locale*” box and choose English from the dropdown menu and close the window by pressing OK. For the change to take effect, restart the application.
+Start by setting the **default language** in QGIS to English (if it isn’t already) by navigating to the language settings: *Settings* \> *Options* \> *General* \> *User Interface Translation*. Tick the “*Override system locale*” box and choose English from the dropdown menu and close the window by pressing OK. For the change to take effect, restart the application.
 
 The state of a working session in QGIS is called a **project**. Similarly, to a e.g., a workspace in ArcGIS, a project is considered the ensemble of layers, projections, table relations and other properties, such as symbols and styles, of a specific session. Remember to save your projects often to prevent work from being lost in case of a crash. Also note that project files do not contain the geospatial data, they merely contain information on where the program will find it. If you move the data or change it's name, then you have to tell QGIS where to find it again. Therefore, it is a good idea to have a folder for this course, and save the geospatial data you will use in subfolders for each exercise. 
 
@@ -286,5 +286,6 @@ ImNvbW1lbnRzIjp7IjU3TFhqU3pIc3phSGNoSlUiOnsiZGlzY3
 Vzc2lvbklkIjoieW5oNWJvUWlPTVRpbFpNVyIsInN1YiI6Imdo
 OjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBjb3ZlciBwaWN0dX
 JlIiwiY3JlYXRlZCI6MTY4NTk0MzU4NzM1OH19LCJoaXN0b3J5
-IjpbLTIwMzM0MTcxNzcsNTExNjgwMzM3XX0=
+IjpbMTM5ODk2Njg0NiwtMjAzMzQxNzE3Nyw1MTE2ODAzMzddfQ
+==
 -->
