@@ -128,7 +128,7 @@ In this warm up exercise, we will be looking at the transit boardings in the Hel
 	- Press *Open*
 	- Press *Add*
 
-These data sets are all downloaded from Paituli and Helsinki Region Infoshare data and map services, the data itself is produced by numerous entities (National Land Survey, Helsinki Regional Transport and the City of Helsinki). You can also add the Helsinki_roads.shp layer later for visualization purposes.
+These data sets are all downloaded from Paituli and Helsinki Region Infoshare data and map services, the data itself is produced by numerous entities (National Land Survey, Helsinki Regional Transport and the City of Helsinki). 
 
 The shapefiles should now appear on the map canvas. Once you add the layers, the program should automatically change the project’s coordinate system to EPSG:3067, or more commonly known as the ETRS89-TM35FIN (Transverse-Mercator) coordinate reference system, which is a system for projecting spatial data in Finland.
 
@@ -288,6 +288,6 @@ ImNvbW1lbnRzIjp7IjU3TFhqU3pIc3phSGNoSlUiOnsiZGlzY3
 Vzc2lvbklkIjoieW5oNWJvUWlPTVRpbFpNVyIsInN1YiI6Imdo
 OjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBjb3ZlciBwaWN0dX
 JlIiwiY3JlYXRlZCI6MTY4NTk0MzU4NzM1OH19LCJoaXN0b3J5
-IjpbMTUwOTMyNjMwNywyMTc0ODc5OSwxNTQ2OTM5MDg0LC0yMD
-MzNDE3MTc3LDUxMTY4MDMzN119
+IjpbLTEwNTA4MTU5MjAsMTUwOTMyNjMwNywyMTc0ODc5OSwxNT
+Q2OTM5MDg0LC0yMDMzNDE3MTc3LDUxMTY4MDMzN119
 -->
