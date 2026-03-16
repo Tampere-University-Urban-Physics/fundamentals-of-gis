@@ -12,12 +12,12 @@ Made by Tuomas Väisänen, Sakari Sarjakoski, Rami Ratvio, Sara Todorovic, Paula
 
 ### The contents of this exercise in a nutshell:
 
-**The aim of this exercise is to** get familiar with the QGIS software. The first exercises will introduce the QGIS graphical user interface (GUI) and its basic tools and features to create a foundation for the later practicals. After some basic introduction, you will create a **choropleth map** with the aim of showing the number of transit boardings in areas across Helsinki. A choropleth map is a type of map that uses colours to summarise the statistics within different spatial units. We recommend the excellent [Colorbrewer tool](https://colorbrewer2.org/) to help you choose palettes which match your data and the information you want to communicate.
+**The aim of this exercise is to** get familiar with the QGIS software. The first exercises will introduce the QGIS graphical user interface (GUI) and its basic tools and features to create a foundation for the later exercises. After some basic introduction, you will create a **choropleth map** with the aim of showing the number of transit boardings in areas across Helsinki. A choropleth map is a type of map that uses colours to summarise the statistics within different spatial units. We recommend the excellent [Colorbrewer tool](https://colorbrewer2.org/) to help you choose palettes which match your data and the information you want to communicate.
 
 
 
 
-**By the end of today’s crash course, you will:**
+**By the end of this exercise, you will:**
 
 -   **Be familiar with QGIS’s user interface and basic functions**
 -   **Have an idea of what kind of data types GIS can process**
@@ -281,17 +281,10 @@ The last phase of this practical will concentrate on creating a map output. In t
 eyJkaXNjdXNzaW9ucyI6eyJ5bmg1Ym9RaU9NVGlsWk1XIjp7In
 RleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dHBzOi8vcmF3Lmdp
 dGh1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhrL2Z1bmRhbWVudG
-Fscy1vZi1naXMv4oCmIiwic3RhcnQiOjg1LCJlbmQiOjg1fSwi
-Q3VHMXFHSjdkRUk3QTg3SCI6eyJzdGFydCI6MTM5OCwiZW5kIj
-oxNDc1LCJ0ZXh0IjoiKipMYXVuY2ggUUdJUyoqIGFuZCB0aGUg
-UUdJUyBncmFwaGljYWwgdXNlciBpbnRlcmZhY2UgKEdVSSkgb3
-BlbnMgKEZpZ3VyZSAxKS4ifX0sImNvbW1lbnRzIjp7IjU3TFhq
-U3pIc3phSGNoSlUiOnsiZGlzY3Vzc2lvbklkIjoieW5oNWJvUW
-lPTVRpbFpNVyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6
-IlVwZGF0ZSBjb3ZlciBwaWN0dXJlIiwiY3JlYXRlZCI6MTY4NT
-k0MzU4NzM1OH0sIkVyallFYmoyM1pmUmlhNEkiOnsiZGlzY3Vz
-c2lvbklkIjoiQ3VHMXFHSjdkRUk3QTg3SCIsInN1YiI6ImdoOj
-QwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSB3aXRoIGZyZXNoIGlu
-c3RhbGwiLCJjcmVhdGVkIjoxNjg3MDcxOTExNTI1fX0sImhpc3
-RvcnkiOlstMTc1OTI3NTYyNSw1MTE2ODAzMzddfQ==
+Fscy1vZi1naXMv4oCmIiwic3RhcnQiOjg1LCJlbmQiOjg1fX0s
+ImNvbW1lbnRzIjp7IjU3TFhqU3pIc3phSGNoSlUiOnsiZGlzY3
+Vzc2lvbklkIjoieW5oNWJvUWlPTVRpbFpNVyIsInN1YiI6Imdo
+OjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBjb3ZlciBwaWN0dX
+JlIiwiY3JlYXRlZCI6MTY4NTk0MzU4NzM1OH19LCJoaXN0b3J5
+IjpbLTIwMzM0MTcxNzcsNTExNjgwMzM3XX0=
 -->
