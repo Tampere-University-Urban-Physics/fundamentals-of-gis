@@ -59,7 +59,7 @@ Hungry for more? Further reading on vector and raster data in the QGIS documenta
 The most common GIS analysis types can vary depending on the specific application and industry. However, some of the widely used and common GIS analysis types are:
 
 1.  **Spatial Query and Selection**: This analysis involves selecting or querying spatial features based on their spatial relationship with other features. It helps answer questions like "Which points are within a certain distance of a line?" or "Which polygons intersect a specific area?"
-2.  **Spatial Overlay and Intersection**: Overlay analysis combines multiple spatial datasets to create new datasets by intersecting, unioning, or differencing features. It helps identify areas of overlap, calculate areas, and analyze spatial relationships between different layers.
+2.  **Spatial Overlay and Intersection**: Overlay analysis combines multiple spatial datasets to create new datasets by intersecting, uniting, or differentiating features. It helps identify areas of overlap, calculate areas, and analyze spatial relationships between different layers.
 3.  **Buffer Analysis**: Buffer analysis creates a proximity zone around a specific feature or set of features. It helps assess the impact or accessibility of certain locations, such as finding all points within a certain distance of a river or road.
 4.  **Network Analysis**: Network analysis focuses on analyzing and modeling networks, such as road networks or utility networks. It includes tasks like route optimization, shortest path analysis, service area analysis, and network connectivity analysis.
 5.  **Spatial Interpolation**: Interpolation methods estimate attribute values at unsampled locations based on values observed at nearby sampled locations. It helps create continuous surfaces from point data, such as generating elevation models or estimating pollution levels.
@@ -126,7 +126,7 @@ Below is a (hopefully) improved version of our ugly map. Notice how the issues w
 [^1]: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJOWUJVSVE3WGR1WVpHdWM1Ijp7In
-N0YXJ0IjoxMjk1NSwiZW5kIjoxMjk3NywidGV4dCI6IiMjIFdo
+N0YXJ0IjoxMjk1NywiZW5kIjoxMjk3OSwidGV4dCI6IiMjIFdo
 YXQgaXMgYSBnb29kIG1hcD8ifSwicEdkSTNsZGlGQ01jVlAyNi
 I6eyJzdGFydCI6MzY1LCJlbmQiOjM5NSwidGV4dCI6Imdlb2dy
 YXBoaWNhbGx5IHJlZmVyZW5jZWQgZGF0YSJ9LCJPVTRzdzdFMW
@@ -197,7 +197,7 @@ bklkIjoiY1FablR0aFg4dEdMMTkzYSIsInN1YiI6ImdoOjQwMz
 A0Nzg4IiwidGV4dCI6Ik1ha2UgdGhlc2UgZXhhbXBsZXMgZm9y
 IGFsbCBvZiB0aGUgYW5hbHlzaXMgdHlwZXMgbW9yZSByZWFsLW
 xpZmUgYXBwbGljYWJsZS4iLCJjcmVhdGVkIjoxNzczMzkyMzY1
-MTkxfX0sImhpc3RvcnkiOlsxMTY0MzU4OTExLC0xMDU5MjA0Mz
-k0LC04NjEzNzY2ODIsODU1ODQ1ODI5LC0xMTY1NzkyNDEwXX0=
-
+MTkxfX0sImhpc3RvcnkiOlsxOTY1NTc1MTY3LDExNjQzNTg5MT
+EsLTEwNTkyMDQzOTQsLTg2MTM3NjY4Miw4NTU4NDU4MjksLTEx
+NjU3OTI0MTBdfQ==
 -->
