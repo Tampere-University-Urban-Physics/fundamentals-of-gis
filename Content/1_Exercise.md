@@ -203,7 +203,7 @@ For a start, take your time to move around and get acquainted with the basic too
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_select_by_expression.png)
 
-9. Next, we’re going to create and calculate another field into the Helsinki_small_areas attribute table using the HSL_Helsinki_stops point data. First open the *attribute table* of HSL_Helsinki_stops to familiarize yourself with its contents. The "Boardings" column depicts the number of boardings on stops in Helsinki on average per day. Say we want to learn where the areas are with the most boardings in Helsinki? We have the point locations of boardings and the outlines of the small areas, so we can combine them and find out **We will calculate and visualize the public transit passenger numbers per area for every Helsinki small area using something called a spatial join.** 
+9. Next, we’re going to create and calculate another field into the Helsinki_small_areas attribute table using the HSL_Helsinki_stops point data. First open the *attribute table* of HSL_Helsinki_stops to familiarize yourself with its contents. The "Boardings" column depicts the number of boardings on stops in Helsinki on average per day. Say we want to learn where the areas are with the most boardings in Helsinki? We have the point locations of boardings and the outlines of the small areas, so we can combine them and find out **We will calculate and visualize the public transit passenger numbers per area for every Helsinki small area using an operation called a spatial join.** 
 	
 	- Check if the *Processing Toolbox* is active in the top right of the main QGIS window, if not open it by selecting *Processing* > *Toolbox* from the top of the window
 	- Type “Join attributes by location” into the search bar. Select the one that has (Summary) after it.
@@ -288,6 +288,7 @@ ImNvbW1lbnRzIjp7IjU3TFhqU3pIc3phSGNoSlUiOnsiZGlzY3
 Vzc2lvbklkIjoieW5oNWJvUWlPTVRpbFpNVyIsInN1YiI6Imdo
 OjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBjb3ZlciBwaWN0dX
 JlIiwiY3JlYXRlZCI6MTY4NTk0MzU4NzM1OH19LCJoaXN0b3J5
-IjpbLTEwNTA4MTU5MjAsMTUwOTMyNjMwNywyMTc0ODc5OSwxNT
-Q2OTM5MDg0LC0yMDMzNDE3MTc3LDUxMTY4MDMzN119
+IjpbLTExNTAzODIyMzIsLTEwNTA4MTU5MjAsMTUwOTMyNjMwNy
+wyMTc0ODc5OSwxNTQ2OTM5MDg0LC0yMDMzNDE3MTc3LDUxMTY4
+MDMzN119
 -->
