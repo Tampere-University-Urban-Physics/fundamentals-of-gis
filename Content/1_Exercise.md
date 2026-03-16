@@ -229,11 +229,10 @@ For a start, take your time to move around and get acquainted with the basic too
 	- 
 
  10.   **Now we’ll calculate yet another field** using the *field calculator* by dividing the number of passengers by the square kilometer area of the Helsinki small areas.
-	 - 
 - Calculate this field using the *Field calculator* (don’t forget to toggle editing mode): output field name should be informative e.g. “PassArea”
 - Set *Output field type* to decimal, Set output *field length* to 10 and *precision* to 2
-	- Then you must enter the calculation into the Expression field, you can either use the drop-down menus (Fields and values) or simply type it in. The calculation should be similar to this (change if your fields are named differently): "Boardings_sum" / "Area_km2"
-	- Click OK. Remember to *Save edits* and *Disable editing mode*.
+- Then you must enter the calculation into the Expression field, you can either use the drop-down menus (Fields and values) or simply type it in. The calculation should be similar to this (change if your fields are named differently): "Boardings_sum" / "Area_km2"
+-  Click OK. Remember to *Save edits* and *Disable editing mode*.
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_attribute_table.png)
 
@@ -289,7 +288,7 @@ ImNvbW1lbnRzIjp7IjU3TFhqU3pIc3phSGNoSlUiOnsiZGlzY3
 Vzc2lvbklkIjoieW5oNWJvUWlPTVRpbFpNVyIsInN1YiI6Imdo
 OjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBjb3ZlciBwaWN0dX
 JlIiwiY3JlYXRlZCI6MTY4NTk0MzU4NzM1OH19LCJoaXN0b3J5
-IjpbLTg3MTQ3NzQxOCw5NjA3MjM3MjEsLTExNTAzODIyMzIsLT
+IjpbMTE3NzU0NjY1Nyw5NjA3MjM3MjEsLTExNTAzODIyMzIsLT
 EwNTA4MTU5MjAsMTUwOTMyNjMwNywyMTc0ODc5OSwxNTQ2OTM5
 MDg0LC0yMDMzNDE3MTc3LDUxMTY4MDMzN119
 -->
