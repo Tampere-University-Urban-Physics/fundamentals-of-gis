@@ -239,7 +239,7 @@ For a start, take your time to move around and get acquainted with the basic too
 11.  Head to the layer’s *symbology* tab and select **Graduated** from the drop-down menu. **Select the PassArea column as the data source and press Classify**. Try out different classification Modes. What are their differences and which do you think is best for this purpose? Choose which you think is best and visualize the data as desired (you can check ColorBrewer for ideas). You can edit the class bounds and the legend values manually by double clicking on them. Which areas are the most passenger heavy and which are not? Why?
 
 12. Now it is time for the finishing touches. To make the map easier to interpret, we are going to **add labels** to it.
-	- Right-click the layer we just visualized and go to *Layer properties* > *Labels*
+	- Right-click the layer we just visualized and go to *Properties* > *Labels*
 	- Select *Single labels* from the drop-down menu to enable labeling
 	- Choose the column from the list that contains the area names (name_fi)
 	- You can edit the label placement and appearance, for example add a halo around it by selecting buffer in the lower section
@@ -288,7 +288,8 @@ ImNvbW1lbnRzIjp7IjU3TFhqU3pIc3phSGNoSlUiOnsiZGlzY3
 Vzc2lvbklkIjoieW5oNWJvUWlPTVRpbFpNVyIsInN1YiI6Imdo
 OjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBjb3ZlciBwaWN0dX
 JlIiwiY3JlYXRlZCI6MTY4NTk0MzU4NzM1OH19LCJoaXN0b3J5
-IjpbMTE3NzU0NjY1Nyw5NjA3MjM3MjEsLTExNTAzODIyMzIsLT
-EwNTA4MTU5MjAsMTUwOTMyNjMwNywyMTc0ODc5OSwxNTQ2OTM5
-MDg0LC0yMDMzNDE3MTc3LDUxMTY4MDMzN119
+IjpbMTIwNDc2MDE3NiwxMTc3NTQ2NjU3LDk2MDcyMzcyMSwtMT
+E1MDM4MjIzMiwtMTA1MDgxNTkyMCwxNTA5MzI2MzA3LDIxNzQ4
+Nzk5LDE1NDY5MzkwODQsLTIwMzM0MTcxNzcsNTExNjgwMzM3XX
+0=
 -->
