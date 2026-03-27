@@ -66,7 +66,7 @@ Examples of data sources are:
 | OpenStreetMap | https://www.openstreetmap.org/about | Community maintained data |
 | Natural Earth | https://www.naturalearthdata.com/ | Various international datasets |
 
-Data can often be accessed by downloading the dataset locally and importing the data, as we have done in the crash course. However, some providers allow you to download data directly to your GIS software using an online connection. While this has some benefits for the user and provider, it can cause issues when there's any connection issues. Thus, we recommend downloading and saving locally the datasets whenever possible. Some examples of online data access methods are:
+Data can often be accessed by downloading the dataset locally and importing the data, as we have done in the crash course. However, some providers allow you to download data directly to your GIS software using an online connection. While this has some benefits for the user and provider, it can cause issues when there's any connection issues. Some examples of online data access methods are:
 - WMS/WMTS (For raster data viewing)
 - WFS
 - WCS
@@ -85,7 +85,7 @@ Where does GIS data come from? We can go out and collect it ourselves, like surv
 
 When some kind of urban development happens, the data we use in GIS needs to be updated. Someone has to go in and update the changes to the roads, buildings, and others. This can be done by digitizing the changes, which is the process of **converting geographic data into digital form**. 
 
-For this practice we are going to use the Nokia Arena development in Tampere. As you can see below, there have been a significant number of changes with this project.
+For this exercise we are going to use the Nokia Arena development in Tampere. As you can see below, there have been a significant number of changes with this project.
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/2_Theory/GIS_theory1_example.png)
 
@@ -112,7 +112,7 @@ In our case we can use the buildings that remained unchanged and are on the proj
 # Time to get your hands dirty! Move on to the [2nd exercise](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/2_Exercise.md) to apply this new knowledge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzY5NzMzNDcsLTc3MDgwMjU2MSwyMT
-Q0OTg0MjAsODk5MTA3NTEsMTQwNTU3NTA0Niw1NjY0MDQ1NDQs
-NzM2NDkzOTc0LDEwOTI0MzM3MDVdfQ==
+eyJoaXN0b3J5IjpbMTg3NzQwNzYxNCwtMjAzNjk3MzM0NywtNz
+cwODAyNTYxLDIxNDQ5ODQyMCw4OTkxMDc1MSwxNDA1NTc1MDQ2
+LDU2NjQwNDU0NCw3MzY0OTM5NzQsMTA5MjQzMzcwNV19
 -->
