@@ -31,7 +31,7 @@ The exercise accompanying this theory section consists of a GIS socio-spatial di
 
 You can access the dataset here: https://www.tilastokeskus.fi/tup/ruututietokanta/index_en.html
 
-We learned previously that raster data consists of a continuous surface divided into a grid of cells, where each cell corresponds to a specific location and contains a value representing a particular attribute. This value is represented by the color of the cell, images are in a way rasters as well, specifically JPEG, PNG, and GIF images. Do you remember seeing in movies that they store data in pictures? This is not unrealistic, as you could just see pictures as a raster where the color of each cell represents its value. While the Statistics Finland's Grid Database is practically raster data, it is in vector form, as you will see when you do the exercise. This is important to keep in mind in the future, since this type of data may look like a raster, it needs to be processed using vector methods. While doing the exercise, ask yourself questions like: Do I need my data to be vector or raster? What type of data is this? How do I process this data? 
+We learned previously that geographic raster data consists of a continuous surface divided into a grid of cells, where each cell corresponds to a specific location and contains a value representing a particular attribute. This value is represented by the color of the cell, images are in a way rasters as well, specifically JPEG, PNG, and GIF images. Do you remember seeing in movies that they store data in pictures? This is not unrealistic, as you could just see pictures as a raster where the color of each cell represents its value. While the Statistics Finland's Grid Database is practically raster data, it is in vector form, as you will see when you do the exercise. This is important to keep in mind in the future, since this type of data may look like a raster, it needs to be processed using vector methods. While doing the exercise, ask yourself questions like: Do I need my data to be vector or raster? What type of data is this? How do I process this data? 
 
 ## Data preparation
 
@@ -101,11 +101,11 @@ Rpc2N1c3Npb25JZCI6IklVdE5pd2lHT3NkYmZkUmoiLCJzdWIi
 OiJnaDo0MDMwNDc4OCIsInRleHQiOiJSZXBsYWNlIHRoaXMgd2
 l0aCBhIHZpc3VhbGx5IGVhc2llciB0byB1bmRlcnN0YW5kIGV4
 YW1wbGUiLCJjcmVhdGVkIjoxNzc0ODYzNzEyNTczfX0sImhpc3
-RvcnkiOlsxNjc5MDk5MTc4LC0xMjcwNzYwNzcyLDE2MDAzNDI1
-MjIsMjEyNjc0MTI4MCwtOTUwMDgxNzk0LDE1MTQzODE5MDYsMj
-A4OTQ4NDg2OSw3NjgzODU2MDgsLTkyMDkwMzgxMCwyNDM4NzM4
-MTQsOTY4OTMxMzU1LC0xNjMyOTUyNDE2LC0xMjM0NzMyMTI1LC
-0xMzUxNzE3NTE3LC01NzMyNDgxNDMsMTQ0NDM4MTEyNSwxODE5
-NjE3NzAwLDIwODM5OTM5ODYsLTE3NTQ4NTE3MywxMzMyMzc0OT
-Q4XX0=
+RvcnkiOlstNDA1ODk0NDE1LDE2NzkwOTkxNzgsLTEyNzA3NjA3
+NzIsMTYwMDM0MjUyMiwyMTI2NzQxMjgwLC05NTAwODE3OTQsMT
+UxNDM4MTkwNiwyMDg5NDg0ODY5LDc2ODM4NTYwOCwtOTIwOTAz
+ODEwLDI0Mzg3MzgxNCw5Njg5MzEzNTUsLTE2MzI5NTI0MTYsLT
+EyMzQ3MzIxMjUsLTEzNTE3MTc1MTcsLTU3MzI0ODE0MywxNDQ0
+MzgxMTI1LDE4MTk2MTc3MDAsMjA4Mzk5Mzk4NiwtMTc1NDg1MT
+czXX0=
 -->
