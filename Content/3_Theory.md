@@ -53,7 +53,7 @@ In our case we will be using expressions to select the data we want, the entries
 ## Data classification 
 Data classification refers to **the process of categorizing or grouping data based on common characteristics, attributes, or criteria**. It involves organizing data into distinct classes or categories to facilitate analysis, interpretation, and communication of information.
 
-In the context of GIS (Geographic Information System), data classification is often applied to spatial data, such as maps or remote sensing imagery. It helps to visually represent and differentiate features or phenomena on a map based on their attributes or values.
+In the context of GIS, data classification is often applied to spatial data, such as maps or remote sensing imagery. It helps to visually represent and differentiate features or phenomena on a map based on their attributes or values.
 
 There are several methods of data classification, including:
 
@@ -101,11 +101,11 @@ Rpc2N1c3Npb25JZCI6IklVdE5pd2lHT3NkYmZkUmoiLCJzdWIi
 OiJnaDo0MDMwNDc4OCIsInRleHQiOiJSZXBsYWNlIHRoaXMgd2
 l0aCBhIHZpc3VhbGx5IGVhc2llciB0byB1bmRlcnN0YW5kIGV4
 YW1wbGUiLCJjcmVhdGVkIjoxNzc0ODYzNzEyNTczfX0sImhpc3
-RvcnkiOlstNDA1ODk0NDE1LDE2NzkwOTkxNzgsLTEyNzA3NjA3
-NzIsMTYwMDM0MjUyMiwyMTI2NzQxMjgwLC05NTAwODE3OTQsMT
-UxNDM4MTkwNiwyMDg5NDg0ODY5LDc2ODM4NTYwOCwtOTIwOTAz
-ODEwLDI0Mzg3MzgxNCw5Njg5MzEzNTUsLTE2MzI5NTI0MTYsLT
-EyMzQ3MzIxMjUsLTEzNTE3MTc1MTcsLTU3MzI0ODE0MywxNDQ0
-MzgxMTI1LDE4MTk2MTc3MDAsMjA4Mzk5Mzk4NiwtMTc1NDg1MT
-czXX0=
+RvcnkiOls4NzUyNDQ3NDgsLTQwNTg5NDQxNSwxNjc5MDk5MTc4
+LC0xMjcwNzYwNzcyLDE2MDAzNDI1MjIsMjEyNjc0MTI4MCwtOT
+UwMDgxNzk0LDE1MTQzODE5MDYsMjA4OTQ4NDg2OSw3NjgzODU2
+MDgsLTkyMDkwMzgxMCwyNDM4NzM4MTQsOTY4OTMxMzU1LC0xNj
+MyOTUyNDE2LC0xMjM0NzMyMTI1LC0xMzUxNzE3NTE3LC01NzMy
+NDgxNDMsMTQ0NDM4MTEyNSwxODE5NjE3NzAwLDIwODM5OTM5OD
+ZdfQ==
 -->
