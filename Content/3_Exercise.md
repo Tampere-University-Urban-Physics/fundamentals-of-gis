@@ -12,8 +12,7 @@ Helsinki metropolitan area’s population dynamics.  One of the key components o
 
 Socio-economic features of the inhabitants of the city vary across geographical space and across time.
 Today we are using the Statistics Finland’s Grid Database 2016 about the social structure in 250x250m
-grid cells. Our task today is to study socio-spatial differentiation and pinpoint low-education and low-income
-grid cells. This could also be an interesting starting point for the analysis if we study segregation
+grid cells. Our task today is to study socio-spatial differentiation and pinpoint low-education and low-income grid cells. This could also be an interesting starting point for the analysis if we study segregation
 in the region.
 
 To do this, the data needs some clean-up, some fields need to be calculated and the lowest quartiles for
@@ -198,11 +197,11 @@ reclassified fields for rented dwellings and unemployment.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTEzMDEyODQsLTE4MDA2NjQzNSw5Nj
-cwOTQwNTksNTg1Njc1OTgxLC0xOTc0MjgzNDM1LC0yMDU4OTM5
-NzY1LDEyODE0NDUyNywyNjU5ODc0MzAsMTk4MTA4NzY3LDczNj
-QxOTcwOCwxMjIxMjY0NDMyLDE4MjUwMzcwNDAsLTM5MTg4MjA1
-MCwtMTYzNzYwNDE3OSwtMTU2ODc2OTc2OSwxMDc1NTg4OTUyLC
-00Njk2NDE2ODIsLTI2OTU1ODc4NSwtMTM2NDE3NDk5MywxNzI2
-ODEzNjM0XX0=
+eyJoaXN0b3J5IjpbLTY1NDY0MzMwOSwtMTU5MTMwMTI4NCwtMT
+gwMDY2NDM1LDk2NzA5NDA1OSw1ODU2NzU5ODEsLTE5NzQyODM0
+MzUsLTIwNTg5Mzk3NjUsMTI4MTQ0NTI3LDI2NTk4NzQzMCwxOT
+gxMDg3NjcsNzM2NDE5NzA4LDEyMjEyNjQ0MzIsMTgyNTAzNzA0
+MCwtMzkxODgyMDUwLC0xNjM3NjA0MTc5LC0xNTY4NzY5NzY5LD
+EwNzU1ODg5NTIsLTQ2OTY0MTY4MiwtMjY5NTU4Nzg1LC0xMzY0
+MTc0OTkzXX0=
 -->
