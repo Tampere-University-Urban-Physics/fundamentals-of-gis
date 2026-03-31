@@ -42,7 +42,7 @@ English, Finnish, and Swedish).
 
 ## Completion
 
-Work in pairs or individually. Complete the exercise and submit a short report containing at least the following:
+Complete the exercise and submit a short report containing at least the following:
 
 1. Maps of the outcome of the exercise
 
@@ -196,11 +196,11 @@ reclassified fields for rented dwellings and unemployment.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzAwNjUyMywtNjU0NjQzMzA5LC0xNT
-kxMzAxMjg0LC0xODAwNjY0MzUsOTY3MDk0MDU5LDU4NTY3NTk4
-MSwtMTk3NDI4MzQzNSwtMjA1ODkzOTc2NSwxMjgxNDQ1MjcsMj
-Y1OTg3NDMwLDE5ODEwODc2Nyw3MzY0MTk3MDgsMTIyMTI2NDQz
-MiwxODI1MDM3MDQwLC0zOTE4ODIwNTAsLTE2Mzc2MDQxNzksLT
-E1Njg3Njk3NjksMTA3NTU4ODk1MiwtNDY5NjQxNjgyLC0yNjk1
-NTg3ODVdfQ==
+eyJoaXN0b3J5IjpbNjA2NDQ0MjExLDIwMzMwMDY1MjMsLTY1ND
+Y0MzMwOSwtMTU5MTMwMTI4NCwtMTgwMDY2NDM1LDk2NzA5NDA1
+OSw1ODU2NzU5ODEsLTE5NzQyODM0MzUsLTIwNTg5Mzk3NjUsMT
+I4MTQ0NTI3LDI2NTk4NzQzMCwxOTgxMDg3NjcsNzM2NDE5NzA4
+LDEyMjEyNjQ0MzIsMTgyNTAzNzA0MCwtMzkxODgyMDUwLC0xNj
+M3NjA0MTc5LC0xNTY4NzY5NzY5LDEwNzU1ODg5NTIsLTQ2OTY0
+MTY4Ml19
 -->
