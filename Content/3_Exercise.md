@@ -16,8 +16,7 @@ grid cells. Our task today is to study socio-spatial differentiation and pinpoin
 in the region.
 
 To do this, the data needs some clean-up, some fields need to be calculated and the lowest quartiles for
-different variables (income, education) have to be found. You will be learning to use the conditional statement
-functionality. The results are once again to be visualized on a map and to be
+different variables (income, education) have to be found. You will be learning to use the conditional statement functionality. The results are once again to be visualized on a map and to be
 reflected on.
 
 ## OBJECTIVES
@@ -197,11 +196,11 @@ reclassified fields for rented dwellings and unemployment.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NDY0MzMwOSwtMTU5MTMwMTI4NCwtMT
-gwMDY2NDM1LDk2NzA5NDA1OSw1ODU2NzU5ODEsLTE5NzQyODM0
-MzUsLTIwNTg5Mzk3NjUsMTI4MTQ0NTI3LDI2NTk4NzQzMCwxOT
-gxMDg3NjcsNzM2NDE5NzA4LDEyMjEyNjQ0MzIsMTgyNTAzNzA0
-MCwtMzkxODgyMDUwLC0xNjM3NjA0MTc5LC0xNTY4NzY5NzY5LD
-EwNzU1ODg5NTIsLTQ2OTY0MTY4MiwtMjY5NTU4Nzg1LC0xMzY0
-MTc0OTkzXX0=
+eyJoaXN0b3J5IjpbMjAzMzAwNjUyMywtNjU0NjQzMzA5LC0xNT
+kxMzAxMjg0LC0xODAwNjY0MzUsOTY3MDk0MDU5LDU4NTY3NTk4
+MSwtMTk3NDI4MzQzNSwtMjA1ODkzOTc2NSwxMjgxNDQ1MjcsMj
+Y1OTg3NDMwLDE5ODEwODc2Nyw3MzY0MTk3MDgsMTIyMTI2NDQz
+MiwxODI1MDM3MDQwLC0zOTE4ODIwNTAsLTE2Mzc2MDQxNzksLT
+E1Njg3Njk3NjksMTA3NTU4ODk1MiwtNDY5NjQxNjgyLC0yNjk1
+NTg3ODVdfQ==
 -->
