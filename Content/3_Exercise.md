@@ -88,7 +88,7 @@ Complete the exercise and submit a short report containing at least the followin
 	*Tip: If you are confused with the formula, try reading it aloud: “Select the features where X is greater than 0 AND Y is greater or equal than 0, AND…”*
 
 3. **You should end up with a new layer without any -1 values in the four wanted fields.**
-4. Optionally, you can export the -1
+4. Optionally, you can export the -1 values to a separate layer too to depict the "no value" areas in the final map. 
 
 ---
 
@@ -195,11 +195,11 @@ reclassified fields for rented dwellings and unemployment.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwNTg5MjUwLDYwNjQ0NDIxMSwyMDMzMD
-A2NTIzLC02NTQ2NDMzMDksLTE1OTEzMDEyODQsLTE4MDA2NjQz
-NSw5NjcwOTQwNTksNTg1Njc1OTgxLC0xOTc0MjgzNDM1LC0yMD
-U4OTM5NzY1LDEyODE0NDUyNywyNjU5ODc0MzAsMTk4MTA4NzY3
-LDczNjQxOTcwOCwxMjIxMjY0NDMyLDE4MjUwMzcwNDAsLTM5MT
-g4MjA1MCwtMTYzNzYwNDE3OSwtMTU2ODc2OTc2OSwxMDc1NTg4
-OTUyXX0=
+eyJoaXN0b3J5IjpbLTY5NDg5MDQzMyw2MDY0NDQyMTEsMjAzMz
+AwNjUyMywtNjU0NjQzMzA5LC0xNTkxMzAxMjg0LC0xODAwNjY0
+MzUsOTY3MDk0MDU5LDU4NTY3NTk4MSwtMTk3NDI4MzQzNSwtMj
+A1ODkzOTc2NSwxMjgxNDQ1MjcsMjY1OTg3NDMwLDE5ODEwODc2
+Nyw3MzY0MTk3MDgsMTIyMTI2NDQzMiwxODI1MDM3MDQwLC0zOT
+E4ODIwNTAsLTE2Mzc2MDQxNzksLTE1Njg3Njk3NjksMTA3NTU4
+ODk1Ml19
 -->
