@@ -74,9 +74,7 @@ Complete the exercise and submit a short report containing at least the followin
 
 ### 1.2. Cleaning up the data
 
-1. As you browsed the attribute table of the data, you might’ve noticed that **some fields have
-the value -1. This is because the population within the grid cell is sufficiently small that providing the value would violate data privacy protection laws. You’ll have to clean up the data** and there are a few
-ways to do this. Here we’re focusing on selections.
+1. As you browsed the attribute table of the data, you might’ve noticed that **some fields have the value -1. This is because the population within the grid cell is sufficiently small that providing the value would violate data privacy protection laws. You’ll have to clean up the data** and there are a few ways to do this. Here we’re focusing on selections.
 	- -1 is a placeholder value for NoData or NotAvailable and not an actual value. It does not mean that there are actually -1 people in the cell...
 	- The Basic-level studies field (ko_perus) depicts the amount of people whose highest achieved level of education is basic-level studies. It has values of -1 for those grids that have less than 10 people over 18 years old (ko_ika18y).
 	- And same thing for the low-income variables hr_pi_tul and hr_tuy.
@@ -90,6 +88,7 @@ ways to do this. Here we’re focusing on selections.
 	*Tip: If you are confused with the formula, try reading it aloud: “Select the features where X is greater than 0 AND Y is greater or equal than 0, AND…”*
 
 3. **You should end up with a new layer without any -1 values in the four wanted fields.**
+4. Optionally, you can export the -1
 
 ---
 
@@ -196,11 +195,11 @@ reclassified fields for rented dwellings and unemployment.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA2NDQ0MjExLDIwMzMwMDY1MjMsLTY1ND
-Y0MzMwOSwtMTU5MTMwMTI4NCwtMTgwMDY2NDM1LDk2NzA5NDA1
-OSw1ODU2NzU5ODEsLTE5NzQyODM0MzUsLTIwNTg5Mzk3NjUsMT
-I4MTQ0NTI3LDI2NTk4NzQzMCwxOTgxMDg3NjcsNzM2NDE5NzA4
-LDEyMjEyNjQ0MzIsMTgyNTAzNzA0MCwtMzkxODgyMDUwLC0xNj
-M3NjA0MTc5LC0xNTY4NzY5NzY5LDEwNzU1ODg5NTIsLTQ2OTY0
-MTY4Ml19
+eyJoaXN0b3J5IjpbOTQwNTg5MjUwLDYwNjQ0NDIxMSwyMDMzMD
+A2NTIzLC02NTQ2NDMzMDksLTE1OTEzMDEyODQsLTE4MDA2NjQz
+NSw5NjcwOTQwNTksNTg1Njc1OTgxLC0xOTc0MjgzNDM1LC0yMD
+U4OTM5NzY1LDEyODE0NDUyNywyNjU5ODc0MzAsMTk4MTA4NzY3
+LDczNjQxOTcwOCwxMjIxMjY0NDMyLDE4MjUwMzcwNDAsLTM5MT
+g4MjA1MCwtMTYzNzYwNDE3OSwtMTU2ODc2OTc2OSwxMDc1NTg4
+OTUyXX0=
 -->
