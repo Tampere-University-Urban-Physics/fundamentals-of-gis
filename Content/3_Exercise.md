@@ -7,16 +7,13 @@ By Tuomas Väisänen, Sara Todorovic, Tatu Leppämäki & Markus Jylhä for USP-3
 *Updated by Rowan van der Kaaden*
 
 ## OVERVIEW & PURPOSE
-Today’s theme is socio-spatial differentiation & social segregation and we’re going to be looking at the
-Helsinki metropolitan area’s population dynamics.  One of the key components of the city is as Shakespeare so eloquently put in Coriolanus “What is the city, but the people?”
+Today’s theme is socio-spatial differentiation & social segregation and we’re going to be looking at the Helsinki metropolitan area’s population dynamics.  One of the key components of the city is as Shakespeare so eloquently put in Coriolanus “What is the city, but the people?”
 
 Socio-economic features of the inhabitants of the city vary across geographical space and across time.
-Today we are using the Statistics Finland’s Grid Database 2016 about the social structure in 250x250m
-grid cells. Our task today is to study socio-spatial differentiation and pinpoint low-education and low-income grid cells. This could also be an interesting starting point for the analysis if we study segregation
+Today we are using the Statistics Finland’s Grid Database 2016 about the social structure in 250x250m grid cells. Our task today is to study socio-spatial differentiation and pinpoint low-education and low-income grid cells. This could also be an interesting starting point for the analysis if we study segregation
 in the region.
 
-To do this, the data needs some clean-up, some fields need to be calculated and the lowest quartiles for
-different variables (income, education) have to be found. You will be learning to use the conditional statement functionality. The results are once again to be visualized on a map and to be
+To do this, the data needs some clean-up, some fields need to be calculated and the lowest quartiles for different variables (income, education) have to be found. You will be learning to use the conditional statement functionality. The results are once again to be visualized on a map and to be
 reflected on.
 
 ## OBJECTIVES
@@ -196,11 +193,11 @@ reclassified fields for rented dwellings and unemployment.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2OTEyNDQ4MSwtNjk0ODkwNDMzLDYwNj
-Q0NDIxMSwyMDMzMDA2NTIzLC02NTQ2NDMzMDksLTE1OTEzMDEy
-ODQsLTE4MDA2NjQzNSw5NjcwOTQwNTksNTg1Njc1OTgxLC0xOT
-c0MjgzNDM1LC0yMDU4OTM5NzY1LDEyODE0NDUyNywyNjU5ODc0
-MzAsMTk4MTA4NzY3LDczNjQxOTcwOCwxMjIxMjY0NDMyLDE4Mj
-UwMzcwNDAsLTM5MTg4MjA1MCwtMTYzNzYwNDE3OSwtMTU2ODc2
-OTc2OV19
+eyJoaXN0b3J5IjpbLTQ0ODc0MDg4NywxNDY5MTI0NDgxLC02OT
+Q4OTA0MzMsNjA2NDQ0MjExLDIwMzMwMDY1MjMsLTY1NDY0MzMw
+OSwtMTU5MTMwMTI4NCwtMTgwMDY2NDM1LDk2NzA5NDA1OSw1OD
+U2NzU5ODEsLTE5NzQyODM0MzUsLTIwNTg5Mzk3NjUsMTI4MTQ0
+NTI3LDI2NTk4NzQzMCwxOTgxMDg3NjcsNzM2NDE5NzA4LDEyMj
+EyNjQ0MzIsMTgyNTAzNzA0MCwtMzkxODgyMDUwLC0xNjM3NjA0
+MTc5XX0=
 -->
