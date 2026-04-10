@@ -149,7 +149,7 @@ education & low-income areas in Helsinki metropolitan region.**
 ### 1.5. Map outputs
 
 1. Time to make your maps! Think of which maps would be good to describe this analysis. What information do you want to communicate? **Hints:**
-	- Make two maps with graduated symbology showing quantiles, one for income and one for education
+	- Make two maps with graduated symbology showing quantiules, one for income and one for education
 	- Make a map highlighting grid squares where both income level and education are classed 4 to highlight issues with social segregation
 	- Think about whether you should include the data we removed earlier(-1 entries), would it be valuable to the viewer of the map? Is the map accurate without them? How would you visualize them? Justify your choices in the reflection.
 
@@ -192,11 +192,11 @@ reclassified fields for rented dwellings and unemployment.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNDcyNTk5LDE0NjkxMjQ0ODEsLTY5ND
-g5MDQzMyw2MDY0NDQyMTEsMjAzMzAwNjUyMywtNjU0NjQzMzA5
-LC0xNTkxMzAxMjg0LC0xODAwNjY0MzUsOTY3MDk0MDU5LDU4NT
-Y3NTk4MSwtMTk3NDI4MzQzNSwtMjA1ODkzOTc2NSwxMjgxNDQ1
-MjcsMjY1OTg3NDMwLDE5ODEwODc2Nyw3MzY0MTk3MDgsMTIyMT
-I2NDQzMiwxODI1MDM3MDQwLC0zOTE4ODIwNTAsLTE2Mzc2MDQx
-NzldfQ==
+eyJoaXN0b3J5IjpbLTk3NDUwMTk2NCwxMDM0NzI1OTksMTQ2OT
+EyNDQ4MSwtNjk0ODkwNDMzLDYwNjQ0NDIxMSwyMDMzMDA2NTIz
+LC02NTQ2NDMzMDksLTE1OTEzMDEyODQsLTE4MDA2NjQzNSw5Nj
+cwOTQwNTksNTg1Njc1OTgxLC0xOTc0MjgzNDM1LC0yMDU4OTM5
+NzY1LDEyODE0NDUyNywyNjU5ODc0MzAsMTk4MTA4NzY3LDczNj
+QxOTcwOCwxMjIxMjY0NDMyLDE4MjUwMzcwNDAsLTM5MTg4MjA1
+MF19
 -->
