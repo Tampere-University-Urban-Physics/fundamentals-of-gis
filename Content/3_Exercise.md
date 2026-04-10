@@ -9,8 +9,7 @@ By Tuomas Väisänen, Sara Todorovic, Tatu Leppämäki & Markus Jylhä for USP-3
 ## OVERVIEW & PURPOSE
 Today’s theme is socio-spatial differentiation & social segregation and we’re going to be looking at the Helsinki metropolitan area’s population dynamics.  One of the key components of the city is as Shakespeare so eloquently put in Coriolanus “What is the city, but the people?”
 
-Socio-economic features of the inhabitants of the city vary across geographical space and across time.
-Today we are using the Statistics Finland’s Grid Database 2016 about the social structure in 250x250m grid cells. Our task today is to study socio-spatial differentiation and pinpoint low-education and low-income grid cells. This could also be an interesting starting point for the analysis if we study segregation
+Socio-economic features of the inhabitants of the city vary across geographical space and across time. Today we are using the Statistics Finland’s Grid Database 2016 about the social structure in 250x250m grid cells. Our task today is to study socio-spatial differentiation and pinpoint low-education and low-income grid cells. This could also be an interesting starting point for the analysis if we study segregation
 in the region.
 
 To do this, the data needs some clean-up, some fields need to be calculated and the lowest quartiles for different variables (income, education) have to be found. You will be learning to use the conditional statement functionality. The results are once again to be visualized on a map and to be
@@ -193,11 +192,11 @@ reclassified fields for rented dwellings and unemployment.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODc0MDg4NywxNDY5MTI0NDgxLC02OT
-Q4OTA0MzMsNjA2NDQ0MjExLDIwMzMwMDY1MjMsLTY1NDY0MzMw
-OSwtMTU5MTMwMTI4NCwtMTgwMDY2NDM1LDk2NzA5NDA1OSw1OD
-U2NzU5ODEsLTE5NzQyODM0MzUsLTIwNTg5Mzk3NjUsMTI4MTQ0
-NTI3LDI2NTk4NzQzMCwxOTgxMDg3NjcsNzM2NDE5NzA4LDEyMj
-EyNjQ0MzIsMTgyNTAzNzA0MCwtMzkxODgyMDUwLC0xNjM3NjA0
-MTc5XX0=
+eyJoaXN0b3J5IjpbMTAzNDcyNTk5LDE0NjkxMjQ0ODEsLTY5ND
+g5MDQzMyw2MDY0NDQyMTEsMjAzMzAwNjUyMywtNjU0NjQzMzA5
+LC0xNTkxMzAxMjg0LC0xODAwNjY0MzUsOTY3MDk0MDU5LDU4NT
+Y3NTk4MSwtMTk3NDI4MzQzNSwtMjA1ODkzOTc2NSwxMjgxNDQ1
+MjcsMjY1OTg3NDMwLDE5ODEwODc2Nyw3MzY0MTk3MDgsMTIyMT
+I2NDQzMiwxODI1MDM3MDQwLC0zOTE4ODIwNTAsLTE2Mzc2MDQx
+NzldfQ==
 -->
