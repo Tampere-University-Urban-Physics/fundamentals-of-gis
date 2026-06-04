@@ -81,7 +81,7 @@ And be particularly careful when joining data from different sources! As these f
 
 ## Digitizing
 
-Where does GIS data come from? We can go out and collect it ourselves, like surveyors do. Maybe we attach a GPS system to a bird, and use that to track location for nature conservation. Or maybe, we trace over a building outline from an aerial photograph. Or, perhaps we have some spatial data (like a plan for a new development) but it is not able to be analysed because the drawing doesn't have the coordinate information yet? Or, if the data we need isn't already available or outdated? That's when we start gathering or making our own data, and where digitizing comes in.  
+Where does GIS data come from? We can go out and collect it ourselves, like surveyors do. Maybe we attach a GPS system to a bird, and use that to track location for nature conservation. Or maybe, we trace over a building outline from an aerial photograph. Or, perhaps we have some spatial data (like a plan for a new development) but it is not able to be analyzed because the drawing doesn't have the coordinate information yet? Or, if the data we need isn't already available or outdated? That's when we start gathering or making our own data, and where digitizing comes in.  
 
 When some kind of urban development happens, the data we use in GIS needs to be updated. Someone has to go in and update the changes to the roads, buildings, and others. This can be done by digitizing the changes, which is the process of **converting geographic data into digital form**. 
 
@@ -112,7 +112,8 @@ In our case we can use the buildings that remained unchanged and are on the proj
 # Time to get your hands dirty! Move on to the [2nd exercise](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/2_Exercise.md) to apply this new knowledge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NzQwNzYxNCwtMjAzNjk3MzM0NywtNz
-cwODAyNTYxLDIxNDQ5ODQyMCw4OTkxMDc1MSwxNDA1NTc1MDQ2
-LDU2NjQwNDU0NCw3MzY0OTM5NzQsMTA5MjQzMzcwNV19
+eyJoaXN0b3J5IjpbLTEzMDE1NjY5NTMsMTg3NzQwNzYxNCwtMj
+AzNjk3MzM0NywtNzcwODAyNTYxLDIxNDQ5ODQyMCw4OTkxMDc1
+MSwxNDA1NTc1MDQ2LDU2NjQwNDU0NCw3MzY0OTM5NzQsMTA5Mj
+QzMzcwNV19
 -->
