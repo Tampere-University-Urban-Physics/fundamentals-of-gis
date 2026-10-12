@@ -51,7 +51,9 @@ In GIS, both vector and raster data have their respective strengths and applicat
 
 Don't stress about understanding vector and raster data immediately, it will be come easier to understand once you've worked with the different types of data in the exercises!  
 
-Hungry for more? Further reading on vector and raster data in the QGIS documentation: https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/vector_data.html, https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/raster_data.html
+Hungry for more? Further reading on vector and raster data in the QGIS documentation: 
+- https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/vector_data.html
+- https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/raster_data.html
 
 ## GIS analysis types
 The most common GIS analysis types can vary depending on the specific application and industry. However, some of the widely used and common GIS analysis types are:
@@ -124,7 +126,7 @@ Below is a (hopefully) improved version of our ugly map. Notice how the issues w
 [^1]: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJOWUJVSVE3WGR1WVpHdWM1Ijp7In
-N0YXJ0IjoxMjg1NiwiZW5kIjoxMjg3OCwidGV4dCI6IiMjIFdo
+N0YXJ0IjoxMjg2MCwiZW5kIjoxMjg4MiwidGV4dCI6IiMjIFdo
 YXQgaXMgYSBnb29kIG1hcD8ifSwicEdkSTNsZGlGQ01jVlAyNi
 I6eyJzdGFydCI6MzY2LCJlbmQiOjM5NiwidGV4dCI6Imdlb2dy
 YXBoaWNhbGx5IHJlZmVyZW5jZWQgZGF0YSJ9LCJPVTRzdzdFMW
@@ -142,9 +144,9 @@ CmIn0sImIzOXBPRWlJVlhqUGpIeGwiOnsic3RhcnQiOjUxNjks
 ImVuZCI6NTU2NywidGV4dCI6IjIuICoqUmFzdGVyIERhdGEqKi
 ByZXByZXNlbnRzIHNwYXRpYWwgaW5mb3JtYXRpb24gYnkgYSBj
 b250aW51b3VzIHN1cmZhY2UgZGl2aWTigKYifSwiRlk4RVlHTz
-lDdDlDaE51WSI6eyJzdGFydCI6NzUzMywiZW5kIjo3NTU0LCJ0
+lDdDlDaE51WSI6eyJzdGFydCI6NzUzNywiZW5kIjo3NTU4LCJ0
 ZXh0IjoiIyMgR0lTIGFuYWx5c2lzIHR5cGVzIn0sImNRWm5UdG
-hYOHRHTDE5M2EiOnsic3RhcnQiOjc5MDcsImVuZCI6ODAwOSwi
+hYOHRHTDE5M2EiOnsic3RhcnQiOjc5MTEsImVuZCI6ODAxMywi
 dGV4dCI6IlwiV2hpY2ggcG9pbnRzIGFyZSB3aXRoaW4gYSBjZX
 J0YWluIGRpc3RhbmNlIG9mIGEgbGluZT9cIiBvciBcIldoaWNo
 IHBvbHlnb25zIGludGXigKYifX0sImNvbW1lbnRzIjp7Ik83Q0
@@ -195,7 +197,8 @@ bklkIjoiY1FablR0aFg4dEdMMTkzYSIsInN1YiI6ImdoOjQwMz
 A0Nzg4IiwidGV4dCI6Ik1ha2UgdGhlc2UgZXhhbXBsZXMgZm9y
 IGFsbCBvZiB0aGUgYW5hbHlzaXMgdHlwZXMgbW9yZSByZWFsLW
 xpZmUgYXBwbGljYWJsZS4iLCJjcmVhdGVkIjoxNzczMzkyMzY1
-MTkxfX0sImhpc3RvcnkiOlstMTU4NTk3MjQwNiwyMDkyMTI1MT
-E2LDE5NjU1NzUxNjcsMTE2NDM1ODkxMSwtMTA1OTIwNDM5NCwt
-ODYxMzc2NjgyLDg1NTg0NTgyOSwtMTE2NTc5MjQxMF19
+MTkxfX0sImhpc3RvcnkiOlstMjAwMTk1NzQ1NiwtMTU4NTk3Mj
+QwNiwyMDkyMTI1MTE2LDE5NjU1NzUxNjcsMTE2NDM1ODkxMSwt
+MTA1OTIwNDM5NCwtODYxMzc2NjgyLDg1NTg0NTgyOSwtMTE2NT
+c5MjQxMF19
 -->
