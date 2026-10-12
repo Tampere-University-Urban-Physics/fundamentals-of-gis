@@ -72,7 +72,7 @@ The most common GIS analysis types can vary depending on the specific applicatio
 These are some common GIS analysis types, but the field of GIS offers a vast range of analysis techniques and tools that can be tailored to specific needs and applications. 
 
 ## What is QGIS?
-In short, QGIS is a GIS application that can be used for various GIS analyses. There are other GIS applications, the other most common of which is ArcGIS. We are using QGIS for this course since it is open-source and free, meaning it is accessible for all, in contrast to ArcGIS which is proprietary software. 
+In short, QGIS is a GIS application that can be used for various GIS analyses. There are other GIS applications, the other most common of which is ArcGIS. We are using QGIS for this course since it is open-source and free, meaning it is accessible for all, in contrast to ArcGIS, which is proprietary software. 
 
 So, you're going to need QGIS for this course! Please take a moment now to ensure you have it installed: https://qgis.org/en/site/forusers/download.html# 
 
@@ -126,7 +126,7 @@ Below is a (hopefully) improved version of our ugly map. Notice how the issues w
 [^1]: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJOWUJVSVE3WGR1WVpHdWM1Ijp7In
-N0YXJ0IjoxMjg0OCwiZW5kIjoxMjg3MCwidGV4dCI6IiMjIFdo
+N0YXJ0IjoxMjg0OSwiZW5kIjoxMjg3MSwidGV4dCI6IiMjIFdo
 YXQgaXMgYSBnb29kIG1hcD8ifSwicEdkSTNsZGlGQ01jVlAyNi
 I6eyJzdGFydCI6MzY2LCJlbmQiOjM5NiwidGV4dCI6Imdlb2dy
 YXBoaWNhbGx5IHJlZmVyZW5jZWQgZGF0YSJ9LCJPVTRzdzdFMW
@@ -197,8 +197,8 @@ bklkIjoiY1FablR0aFg4dEdMMTkzYSIsInN1YiI6ImdoOjQwMz
 A0Nzg4IiwidGV4dCI6Ik1ha2UgdGhlc2UgZXhhbXBsZXMgZm9y
 IGFsbCBvZiB0aGUgYW5hbHlzaXMgdHlwZXMgbW9yZSByZWFsLW
 xpZmUgYXBwbGljYWJsZS4iLCJjcmVhdGVkIjoxNzczMzkyMzY1
-MTkxfX0sImhpc3RvcnkiOlsxNjk5MTU2NzM0LC0xNTg1OTcyND
-A2LDIwOTIxMjUxMTYsMTk2NTU3NTE2NywxMTY0MzU4OTExLC0x
-MDU5MjA0Mzk0LC04NjEzNzY2ODIsODU1ODQ1ODI5LC0xMTY1Nz
-kyNDEwXX0=
+MTkxfX0sImhpc3RvcnkiOlstMTY0NTM2NjQzOCwxNjk5MTU2Nz
+M0LC0xNTg1OTcyNDA2LDIwOTIxMjUxMTYsMTk2NTU3NTE2Nywx
+MTY0MzU4OTExLC0xMDU5MjA0Mzk0LC04NjEzNzY2ODIsODU1OD
+Q1ODI5LC0xMTY1NzkyNDEwXX0=
 -->
