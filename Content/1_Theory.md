@@ -22,13 +22,11 @@ These are just a few examples of the diverse applications of GIS. This course is
 
 ## GIS workflow
 
-PPDAC is a problem-solving framework commonly used in the field of data analysis and decision-making. It stands for Problem, Plan, Data, Analysis, and Conclusion. This framework provides a systematic approach to tackle complex problems and make informed decisions based on data-driven analysis. While PPDAC is not specifically tied to Geographic Information Systems (GIS), it gives a general description of  within a GIS context to enhance the problem-solving process.
+PPDAC is a problem-solving framework commonly used in the field of data analysis and decision-making. It stands for Problem, Plan, Data, Analysis, and Conclusion. This framework provides a systematic approach to tackle complex problems and make informed decisions based on data-driven analysis. While PPDAC is not specifically tied to Geographic Information Systems (GIS), it can be applied within a GIS context to enhance the problem-solving process.
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Theory/GIS_PPDAC_v2.drawio.png)
 
 By following the PPDAC framework, you can ensure a structured and systematic approach to problem-solving within the GIS domain. It helps in organizing your thoughts, guiding your analysis, and ensuring that your conclusions are based on robust data analysis.
-
-For more information about the PPDAC Model: http://wiki.gis.com/wiki/index.php/PPDAC_Model
 
 ## Spatial data
 Spatial data refers to **information that is associated with specific locations or geographic extents**. Vector and raster data are the two fundamental types of spatial data used in GIS to represent and analyze spatial information.
@@ -126,27 +124,27 @@ Below is a (hopefully) improved version of our ugly map. Notice how the issues w
 [^1]: https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/vector_data.html
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJOWUJVSVE3WGR1WVpHdWM1Ijp7In
-N0YXJ0IjoxMjk2NSwiZW5kIjoxMjk4NywidGV4dCI6IiMjIFdo
+N0YXJ0IjoxMjg1NiwiZW5kIjoxMjg3OCwidGV4dCI6IiMjIFdo
 YXQgaXMgYSBnb29kIG1hcD8ifSwicEdkSTNsZGlGQ01jVlAyNi
 I6eyJzdGFydCI6MzY2LCJlbmQiOjM5NiwidGV4dCI6Imdlb2dy
 YXBoaWNhbGx5IHJlZmVyZW5jZWQgZGF0YSJ9LCJPVTRzdzdFMW
 9US1RCdzB0Ijp7InN0YXJ0Ijo2MDksImVuZCI6NjcxLCJ0ZXh0
 IjoiR0lTIGlzIHVzZWQgaW4gYSB3aWRlIHJhbmdlIG9mIGZpZW
 xkcyBhbmQgaW5kdXN0cmllcywgc3VjaCBhczoifSwiT3d6RmlS
-aEdldkdFOFl6aCI6eyJzdGFydCI6Mzg1MSwiZW5kIjo0MTA5LC
+aEdldkdFOFl6aCI6eyJzdGFydCI6Mzc0MiwiZW5kIjo0MDAwLC
 J0ZXh0IjoiIVtdKGh0dHBzOi8vY2RuLm1pbmRzcHJpdGVzb2x1
 dGlvbnMuY29tL29uZXN0b3BnaXMvR0lTLVRoZW9yeS1hbmQtVG
 VjaG5pcXVlcy9SYeKApiJ9LCI3WVFYMm1FMHVLck5ZbTlsIjp7
-InN0YXJ0Ijo0MjU4LCJlbmQiOjQ1ODMsInRleHQiOiJJbWFnaW
+InN0YXJ0Ijo0MTQ5LCJlbmQiOjQ0NzQsInRleHQiOiJJbWFnaW
 5lIHlvdSBhcmUgc3RhbmRpbmcgb24gdGhlIHRvcCBvZiBhIGhp
 bGwuIExvb2tpbmcgZG93biB5b3UgY2FuIHNlZSBob3VzZXMs4o
-CmIn0sImIzOXBPRWlJVlhqUGpIeGwiOnsic3RhcnQiOjUyNzgs
-ImVuZCI6NTY3NiwidGV4dCI6IjIuICoqUmFzdGVyIERhdGEqKi
+CmIn0sImIzOXBPRWlJVlhqUGpIeGwiOnsic3RhcnQiOjUxNjks
+ImVuZCI6NTU2NywidGV4dCI6IjIuICoqUmFzdGVyIERhdGEqKi
 ByZXByZXNlbnRzIHNwYXRpYWwgaW5mb3JtYXRpb24gYnkgYSBj
 b250aW51b3VzIHN1cmZhY2UgZGl2aWTigKYifSwiRlk4RVlHTz
-lDdDlDaE51WSI6eyJzdGFydCI6NzY0MiwiZW5kIjo3NjYzLCJ0
+lDdDlDaE51WSI6eyJzdGFydCI6NzUzMywiZW5kIjo3NTU0LCJ0
 ZXh0IjoiIyMgR0lTIGFuYWx5c2lzIHR5cGVzIn0sImNRWm5UdG
-hYOHRHTDE5M2EiOnsic3RhcnQiOjgwMTYsImVuZCI6ODExOCwi
+hYOHRHTDE5M2EiOnsic3RhcnQiOjc5MDcsImVuZCI6ODAwOSwi
 dGV4dCI6IlwiV2hpY2ggcG9pbnRzIGFyZSB3aXRoaW4gYSBjZX
 J0YWluIGRpc3RhbmNlIG9mIGEgbGluZT9cIiBvciBcIldoaWNo
 IHBvbHlnb25zIGludGXigKYifX0sImNvbW1lbnRzIjp7Ik83Q0
@@ -197,7 +195,7 @@ bklkIjoiY1FablR0aFg4dEdMMTkzYSIsInN1YiI6ImdoOjQwMz
 A0Nzg4IiwidGV4dCI6Ik1ha2UgdGhlc2UgZXhhbXBsZXMgZm9y
 IGFsbCBvZiB0aGUgYW5hbHlzaXMgdHlwZXMgbW9yZSByZWFsLW
 xpZmUgYXBwbGljYWJsZS4iLCJjcmVhdGVkIjoxNzczMzkyMzY1
-MTkxfX0sImhpc3RvcnkiOlsxMTIwNTQwMjc2LDIwOTIxMjUxMT
-YsMTk2NTU3NTE2NywxMTY0MzU4OTExLC0xMDU5MjA0Mzk0LC04
-NjEzNzY2ODIsODU1ODQ1ODI5LC0xMTY1NzkyNDEwXX0=
+MTkxfX0sImhpc3RvcnkiOlstMTU4NTk3MjQwNiwyMDkyMTI1MT
+E2LDE5NjU1NzUxNjcsMTE2NDM1ODkxMSwtMTA1OTIwNDM5NCwt
+ODYxMzc2NjgyLDg1NTg0NTgyOSwtMTE2NTc5MjQxMF19
 -->
