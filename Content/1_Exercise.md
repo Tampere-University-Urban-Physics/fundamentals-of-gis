@@ -41,7 +41,9 @@ Made by Tuomas Väisänen, Sakari Sarjakoski, Rami Ratvio, Sara Todorovic, Paula
 
 Start by setting the **default language** in QGIS to English (if it isn’t already) by navigating to the language settings: *Settings* \> *Options* \> *General* \> *User Interface Translation*. Tick the “*Override system locale*” box and choose English from the dropdown menu and close the window by pressing OK. For the change to take effect, restart the application.
 
-The state of a working session in QGIS is called a **project**. Similarly, to a e.g., a workspace in ArcGIS, a project is considered the ensemble of layers, projections, table relations and other properties, such as symbols and styles, of a specific session. Remember to save your projects often to prevent work from being lost in case of a crash. Also note that project files do not contain the geospatial data, they merely contain information on where the program will find it. If you move the data or change it's name, then you have to tell QGIS where to find it again. Therefore, it is a good idea to have a folder for this course, and save the geospatial data you will use in subfolders for each exercise. 
+The state of a working session in QGIS is called a **project**. Similarly, to a e.g., a workspace in ArcGIS, a project is considered the ensemble of layers, projections, table relations and other properties, such as symbols and styles, of a specific session. 
+
+Remember to save your projects often to prevent work from being lost in case of a crash. Also note that project files do not contain the geospatial data, they merely contain information on where the program will find it. If you move the data or change it's name, then you have to tell QGIS where to find it again. Therefore, it is a good idea to have a folder for this course, and save the geospatial data you will use in subfolders for each exercise. 
 
 ![enter image description here](https://raw.githubusercontent.com/rowan8k/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_save_meme.jpg)
 
@@ -283,13 +285,23 @@ The last phase of this practical will concentrate on creating a map output. In t
 eyJkaXNjdXNzaW9ucyI6eyJ5bmg1Ym9RaU9NVGlsWk1XIjp7In
 RleHQiOiIhW0NvdmVyIHBpY3R1cmVdKGh0dHBzOi8vcmF3Lmdp
 dGh1YnVzZXJjb250ZW50LmNvbS9yb3dhbjhrL2Z1bmRhbWVudG
-Fscy1vZi1naXMv4oCmIiwic3RhcnQiOjg1LCJlbmQiOjg1fX0s
-ImNvbW1lbnRzIjp7IjU3TFhqU3pIc3phSGNoSlUiOnsiZGlzY3
-Vzc2lvbklkIjoieW5oNWJvUWlPTVRpbFpNVyIsInN1YiI6Imdo
-OjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBjb3ZlciBwaWN0dX
-JlIiwiY3JlYXRlZCI6MTY4NTk0MzU4NzM1OH19LCJoaXN0b3J5
-IjpbNDM0NzgyODg0LDEyMDQ3NjAxNzYsMTE3NzU0NjY1Nyw5Nj
-A3MjM3MjEsLTExNTAzODIyMzIsLTEwNTA4MTU5MjAsMTUwOTMy
-NjMwNywyMTc0ODc5OSwxNTQ2OTM5MDg0LC0yMDMzNDE3MTc3LD
-UxMTY4MDMzN119
+Fscy1vZi1naXMv4oCmIiwic3RhcnQiOjg1LCJlbmQiOjg1fSwi
+R3llUFFJN1Uwdkh3WXc4cyI6eyJzdGFydCI6MTY5MiwiZW5kIj
+oxODQ0LCJ0ZXh0IjoiMS4gVG9vbGJhcnNcbiAyLiBMYXllcnMg
+bGlzdCAvIEJyb3dzZXIgcGFuZWxcbiAzLiBNYXAgY2FudmFzXG
+4gNC4gUHJvY2Vzc2luZyB0b29sYuKApiJ9fSwiY29tbWVudHMi
+OnsiNTdMWGpTekhzemFIY2hKVSI6eyJkaXNjdXNzaW9uSWQiOi
+J5bmg1Ym9RaU9NVGlsWk1XIiwic3ViIjoiZ2g6NDAzMDQ3ODgi
+LCJ0ZXh0IjoiVXBkYXRlIGNvdmVyIHBpY3R1cmUiLCJjcmVhdG
+VkIjoxNjg1OTQzNTg3MzU4fSwicHBWa3JVN0RYTnhxM2RuciI6
+eyJkaXNjdXNzaW9uSWQiOiJHeWVQUUk3VTB2SHdZdzhzIiwic3
+ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGEgbm90ZSBh
+Ym91dCB0aGF0IHNvbWUgb2YgdGhlc2UgbWlnaHQgbm90IGJlIH
+Zpc2libGUgYXQgZmlyc3QgYW5kIGFkZCBpbnN0cnVjdGlvbnMg
+b24gaG93IHRvIGVuYWJsZSB0aGVtLiIsImNyZWF0ZWQiOjE3OT
+E4MDU3NTgwMTd9fSwiaGlzdG9yeSI6Wy0xOTEzMzA1NzA0LDQz
+NDc4Mjg4NCwxMjA0NzYwMTc2LDExNzc1NDY2NTcsOTYwNzIzNz
+IxLC0xMTUwMzgyMjMyLC0xMDUwODE1OTIwLDE1MDkzMjYzMDcs
+MjE3NDg3OTksMTU0NjkzOTA4NCwtMjAzMzQxNzE3Nyw1MTE2OD
+AzMzddfQ==
 -->
