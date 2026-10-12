@@ -121,7 +121,7 @@ Let’s download a very handy plugin called **QuickMapServices**, which gives ac
 
 ### 2.1 Add and explore data
 
-In this warm up exercise, we will be looking at the transit boardings in the Helsinki metropolitan area. You will be creating a choropleth map that xhows the number of boardings per area.
+In this warm up exercise, we will be looking at the transit boardings in the Helsinki metropolitan area. You will be creating a choropleth map that shows the number of boardings per area per day.
 
 1. In order to get a proper touch of QGIS and how the different tools work, we will of course need data. Download 1_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
@@ -296,7 +296,7 @@ ImNvbW1lbnRzIjp7IjU3TFhqU3pIc3phSGNoSlUiOnsiZGlzY3
 Vzc2lvbklkIjoieW5oNWJvUWlPTVRpbFpNVyIsInN1YiI6Imdo
 OjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBjb3ZlciBwaWN0dX
 JlIiwiY3JlYXRlZCI6MTY4NTk0MzU4NzM1OH19LCJoaXN0b3J5
-IjpbMTc1MzQyMzYwMiwxOTU0MjU5NjksNjk0NDczNjczLC0xOT
+IjpbMTYzNDIyNTEwOCwxOTU0MjU5NjksNjk0NDczNjczLC0xOT
 cwODMxNjIwLDQzNDc4Mjg4NCwxMjA0NzYwMTc2LDExNzc1NDY2
 NTcsOTYwNzIzNzIxLC0xMTUwMzgyMjMyLC0xMDUwODE1OTIwLD
 E1MDkzMjYzMDcsMjE3NDg3OTksMTU0NjkzOTA4NCwtMjAzMzQx
