@@ -61,6 +61,8 @@ Also note that project files do not contain the geospatial data, they merely con
 
 **Changing the coordinate system of a project in QGIS:** You can see the current coordinate system of the project in the status bar in the lower right corner. ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/1_CrashCourse_Exercise/QGIS_project_CRS.PNG) You can change the coordinate system by clicking on the sign and selecting a new coordinate system from the list in the project properties window that pops open. You can access the same window also by going to *Project* \> *Properties* \> *CRS*. The default coordinate system in QGIS is set automatically to EPSG:4326 (WGS 84). You can change the default if you wish by going to *Settings* \> *Options* \> *CRS*. The data used in this course will mostly be in EPSG 3067 (ETRS-TM35FIN), which is the standard for nationwide data in Finland. 
 
+
+
 (QGIS supports ‘**on the fly**’ (**OTF**) coordinate system transformation for both vector and raster layers. This means that the program will automatically draw the layers to match the coordinate system defined for the map canvas, if a transformation formula is available.)
 
 ### 1.1 Toolbars
@@ -303,9 +305,9 @@ ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGEgbm90ZSBh
 Ym91dCB0aGF0IHNvbWUgb2YgdGhlc2UgbWlnaHQgbm90IGJlIH
 Zpc2libGUgYXQgZmlyc3QgYW5kIGFkZCBpbnN0cnVjdGlvbnMg
 b24gaG93IHRvIGVuYWJsZSB0aGVtLiIsImNyZWF0ZWQiOjE3OT
-E4MDU3NTgwMTd9fSwiaGlzdG9yeSI6Wy0xOTcwODMxNjIwLDQz
-NDc4Mjg4NCwxMjA0NzYwMTc2LDExNzc1NDY2NTcsOTYwNzIzNz
-IxLC0xMTUwMzgyMjMyLC0xMDUwODE1OTIwLDE1MDkzMjYzMDcs
-MjE3NDg3OTksMTU0NjkzOTA4NCwtMjAzMzQxNzE3Nyw1MTE2OD
-AzMzddfQ==
+E4MDU3NTgwMTd9fSwiaGlzdG9yeSI6Wy0yODgxODI5NTIsLTE5
+NzA4MzE2MjAsNDM0NzgyODg0LDEyMDQ3NjAxNzYsMTE3NzU0Nj
+Y1Nyw5NjA3MjM3MjEsLTExNTAzODIyMzIsLTEwNTA4MTU5MjAs
+MTUwOTMyNjMwNywyMTc0ODc5OSwxNTQ2OTM5MDg0LC0yMDMzND
+E3MTc3LDUxMTY4MDMzN119
 -->
