@@ -112,8 +112,15 @@ In our case we can use the buildings that remained unchanged and are on the proj
 # Time to get your hands dirty! Move on to the [2nd exercise](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Content/2_Exercise.md) to apply this new knowledge
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDE1NjY5NTMsMTg3NzQwNzYxNCwtMj
-AzNjk3MzM0NywtNzcwODAyNTYxLDIxNDQ5ODQyMCw4OTkxMDc1
-MSwxNDA1NTc1MDQ2LDU2NjQwNDU0NCw3MzY0OTM5NzQsMTA5Mj
-QzMzcwNV19
+eyJkaXNjdXNzaW9ucyI6eyJlQU0wdlF3ekxIbXoxYUNoIjp7In
+N0YXJ0IjoyMjYsImVuZCI6MjkzLCJ0ZXh0IjoiSW4gdGhlIHBy
+ZXZpb3VzIGV4ZXJjaXNlLCB5b3UgcGxheWVkIGFyb3VuZCB3aX
+RoIHByb2plY3Rpb25zIGEgYml0LiJ9fSwiY29tbWVudHMiOnsi
+c3BoaTJER1VadDRsZzU2ZyI6eyJkaXNjdXNzaW9uSWQiOiJlQU
+0wdlF3ekxIbXoxYUNoIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0
+ZXh0IjoiQ29ycmVjdD8iLCJjcmVhdGVkIjoxNzkxOTYzMTQ2MT
+UxfX0sImhpc3RvcnkiOlsxNDQ2NzY4NjYsLTEzMDE1NjY5NTMs
+MTg3NzQwNzYxNCwtMjAzNjk3MzM0NywtNzcwODAyNTYxLDIxND
+Q5ODQyMCw4OTkxMDc1MSwxNDA1NTc1MDQ2LDU2NjQwNDU0NCw3
+MzY0OTM5NzQsMTA5MjQzMzcwNV19
 -->
