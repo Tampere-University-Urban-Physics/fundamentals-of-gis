@@ -234,7 +234,7 @@ For a start, take your time to move around and get acquainted with the basic too
 		- Make sure to save the data in your project folder when doing this! Double check the location, as QGIS sometimes does weird things and saves it somewhere else. 
 ![](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exercise_icons_diagram.drawio.png?raw=true)
 	- Save the joined layer as ESRI Shapefile, with a sensible name (for example "Helsinki_small_areas_HSL.shp"), and within the folder for your project you made earlier
-	- 
+	-
 
  10.   **Now we’ll calculate yet another field** using the *field calculator* by dividing the number of passengers by the square kilometer area of the Helsinki small areas.
 - Calculate this field using the *Field calculator* (don’t forget to toggle editing mode): output field name should be informative e.g. “PassArea”
@@ -368,10 +368,11 @@ eyJkaXNjdXNzaW9uSWQiOiJ2c2VFT1JsRk9aODVtbmZaIiwic3
 ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiTWFrZSB0aGlzIGVh
 c2llciB0byByZWFkLCBsZXNzIG9mIGEgYmlnIGJsb2NrIG9mIH
 RleHQiLCJjcmVhdGVkIjoxNzkxOTYxMTgyNjM3fX0sImhpc3Rv
-cnkiOlstMTY5MTc0ODU3MiwtNzY5MTYwNzc5LDY2ODM2MTI3My
-wxMTA4NzQ1NTIsNDczNjE4NTYyLC01NDY4NTI0OTAsMTk1NDI1
-OTY5LDY5NDQ3MzY3MywtMTk3MDgzMTYyMCw0MzQ3ODI4ODQsMT
-IwNDc2MDE3NiwxMTc3NTQ2NjU3LDk2MDcyMzcyMSwtMTE1MDM4
-MjIzMiwtMTA1MDgxNTkyMCwxNTA5MzI2MzA3LDIxNzQ4Nzk5LD
-E1NDY5MzkwODQsLTIwMzM0MTcxNzcsNTExNjgwMzM3XX0=
+cnkiOlstMTI3MzczMjQ4NCwtMTY5MTc0ODU3MiwtNzY5MTYwNz
+c5LDY2ODM2MTI3MywxMTA4NzQ1NTIsNDczNjE4NTYyLC01NDY4
+NTI0OTAsMTk1NDI1OTY5LDY5NDQ3MzY3MywtMTk3MDgzMTYyMC
+w0MzQ3ODI4ODQsMTIwNDc2MDE3NiwxMTc3NTQ2NjU3LDk2MDcy
+MzcyMSwtMTE1MDM4MjIzMiwtMTA1MDgxNTkyMCwxNTA5MzI2Mz
+A3LDIxNzQ4Nzk5LDE1NDY5MzkwODQsLTIwMzM0MTcxNzddfQ==
+
 -->
