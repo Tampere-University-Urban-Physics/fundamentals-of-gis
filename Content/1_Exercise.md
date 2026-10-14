@@ -203,7 +203,7 @@ For a start, take your time to move around and get acquainted with the basic too
 	- Double-click on the area field you made earlier (Area_km2)
 	- Type "< 5" to the right of the field in the text field
 	- Click *Select features*
-	- Your selection now includes all the areas under 5 square kilometers in this layer, with selected objects shown in **yellow in on the map** and **blue on the attribute table**.
+	- Your selection now includes all the areas under 5 square kilometers in this layer, with selected features being  **highlighted on the map and attribute table**.
 	- Examples of other expressions include:
  		- "Area_km2" = 5, select the features the area of which is exactly 5 square km
    		- "Area_km2" > 2 AND "Area_km2" < 5, select the features the area of which is between 2 and 5 square kilometers  
@@ -359,14 +359,11 @@ NyZWF0ZWQiOjE3OTE5NjA1OTc5OTR9LCJTRUNaNW9CU1d4RVQz
 REs0Ijp7ImRpc2N1c3Npb25JZCI6IjNxcTUzM1BVYk5DN1FveU
 wiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgYSBu
 b3RlIG9uIHpvb20gdG8gc2VsZWN0aW9uIGZ1bmN0aW9uYWxpdH
-kiLCJjcmVhdGVkIjoxNzkxOTYwNjcwMDI4fSwiRFh3ejBLaFIy
-RXY4OVNJUyI6eyJkaXNjdXNzaW9uSWQiOiIzcXE1MzNQVWJOQz
-dRb3lMIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiYW5k
-IHJlbW92ZSBzZWxlY3Rpb24iLCJjcmVhdGVkIjoxNzkxOTYwNj
-gyNzE0fX0sImhpc3RvcnkiOls2NjgzNjEyNzMsMTEwODc0NTUy
-LDQ3MzYxODU2MiwtNTQ2ODUyNDkwLDE5NTQyNTk2OSw2OTQ0Nz
-M2NzMsLTE5NzA4MzE2MjAsNDM0NzgyODg0LDEyMDQ3NjAxNzYs
-MTE3NzU0NjY1Nyw5NjA3MjM3MjEsLTExNTAzODIyMzIsLTEwNT
-A4MTU5MjAsMTUwOTMyNjMwNywyMTc0ODc5OSwxNTQ2OTM5MDg0
-LC0yMDMzNDE3MTc3LDUxMTY4MDMzN119
+kiLCJjcmVhdGVkIjoxNzkxOTYwNjcwMDI4fX0sImhpc3Rvcnki
+OlstNzY5MTYwNzc5LDY2ODM2MTI3MywxMTA4NzQ1NTIsNDczNj
+E4NTYyLC01NDY4NTI0OTAsMTk1NDI1OTY5LDY5NDQ3MzY3Mywt
+MTk3MDgzMTYyMCw0MzQ3ODI4ODQsMTIwNDc2MDE3NiwxMTc3NT
+Q2NjU3LDk2MDcyMzcyMSwtMTE1MDM4MjIzMiwtMTA1MDgxNTky
+MCwxNTA5MzI2MzA3LDIxNzQ4Nzk5LDE1NDY5MzkwODQsLTIwMz
+M0MTcxNzcsNTExNjgwMzM3XX0=
 -->
