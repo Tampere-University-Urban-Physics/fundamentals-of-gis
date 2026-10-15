@@ -136,14 +136,14 @@ Editing toolbar:
 
 	- When creating a new layer, you can specify what fields you want to be included in the attributes. There is a default field called ID already. Create a new field. Under *Name* write "road_locat". This will contain the name of the road where the bus stop is located. 
 
-	- Under *Type*, make it *Text Data*
+	- Under *Type*, make it *Text*
 
 	- Press *Add to Fields List*, and it will appear in the list of fields to be created
 
 	- Press OK
 
 
-8. We have now created a new layer, but it is empty – there is nothing in it yet. Now, we can edit the new tampere_bus_stops layer we have created to add a location and road name. This happens in a similar way to how we edited the buildings layer, but we are also going to use the identify features tool to find out the name of the roads where each bus stop is located and add it to the tampere_bus_stops attribute table as we add points.
+8. Now, we can edit the new tampere_bus_stops layer we have created to add a location and road name. This happens in a similar way to how we edited the buildings layer, but we are also going to use the identify features tool to find out the name of the roads where each bus stop is located and add it to the tampere_bus_stops attribute table as we add points.
 
 	- Select tampere_bus_stops in the layers panel
 
@@ -229,7 +229,7 @@ YW1wZXJlIENpdHkgb3IgT3BlblN0cmVldE1hcHMsIGJ14oCmIn
 0sIkh3VGcycTI4bDl0Q2FNY3giOnsic3RhcnQiOjEwNDg5LCJl
 bmQiOjEwNTI4LCJ0ZXh0IjoiLSBTZXQgdGhlICpHZW9tZXRyeS
 B0eXBlKiB0byBiZSAqUG9pbnQqIn0sImlodWlMVjVPOXBHNGlq
-S2siOnsic3RhcnQiOjExMDc4LCJlbmQiOjExMDg4LCJ0ZXh0Ij
+S2siOnsic3RhcnQiOjExMDczLCJlbmQiOjExMDgzLCJ0ZXh0Ij
 oiLSBQcmVzcyBPSyJ9fSwiY29tbWVudHMiOnsiSTJ2SmhSVHVp
 Y2JDVVJpSyI6eyJkaXNjdXNzaW9uSWQiOiJGTXBrOTlHWEFKTz
 hFNEhOIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRk
@@ -310,10 +310,10 @@ Npb25JZCI6ImlodWlMVjVPOXBHNGlqS2siLCJzdWIiOiJnaDo0
 MDMwNDc4OCIsInRleHQiOiJUaGUgbG9vc2Ugc3RlcHMgbWFrZS
 BtZSBsb3NlIHRyYWNrIG9mIHRoZSBiaWcgcGljdHVyZSBhdCBs
 ZWFzdC4iLCJjcmVhdGVkIjoxNzkyMDQ3NTEwOTIyfX0sImhpc3
-RvcnkiOls5NjkzNzM4ODAsMTc3NTE2MTQ2MCwtMTc2MTE4MDg0
-NCwtNTA5NjAzNTQ5LC02OTc1MjkzMjQsLTk0NDEyODk0NCwtMT
-Q1OTI3ODE4MSwtMTkxODkzMzgzMywtNzMyMDczODkzLDk1Mjk2
-Mjg1NywtMzM0MzgzMjA5LC0yMDE1MDQ5NTc5LDEyNTU3NTEwND
-YsLTk2ODExMDEzMywtMjE0NjkxMDU4NiwtODE2MjQyODAxXX0=
+RvcnkiOlsxNjQ4OTAxMzk3LDE3NzUxNjE0NjAsLTE3NjExODA4
+NDQsLTUwOTYwMzU0OSwtNjk3NTI5MzI0LC05NDQxMjg5NDQsLT
+E0NTkyNzgxODEsLTE5MTg5MzM4MzMsLTczMjA3Mzg5Myw5NTI5
+NjI4NTcsLTMzNDM4MzIwOSwtMjAxNTA0OTU3OSwxMjU1NzUxMD
+Q2LC05NjgxMTAxMzMsLTIxNDY5MTA1ODYsLTgxNjI0MjgwMV19
 
 -->
