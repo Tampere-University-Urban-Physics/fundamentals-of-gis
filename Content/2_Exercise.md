@@ -43,7 +43,7 @@ It is good to be familiar with the area you will be working with in this exercis
 
 1. Download 2_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
-2. Open QGIS and load the tampere_buildings.shp, tampere_roads.shp, and tampere_railway.shp into QGIS (See Crash Course exercise 2.1 if ), the project CRS will change to the CRS of these layers (ETS89/TM35FIN).
+2. Open QGIS and load the tampere_buildings.shp, tampere_roads.shp, and tampere_railway.shp into QGIS (See Crash Course exercise 2.1 if you don't remember), the project CRS will change to the CRS of these layers (ETS89/TM35FIN).
 	- *TIP: Select all your vector layers at once by arranging the files by file type when you are adding your layers. Click on the file type header > click on the first SHP file in the list > press and hold SHIFT key > click on the last SHP file on the list.*
 
 3. Add Google Satellite imagery: On the browser window, right-click XYZ tiles and choose New Connection. Give it a name (like Google Satellite), and enter the URL for the data: 
@@ -172,9 +172,9 @@ Editing toolbar:
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJGTXBrOTlHWEFKTzhFNEhOIjp7In
-N0YXJ0Ijo3OTI5LCJlbmQiOjc5NDcsInRleHQiOiIqRGlnaXRp
+N0YXJ0Ijo3OTQ3LCJlbmQiOjc5NjUsInRleHQiOiIqRGlnaXRp
 emluZyBUb29sYmFyKi4ifSwiOHlxQXlyV2dCbjRJM0ZsdiI6ey
-JzdGFydCI6NDA1NiwiZW5kIjo0MDk1LCJ0ZXh0IjoiIyMjIDEu
+JzdGFydCI6NDA3NCwiZW5kIjo0MTEzLCJ0ZXh0IjoiIyMjIDEu
 Mi4gR2VvcmVmZXJlbmNpbmcgdGhlIGFyZW5hIHBsYW5zIn19LC
 Jjb21tZW50cyI6eyJJMnZKaFJUdWljYkNVUmlLIjp7ImRpc2N1
 c3Npb25JZCI6IkZNcGs5OUdYQUpPOEU0SE4iLCJzdWIiOiJnaD
@@ -183,7 +183,7 @@ ZWQiOjE2ODcwNjcwNDQ5ODZ9LCJuV0o3MVRUOUJMYXBmUFZGIj
 p7ImRpc2N1c3Npb25JZCI6Ijh5cUF5cldnQm40STNGbHYiLCJz
 dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZX
 MiLCJjcmVhdGVkIjoxNzc0NjAzMzg1Mzg0fX0sImhpc3Rvcnki
-OlsxMjYwNTk5MDQwLC01MDk2MDM1NDksLTY5NzUyOTMyNCwtOT
+OlsxMjMyMDE4OTg5LC01MDk2MDM1NDksLTY5NzUyOTMyNCwtOT
 Q0MTI4OTQ0LC0xNDU5Mjc4MTgxLC0xOTE4OTMzODMzLC03MzIw
 NzM4OTMsOTUyOTYyODU3LC0zMzQzODMyMDksLTIwMTUwNDk1Nz
 ksMTI1NTc1MTA0NiwtOTY4MTEwMTMzLC0yMTQ2OTEwNTg2LC04
