@@ -25,7 +25,7 @@ Urban areas undergo continuous development, and maps need to be updated regularl
 
 ## Completion
 
-Work in pairs or individually. Complete the exercise and submit a short report containing at least the following:
+Complete the exercise and submit at least the following:
 
 1. Maps of the outcome of the exercise
 
@@ -172,9 +172,9 @@ Editing toolbar:
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJGTXBrOTlHWEFKTzhFNEhOIjp7In
-N0YXJ0Ijo3OTgyLCJlbmQiOjgwMDAsInRleHQiOiIqRGlnaXRp
+N0YXJ0Ijo3OTI1LCJlbmQiOjc5NDMsInRleHQiOiIqRGlnaXRp
 emluZyBUb29sYmFyKi4ifSwiOHlxQXlyV2dCbjRJM0ZsdiI6ey
-JzdGFydCI6NDEwOSwiZW5kIjo0MTQ4LCJ0ZXh0IjoiIyMjIDEu
+JzdGFydCI6NDA1MiwiZW5kIjo0MDkxLCJ0ZXh0IjoiIyMjIDEu
 Mi4gR2VvcmVmZXJlbmNpbmcgdGhlIGFyZW5hIHBsYW5zIn19LC
 Jjb21tZW50cyI6eyJJMnZKaFJUdWljYkNVUmlLIjp7ImRpc2N1
 c3Npb25JZCI6IkZNcGs5OUdYQUpPOEU0SE4iLCJzdWIiOiJnaD
@@ -183,8 +183,9 @@ ZWQiOjE2ODcwNjcwNDQ5ODZ9LCJuV0o3MVRUOUJMYXBmUFZGIj
 p7ImRpc2N1c3Npb25JZCI6Ijh5cUF5cldnQm40STNGbHYiLCJz
 dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZX
 MiLCJjcmVhdGVkIjoxNzc0NjAzMzg1Mzg0fX0sImhpc3Rvcnki
-OlstNjk3NTI5MzI0LC05NDQxMjg5NDQsLTE0NTkyNzgxODEsLT
-E5MTg5MzM4MzMsLTczMjA3Mzg5Myw5NTI5NjI4NTcsLTMzNDM4
-MzIwOSwtMjAxNTA0OTU3OSwxMjU1NzUxMDQ2LC05NjgxMTAxMz
-MsLTIxNDY5MTA1ODYsLTgxNjI0MjgwMV19
+OlstNTA5NjAzNTQ5LC02OTc1MjkzMjQsLTk0NDEyODk0NCwtMT
+Q1OTI3ODE4MSwtMTkxODkzMzgzMywtNzMyMDczODkzLDk1Mjk2
+Mjg1NywtMzM0MzgzMjA5LC0yMDE1MDQ5NTc5LDEyNTU3NTEwND
+YsLTk2ODExMDEzMywtMjE0NjkxMDU4NiwtODE2MjQyODAxXX0=
+
 -->
