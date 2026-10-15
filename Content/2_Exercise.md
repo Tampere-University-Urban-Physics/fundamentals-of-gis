@@ -46,12 +46,14 @@ It is good to be familiar with the area you will be working with in this exercis
 2. Open QGIS and load the tampere_buildings.shp, tampere_roads.shp, and tampere_railway.shp into QGIS (See Crash Course exercise 2.1 if you don't remember), the project CRS will change to the CRS of these layers (ETS89/TM35FIN).
 	- *TIP: Select all your vector layers at once by arranging the files by file type when you are adding your layers. Click on the file type header > click on the first SHP file in the list > press and hold SHIFT key > click on the last SHP file on the list.*
 
-3. Add Google Satellite imagery: On the browser window, right-click XYZ tiles and choose New Connection. Give it a name (like Google Satellite), and enter the URL for the data: 
+3. Add Google Satellite imagery:  Double-click the Google Satellite in the browser window. The layer will then show up in the layer panel and in your map. 
+	- If the Google Satellite option is not present in your browser: On the browser window, right-click XYZ tiles and choose New Connection. Give it a name (like Google Satellite), and enter the URL for the data: 
 https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
-Press OK and then double-click the Google Satellite in the browser window. The layer will then show up in the layer panel and in your map.
+Press OK
 
 
-5. Take a moment to examine the data you added now, what is it about? What kind of attributes does the data have?
+
+4. Take a moment to examine the data you added now, what is it about? What kind of attributes does the data have?
 	- Can you find the location of where the Nokia Arena is constructed? (hint: the coordinates are 328300 east, 6822050 north in the ETS89 / TM35FIN(E,N) coordinate system. Does the arena and new development exist in the tampere_buildings layer? What about in the Google satellite imagery?
 
 We have a vector layer with the buildings in central Tampere, and a vector layer showing the roads – both of which originally came from OpenStreetMap. This data is old – it shows the area before the development of the arena. In addition, we have a raster image file that shows the designs for the Arena, taken from a planning document. Unfortunately, this raster is not spatially referenced – there is no spatial information associated with each raster cell.
@@ -172,9 +174,9 @@ Editing toolbar:
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJGTXBrOTlHWEFKTzhFNEhOIjp7In
-N0YXJ0Ijo3OTQ3LCJlbmQiOjc5NjUsInRleHQiOiIqRGlnaXRp
+N0YXJ0Ijo4MDA3LCJlbmQiOjgwMjUsInRleHQiOiIqRGlnaXRp
 emluZyBUb29sYmFyKi4ifSwiOHlxQXlyV2dCbjRJM0ZsdiI6ey
-JzdGFydCI6NDA3NCwiZW5kIjo0MTEzLCJ0ZXh0IjoiIyMjIDEu
+JzdGFydCI6NDEzNCwiZW5kIjo0MTczLCJ0ZXh0IjoiIyMjIDEu
 Mi4gR2VvcmVmZXJlbmNpbmcgdGhlIGFyZW5hIHBsYW5zIn19LC
 Jjb21tZW50cyI6eyJJMnZKaFJUdWljYkNVUmlLIjp7ImRpc2N1
 c3Npb25JZCI6IkZNcGs5OUdYQUpPOEU0SE4iLCJzdWIiOiJnaD
@@ -183,7 +185,7 @@ ZWQiOjE2ODcwNjcwNDQ5ODZ9LCJuV0o3MVRUOUJMYXBmUFZGIj
 p7ImRpc2N1c3Npb25JZCI6Ijh5cUF5cldnQm40STNGbHYiLCJz
 dWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgcGljdHVyZX
 MiLCJjcmVhdGVkIjoxNzc0NjAzMzg1Mzg0fX0sImhpc3Rvcnki
-OlsxMjMyMDE4OTg5LC01MDk2MDM1NDksLTY5NzUyOTMyNCwtOT
+OlsxNTM1MDE4NTEzLC01MDk2MDM1NDksLTY5NzUyOTMyNCwtOT
 Q0MTI4OTQ0LC0xNDU5Mjc4MTgxLC0xOTE4OTMzODMzLC03MzIw
 NzM4OTMsOTUyOTYyODU3LC0zMzQzODMyMDksLTIwMTUwNDk1Nz
 ksMTI1NTc1MTA0NiwtOTY4MTEwMTMzLC0yMTQ2OTEwNTg2LC04
