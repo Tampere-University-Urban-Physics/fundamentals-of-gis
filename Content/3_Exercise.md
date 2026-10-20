@@ -73,7 +73,7 @@ Remember that if you first bring in your data (from the practical folder), the b
 
 2. **You could use select by expression** to select the features that have values in the two wanted fields (ko_perus, hr_pi_tul) that are 0 or greater AND have people living in them (ko_ika18y, hr_tuy):
 ![enter image description here](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_datacleanup_expression.png)
-	- Hint: Crash Course 2.1 step 3
+	- Hint: Crash Course 2.1 step 8
 	- After the selection, save the selected features as a new shapefile (Right click layer with selection > *Export* > *Save selected features as…*).
 		- Don't forget to give the new file an informative name and save it in your folder! 
 
@@ -221,11 +221,11 @@ ZpbmFsIHJlc3VsdHMsIGNlbGxzIHRoYXQgaGF2ZSBib3RoIHRo
 ZSBsb3dlc3QgcXVhcnRpbGUsIGJ1dCBub3QgZm9yIHRoZSBzZX
 BhcmF0ZSBhbmFseXNlcyB3aGljaCB3ZSBhcmUgZG9pbmcgdG9v
 LCBJIHRoaW5rIHRoaXMgc2hvdWxkIGJlIHNlcGFyYXRlZC4iLC
-JjcmVhdGVkIjoxNzkyNDg3ODI4NjQ2fX0sImhpc3RvcnkiOlst
-MTU5MDIzNzc3NSwtMTExMDU1MTUyLC0yMDI1OTU1MjQ0LC0yMT
-QzMTc3NjE3LC05NzQ1MDE5NjQsMTAzNDcyNTk5LDE0NjkxMjQ0
-ODEsLTY5NDg5MDQzMyw2MDY0NDQyMTEsMjAzMzAwNjUyMywtNj
-U0NjQzMzA5LC0xNTkxMzAxMjg0LC0xODAwNjY0MzUsOTY3MDk0
-MDU5LDU4NTY3NTk4MSwtMTk3NDI4MzQzNSwtMjA1ODkzOTc2NS
-wxMjgxNDQ1MjcsMjY1OTg3NDMwLDE5ODEwODc2N119
+JjcmVhdGVkIjoxNzkyNDg3ODI4NjQ2fX0sImhpc3RvcnkiOlsx
+OTc1MzI3Nzk4LC0xMTEwNTUxNTIsLTIwMjU5NTUyNDQsLTIxND
+MxNzc2MTcsLTk3NDUwMTk2NCwxMDM0NzI1OTksMTQ2OTEyNDQ4
+MSwtNjk0ODkwNDMzLDYwNjQ0NDIxMSwyMDMzMDA2NTIzLC02NT
+Q2NDMzMDksLTE1OTEzMDEyODQsLTE4MDA2NjQzNSw5NjcwOTQw
+NTksNTg1Njc1OTgxLC0xOTc0MjgzNDM1LC0yMDU4OTM5NzY1LD
+EyODE0NDUyNywyNjU5ODc0MzAsMTk4MTA4NzY3XX0=
 -->
