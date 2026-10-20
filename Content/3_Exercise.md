@@ -51,8 +51,8 @@ Complete the exercise and submit at least the following:
 
 2. **Go through the attribute table and use the pdf-files to decipher the meanings of each field**. The attribute table consists of a few themes (recognizable by the prefixes) and slightly over 100 fields.
 	- The fields we’re using depict the following:
-		- ko_perus (Inhabitants with no qualification after basic-level studies, education theme’s prefix ko_)
-		- hr_pi_tul (Inhabitants belonging to the lowest income category, Inhabitants’ income theme’s prefix hr_)
+		- **ko_perus**: Inhabitants with no qualification after basic-level studies, education theme’s prefix ko_
+		- **hr_pi_tul (Inhabitants belonging to the lowest income category, Inhabitants’ income theme’s prefix hr_)
 		- Under each theme, eg. education (prefix ko_) the first field has the total value of each grid cell (feature) in that field. We’ll need these total fields in the analysis:
 			- Level of education: ko_ika18y (Total number of people in grid cell, aged 18 or over)
 			- Level of income: hr_tuy (Total number of people in grid cell, aged 18 or over)
@@ -195,11 +195,11 @@ bnRzIjp7InFaTEhCRms2V2JTSTE2eTgiOnsiZGlzY3Vzc2lvbk
 lkIjoiV016d2x6S3pDRUpyZklRZiIsInN1YiI6ImdoOjQwMzA0
 Nzg4IiwidGV4dCI6IlVwZGF0ZSB0aGlzIG9uY2UgSSB1cGRhdG
 VkIG1hcCByZXF1aXJlbWVudHMgc2VjdGlvbnMiLCJjcmVhdGVk
-IjoxNzkyNDgxMTE2MjY2fX0sImhpc3RvcnkiOlstMTExMDU1MT
-UyLC0yMDI1OTU1MjQ0LC0yMTQzMTc3NjE3LC05NzQ1MDE5NjQs
-MTAzNDcyNTk5LDE0NjkxMjQ0ODEsLTY5NDg5MDQzMyw2MDY0ND
-QyMTEsMjAzMzAwNjUyMywtNjU0NjQzMzA5LC0xNTkxMzAxMjg0
-LC0xODAwNjY0MzUsOTY3MDk0MDU5LDU4NTY3NTk4MSwtMTk3ND
-I4MzQzNSwtMjA1ODkzOTc2NSwxMjgxNDQ1MjcsMjY1OTg3NDMw
-LDE5ODEwODc2Nyw3MzY0MTk3MDhdfQ==
+IjoxNzkyNDgxMTE2MjY2fX0sImhpc3RvcnkiOlstMTgxODcyMj
+I2NSwtMTExMDU1MTUyLC0yMDI1OTU1MjQ0LC0yMTQzMTc3NjE3
+LC05NzQ1MDE5NjQsMTAzNDcyNTk5LDE0NjkxMjQ0ODEsLTY5ND
+g5MDQzMyw2MDY0NDQyMTEsMjAzMzAwNjUyMywtNjU0NjQzMzA5
+LC0xNTkxMzAxMjg0LC0xODAwNjY0MzUsOTY3MDk0MDU5LDU4NT
+Y3NTk4MSwtMTk3NDI4MzQzNSwtMjA1ODkzOTc2NSwxMjgxNDQ1
+MjcsMjY1OTg3NDMwLDE5ODEwODc2N119
 -->
