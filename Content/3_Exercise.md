@@ -11,12 +11,10 @@ The theme for this exercise is socio-spatial differentiation & social segregatio
 
 You will be using the Statistics Finland’s Grid Database 2016 about the social structure in 250x250m grid cells. Our task today is to study socio-spatial differentiation and pinpoint low-education and low-income grid cells.
 
-To do this, the data needs some clean-up, some fields need to be calculated and the lowest quartiles for  have to be found. You will be learning to use the conditional statement functionality. The results are once again to be visualized on a map and to be
-reflected on.
+To do this, the data needs some clean-up, some fields need to be calculated and the lowest quartiles for income and education have to be found. You will be learning to use the conditional statement functionality. The results are once again to be visualized on a map and to be reflected on.
 
 ## OBJECTIVES
-1. Examining the socio-economic structure of the Helsinki Metropolitan Region and pinpointing the
-areas with the lowest educational & income level on a map
+1. Examining the socio-economic structure of the Helsinki Metropolitan Region and pinpointing the areas with the lowest educational & income level on a map
 
 2. Familiarizing yourself with raster data and data classification
 
@@ -191,11 +189,11 @@ reclassified fields for rented dwellings and unemployment.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMzEyMzk2MiwtMjE0MzE3NzYxNywtOT
-c0NTAxOTY0LDEwMzQ3MjU5OSwxNDY5MTI0NDgxLC02OTQ4OTA0
-MzMsNjA2NDQ0MjExLDIwMzMwMDY1MjMsLTY1NDY0MzMwOSwtMT
-U5MTMwMTI4NCwtMTgwMDY2NDM1LDk2NzA5NDA1OSw1ODU2NzU5
-ODEsLTE5NzQyODM0MzUsLTIwNTg5Mzk3NjUsMTI4MTQ0NTI3LD
-I2NTk4NzQzMCwxOTgxMDg3NjcsNzM2NDE5NzA4LDEyMjEyNjQ0
-MzJdfQ==
+eyJoaXN0b3J5IjpbLTIwMjU5NTUyNDQsLTIxNDMxNzc2MTcsLT
+k3NDUwMTk2NCwxMDM0NzI1OTksMTQ2OTEyNDQ4MSwtNjk0ODkw
+NDMzLDYwNjQ0NDIxMSwyMDMzMDA2NTIzLC02NTQ2NDMzMDksLT
+E1OTEzMDEyODQsLTE4MDA2NjQzNSw5NjcwOTQwNTksNTg1Njc1
+OTgxLC0xOTc0MjgzNDM1LC0yMDU4OTM5NzY1LDEyODE0NDUyNy
+wyNjU5ODc0MzAsMTk4MTA4NzY3LDczNjQxOTcwOCwxMjIxMjY0
+NDMyXX0=
 -->
