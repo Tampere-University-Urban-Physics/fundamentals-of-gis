@@ -77,6 +77,8 @@ Remember that if you first bring in your data (from the practical folder), the b
 	- After the selection, save the selected features as a new shapefile (Right click layer with selection > *Export* > *Save selected features as…*).
 		- Don't forget to give the new file an informative name and save it in your folder! 
 
+
+
 	*Tip: If you are confused with the formula, try reading it aloud: “Select the features where X is greater than 0 AND Y is greater or equal than 0, AND…”*
 
 3. **You should end up with a new layer without any -1 values in the four wanted fields.**
@@ -198,7 +200,7 @@ bGxpdGUgaW1hZ2VyeSBsaWtlIHdlIGRpZCBpbiBFeGVyY2lzZS
 AyLCBvciBPcGVuU+KApiJ9LCJrT0x4eEJ0UXBRaTVEQXpRIjp7
 InN0YXJ0Ijo0MjE5LCJlbmQiOjQyNTEsInRleHQiOiJZb3XigJ
 lsbCBoYXZlIHRvIGNsZWFuIHVwIHRoZSBkYXRhIn0sIkt3bnpq
-bnhQeElyVXdxS0UiOnsic3RhcnQiOjQ3NzgsImVuZCI6NTU4Ny
+bnhQeElyVXdxS0UiOnsic3RhcnQiOjQ3NzgsImVuZCI6NTU4OS
 widGV4dCI6IjIuICoqWW91IGNvdWxkIHVzZSBzZWxlY3QgYnkg
 ZXhwcmVzc2lvbioqIHRvIHNlbGVjdCB0aGUgZmVhdHVyZXMgdG
 hhdCBoYXZlIHZhbHXigKYifX0sImNvbW1lbnRzIjp7InFaTEhC
@@ -222,7 +224,7 @@ ZSBsb3dlc3QgcXVhcnRpbGUsIGJ1dCBub3QgZm9yIHRoZSBzZX
 BhcmF0ZSBhbmFseXNlcyB3aGljaCB3ZSBhcmUgZG9pbmcgdG9v
 LCBJIHRoaW5rIHRoaXMgc2hvdWxkIGJlIHNlcGFyYXRlZC4iLC
 JjcmVhdGVkIjoxNzkyNDg3ODI4NjQ2fX0sImhpc3RvcnkiOlsx
-OTc1MzI3Nzk4LC0xMTEwNTUxNTIsLTIwMjU5NTUyNDQsLTIxND
+OTI5OTA2NTg0LC0xMTEwNTUxNTIsLTIwMjU5NTUyNDQsLTIxND
 MxNzc2MTcsLTk3NDUwMTk2NCwxMDM0NzI1OTksMTQ2OTEyNDQ4
 MSwtNjk0ODkwNDMzLDYwNjQ0NDIxMSwyMDMzMDA2NTIzLC02NT
 Q2NDMzMDksLTE1OTEzMDEyODQsLTE4MDA2NjQzNSw5NjcwOTQw
