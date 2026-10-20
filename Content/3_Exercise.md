@@ -29,13 +29,11 @@ To do this, the data needs some clean-up, some fields need to be calculated and 
 	
 	- See: https://stat.fi/en/services/statistical-data-services/geographic-data/grid-database
 	
-	- The attribute table’s field names are in Finnish, but there’s a pdf included in the course
-data with the translations, explanations for the field names and longer descriptions (in
-English, Finnish, and Swedish).
+	- The attribute table’s field names are in Finnish, but there’s a pdf included in the course data with the translations, explanations for the field names and longer descriptions (in English, Finnish, and Swedish).
 
 ## Completion
 
-Complete the exercise and submit a short report containing at least the following:
+Complete the exercise and submit at least the following:
 
 1. Maps of the outcome of the exercise
 
@@ -189,11 +187,19 @@ reclassified fields for rented dwellings and unemployment.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzIzNTE4NDUsLTIwMjU5NTUyNDQsLT
-IxNDMxNzc2MTcsLTk3NDUwMTk2NCwxMDM0NzI1OTksMTQ2OTEy
-NDQ4MSwtNjk0ODkwNDMzLDYwNjQ0NDIxMSwyMDMzMDA2NTIzLC
-02NTQ2NDMzMDksLTE1OTEzMDEyODQsLTE4MDA2NjQzNSw5Njcw
-OTQwNTksNTg1Njc1OTgxLC0xOTc0MjgzNDM1LC0yMDU4OTM5Nz
-Y1LDEyODE0NDUyNywyNjU5ODc0MzAsMTk4MTA4NzY3LDczNjQx
-OTcwOF19
+eyJkaXNjdXNzaW9ucyI6eyJXTXp3bHpLekNFSnJmSVFmIjp7In
+N0YXJ0IjoyMDY5LCJlbmQiOjIxNDEsInRleHQiOiItIFJlbWVt
+YmVyOiBhbGwgbWFwcyBzaG91bGQgaGF2ZSBhIGxlZ2VuZCwgYS
+BzY2FsZSBiYXIgYW5kIGEgbm9ydGggYXJyb3cifX0sImNvbW1l
+bnRzIjp7InFaTEhCRms2V2JTSTE2eTgiOnsiZGlzY3Vzc2lvbk
+lkIjoiV016d2x6S3pDRUpyZklRZiIsInN1YiI6ImdoOjQwMzA0
+Nzg4IiwidGV4dCI6IlVwZGF0ZSB0aGlzIG9uY2UgSSB1cGRhdG
+VkIG1hcCByZXF1aXJlbWVudHMgc2VjdGlvbnMiLCJjcmVhdGVk
+IjoxNzkyNDgxMTE2MjY2fX0sImhpc3RvcnkiOlstMTExMDU1MT
+UyLC0yMDI1OTU1MjQ0LC0yMTQzMTc3NjE3LC05NzQ1MDE5NjQs
+MTAzNDcyNTk5LDE0NjkxMjQ0ODEsLTY5NDg5MDQzMyw2MDY0ND
+QyMTEsMjAzMzAwNjUyMywtNjU0NjQzMzA5LC0xNTkxMzAxMjg0
+LC0xODAwNjY0MzUsOTY3MDk0MDU5LDU4NTY3NTk4MSwtMTk3ND
+I4MzQzNSwtMjA1ODkzOTc2NSwxMjgxNDQ1MjcsMjY1OTg3NDMw
+LDE5ODEwODc2Nyw3MzY0MTk3MDhdfQ==
 -->
