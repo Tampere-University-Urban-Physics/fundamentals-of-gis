@@ -83,9 +83,6 @@ Remember that if you first bring in your data (from the practical folder), the b
 4. Optionally, you can export the -1 values to a separate layer too to depict the "no value" areas in the final map. 
 	- Hint: There is a way to invert your selection, see if you can find it!  
 
-> [!NOTE]
-> test
-
 ---
 
 ### 1.3. Calculating the proportions
@@ -224,11 +221,11 @@ ZpbmFsIHJlc3VsdHMsIGNlbGxzIHRoYXQgaGF2ZSBib3RoIHRo
 ZSBsb3dlc3QgcXVhcnRpbGUsIGJ1dCBub3QgZm9yIHRoZSBzZX
 BhcmF0ZSBhbmFseXNlcyB3aGljaCB3ZSBhcmUgZG9pbmcgdG9v
 LCBJIHRoaW5rIHRoaXMgc2hvdWxkIGJlIHNlcGFyYXRlZC4iLC
-JjcmVhdGVkIjoxNzkyNDg3ODI4NjQ2fX0sImhpc3RvcnkiOls4
-NjU0NDU1NjcsLTExMTA1NTE1MiwtMjAyNTk1NTI0NCwtMjE0Mz
-E3NzYxNywtOTc0NTAxOTY0LDEwMzQ3MjU5OSwxNDY5MTI0NDgx
-LC02OTQ4OTA0MzMsNjA2NDQ0MjExLDIwMzMwMDY1MjMsLTY1ND
-Y0MzMwOSwtMTU5MTMwMTI4NCwtMTgwMDY2NDM1LDk2NzA5NDA1
-OSw1ODU2NzU5ODEsLTE5NzQyODM0MzUsLTIwNTg5Mzk3NjUsMT
-I4MTQ0NTI3LDI2NTk4NzQzMCwxOTgxMDg3NjddfQ==
+JjcmVhdGVkIjoxNzkyNDg3ODI4NjQ2fX0sImhpc3RvcnkiOlsx
+OTc1MzI3Nzk4LDg2NTQ0NTU2NywtMTExMDU1MTUyLC0yMDI1OT
+U1MjQ0LC0yMTQzMTc3NjE3LC05NzQ1MDE5NjQsMTAzNDcyNTk5
+LDE0NjkxMjQ0ODEsLTY5NDg5MDQzMyw2MDY0NDQyMTEsMjAzMz
+AwNjUyMywtNjU0NjQzMzA5LC0xNTkxMzAxMjg0LC0xODAwNjY0
+MzUsOTY3MDk0MDU5LDU4NTY3NTk4MSwtMTk3NDI4MzQzNSwtMj
+A1ODkzOTc2NSwxMjgxNDQ1MjcsMjY1OTg3NDMwXX0=
 -->
