@@ -7,7 +7,7 @@ By Tuomas Väisänen, Sara Todorovic, Tatu Leppämäki & Markus Jylhä for USP-3
 *Updated by Rowan van der Kaaden*
 
 ## OVERVIEW & PURPOSE
-The theme for this exercise is socio-spatial differentiation & social segregation and we’re  to be looking at the Helsinki metropolitan area’s population dynamics.  One of the key components of the city is as Shakespeare so eloquently put in Coriolanus “What is the city, but the people?”
+The theme for this exercise is socio-spatial differentiation & social segregation for which we will be looking at the Helsinki metropolitan area’s population dynamics.  One of the key components of the city is as Shakespeare so eloquently put in Coriolanus, “What is the city, but the people?”.
 
 Socio-economic features of the inhabitants of the city vary across geographical space and across time. Today we are using the Statistics Finland’s Grid Database 2016 about the social structure in 250x250m grid cells. Our task today is to study socio-spatial differentiation and pinpoint low-education and low-income grid cells. This could also be an interesting starting point for the analysis if we study segregation
 in the region.
@@ -192,11 +192,11 @@ reclassified fields for rented dwellings and unemployment.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NjQ0MDIyOSwtOTc0NTAxOTY0LDEwMz
-Q3MjU5OSwxNDY5MTI0NDgxLC02OTQ4OTA0MzMsNjA2NDQ0MjEx
-LDIwMzMwMDY1MjMsLTY1NDY0MzMwOSwtMTU5MTMwMTI4NCwtMT
-gwMDY2NDM1LDk2NzA5NDA1OSw1ODU2NzU5ODEsLTE5NzQyODM0
-MzUsLTIwNTg5Mzk3NjUsMTI4MTQ0NTI3LDI2NTk4NzQzMCwxOT
-gxMDg3NjcsNzM2NDE5NzA4LDEyMjEyNjQ0MzIsMTgyNTAzNzA0
-MF19
+eyJoaXN0b3J5IjpbLTIxNDMxNzc2MTcsLTk3NDUwMTk2NCwxMD
+M0NzI1OTksMTQ2OTEyNDQ4MSwtNjk0ODkwNDMzLDYwNjQ0NDIx
+MSwyMDMzMDA2NTIzLC02NTQ2NDMzMDksLTE1OTEzMDEyODQsLT
+E4MDA2NjQzNSw5NjcwOTQwNTksNTg1Njc1OTgxLC0xOTc0Mjgz
+NDM1LC0yMDU4OTM5NzY1LDEyODE0NDUyNywyNjU5ODc0MzAsMT
+k4MTA4NzY3LDczNjQxOTcwOCwxMjIxMjY0NDMyLDE4MjUwMzcw
+NDBdfQ==
 -->
