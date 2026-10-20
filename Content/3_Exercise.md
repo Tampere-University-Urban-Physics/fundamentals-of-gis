@@ -69,7 +69,7 @@ Remember that if you first bring in your data (from the practical folder), the b
 1. As you browsed the attribute table of the data, you might’ve noticed that **some fields have the value -1. This is because the population within the grid cell is so small that providing the value would violate data privacy protection laws. You’ll have to clean up the data**, there are a few ways to do this but here we are focusing on selections.
 	- -1 is a placeholder value for NoData or NotAvailable and not an actual value. It does not mean that there are actually -1 people in the cell...
 	- The Basic-level studies field (ko_perus) depicts the amount of people whose highest achieved level of education is basic-level studies. It has values of -1 for those grids that have less than 10 people over 18 years old (ko_ika18y).
-	- And same thing for the low-income variables hr_pi_tul and hr_tuy.
+	- Same applies for the low-income variables hr_pi_tul and hr_tuy.
 
 2. **You could use select by expression** to select the features that have values in the two wanted fields (ko_perus, hr_pi_tul) that are 0 or greater AND have people living in them (ko_ika18y, hr_tuy):
 ![enter image description here](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/3_Exercise/3_Exercise_datacleanup_expression.png)
@@ -210,7 +210,7 @@ Y3JlYXRlZCI6MTc5MjQ4NzU3NTUxMn0sInM4enAxSE5mQkZZUF
 NseFIiOnsiZGlzY3Vzc2lvbklkIjoia09MeHhCdFFwUWk1REF6
 USIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ik5vIGV4cG
 xhbmF0aW9uIHdoeT8iLCJjcmVhdGVkIjoxNzkyNDg3NjUzMTE3
-fX0sImhpc3RvcnkiOlszNjExNTQ3NjYsLTExMTA1NTE1MiwtMj
+fX0sImhpc3RvcnkiOls4NTQ3NzE3MTUsLTExMTA1NTE1MiwtMj
 AyNTk1NTI0NCwtMjE0MzE3NzYxNywtOTc0NTAxOTY0LDEwMzQ3
 MjU5OSwxNDY5MTI0NDgxLC02OTQ4OTA0MzMsNjA2NDQ0MjExLD
 IwMzMwMDY1MjMsLTY1NDY0MzMwOSwtMTU5MTMwMTI4NCwtMTgw
