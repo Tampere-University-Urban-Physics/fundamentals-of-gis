@@ -81,6 +81,10 @@ Remember that if you first bring in your data (from the practical folder), the b
 
 	*Tip: If you are confused with the formula, try reading it aloud: “Select the features where X is greater than 0 AND Y is greater or equal than 0, AND…”*
 
+> [!NOTE]
+> test
+
+
 3. **You should end up with a new layer without any -1 values in the four wanted fields.**
 4. Optionally, you can export the -1 values to a separate layer too to depict the "no value" areas in the final map. 
 	- Hint: There is a way to invert your selection, see if you can find it!  
@@ -223,11 +227,11 @@ ZpbmFsIHJlc3VsdHMsIGNlbGxzIHRoYXQgaGF2ZSBib3RoIHRo
 ZSBsb3dlc3QgcXVhcnRpbGUsIGJ1dCBub3QgZm9yIHRoZSBzZX
 BhcmF0ZSBhbmFseXNlcyB3aGljaCB3ZSBhcmUgZG9pbmcgdG9v
 LCBJIHRoaW5rIHRoaXMgc2hvdWxkIGJlIHNlcGFyYXRlZC4iLC
-JjcmVhdGVkIjoxNzkyNDg3ODI4NjQ2fX0sImhpc3RvcnkiOlsx
-OTI5OTA2NTg0LC0xMTEwNTUxNTIsLTIwMjU5NTUyNDQsLTIxND
-MxNzc2MTcsLTk3NDUwMTk2NCwxMDM0NzI1OTksMTQ2OTEyNDQ4
-MSwtNjk0ODkwNDMzLDYwNjQ0NDIxMSwyMDMzMDA2NTIzLC02NT
-Q2NDMzMDksLTE1OTEzMDEyODQsLTE4MDA2NjQzNSw5NjcwOTQw
-NTksNTg1Njc1OTgxLC0xOTc0MjgzNDM1LC0yMDU4OTM5NzY1LD
-EyODE0NDUyNywyNjU5ODc0MzAsMTk4MTA4NzY3XX0=
+JjcmVhdGVkIjoxNzkyNDg3ODI4NjQ2fX0sImhpc3RvcnkiOls5
+MDg1MzE4ODMsLTExMTA1NTE1MiwtMjAyNTk1NTI0NCwtMjE0Mz
+E3NzYxNywtOTc0NTAxOTY0LDEwMzQ3MjU5OSwxNDY5MTI0NDgx
+LC02OTQ4OTA0MzMsNjA2NDQ0MjExLDIwMzMwMDY1MjMsLTY1ND
+Y0MzMwOSwtMTU5MTMwMTI4NCwtMTgwMDY2NDM1LDk2NzA5NDA1
+OSw1ODU2NzU5ODEsLTE5NzQyODM0MzUsLTIwNTg5Mzk3NjUsMT
+I4MTQ0NTI3LDI2NTk4NzQzMCwxOTgxMDg3NjddfQ==
 -->
