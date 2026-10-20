@@ -27,7 +27,7 @@ To do this, the data needs some clean-up, some fields need to be calculated and 
 1. Statistics Finland’s Grid Database 2016
 	- Our data set covers the area of the Helsinki metropolitan region.
 	
-	- See: http://www.stat.fi/tup/ruututietokanta/index_en.html
+	- See: https://stat.fi/en/services/statistical-data-services/geographic-data/grid-database
 	
 	- The attribute table’s field names are in Finnish, but there’s a pdf included in the course
 data with the translations, explanations for the field names and longer descriptions (in
@@ -189,11 +189,11 @@ reclassified fields for rented dwellings and unemployment.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjU5NTUyNDQsLTIxNDMxNzc2MTcsLT
-k3NDUwMTk2NCwxMDM0NzI1OTksMTQ2OTEyNDQ4MSwtNjk0ODkw
-NDMzLDYwNjQ0NDIxMSwyMDMzMDA2NTIzLC02NTQ2NDMzMDksLT
-E1OTEzMDEyODQsLTE4MDA2NjQzNSw5NjcwOTQwNTksNTg1Njc1
-OTgxLC0xOTc0MjgzNDM1LC0yMDU4OTM5NzY1LDEyODE0NDUyNy
-wyNjU5ODc0MzAsMTk4MTA4NzY3LDczNjQxOTcwOCwxMjIxMjY0
-NDMyXX0=
+eyJoaXN0b3J5IjpbLTEwNzIzNTE4NDUsLTIwMjU5NTUyNDQsLT
+IxNDMxNzc2MTcsLTk3NDUwMTk2NCwxMDM0NzI1OTksMTQ2OTEy
+NDQ4MSwtNjk0ODkwNDMzLDYwNjQ0NDIxMSwyMDMzMDA2NTIzLC
+02NTQ2NDMzMDksLTE1OTEzMDEyODQsLTE4MDA2NjQzNSw5Njcw
+OTQwNTksNTg1Njc1OTgxLC0xOTc0MjgzNDM1LC0yMDU4OTM5Nz
+Y1LDEyODE0NDUyNywyNjU5ODc0MzAsMTk4MTA4NzY3LDczNjQx
+OTcwOF19
 -->
