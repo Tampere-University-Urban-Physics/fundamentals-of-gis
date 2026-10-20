@@ -59,13 +59,14 @@ Complete the exercise and submit at least the following:
 			- Note: ko_ika18y and hr_tuy both contain the same values. However, for clarity you might want to use the one with the same prefix as the one you are comparing it to.
 	- Background map.
 		- You can use for example satellite imagery like we did in Exercise 2, or OpenStreetMaps, which you can add using the same steps as for google satellite imagery. 
-		- Tip: Remember that if you first bring in your data (from the practical folder), the background map should project automatically to the right coordinate system.
+
+Remember that if you first bring in your data (from the practical folder), the background map should project automatically to the right coordinate system.
 
 --- 
 
 ### 1.2. Cleaning up the data
 
-1. As you browsed the attribute table of the data, you might’ve noticed that **some fields have the value -1. This is because the population within the grid cell is sufficiently small that providing the value would violate data privacy protection laws. You’ll have to clean up the data** and there are a few ways to do this. Here we’re focusing on selections.
+1. As you browsed the attribute table of the data, you might’ve noticed that **some fields have the value -1. This is because the population within the grid cell is so small that providing the value would violate data privacy protection laws. You’ll have to clean up the data**, there are a few ways to do this but here we are focusing on selections.
 	- -1 is a placeholder value for NoData or NotAvailable and not an actual value. It does not mean that there are actually -1 people in the cell...
 	- The Basic-level studies field (ko_perus) depicts the amount of people whose highest achieved level of education is basic-level studies. It has values of -1 for those grids that have less than 10 people over 18 years old (ko_ika18y).
 	- And same thing for the low-income variables hr_pi_tul and hr_tuy.
@@ -194,20 +195,26 @@ BzY2FsZSBiYXIgYW5kIGEgbm9ydGggYXJyb3cifSwiNnZRdmRw
 MHJhaDl2OFA2UiI6eyJzdGFydCI6MzYxOSwiZW5kIjozNzgwLC
 J0ZXh0IjoiLSBZb3UgY2FuIHVzZSBmb3IgZXhhbXBsZSBzYXRl
 bGxpdGUgaW1hZ2VyeSBsaWtlIHdlIGRpZCBpbiBFeGVyY2lzZS
-AyLCBvciBPcGVuU+KApiJ9fSwiY29tbWVudHMiOnsicVpMSEJG
-azZXYlNJMTZ5OCI6eyJkaXNjdXNzaW9uSWQiOiJXTXp3bHpLek
-NFSnJmSVFmIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ijoi
-VXBkYXRlIHRoaXMgb25jZSBJIHVwZGF0ZWQgbWFwIHJlcXVpcm
-VtZW50cyBzZWN0aW9ucyIsImNyZWF0ZWQiOjE3OTI0ODExMTYy
-NjZ9LCJ6Tk15c1JXMzZ2U2dwVlVTIjp7ImRpc2N1c3Npb25JZC
-I6IjZ2UXZkcDByYWg5djhQNlIiLCJzdWIiOiJnaDo0MDMwNDc4
-OCIsInRleHQiOiJBZGQgaW5zdHJ1Y3Rpb25zIGhvdyB0byBhZG
-Qgb3RoZXIgdHlwZXMgb2YgbWFwcyIsImNyZWF0ZWQiOjE3OTI0
-ODc1NzU1MTJ9fSwiaGlzdG9yeSI6WzcxMjIzNDE0MCwtMTExMD
-U1MTUyLC0yMDI1OTU1MjQ0LC0yMTQzMTc3NjE3LC05NzQ1MDE5
-NjQsMTAzNDcyNTk5LDE0NjkxMjQ0ODEsLTY5NDg5MDQzMyw2MD
-Y0NDQyMTEsMjAzMzAwNjUyMywtNjU0NjQzMzA5LC0xNTkxMzAx
-Mjg0LC0xODAwNjY0MzUsOTY3MDk0MDU5LDU4NTY3NTk4MSwtMT
-k3NDI4MzQzNSwtMjA1ODkzOTc2NSwxMjgxNDQ1MjcsMjY1OTg3
-NDMwLDE5ODEwODc2N119
+AyLCBvciBPcGVuU+KApiJ9LCJrT0x4eEJ0UXBRaTVEQXpRIjp7
+InN0YXJ0Ijo0MjE5LCJlbmQiOjQyNTEsInRleHQiOiJZb3XigJ
+lsbCBoYXZlIHRvIGNsZWFuIHVwIHRoZSBkYXRhIn19LCJjb21t
+ZW50cyI6eyJxWkxIQkZrNldiU0kxNnk4Ijp7ImRpc2N1c3Npb2
+5JZCI6IldNendsekt6Q0VKcmZJUWYiLCJzdWIiOiJnaDo0MDMw
+NDc4OCIsInRleHQiOiJVcGRhdGUgdGhpcyBvbmNlIEkgdXBkYX
+RlZCBtYXAgcmVxdWlyZW1lbnRzIHNlY3Rpb25zIiwiY3JlYXRl
+ZCI6MTc5MjQ4MTExNjI2Nn0sInpOTXlzUlczNnZTZ3BWVVMiOn
+siZGlzY3Vzc2lvbklkIjoiNnZRdmRwMHJhaDl2OFA2UiIsInN1
+YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBpbnN0cnVjdG
+lvbnMgaG93IHRvIGFkZCBvdGhlciB0eXBlcyBvZiBtYXBzIiwi
+Y3JlYXRlZCI6MTc5MjQ4NzU3NTUxMn0sInM4enAxSE5mQkZZUF
+NseFIiOnsiZGlzY3Vzc2lvbklkIjoia09MeHhCdFFwUWk1REF6
+USIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ik5vIGV4cG
+xhbmF0aW9uIHdoeT8iLCJjcmVhdGVkIjoxNzkyNDg3NjUzMTE3
+fX0sImhpc3RvcnkiOlszNjExNTQ3NjYsLTExMTA1NTE1MiwtMj
+AyNTk1NTI0NCwtMjE0MzE3NzYxNywtOTc0NTAxOTY0LDEwMzQ3
+MjU5OSwxNDY5MTI0NDgxLC02OTQ4OTA0MzMsNjA2NDQ0MjExLD
+IwMzMwMDY1MjMsLTY1NDY0MzMwOSwtMTU5MTMwMTI4NCwtMTgw
+MDY2NDM1LDk2NzA5NDA1OSw1ODU2NzU5ODEsLTE5NzQyODM0Mz
+UsLTIwNTg5Mzk3NjUsMTI4MTQ0NTI3LDI2NTk4NzQzMCwxOTgx
+MDg3NjddfQ==
 -->
