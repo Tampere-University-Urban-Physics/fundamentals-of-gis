@@ -52,11 +52,11 @@ Complete the exercise and submit at least the following:
 2. **Go through the attribute table and use the pdf-files to decipher the meanings of each field**. The attribute table consists of a few themes (recognizable by the prefixes) and slightly over 100 fields.
 	- The fields we’re using depict the following:
 		- **ko_perus**: Inhabitants with no qualification after basic-level studies, education theme’s prefix ko_
-		- **hr_pi_tul (Inhabitants belonging to the lowest income category, Inhabitants’ income theme’s prefix hr_)
+		- **hr_pi_tul**: Inhabitants belonging to the lowest income category, Inhabitants’ income theme’s prefix hr_
 		- Under each theme, eg. education (prefix ko_) the first field has the total value of each grid cell (feature) in that field. We’ll need these total fields in the analysis:
-			- Level of education: ko_ika18y (Total number of people in grid cell, aged 18 or over)
-			- Level of income: hr_tuy (Total number of people in grid cell, aged 18 or over)
-			Note: ko_ika18y and hr_tuy both contain the same values. However, for clarity you might want to use the one with the same prefix as the one you are comparing it to.
+			- Level of education: **ko_ika18y ** (Total number of people in grid cell, aged 18 or over)
+			- Level of income: **hr_tuy** (Total number of people in grid cell, aged 18 or over)
+			- Note: ko_ika18y and hr_tuy both contain the same values. However, for clarity you might want to use the one with the same prefix as the one you are comparing it to.
 	- Background map.
 		- You can use for example satellite imagery like we did in Exercise 2, or OpenStreetMaps, which you can add using the same steps as for google satellite imagery. 
 		- Tip: Remember that if you first bring in your data (from the practical folder), the background map should project automatically to the right coordinate system.
@@ -190,16 +190,24 @@ reclassified fields for rented dwellings and unemployment.
 eyJkaXNjdXNzaW9ucyI6eyJXTXp3bHpLekNFSnJmSVFmIjp7In
 N0YXJ0IjoyMDY5LCJlbmQiOjIxNDEsInRleHQiOiItIFJlbWVt
 YmVyOiBhbGwgbWFwcyBzaG91bGQgaGF2ZSBhIGxlZ2VuZCwgYS
-BzY2FsZSBiYXIgYW5kIGEgbm9ydGggYXJyb3cifX0sImNvbW1l
-bnRzIjp7InFaTEhCRms2V2JTSTE2eTgiOnsiZGlzY3Vzc2lvbk
-lkIjoiV016d2x6S3pDRUpyZklRZiIsInN1YiI6ImdoOjQwMzA0
-Nzg4IiwidGV4dCI6IlVwZGF0ZSB0aGlzIG9uY2UgSSB1cGRhdG
-VkIG1hcCByZXF1aXJlbWVudHMgc2VjdGlvbnMiLCJjcmVhdGVk
-IjoxNzkyNDgxMTE2MjY2fX0sImhpc3RvcnkiOlstMTgxODcyMj
-I2NSwtMTExMDU1MTUyLC0yMDI1OTU1MjQ0LC0yMTQzMTc3NjE3
-LC05NzQ1MDE5NjQsMTAzNDcyNTk5LDE0NjkxMjQ0ODEsLTY5ND
-g5MDQzMyw2MDY0NDQyMTEsMjAzMzAwNjUyMywtNjU0NjQzMzA5
-LC0xNTkxMzAxMjg0LC0xODAwNjY0MzUsOTY3MDk0MDU5LDU4NT
-Y3NTk4MSwtMTk3NDI4MzQzNSwtMjA1ODkzOTc2NSwxMjgxNDQ1
-MjcsMjY1OTg3NDMwLDE5ODEwODc2N119
+BzY2FsZSBiYXIgYW5kIGEgbm9ydGggYXJyb3cifSwiNnZRdmRw
+MHJhaDl2OFA2UiI6eyJzdGFydCI6MzYxOSwiZW5kIjozNzgwLC
+J0ZXh0IjoiLSBZb3UgY2FuIHVzZSBmb3IgZXhhbXBsZSBzYXRl
+bGxpdGUgaW1hZ2VyeSBsaWtlIHdlIGRpZCBpbiBFeGVyY2lzZS
+AyLCBvciBPcGVuU+KApiJ9fSwiY29tbWVudHMiOnsicVpMSEJG
+azZXYlNJMTZ5OCI6eyJkaXNjdXNzaW9uSWQiOiJXTXp3bHpLek
+NFSnJmSVFmIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ijoi
+VXBkYXRlIHRoaXMgb25jZSBJIHVwZGF0ZWQgbWFwIHJlcXVpcm
+VtZW50cyBzZWN0aW9ucyIsImNyZWF0ZWQiOjE3OTI0ODExMTYy
+NjZ9LCJ6Tk15c1JXMzZ2U2dwVlVTIjp7ImRpc2N1c3Npb25JZC
+I6IjZ2UXZkcDByYWg5djhQNlIiLCJzdWIiOiJnaDo0MDMwNDc4
+OCIsInRleHQiOiJBZGQgaW5zdHJ1Y3Rpb25zIGhvdyB0byBhZG
+Qgb3RoZXIgdHlwZXMgb2YgbWFwcyIsImNyZWF0ZWQiOjE3OTI0
+ODc1NzU1MTJ9fSwiaGlzdG9yeSI6WzcxMjIzNDE0MCwtMTExMD
+U1MTUyLC0yMDI1OTU1MjQ0LC0yMTQzMTc3NjE3LC05NzQ1MDE5
+NjQsMTAzNDcyNTk5LDE0NjkxMjQ0ODEsLTY5NDg5MDQzMyw2MD
+Y0NDQyMTEsMjAzMzAwNjUyMywtNjU0NjQzMzA5LC0xNTkxMzAx
+Mjg0LC0xODAwNjY0MzUsOTY3MDk0MDU5LDU4NTY3NTk4MSwtMT
+k3NDI4MzQzNSwtMjA1ODkzOTc2NSwxMjgxNDQ1MjcsMjY1OTg3
+NDMwLDE5ODEwODc2N119
 -->
