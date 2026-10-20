@@ -77,17 +77,14 @@ Remember that if you first bring in your data (from the practical folder), the b
 	- After the selection, save the selected features as a new shapefile (Right click layer with selection > *Export* > *Save selected features as…*).
 		- Don't forget to give the new file an informative name and save it in your folder! 
 
-
-
 	*Tip: If you are confused with the formula, try reading it aloud: “Select the features where X is greater than 0 AND Y is greater or equal than 0, AND…”*
-
-> [!NOTE]
-> test
-
 
 3. **You should end up with a new layer without any -1 values in the four wanted fields.**
 4. Optionally, you can export the -1 values to a separate layer too to depict the "no value" areas in the final map. 
 	- Hint: There is a way to invert your selection, see if you can find it!  
+
+> [!NOTE]
+> test
 
 ---
 
@@ -204,7 +201,7 @@ bGxpdGUgaW1hZ2VyeSBsaWtlIHdlIGRpZCBpbiBFeGVyY2lzZS
 AyLCBvciBPcGVuU+KApiJ9LCJrT0x4eEJ0UXBRaTVEQXpRIjp7
 InN0YXJ0Ijo0MjE5LCJlbmQiOjQyNTEsInRleHQiOiJZb3XigJ
 lsbCBoYXZlIHRvIGNsZWFuIHVwIHRoZSBkYXRhIn0sIkt3bnpq
-bnhQeElyVXdxS0UiOnsic3RhcnQiOjQ3NzgsImVuZCI6NTU4OS
+bnhQeElyVXdxS0UiOnsic3RhcnQiOjQ3NzgsImVuZCI6NTU4Ny
 widGV4dCI6IjIuICoqWW91IGNvdWxkIHVzZSBzZWxlY3QgYnkg
 ZXhwcmVzc2lvbioqIHRvIHNlbGVjdCB0aGUgZmVhdHVyZXMgdG
 hhdCBoYXZlIHZhbHXigKYifX0sImNvbW1lbnRzIjp7InFaTEhC
@@ -227,8 +224,8 @@ ZpbmFsIHJlc3VsdHMsIGNlbGxzIHRoYXQgaGF2ZSBib3RoIHRo
 ZSBsb3dlc3QgcXVhcnRpbGUsIGJ1dCBub3QgZm9yIHRoZSBzZX
 BhcmF0ZSBhbmFseXNlcyB3aGljaCB3ZSBhcmUgZG9pbmcgdG9v
 LCBJIHRoaW5rIHRoaXMgc2hvdWxkIGJlIHNlcGFyYXRlZC4iLC
-JjcmVhdGVkIjoxNzkyNDg3ODI4NjQ2fX0sImhpc3RvcnkiOls5
-MDg1MzE4ODMsLTExMTA1NTE1MiwtMjAyNTk1NTI0NCwtMjE0Mz
+JjcmVhdGVkIjoxNzkyNDg3ODI4NjQ2fX0sImhpc3RvcnkiOls4
+NjU0NDU1NjcsLTExMTA1NTE1MiwtMjAyNTk1NTI0NCwtMjE0Mz
 E3NzYxNywtOTc0NTAxOTY0LDEwMzQ3MjU5OSwxNDY5MTI0NDgx
 LC02OTQ4OTA0MzMsNjA2NDQ0MjExLDIwMzMwMDY1MjMsLTY1ND
 Y0MzMwOSwtMTU5MTMwMTI4NCwtMTgwMDY2NDM1LDk2NzA5NDA1
