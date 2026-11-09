@@ -154,7 +154,7 @@ This sounds complicated, but can be done step by step, by creating buffers aroun
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/4_Exercise/differences.png)
 *Your result from using the differencing tool could look like this*
 
-7. Now we should have some kind of idea of the areas that fit most of criteria. The catch? If you use the identify tool or attribute table to select polygons, you will notice that some polygons that look seperate are, in fact, the same polygon that we have split when using the difference tool. THis means we can't yet eliminate areas that are too small to build on. Use the Multipart to Singlepart- geoprocessing tool to convert these to seperate polygons. We want to do this to be able to calculate the total area of the combined land. 
+7. Now we should have some kind of idea of the areas that fit most of criteria. The catch? If you use the identify tool or attribute table to select polygons, you will notice that some polygons that look seperate are, in fact, the same polygon that we have split when using the difference tool. This means we can't yet eliminate areas that are too small to build on. Use the Multipart to Singlepart- geoprocessing tool to convert these to seperate polygons. We want to do this to be able to calculate the total area of the combined land. 
 
 8. Once we have the final suitable areas we need to determine which have at least 5000m2 of free building space. You can use the *Extract by Expression* tool (Hint: Crash Course, section 2.1).
 
@@ -371,11 +371,11 @@ OiIybFM4QzJJYnEzQWdSdHc1Iiwic3ViIjoiZ2g6NDAzMDQ3OD
 giLCJ0ZXh0IjoiRXNwZWNpYWxseSBoZXJlIGFkZCBpbnN0cnVj
 dGlvbiB0byB1c2UgdGhlIERpZmZlcmVuY2UgKE11bHRpcGxlKS
 B0b29sLiIsImNyZWF0ZWQiOjE3OTQyMjkwMzc5OTd9fSwiaGlz
-dG9yeSI6Wy01NzM0NDYzMTUsLTk1NzgzMDI5NiwtNjM4NTcxNz
-c1LC04NjE2MzE0OTksLTg4NTYzNjE2Nyw0MzM3Mjk4MDAsMjk5
-MDEzMjUsMTA4NzM4MzMwOCwtMTAyODI4MTE5MywtNjM2ODczNj
-c3LC00MjQyMjY1LC0yMDE1ODgwNjY0LDIyMzg0MjY4OCwtMTUw
-NjkzODcxNiwtNzYyOTI3ODIwLDE1MTQ4Nzc1OTQsMTI1Mjg0OT
-QzOSwxNjI4NTAyMzYwLDc0NTMxNzMyNSwtOTY3MDAyMTg2XX0=
+dG9yeSI6WzE0ODk4NzU3NjUsLTU3MzQ0NjMxNSwtOTU3ODMwMj
+k2LC02Mzg1NzE3NzUsLTg2MTYzMTQ5OSwtODg1NjM2MTY3LDQz
+MzcyOTgwMCwyOTkwMTMyNSwxMDg3MzgzMzA4LC0xMDI4MjgxMT
+kzLC02MzY4NzM2NzcsLTQyNDIyNjUsLTIwMTU4ODA2NjQsMjIz
+ODQyNjg4LC0xNTA2OTM4NzE2LC03NjI5Mjc4MjAsMTUxNDg3Nz
+U5NCwxMjUyODQ5NDM5LDE2Mjg1MDIzNjAsNzQ1MzE3MzI1XX0=
 
 -->
