@@ -142,7 +142,7 @@ This sounds complicated, but can be done step by step, by creating buffers aroun
 
 5. For roads, airport area, and ring stations, you are looking for where the layers overlap. Use the *Intersection*  tool to combine intersect these buffers to get the areas which are only within 2km of the airport area, within a 1km radius from the stations, and within 500m from the road network. 
 	- You have to run this intersect with two buffers first, then run the output of that with the final buffer to get the desired result.
-	- The result could look something  like this:
+
 
 ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/4_Exercise/intersection.png)
 *Your result from using the Intersection tool could look like this*
@@ -354,7 +354,7 @@ VTIjp7ImRpc2N1c3Npb25JZCI6IlhpTFI4TTBpY2tRSlpCanki
 LCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJBZGQgdGhhdC
 B5b3UgY2FuIGFsc28gdXNlIHRoZSBpbnRlcnNlY3Rpb24gKG11
 bHRpcGxlKSB0b29sIiwiY3JlYXRlZCI6MTc5NDIyODYwMTgzMX
-19LCJoaXN0b3J5IjpbLTEwNjkwMjg3MjAsLTYzODU3MTc3NSwt
+19LCJoaXN0b3J5IjpbLTEwNTMzNzE1OTQsLTYzODU3MTc3NSwt
 ODYxNjMxNDk5LC04ODU2MzYxNjcsNDMzNzI5ODAwLDI5OTAxMz
 I1LDEwODczODMzMDgsLTEwMjgyODExOTMsLTYzNjg3MzY3Nywt
 NDI0MjI2NSwtMjAxNTg4MDY2NCwyMjM4NDI2ODgsLTE1MDY5Mz
