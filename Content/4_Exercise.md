@@ -128,7 +128,7 @@ The Ring Rail Line is likely to increase the attraction for the real estate in t
 |- The Hotel & Congress Center **cannot be built on already built up areas**. |
 |- The Hotel & Congress Center requires **at least 5000 m2 of free building space**. |
 
-This sounds complicated, but can be done step by step, by creating buffers around the airport area, ring rail line stations, and road network, setting the distance based on the requirements. **Hint**: When creating buffers, don't forget to make your outputs permanent in between processing. You can make yor life a lot easier if you clearly name the layers that you create.
+This sounds complicated, but can be done step by step, by creating buffers around the airport area, ring rail line stations, and road network, setting the distance based on the requirements. **Hint**: When creating buffers, don't forget to make your outputs permanent in between processing. You can make your life a lot easier if you clearly name the layers that you create.
 
 2. First, let's make a 2km buffer around the airport area layer (Hki_Vnt_Airport_Area) using the Buffer tool. Note: In the buffer tool, you can switch the units to km if you want.
 
@@ -317,11 +317,11 @@ fSwiMU9YMnZEd3J3Rmx1ZWtKUiI6eyJkaXNjdXNzaW9uSWQiOi
 J4eWlWc1ZDa3NiUG9KN0haIiwic3ViIjoiZ2g6NDAzMDQ3ODgi
 LCJ0ZXh0IjoiQ29uZmlybWVkIHRoYXQgdGhlIG1vb2RsZSBxdW
 l6ZXMgZm9yIHRoZXNlIGFyZSBhbHNvIGNvcnJlY3QiLCJjcmVh
-dGVkIjoxNzk0MjI4MTA4NzQ1fX0sImhpc3RvcnkiOlsyMDM1MT
-U1Nzk3LC02Mzg1NzE3NzUsLTg2MTYzMTQ5OSwtODg1NjM2MTY3
-LDQzMzcyOTgwMCwyOTkwMTMyNSwxMDg3MzgzMzA4LC0xMDI4Mj
-gxMTkzLC02MzY4NzM2NzcsLTQyNDIyNjUsLTIwMTU4ODA2NjQs
-MjIzODQyNjg4LC0xNTA2OTM4NzE2LC03NjI5Mjc4MjAsMTUxND
-g3NzU5NCwxMjUyODQ5NDM5LDE2Mjg1MDIzNjAsNzQ1MzE3MzI1
-LC05NjcwMDIxODYsLTQ0NDg5NzY4XX0=
+dGVkIjoxNzk0MjI4MTA4NzQ1fX0sImhpc3RvcnkiOls5NzExMz
+gwMTAsLTYzODU3MTc3NSwtODYxNjMxNDk5LC04ODU2MzYxNjcs
+NDMzNzI5ODAwLDI5OTAxMzI1LDEwODczODMzMDgsLTEwMjgyOD
+ExOTMsLTYzNjg3MzY3NywtNDI0MjI2NSwtMjAxNTg4MDY2NCwy
+MjM4NDI2ODgsLTE1MDY5Mzg3MTYsLTc2MjkyNzgyMCwxNTE0OD
+c3NTk0LDEyNTI4NDk0MzksMTYyODUwMjM2MCw3NDUzMTczMjUs
+LTk2NzAwMjE4NiwtNDQ0ODk3NjhdfQ==
 -->
