@@ -79,5 +79,15 @@ Using the figure above, we are looking for the green circles by spatially compar
 [^3]: https://docs.qgis.org/3.28/en/docs/user_manual/processing_algs/algs_include.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1NTQzODA3LC0xODYxNjczMTA2XX0=
+eyJkaXNjdXNzaW9ucyI6eyJoQkYxeWFLNW1KVlpvdm1NIjp7In
+N0YXJ0IjozMzIsImVuZCI6NDMxLCJ0ZXh0IjoiR0lTIGJ1ZmZl
+ciBhbmFseXNpcyBpcyBhIHNwYXRpYWwgYW5hbHlzaXMgdGVjaG
+5pcXVlIHVzZWQgdG8gY3JlYXRlIGJ1ZmZlcnMgYXJvdeKApiJ9
+fSwiY29tbWVudHMiOnsid01YbWJMeWpGR3FFWWxHTSI6eyJkaX
+NjdXNzaW9uSWQiOiJoQkYxeWFLNW1KVlpvdm1NIiwic3ViIjoi
+Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiVGhpcyBleHBsYWlucyBhbi
+BvcGVyYXRpb24gdGhhdCBpcyBwYXJ0IG9mIHRoZSBhbmFseXNp
+cywgbm90IHRoZSBhbmFseXNpcy4gUmV3cml0ZSB0aGlzLiIsIm
+NyZWF0ZWQiOjE3OTQyMjI4NTYzMTN9fSwiaGlzdG9yeSI6Wy0x
+MjEwNjY1OTU5LDU5NTU0MzgwNywtMTg2MTY3MzEwNl19
 -->
