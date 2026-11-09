@@ -130,13 +130,13 @@ The Ring Rail Line is likely to increase the attraction for the real estate in t
 
 This sounds complicated, but can be done step by step, by creating buffers around the airport area, ring rail line stations, and road network, setting the distance based on the requirements. **Hint**: When creating buffers, don't forget to make your outputs permanent in between processing. You can make your life a lot easier if you clearly name the layers that you create.
 
-2. First, let's make a 2km buffer around the airport area layer (Hki_Vnt_Airport_Area) using the Buffer tool. Note: In the buffer tool, you can switch the units to km if you want.
+2. First, let's make the buffer around the airport area layer (Hki_Vnt_Airport_Area) using the Buffer tool. Note: In the buffer tool, you can switch the units to km if you want.
 
 
-3. Next, make a 1km buffer around the Ring Rail Line stations (both planned and under construction). 
+3. Next, make the buffer around the Ring Rail Line stations (both planned and under construction). 
 
 
-4. Then, make a buffer around the roads. **Hint** You can select dissolve the result of the roads buffer to make future steps easier. Dissolve removes boundaries between adjacent polygons or lines that share the same attribute value. You might end up with something that looks like below, depending on the order of your layers and symbologies.
+4. Then, make the buffer around the roads. **Hint** You can select dissolve the result of the roads buffer to make future steps easier. Dissolve removes boundaries between adjacent polygons or lines that share the same attribute value. You might end up with something that looks like below, depending on the order of your layers and symbologies.
 	
  ![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/4_Exercise/step3_roads_buffer.png)
 
@@ -226,7 +226,7 @@ JHaUFtaGJJQXppeTZXa1M3Ijp7InN0YXJ0IjoxMTcyNSwiZW5k
 IjoxMjA5OSwidGV4dCI6IlRoaXMgc291bmRzIGNvbXBsaWNhdG
 VkLCBidXQgY2FuIGJlIGRvbmUgc3RlcCBieSBzdGVwLCBieSBj
 cmVhdGluZyBidWZmZXJzIGFyb3XigKYifSwiNXN5d2txa0VnRW
-NoTmJhOCI6eyJzdGFydCI6MTIyODMsImVuZCI6MTIzODMsInRl
+NoTmJhOCI6eyJzdGFydCI6MTIyODEsImVuZCI6MTIzNzksInRl
 eHQiOiIzLiBOZXh0LCBtYWtlIGEgMWttIGJ1ZmZlciBhcm91bm
 QgdGhlIFJpbmcgUmFpbCBMaW5lIHN0YXRpb25zIChib3RoIHBs
 YW5uZWQgYW5k4oCmIn19LCJjb21tZW50cyI6eyJhd3c4TDNxZz
@@ -335,7 +335,7 @@ ZGQyZGVuYmlrNiI6eyJkaXNjdXNzaW9uSWQiOiI1c3l3a3FrRW
 dFY2hOYmE4Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ijoi
 Q2hhbmdlIHRoaXMgdG8gaW5zdHJ1Y3QgdG8gdXNlIHRoZSBidW
 ZmZXIgbWFkZSBlYXJsaWVyLiIsImNyZWF0ZWQiOjE3OTQyMjgz
-Mzc2NzN9fSwiaGlzdG9yeSI6Wy0xNjc5Njk2NjUzLC02Mzg1Nz
+Mzc2NzN9fSwiaGlzdG9yeSI6Wy0xMzkyNDAxODE5LC02Mzg1Nz
 E3NzUsLTg2MTYzMTQ5OSwtODg1NjM2MTY3LDQzMzcyOTgwMCwy
 OTkwMTMyNSwxMDg3MzgzMzA4LC0xMDI4MjgxMTkzLC02MzY4Nz
 M2NzcsLTQyNDIyNjUsLTIwMTU4ODA2NjQsMjIzODQyNjg4LC0x
