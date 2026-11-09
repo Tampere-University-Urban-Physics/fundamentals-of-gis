@@ -31,9 +31,9 @@ Overlay analysis is a powerful tool in GIS because it allows the combination and
 ### Overlay operations 
 
 ![](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/section_11/a33268f6ff028c24152080d0aa3f2aad.jpg)[^2]
-- (a) Union: The union operation combines all the input datasets to create a single output layer that includes the combined geometry and attributes of all features from the input layers.
+- (a) **Union**: The union operation combines all the input datasets to create a single output layer that includes the combined geometry and attributes of all features from the input layers.
 
-- (b) Intersection: This operation identifies the spatial extent where the input datasets overlap or intersect. The resulting output will include only the areas that are common to all input datasets.
+- (b) **Intersection**: This operation identifies the spatial extent where the input datasets overlap or intersect. The resulting output will include only the areas that are common to all input datasets.
 
 - (c\) **Symmetrical Difference**: This operation identifies the areas that are unique to each input dataset, including the overlapping portions.
 
@@ -111,6 +111,6 @@ dGVkIjoxNzk0MjIzMDU2NDEwfSwiS3VRbURXMGpLU2RJUEdyUS
 I6eyJkaXNjdXNzaW9uSWQiOiJ0OEdFNTRnSUZ6NHdMSXIwIiwi
 c3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNvbWUgcm
 VhbCB3b3JsZCBleGFtcGxlcy4iLCJjcmVhdGVkIjoxNzk0MjIz
-MjA1MTc4fX0sImhpc3RvcnkiOlstNzU5NTMxNzg0LC0xMjEwNj
-Y1OTU5LDU5NTU0MzgwNywtMTg2MTY3MzEwNl19
+MjA1MTc4fX0sImhpc3RvcnkiOls4Njc3ODA5ODQsLTEyMTA2Nj
+U5NTksNTk1NTQzODA3LC0xODYxNjczMTA2XX0=
 -->
