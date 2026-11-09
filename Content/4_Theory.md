@@ -35,7 +35,7 @@ Overlay analysis is a powerful tool in GIS because it allows the combination and
 
 - (b) Intersection: This operation identifies the spatial extent where the input datasets overlap or intersect. The resulting output will include only the areas that are common to all input datasets.
 
-- (c\) Symmetrical Difference: This operation identifies the areas that are unique to each input dataset, including the overlapping portions.
+- (c\) **Symmetrical Difference**: This operation identifies the areas that are unique to each input dataset, including the overlapping portions.
 
 - (d) **Identify**: Creates an output layer with the spatial extent of the input layer but includes attribute information from the overlay.
 
@@ -111,6 +111,6 @@ dGVkIjoxNzk0MjIzMDU2NDEwfSwiS3VRbURXMGpLU2RJUEdyUS
 I6eyJkaXNjdXNzaW9uSWQiOiJ0OEdFNTRnSUZ6NHdMSXIwIiwi
 c3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHNvbWUgcm
 VhbCB3b3JsZCBleGFtcGxlcy4iLCJjcmVhdGVkIjoxNzk0MjIz
-MjA1MTc4fX0sImhpc3RvcnkiOlszMzI5MjIyOTYsLTEyMTA2Nj
-U5NTksNTk1NTQzODA3LC0xODYxNjczMTA2XX0=
+MjA1MTc4fX0sImhpc3RvcnkiOlstNzU5NTMxNzg0LC0xMjEwNj
+Y1OTU5LDU5NTU0MzgwNywtMTg2MTY3MzEwNl19
 -->
