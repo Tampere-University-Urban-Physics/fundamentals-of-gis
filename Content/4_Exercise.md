@@ -105,8 +105,8 @@ As already mentioned, the Ring Rail line improves the commuter traffic network a
 The Ring Rail Line is likely to increase the attraction for the real estate in the nearby area. This, however, will also raise the question of the noise levels caused by the Aircraft traffic around the Helsinki-Vantaa Airport. Thanks to new improved technology the aircraft noise levels have slightly dropped in recent years.
 
 2. Find out how many people approximately live :
-	- ...above 50dB in 2006? And 
-	- ...above 55dB in 2010?
+	- ...in or above the 50dB zone in 2006? And 
+	- ...in or above the 55dB zone in 2010?
 	- This time you don't need to create a buffer, as the dB zones already exist
 		- **Hint**: Use the attribute table to select the relevant dB levels
 		- **Hint**: Use *Selected features only* in *Select by location*
@@ -307,11 +307,11 @@ bGUiLCJjcmVhdGVkIjoxNzk0MjI3NjEzMjE0fSwiRktGMTlhRF
 hKQzN1Z0EweCI6eyJkaXNjdXNzaW9uSWQiOiIyTXFpRU16M2Zu
 TXNxa3NPIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiUG
 xhbm5lZCBpcyBhbHNvIGNvcnJlY3QiLCJjcmVhdGVkIjoxNzk0
-MjI3NzYzNDM5fX0sImhpc3RvcnkiOls1MDc3Nzg3NTcsLTg2MT
-YzMTQ5OSwtODg1NjM2MTY3LDQzMzcyOTgwMCwyOTkwMTMyNSwx
-MDg3MzgzMzA4LC0xMDI4MjgxMTkzLC02MzY4NzM2NzcsLTQyND
-IyNjUsLTIwMTU4ODA2NjQsMjIzODQyNjg4LC0xNTA2OTM4NzE2
-LC03NjI5Mjc4MjAsMTUxNDg3NzU5NCwxMjUyODQ5NDM5LDE2Mj
-g1MDIzNjAsNzQ1MzE3MzI1LC05NjcwMDIxODYsLTQ0NDg5NzY4
-LC0xMDUwMDQxMjQ5XX0=
+MjI3NzYzNDM5fX0sImhpc3RvcnkiOlstNjM4NTcxNzc1LC04Nj
+E2MzE0OTksLTg4NTYzNjE2Nyw0MzM3Mjk4MDAsMjk5MDEzMjUs
+MTA4NzM4MzMwOCwtMTAyODI4MTE5MywtNjM2ODczNjc3LC00Mj
+QyMjY1LC0yMDE1ODgwNjY0LDIyMzg0MjY4OCwtMTUwNjkzODcx
+NiwtNzYyOTI3ODIwLDE1MTQ4Nzc1OTQsMTI1Mjg0OTQzOSwxNj
+I4NTAyMzYwLDc0NTMxNzMyNSwtOTY3MDAyMTg2LC00NDQ4OTc2
+OCwtMTA1MDA0MTI0OV19
 -->
