@@ -53,7 +53,7 @@ Complete the exercise and submit a short report containing at least the followin
 #### 1.1: Getting the data
 1. Download 4_Exercise_data from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and add it to your QGIS project. 
 	- Go through the data, what does it describe? What order of layers would be good to work with?
-	-**Hint**. This exercise uses a lot of layers. You can help yourself by clearly naming the new layers you create, and keeping notes of what each layer includes. This is good practice for future exercises, too.
+	- **Hint**. This exercise uses a lot of layers. You can help yourself by clearly naming the new layers you create, and keeping notes of what each layer includes. This is good practice for future work too.
 
 2. We need to have the Ring Rail Line in geospatial format. HRI offers easy access to open data sources between the cities of Helsinki, Espoo, Vantaa and Kauniainen. You can often find data on the Helsinki-Region Transport’s public transport lines from 2021-2022 on HSL’s website. https://public-transport-hslhrt.opendata.arcgis.com/datasets/HSLHRT::hsln-linjat-4/explore?location=60.470090%2C25.365467%2C9.39
 	-However, because HSL has had a tendency to remove the data, or move it, you can find the HSL data for the ring rail in the downloaded exercise data, HSL%3An_linjat.shp
@@ -167,7 +167,7 @@ This sounds complicated, but can be done step by step, by creating buffers aroun
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyIyTXFpRU16M2ZuTXNxa3NPIjp7In
-N0YXJ0Ijo4ODYzLCJlbmQiOjg5NDQsInRleHQiOiJOb3cgaXMg
+N0YXJ0Ijo4ODU4LCJlbmQiOjg5MzksInRleHQiOiJOb3cgaXMg
 YSBnb29kIHRpbWUgdG8gb3BlbiB0aGUgTW9vZGxlIHF1aXogdG
 8gZ2V0IHRoZSBhbnN3ZXJzIHRvIHRoZXNlIHF1ZXN0aW9u4oCm
 In0sIkQ1RVdoMlJEcnNYOUFJeHAiOnsic3RhcnQiOjQxMiwiZW
@@ -186,11 +186,11 @@ LCJjcmVhdGVkIjoxNzk0MjI0NTE4NzI3fSwid0pEOTd6YjlhdU
 I4VUtwZSI6eyJkaXNjdXNzaW9uSWQiOiJrd3lURlpxNk9KRmhk
 WHR6Iiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiVXBkYX
 RlIiwiY3JlYXRlZCI6MTc5NDIyNDY4NzE3M319LCJoaXN0b3J5
-IjpbLTIwMTU4ODA2NjQsMjIzODQyNjg4LC0xNTA2OTM4NzE2LC
-03NjI5Mjc4MjAsMTUxNDg3NzU5NCwxMjUyODQ5NDM5LDE2Mjg1
-MDIzNjAsNzQ1MzE3MzI1LC05NjcwMDIxODYsLTQ0NDg5NzY4LC
-0xMDUwMDQxMjQ5LC0xMjYzNTIxNDkwLDI0MjgyMTY4NSwtNjYz
-NTg2MTY1LDE4NTkwODMxMDEsMzI3MTI5NTM2LDQ3MTY5NDU5My
-wtMTc3NjEyMDc3MiwtMTQwMjQyMTcyMSwtNDI2NTk0MzMyXX0=
+IjpbMTA1NTQ4ODc3MCwtMjAxNTg4MDY2NCwyMjM4NDI2ODgsLT
+E1MDY5Mzg3MTYsLTc2MjkyNzgyMCwxNTE0ODc3NTk0LDEyNTI4
+NDk0MzksMTYyODUwMjM2MCw3NDUzMTczMjUsLTk2NzAwMjE4Ni
+wtNDQ0ODk3NjgsLTEwNTAwNDEyNDksLTEyNjM1MjE0OTAsMjQy
+ODIxNjg1LC02NjM1ODYxNjUsMTg1OTA4MzEwMSwzMjcxMjk1Mz
+YsNDcxNjk0NTkzLC0xNzc2MTIwNzcyLC0xNDAyNDIxNzIxXX0=
 
 -->
