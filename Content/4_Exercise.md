@@ -10,9 +10,9 @@ A key part of urban planning and geospatial analysis is identifying suitable loc
 
 The Ring Rail Line, also known as “Kehärata”, is a railway line that was opened in 2015 in the Helsinki capital region. The new rail route created a connection between Helsinki-Vantaa Airport and the Helsinki region commuter traffic network by joining the existing Vantaankoski and Main line branches. The approximately 18-kilometer-long Ring Rail line connects to the current rail network at the Vantaankoski and Hiekkaharju stations and the track between Viinikkala and Ruskeasanta goes in an underground tunnel.
 
-For the 2015 opening, altogether five new stations were constructed at Leinelä, Helsinki-Vantaa Airport, Aviapolis, Kivistö and Vehkala. Reservations have also been made for four additional stations at Petas, Viinikkala, Ruskeasanta and Lapinkylä to be built later in the second phase. Out of these, the Aviapolis and Airport stations are located underground. Similarly, the reserved stations of Ruskeasanta and Viinikkala will be located underground.
+For the 2015 opening, altogether five new stations were constructed at Leinelä, Helsinki-Vantaa Airport, Aviapolis, Kivistö and Vehkala. Reservations were also made for four additional stations at Petas, Viinikkala, Ruskeasanta and Lapinkylä to be built later in the second phase. Out of these, the Aviapolis and Airport stations are located underground. Similarly, the reserved stations of Ruskeasanta and Viinikkala would be located underground.
 
-The Ring Rail line improves the accessibility of the airport area and the suburbs along the route, cut down the journey times for over 12 million airport passengers per annum and it is also estimated to create employment for over 60 000 people.
+The Ring Rail line improves the accessibility of the airport area and the suburbs along the route, cut down the journey times for over 12 million airport passengers per annum and it was also estimated to create employment for over 60 000 people.
 
 ![](https://vayla.fi/documents/25230764/35593193/Keh%C3%A4rata_kartta.jpg/a9017019-18d8-4a4d-a601-88b08a32fe87?t=1451313857883)
 *Legend in English: Pintarata = Overground, Tunneli = tunnel, Asema = station, Asemavaraus = station reservation, Nykyiset asemat = Current stations, Hämeenlinnanväylän parannus = improvement of Hämeenlinnanväylä*
@@ -167,7 +167,7 @@ This sounds complicated, but can be done step by step, by creating buffers aroun
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyIyTXFpRU16M2ZuTXNxa3NPIjp7In
-N0YXJ0Ijo4ODk3LCJlbmQiOjg5NzgsInRleHQiOiJOb3cgaXMg
+N0YXJ0Ijo4ODk0LCJlbmQiOjg5NzUsInRleHQiOiJOb3cgaXMg
 YSBnb29kIHRpbWUgdG8gb3BlbiB0aGUgTW9vZGxlIHF1aXogdG
 8gZ2V0IHRoZSBhbnN3ZXJzIHRvIHRoZXNlIHF1ZXN0aW9u4oCm
 In0sIkQ1RVdoMlJEcnNYOUFJeHAiOnsic3RhcnQiOjQxMiwiZW
@@ -179,7 +179,7 @@ hpcyBxdWl6IGlzIGNvcnJlY3QiLCJjcmVhdGVkIjoxNzc2OTM5
 NjIzNjg2fSwieUZnNmtTQmRkYmltYU5kVSI6eyJkaXNjdXNzaW
 9uSWQiOiJENUVXaDJSRHJzWDlBSXhwIiwic3ViIjoiZ2g6NDAz
 MDQ3ODgiLCJ0ZXh0IjoiVW5jbGVhciIsImNyZWF0ZWQiOjE3OT
-QyMjQ1MTg3Mjd9fSwiaGlzdG9yeSI6WzExMzEwNzI4MzIsMjIz
+QyMjQ1MTg3Mjd9fSwiaGlzdG9yeSI6Wy00MjcyMDAzNzcsMjIz
 ODQyNjg4LC0xNTA2OTM4NzE2LC03NjI5Mjc4MjAsMTUxNDg3Nz
 U5NCwxMjUyODQ5NDM5LDE2Mjg1MDIzNjAsNzQ1MzE3MzI1LC05
 NjcwMDIxODYsLTQ0NDg5NzY4LC0xMDUwMDQxMjQ5LC0xMjYzNT
