@@ -5,7 +5,7 @@
 
 *By Rowan van der Kaaden*
 
-Spatial operations take spatial data, use a geometry function to analyse the data, and produce a new outputs derived from this analysis.
+Spatial operations take spatial data, use a geometry function to analyse the data, and produce new outputs derived from this analysis. This 
 
 ## Buffer analysis
 GIS buffer analysis is a spatial analysis technique used to create buffers around spatial features. A buffer is a defined area around a geographic object, such as a point, line, or polygon, that represents a specific distance or range - or zones that represent the proximity to the feature. The buffer can be created by measuring a fixed distance from the object or by using other criteria, such as travel time.
@@ -79,5 +79,5 @@ Using the figure above, we are looking for the green circles by spatially compar
 [^3]: https://docs.qgis.org/3.28/en/docs/user_manual/processing_algs/algs_include.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjE2NzMxMDZdfQ==
+eyJoaXN0b3J5IjpbMTc0NTY0NTgwNywtMTg2MTY3MzEwNl19
 -->
