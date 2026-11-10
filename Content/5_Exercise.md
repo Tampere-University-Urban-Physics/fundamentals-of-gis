@@ -55,7 +55,7 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 1. Download 5_Exercise_data.zip from the [Github repository](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/tree/master/Data), save it in a folder for this exercise, and extract the contents from the zip. 
 
 2. You have to download the Digital Elevation Model (DEM) from PaITuli. 
-	- Open the following link: https://paituli.csc.fi/download.html
+	- Open the following link: https://paituli.csc.fi/download 
 	- Select the following settings:
 		- Producer: National Land Survey of Finland
 		- Data: Elevation Model
@@ -241,9 +241,9 @@ As your final task, write a short reflection on what was done and why and add it
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI4dUdpZEh2bllqcDFERE5kIjp7In
 RleHQiOiIjIyMjIDIuMjogRGVmaW5pbmcgdGhlIHN1aXRhYmxl
-IGFyZWFzIiwic3RhcnQiOjEzMTExLCJlbmQiOjEzMTQ4fSwiVl
+IGFyZWFzIiwic3RhcnQiOjEzMTA3LCJlbmQiOjEzMTQ0fSwiVl
 BZMFBXTEZ1MFk1cGNUayI6eyJ0ZXh0IjoiSGlsbHNoYWRlIiwi
-c3RhcnQiOjc1MTAsImVuZCI6NzUxOX0sIlFsQll1NHRsOHRLZj
+c3RhcnQiOjc1MDYsImVuZCI6NzUxNX0sIlFsQll1NHRsOHRLZj
 JSekIiOnsic3RhcnQiOjEwOSwiZW5kIjoxNDIsInRleHQiOiIq
 VXBkYXRlZCBieSBSb3dhbiB2YW4gZGVyIEthYWRlbioifSwiS0
 1tQXZRVEZNNzBneXJUMSI6eyJzdGFydCI6MTY3LCJlbmQiOjI4
@@ -275,11 +275,11 @@ emlnSiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlRoaX
 MgaXMgdmVyeSByZXBldGl0aXZlIGFuZCBsb25nLCBJIHRoaW5r
 IGl0IGNvdWxkIGJlIGEgbG90IG1vcmUgY29uY2lzZSB3aXRob3
 V0IGxvc2luZyBhbnkgaW5mb3JtYXRpb24uIiwiY3JlYXRlZCI6
-MTc5NDI5Nzc1MzcyN319LCJoaXN0b3J5IjpbMjI1NTA4NzAyLD
-EyNzM2MTExOSw2NjQ4OTg4OTgsMTMxODc1Mzg5LC01MjI2ODM2
-Nyw1OTg1NzgxNjcsMjAwOTQ2NTM1OCwxNzEwMDQ0NDM5LC0xMD
-EzNjA0MTIsNTM4NDMwNzYwLDE4NzQ2OTE5ODQsLTc2MTYyNDA0
-MCwxNTgyNTc3Mzc0LDkyMjg1MDk2NywxMjg4OTk5ODQ2LC05Mz
-EyMDcxNjgsLTM3MTU4MTc4NywtMTc0NjQ0MTk1NiwtMTc0NTc4
-NjI4NCwtMTgwOTE5NzcxNV19
+MTc5NDI5Nzc1MzcyN319LCJoaXN0b3J5IjpbNjExNTk2NDcsMj
+I1NTA4NzAyLDEyNzM2MTExOSw2NjQ4OTg4OTgsMTMxODc1Mzg5
+LC01MjI2ODM2Nyw1OTg1NzgxNjcsMjAwOTQ2NTM1OCwxNzEwMD
+Q0NDM5LC0xMDEzNjA0MTIsNTM4NDMwNzYwLDE4NzQ2OTE5ODQs
+LTc2MTYyNDA0MCwxNTgyNTc3Mzc0LDkyMjg1MDk2NywxMjg4OT
+k5ODQ2LC05MzEyMDcxNjgsLTM3MTU4MTc4NywtMTc0NjQ0MTk1
+NiwtMTc0NTc4NjI4NF19
 -->
