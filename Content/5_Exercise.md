@@ -76,17 +76,9 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 
 *Reminder: Don't forget to give your files and layers informative names and save them in a folder for this exercise*
 
-4. Before we can use the DEM, we need to fill its sinks
-	- If you didn't already watch the video on why filling sinks is important, it might be a good idea to do it now to understand what you will be doing (https://www.youtube.com/watch?v=6rcx4OwnryI)
-	- Open the *Fill sinks (Wang & Liu)* tool (Remember where we search for all our tools? You may also need to look for a SAGA plugin)
-	- Choose the clipped DEM as the DEM, leave the rest as default
-	- Run the tool, you can remove the flow directions and watershed basins outputs, save the Filled DEM
-	- The output of this will be the DEM we will be using from now on! 
-	- Remember to save your temporary layers to prevent data loss! 
-
 ![](https://github.com/Tampere-University-Urban-Physics/fundamentals-of-gis/blob/master/Assets/5_Exercise/5_Exercise_icons_diagram.drawio.png?raw=true)
 
-5. One of the important features of DEM is that it can be used to create a hillshade relief. Hillshade is mostly used in visualization to create an imposing 3D-effect of the surface. Let's create a hillshade using this DEM. 
+4. One of the important features of DEM is that it can be used to create a hillshade relief. Hillshade is mostly used in visualization to create an imposing 3D-effect of the surface. Let's create a hillshade using this DEM. 
 	- Open the *Hillshade* tool 
 	- Choose the filled DEM as the Elevation layer
 	- Try out how the hillshade turns out with the default settings. You can change the result by adjusting these default values for azimuth and vertical angle. Basically, this adjusts from which angle the light hits the ground.
@@ -94,7 +86,7 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 
 *Tip: Again, name the files! Good name for the first Hillshade could be for example “HillShade_Muurla_def” or “HS_Muurla_def” indicating that it’s a hillshade, study area and default settings – for the next one you could change the name to for example “HS_Muurla_Az180” and so on, based on the chosen settings.*
 
-6. Another very useful feature of a DEM is the possibility to identify the gradient of the raster surface. 
+5. Another very useful feature of a DEM is the possibility to identify the gradient of the raster surface. 
 	- Open the *Slope* tool
 	- Use the filled DEM again, you can use the default settings 
 
@@ -241,7 +233,7 @@ As your final task, write a short reflection on what was done and why and add it
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI4dUdpZEh2bllqcDFERE5kIjp7In
 RleHQiOiIjIyMjIDIuMjogRGVmaW5pbmcgdGhlIHN1aXRhYmxl
-IGFyZWFzIiwic3RhcnQiOjEyODQwLCJlbmQiOjEyODc3fSwiUW
+IGFyZWFzIiwic3RhcnQiOjEyMTU0LCJlbmQiOjEyMTkxfSwiUW
 xCWXU0dGw4dEtmMlJ6QiI6eyJzdGFydCI6MTA5LCJlbmQiOjE0
 MiwidGV4dCI6IipVcGRhdGVkIGJ5IFJvd2FuIHZhbiBkZXIgS2
 FhZGVuKiJ9LCJLTW1BdlFURk03MGd5clQxIjp7InN0YXJ0Ijox
@@ -252,12 +244,12 @@ F6b2czc256aWdKIjp7InN0YXJ0IjoyODMsImVuZCI6MzgyOCwi
 dGV4dCI6ImlzIHRvIGNsYXNzaWZ5IHRoZSBzdHVkeSBhcmVhIG
 Jhc2VkIG9uIGl0cyBzdWl0YWJpbGl0eSBmb3IgY3VsdGl2YXRp
 b24sIHNwZWNpZmnigKYifSwiZmd0ejZoVGdoM0RqYVBScSI6ey
-JzdGFydCI6OTcyNywiZW5kIjo5NzMyLCJ0ZXh0IjoiUElOVEEi
-fSwiRlRZNTd3MDM4b2h4YVlIMSI6eyJzdGFydCI6MTEwNDAsIm
-VuZCI6MTExODYsInRleHQiOiIhW10oaHR0cHM6Ly9yYXcuZ2l0
+JzdGFydCI6OTA0MSwiZW5kIjo5MDQ2LCJ0ZXh0IjoiUElOVEEi
+fSwiRlRZNTd3MDM4b2h4YVlIMSI6eyJzdGFydCI6MTAzNTQsIm
+VuZCI6MTA1MDAsInRleHQiOiIhW10oaHR0cHM6Ly9yYXcuZ2l0
 aHVidXNlcmNvbnRlbnQuY29tL1RhbXBlcmUtVW5pdmVyc2l0eS
 1VcmJhbi1QaHlzaWNzL2Z1bmRhbWVu4oCmIn0sImducFROVWlD
-T2M0ajdhSmsiOnsic3RhcnQiOjEyNjE2LCJlbmQiOjEyNjUwLC
+T2M0ajdhSmsiOnsic3RhcnQiOjExOTMwLCJlbmQiOjExOTY0LC
 J0ZXh0IjoiLSBSdW4gdGhlIHRvb2wgYW5kIHNhdmUgdGhlIG91
 dHB1dCJ9fSwiY29tbWVudHMiOnsieXZYY3RUTzZ2blZDTG80RC
 I6eyJkaXNjdXNzaW9uSWQiOiI4dUdpZEh2bllqcDFERE5kIiwi
@@ -293,11 +285,11 @@ IjoiZ25wVE5VaUNPYzRqN2FKayIsInN1YiI6ImdoOjQwMzA0Nz
 g4IiwidGV4dCI6IkFkZCBhIGhpbnQgYXQgc29tZSBwb2ludCB0
 byB1c2UgYSBncm91cCB0byBvcmdhbml6ZSBhbGwgdGhlIGZpbm
 FsIHVuc3VpdGFibGUgYXJlYSBsYXllcnMuIiwiY3JlYXRlZCI6
-MTc5NDI5OTk3NDM2OX19LCJoaXN0b3J5IjpbLTE4MjgyNzg5MT
-UsMTc1MDY3MjAwNCwxNzUwNjcyMDA0LC0zMzYxNTUxODcsLTE0
-MDc4NTE1MjAsNjExNTk2NDcsMjI1NTA4NzAyLDEyNzM2MTExOS
-w2NjQ4OTg4OTgsMTMxODc1Mzg5LC01MjI2ODM2Nyw1OTg1Nzgx
-NjcsMjAwOTQ2NTM1OCwxNzEwMDQ0NDM5LC0xMDEzNjA0MTIsNT
-M4NDMwNzYwLDE4NzQ2OTE5ODQsLTc2MTYyNDA0MCwxNTgyNTc3
-Mzc0LDkyMjg1MDk2N119
+MTc5NDI5OTk3NDM2OX19LCJoaXN0b3J5IjpbLTMxODU1Mjk5MS
+wtMTgyODI3ODkxNSwxNzUwNjcyMDA0LDE3NTA2NzIwMDQsLTMz
+NjE1NTE4NywtMTQwNzg1MTUyMCw2MTE1OTY0NywyMjU1MDg3MD
+IsMTI3MzYxMTE5LDY2NDg5ODg5OCwxMzE4NzUzODksLTUyMjY4
+MzY3LDU5ODU3ODE2NywyMDA5NDY1MzU4LDE3MTAwNDQ0MzksLT
+EwMTM2MDQxMiw1Mzg0MzA3NjAsMTg3NDY5MTk4NCwtNzYxNjI0
+MDQwLDE1ODI1NzczNzRdfQ==
 -->
