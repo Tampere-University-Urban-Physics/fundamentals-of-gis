@@ -45,9 +45,9 @@ Slope analysis using a DEM is valuable in a range of applications, including ter
 When looking at a topological map, you may also have come across maps that have contours. Contours are another way of visualizing slope (using vectors), with lines which represent similar elevations. The closeness of the contour lines provide an idea of areas with gradual and rapid slope changes, as well as peaks and valleys.
 
 ## Raster  analysis
-Just like with vectors, we can do analyses and calculations with rasters. Raster overlay analysis is a fundamental geospatial analysis technique in GIS that involves combining and analyzing multiple raster layers to derive new information or gain insights into the relationships between different spatial datasets. It enables you to perform complex operations by overlaying and integrating raster datasets, pixel by pixel, to generate output layers with new attributes or identify areas that meet specific criteria. In QGIS, the Raster Calculator tool is commonly used to male calculations on rasters.
+Just like with vectors, we can do analyses and calculations with rasters. Raster analysis is a fundamental geospatial analysis technique in GIS that involves combining and analyzing multiple raster layers to derive new information or gain insights into the relationships between different spatial datasets. It enables you to perform complex operations by overlaying and integrating raster datasets, pixel by pixel, to generate output layers with new attributes or identify areas that meet specific criteria. In QGIS, the Raster Calculator tool is commonly used to male calculations on rasters.
 
-In raster overlay analysis, each raster layer is composed of a grid of cells or pixels, with each cell containing a value representing a specific attribute or measurement. When overlaying two or more raster layers, the values of the corresponding cells are compared and combined based on predefined rules or operations. The most common operations used in raster overlay analysis include:
+In raster analysis, each raster layer is composed of a grid of cells or pixels, with each cell containing a value representing a specific attribute or measurement. When overlaying two or more raster layers, the values of the corresponding cells are compared and combined based on predefined rules or operations. The most common operations used in raster overlay analysis include:
 
 1.  **Overlay operations**: These operations combine two or more raster layers to create a new output layer. Examples of overlay operations include:
     
@@ -111,9 +111,9 @@ MTc5NDI5NzI3MjQ3MX0sIjlJdXJ2MUdyeE1SME9RVjgiOnsiZG
 lzY3Vzc2lvbklkIjoiMm1KMDF1NnpOVUM3VzNMSiIsInN1YiI6
 ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBleGFtcGxlIHZpc3
 VhbCIsImNyZWF0ZWQiOjE3OTQyOTcyODE1ODV9fSwiaGlzdG9y
-eSI6Wy03NTM1ODc5NTEsLTEzMDk5NDA0NDgsNjU4ODM1MDQsMT
-QxNDkyNTg5MywxMzgzNDc0MjA1LDY5MjczMzIyOCwxMjA4NDAw
-MjAxLDExMjczNzU1MTksLTE5NDY3NzU0NjEsMTgwOTA1NjcsMj
-AxNDEyNzExNywtODg1MjkwMzMzLC04OTYyMjcyODEsOTk0NzIw
-MTkzLC0zNTEwNzY1ODAsLTEzOTAzMzIwNTFdfQ==
+eSI6Wy0xNjkwMTAwMDQ3LC0xMzA5OTQwNDQ4LDY1ODgzNTA0LD
+E0MTQ5MjU4OTMsMTM4MzQ3NDIwNSw2OTI3MzMyMjgsMTIwODQw
+MDIwMSwxMTI3Mzc1NTE5LC0xOTQ2Nzc1NDYxLDE4MDkwNTY3LD
+IwMTQxMjcxMTcsLTg4NTI5MDMzMywtODk2MjI3MjgxLDk5NDcy
+MDE5MywtMzUxMDc2NTgwLC0xMzkwMzMyMDUxXX0=
 -->
