@@ -79,7 +79,6 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 4. Before we can use the DEM, we need to fill its sinks
 	- If you didn't already watch the video on why filling sinks is important, it might be a good idea to do it now to understand what you will be doing (https://www.youtube.com/watch?v=6rcx4OwnryI)
 	- Open the *Fill sinks (Wang & Liu)* tool (Remember where we search for all our tools? You may also need to look for a SAGA plugin)
-		- You can ignore the warning message that SAGA version....is not officially supported. **If you cannot find fill sinks, then you can skip this step.**
 	- Choose the clipped DEM as the DEM, leave the rest as default
 	- Run the tool, you can remove the flow directions and watershed basins outputs, save the Filled DEM
 		- The output of this will be the DEM we will be using from now on! 
@@ -244,9 +243,9 @@ As your final task, write a short reflection on what was done and why and add it
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI4dUdpZEh2bllqcDFERE5kIjp7In
 RleHQiOiIjIyMjIDIuMjogRGVmaW5pbmcgdGhlIHN1aXRhYmxl
-IGFyZWFzIiwic3RhcnQiOjEzMjY0LCJlbmQiOjEzMzAxfSwiVl
+IGFyZWFzIiwic3RhcnQiOjEzMTExLCJlbmQiOjEzMTQ4fSwiVl
 BZMFBXTEZ1MFk1cGNUayI6eyJ0ZXh0IjoiSGlsbHNoYWRlIiwi
-c3RhcnQiOjc2NjMsImVuZCI6NzY3Mn0sIlFsQll1NHRsOHRLZj
+c3RhcnQiOjc1MTAsImVuZCI6NzUxOX0sIlFsQll1NHRsOHRLZj
 JSekIiOnsic3RhcnQiOjEwOSwiZW5kIjoxNDIsInRleHQiOiIq
 VXBkYXRlZCBieSBSb3dhbiB2YW4gZGVyIEthYWRlbioifSwiS0
 1tQXZRVEZNNzBneXJUMSI6eyJzdGFydCI6MTY3LCJlbmQiOjI4
@@ -278,11 +277,11 @@ emlnSiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlRoaX
 MgaXMgdmVyeSByZXBldGl0aXZlIGFuZCBsb25nLCBJIHRoaW5r
 IGl0IGNvdWxkIGJlIGEgbG90IG1vcmUgY29uY2lzZSB3aXRob3
 V0IGxvc2luZyBhbnkgaW5mb3JtYXRpb24uIiwiY3JlYXRlZCI6
-MTc5NDI5Nzc1MzcyN319LCJoaXN0b3J5IjpbLTEzODUwMDM2Mj
-ksNjExNTk2NDcsMjI1NTA4NzAyLDEyNzM2MTExOSw2NjQ4OTg4
-OTgsMTMxODc1Mzg5LC01MjI2ODM2Nyw1OTg1NzgxNjcsMjAwOT
-Q2NTM1OCwxNzEwMDQ0NDM5LC0xMDEzNjA0MTIsNTM4NDMwNzYw
-LDE4NzQ2OTE5ODQsLTc2MTYyNDA0MCwxNTgyNTc3Mzc0LDkyMj
-g1MDk2NywxMjg4OTk5ODQ2LC05MzEyMDcxNjgsLTM3MTU4MTc4
-NywtMTc0NjQ0MTk1Nl19
+MTc5NDI5Nzc1MzcyN319LCJoaXN0b3J5IjpbLTM4MjcyOTA3OC
+w2MTE1OTY0NywyMjU1MDg3MDIsMTI3MzYxMTE5LDY2NDg5ODg5
+OCwxMzE4NzUzODksLTUyMjY4MzY3LDU5ODU3ODE2NywyMDA5ND
+Y1MzU4LDE3MTAwNDQ0MzksLTEwMTM2MDQxMiw1Mzg0MzA3NjAs
+MTg3NDY5MTk4NCwtNzYxNjI0MDQwLDE1ODI1NzczNzQsOTIyOD
+UwOTY3LDEyODg5OTk4NDYsLTkzMTIwNzE2OCwtMzcxNTgxNzg3
+LC0xNzQ2NDQxOTU2XX0=
 -->
