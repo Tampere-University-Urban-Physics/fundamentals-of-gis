@@ -151,11 +151,9 @@ In the earlier phase you already clipped the DEM, filled the DEM, calculated the
 
 11. Let’s continue with defining the unsuitable areas by determining the “bad slopes”. 
 	- Use the *Reclassify by table* tool again, choose this time the slope raster as the input
-	- Add the reclassification table as pictured below
+	- Add the reclassification table so that slopes of 0 to 15 degrees equal 1 and slopes higher than 15 degrees equal to 0
 		- What do you think the 1 and 0 values represent in this analysis?
 	- Run the tool and save the output
-
-![](https://raw.githubusercontent.com/Tampere-University-Urban-Physics/fundamentals-of-gis/master/Assets/5_Exercise/5_Exercise_slope_reclassification.png)
 
 The “water buffer” and the “bad slopes” will be classified as “0” so that they can be removed from the calculations later on with multiplication.
 
@@ -243,7 +241,7 @@ As your final task, write a short reflection on what was done and why and add it
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI4dUdpZEh2bllqcDFERE5kIjp7In
 RleHQiOiIjIyMjIDIuMjogRGVmaW5pbmcgdGhlIHN1aXRhYmxl
-IGFyZWFzIiwic3RhcnQiOjEyOTI3LCJlbmQiOjEyOTY0fSwiUW
+IGFyZWFzIiwic3RhcnQiOjEyODQwLCJlbmQiOjEyODc3fSwiUW
 xCWXU0dGw4dEtmMlJ6QiI6eyJzdGFydCI6MTA5LCJlbmQiOjE0
 MiwidGV4dCI6IipVcGRhdGVkIGJ5IFJvd2FuIHZhbiBkZXIgS2
 FhZGVuKiJ9LCJLTW1BdlFURk03MGd5clQxIjp7InN0YXJ0Ijox
@@ -288,10 +286,10 @@ I6eyJkaXNjdXNzaW9uSWQiOiJGVFk1N3cwMzhvaHhhWUgxIiwi
 c3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiVGhpcyBncmFwaC
 BoYXMgc29tZSBlcnJvcnMsIG5lZWRzIHRvIGJlIHJlbWFkZS4i
 LCJjcmVhdGVkIjoxNzk0Mjk5Mjk2MDkxfX0sImhpc3RvcnkiOl
-sxNzUwNjcyMDA0LDE3NTA2NzIwMDQsLTMzNjE1NTE4NywtMTQw
-Nzg1MTUyMCw2MTE1OTY0NywyMjU1MDg3MDIsMTI3MzYxMTE5LD
-Y2NDg5ODg5OCwxMzE4NzUzODksLTUyMjY4MzY3LDU5ODU3ODE2
-NywyMDA5NDY1MzU4LDE3MTAwNDQ0MzksLTEwMTM2MDQxMiw1Mz
-g0MzA3NjAsMTg3NDY5MTk4NCwtNzYxNjI0MDQwLDE1ODI1Nzcz
-NzQsOTIyODUwOTY3LDEyODg5OTk4NDZdfQ==
+stMTA5NDkxMzIzMywxNzUwNjcyMDA0LDE3NTA2NzIwMDQsLTMz
+NjE1NTE4NywtMTQwNzg1MTUyMCw2MTE1OTY0NywyMjU1MDg3MD
+IsMTI3MzYxMTE5LDY2NDg5ODg5OCwxMzE4NzUzODksLTUyMjY4
+MzY3LDU5ODU3ODE2NywyMDA5NDY1MzU4LDE3MTAwNDQ0MzksLT
+EwMTM2MDQxMiw1Mzg0MzA3NjAsMTg3NDY5MTk4NCwtNzYxNjI0
+MDQwLDE1ODI1NzczNzQsOTIyODUwOTY3XX0=
 -->
