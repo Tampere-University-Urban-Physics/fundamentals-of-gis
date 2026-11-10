@@ -5,7 +5,7 @@
 
 *By Rowan van der Kaaden*
 
-Let's get back to rasters. As discussed before, rasters are gridded data where each pixel/grid represents some information. We can think of aerial photographs as rasters, where each pixel of the photo tells us the colour of the ground. Or, maybe the pixels tells us the height of the ground, or some kind of climate variable like temperatures. Rasters represent the field view, where the geographical space (each pixel) is filled with some value - this is the opposite of vectors.
+Let's get back to rasters. As discussed before, rasters are gridded data where each pixel/grid represents some information. We can think of aerial photographs as rasters, where each pixel of the photo tells us the colour of the ground. Or, maybe the pixels tells us the height of the ground, or some kind of climate variable like temperatures. Rasters represent the field view, where the geographical space (each pixel) is filled with some value.
 
 ## Digital Elevation Model (DEM)
 There are various ways to represent three dimensional surfaces in GIS, including contour maps (which you may have seen before) and Digital Elevation Models. A Digital Elevation Model (DEM) is a three-dimensional representation of the Earth's surface that is created using elevation data. It is a digital representation of the topography of a particular area, typically displayed as a grid of elevation values. 
@@ -69,7 +69,7 @@ Raster overlay analysis is used in various GIS applications, such as land suitab
 eyJkaXNjdXNzaW9ucyI6eyJRYmU0dGF0bkVJcTZ3N0dCIjp7In
 RleHQiOiJhbmQgRCIsInN0YXJ0IjozMjMsImVuZCI6MzI4fSwi
 cHB5UUc2S2N0SlcyQkF0TyI6eyJ0ZXh0Ijoib3ZlcmxheSBhbm
-FseXNpcyIsInN0YXJ0Ijo1MDA1LCJlbmQiOjUwMjF9fSwiY29t
+FseXNpcyIsInN0YXJ0Ijo0OTcxLCJlbmQiOjQ5ODd9fSwiY29t
 bWVudHMiOnsiMmNpRXNLRTBiR2J5WDQ1TyI6eyJkaXNjdXNzaW
 9uSWQiOiJRYmU0dGF0bkVJcTZ3N0dCIiwic3ViIjoiZ2g6MjIx
 NjgxNTciLCJ0ZXh0IjoiY291bGQgbWVudGlvbiBUSU4gYW5kIG
@@ -85,9 +85,10 @@ RkZVJ5T2VraSI6eyJkaXNjdXNzaW9uSWQiOiJwcHlRRzZLY3RK
 VzJCQXRPIiwic3ViIjoiZ2g6MjIxNjgxNTciLCJ0ZXh0IjoidG
 hpcyBkZXNjcmlwdGlvbiBpcyBmb3IgYWxsIHJhc3RlcnMgbm90
 IGp1c3QgcmFzdGVyIG92ZXJsYXkgYW5hbHlzaXMiLCJjcmVhdG
-VkIjoxNjg4MDMzODM5NDMwfX0sImhpc3RvcnkiOls2NTg4MzUw
-NCwxNDE0OTI1ODkzLDEzODM0NzQyMDUsNjkyNzMzMjI4LDEyMD
-g0MDAyMDEsMTEyNzM3NTUxOSwtMTk0Njc3NTQ2MSwxODA5MDU2
-NywyMDE0MTI3MTE3LC04ODUyOTAzMzMsLTg5NjIyNzI4MSw5OT
-Q3MjAxOTMsLTM1MTA3NjU4MCwtMTM5MDMzMjA1MV19
+VkIjoxNjg4MDMzODM5NDMwfX0sImhpc3RvcnkiOlstMTMwOTk0
+MDQ0OCw2NTg4MzUwNCwxNDE0OTI1ODkzLDEzODM0NzQyMDUsNj
+kyNzMzMjI4LDEyMDg0MDAyMDEsMTEyNzM3NTUxOSwtMTk0Njc3
+NTQ2MSwxODA5MDU2NywyMDE0MTI3MTE3LC04ODUyOTAzMzMsLT
+g5NjIyNzI4MSw5OTQ3MjAxOTMsLTM1MTA3NjU4MCwtMTM5MDMz
+MjA1MV19
 -->
