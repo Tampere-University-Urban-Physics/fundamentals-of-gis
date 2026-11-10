@@ -123,7 +123,7 @@ It is quite common in GIS that data has to be converted from one type to another
 
 ### 2: Calculating the optimal cultivation areas
 
-Southwest Finland is sometimes called as the bread-basket of Finland, which refers to its plentiful fields and agricultural productivity. In this exercise your task is to model optimal cultivation areas using raster data analyses in Muurla, which is a district of Salo, a city between Turku and Helsinki.
+Southwest Finland is sometimes called as the bread-basket of Finland, which refers to its plentiful fields and agricultural productivity. In this exercise your task is to model optimal cultivation areas using raster data analyses in Muurla.
 
 The aim is to classify the study area based on its suitability for cultivation. The criteria are the following:
 
@@ -243,7 +243,7 @@ As your final task, write a short reflection on what was done and why and add it
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI4dUdpZEh2bllqcDFERE5kIjp7In
 RleHQiOiIjIyMjIDIuMjogRGVmaW5pbmcgdGhlIHN1aXRhYmxl
-IGFyZWFzIiwic3RhcnQiOjEyOTg0LCJlbmQiOjEzMDIxfSwiUW
+IGFyZWFzIiwic3RhcnQiOjEyOTIwLCJlbmQiOjEyOTU3fSwiUW
 xCWXU0dGw4dEtmMlJ6QiI6eyJzdGFydCI6MTA5LCJlbmQiOjE0
 MiwidGV4dCI6IipVcGRhdGVkIGJ5IFJvd2FuIHZhbiBkZXIgS2
 FhZGVuKiJ9LCJLTW1BdlFURk03MGd5clQxIjp7InN0YXJ0Ijox
@@ -280,7 +280,7 @@ EwNzkwM30sIk1PRjRpZFEzMEM5c3QxUHoiOnsiZGlzY3Vzc2lv
 bklkIjoiZmd0ejZoVGdoM0RqYVBScSIsInN1YiI6ImdoOjQwMz
 A0Nzg4IiwidGV4dCI6Ik9yIGFzayB0aGVtIHRvIHRoaW5rIG9m
 IGl0PyIsImNyZWF0ZWQiOjE3OTQyOTkxMTUyNzd9fSwiaGlzdG
-9yeSI6WzQxMjA1NDA2NywtMzM2MTU1MTg3LC0xNDA3ODUxNTIw
+9yeSI6WzU4NDE4ODY2NSwtMzM2MTU1MTg3LC0xNDA3ODUxNTIw
 LDYxMTU5NjQ3LDIyNTUwODcwMiwxMjczNjExMTksNjY0ODk4OD
 k4LDEzMTg3NTM4OSwtNTIyNjgzNjcsNTk4NTc4MTY3LDIwMDk0
 NjUzNTgsMTcxMDA0NDQzOSwtMTAxMzYwNDEyLDUzODQzMDc2MC
