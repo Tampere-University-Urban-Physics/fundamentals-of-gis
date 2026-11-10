@@ -20,13 +20,12 @@ DEM data has numerous applications in various fields, including geography, geolo
 
 DEMs are often used as a generic term for Digital Surface Models (DSMs) and Digital Terrain Models (DTMs). A DSM represents the elevation of the earth's surface and all the objects on it. For example, a city would have a variable DSM that shows the changes in heights due to buildings. In contrast, a DTM model represents the ground without any objects on it.
 
-### DEM
+### Sinks
 Filling sinks in a DEM is an important preprocessing step that addresses a common issue in elevation data. A sink refers to a depression or low-lying area in the terrain where water can accumulate, such as a small basin or a closed contour. When sinks are present in a DEM, they can introduce inaccuracies and create problems in subsequent analyses or applications. 
 
 The process of filling sinks typically involves identifying the depressions or sinks in the DEM and modifying the elevation values within those areas to ensure a continuous and realistic representation of the terrain. This can be done using various algorithms or techniques, such as the breaching or filling algorithms, which raise the elevation of the sinks until they reach the surrounding terrain level. By filling sinks, the DEM becomes more suitable for accurate and reliable analysis and visualization of the terrain.
 
-(Want to learn more about why and when filling sinks in necessary? Check videos such as:
-	- https://www.youtube.com/watch?v=6rcx4OwnryI)
+(Want to learn more about why and when filling sinks in necessary? Check videos such as: https://www.youtube.com/watch?v=6rcx4OwnryI)
 
 ### Hillshade
 The hillshade technique is a method used to create a shaded relief representation of a DEM or terrain surface. It simulates the effects of lighting on the terrain to enhance the visual perception of the three-dimensional characteristics of the landscape. The resulting hillshade image provides a sense of depth and helps to emphasize the topographic features of the terrain.
@@ -69,7 +68,7 @@ Raster overlay analysis is used in various GIS applications, such as land suitab
 eyJkaXNjdXNzaW9ucyI6eyJRYmU0dGF0bkVJcTZ3N0dCIjp7In
 RleHQiOiJhbmQgRCIsInN0YXJ0IjozMjMsImVuZCI6MzI4fSwi
 cHB5UUc2S2N0SlcyQkF0TyI6eyJ0ZXh0Ijoib3ZlcmxheSBhbm
-FseXNpcyIsInN0YXJ0Ijo0OTcxLCJlbmQiOjQ5ODd9LCJDaVlT
+FseXNpcyIsInN0YXJ0Ijo0OTcwLCJlbmQiOjQ5ODZ9LCJDaVlT
 Nno1b3dwaTd5d05mIjp7InN0YXJ0IjoxNzgyLCJlbmQiOjIyNz
 MsInRleHQiOiJERU0gZGF0YSBoYXMgbnVtZXJvdXMgYXBwbGlj
 YXRpb25zIGluIHZhcmlvdXMgZmllbGRzLCBpbmNsdWRpbmcgZ2
@@ -93,9 +92,9 @@ k0MzB9LCJwb2pXMlhDSW9DaTVCazlNIjp7ImRpc2N1c3Npb25J
 ZCI6IkNpWVM2ejVvd3BpN3l3TmYiLCJzdWIiOiJnaDo0MDMwND
 c4OCIsInRleHQiOiJBZGQgc29tZSByZWFsIHdvcmxkIGV4YW1w
 bGVzLiIsImNyZWF0ZWQiOjE3OTQyOTY5ODMzMDZ9fSwiaGlzdG
-9yeSI6Wy0xMzg1OTYyMTc1LC0xMzA5OTQwNDQ4LDY1ODgzNTA0
-LDE0MTQ5MjU4OTMsMTM4MzQ3NDIwNSw2OTI3MzMyMjgsMTIwOD
-QwMDIwMSwxMTI3Mzc1NTE5LC0xOTQ2Nzc1NDYxLDE4MDkwNTY3
-LDIwMTQxMjcxMTcsLTg4NTI5MDMzMywtODk2MjI3MjgxLDk5ND
-cyMDE5MywtMzUxMDc2NTgwLC0xMzkwMzMyMDUxXX0=
+9yeSI6Wy04ODUyODk2OTgsLTEzMDk5NDA0NDgsNjU4ODM1MDQs
+MTQxNDkyNTg5MywxMzgzNDc0MjA1LDY5MjczMzIyOCwxMjA4ND
+AwMjAxLDExMjczNzU1MTksLTE5NDY3NzU0NjEsMTgwOTA1Njcs
+MjAxNDEyNzExNywtODg1MjkwMzMzLC04OTYyMjcyODEsOTk0Nz
+IwMTkzLC0zNTEwNzY1ODAsLTEzOTAzMzIwNTFdfQ==
 -->
