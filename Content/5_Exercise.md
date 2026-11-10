@@ -142,7 +142,7 @@ In the earlier phase you already clipped the DEM, filled the DEM, calculated the
 
 9. Next, you have to convert the newly created buffer zone -layer to raster format. As learned before in this practical, use the *Rasterize (Vector to Raster)* tool to make this rasterization. Choose “Pinta” as the field to assign the values to the output raster and check that the cell size matches the DEM again.
 
-10.  For further calculations we need to reclassify the data of the water buffer raster layer. Here, reclassifying means that we give the locations with water bodies the value of 0, which in our calculation means that 
+10.  For further calculations we need to reclassify the data of the water buffer raster layer. Here, reclassifying means that we give the locations with water bodies the value of 0, meaning that those areas are not suitable for the cultivation purposes.
 		- Open the *Reclassify by table* tool
 		- Add the reclassification table as pictured below.  
 		- Run the tool and save the output
@@ -243,7 +243,7 @@ As your final task, write a short reflection on what was done and why and add it
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI4dUdpZEh2bllqcDFERE5kIjp7In
 RleHQiOiIjIyMjIDIuMjogRGVmaW5pbmcgdGhlIHN1aXRhYmxl
-IGFyZWFzIiwic3RhcnQiOjEyODkyLCJlbmQiOjEyOTI5fSwiUW
+IGFyZWFzIiwic3RhcnQiOjEyOTI3LCJlbmQiOjEyOTY0fSwiUW
 xCWXU0dGw4dEtmMlJ6QiI6eyJzdGFydCI6MTA5LCJlbmQiOjE0
 MiwidGV4dCI6IipVcGRhdGVkIGJ5IFJvd2FuIHZhbiBkZXIgS2
 FhZGVuKiJ9LCJLTW1BdlFURk03MGd5clQxIjp7InN0YXJ0Ijox
@@ -288,7 +288,7 @@ I6eyJkaXNjdXNzaW9uSWQiOiJGVFk1N3cwMzhvaHhhWUgxIiwi
 c3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiVGhpcyBncmFwaC
 BoYXMgc29tZSBlcnJvcnMsIG5lZWRzIHRvIGJlIHJlbWFkZS4i
 LCJjcmVhdGVkIjoxNzk0Mjk5Mjk2MDkxfX0sImhpc3RvcnkiOl
-stNzgwNTI2OTA4LDE3NTA2NzIwMDQsLTMzNjE1NTE4NywtMTQw
+sxNzUwNjcyMDA0LDE3NTA2NzIwMDQsLTMzNjE1NTE4NywtMTQw
 Nzg1MTUyMCw2MTE1OTY0NywyMjU1MDg3MDIsMTI3MzYxMTE5LD
 Y2NDg5ODg5OCwxMzE4NzUzODksLTUyMjY4MzY3LDU5ODU3ODE2
 NywyMDA5NDY1MzU4LDE3MTAwNDQ0MzksLTEwMTM2MDQxMiw1Mz
