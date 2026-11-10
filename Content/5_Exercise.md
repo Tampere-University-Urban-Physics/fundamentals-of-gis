@@ -97,7 +97,7 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 6. Another very useful feature of a DEM is the possibility to identify the gradient of the raster surface. 
 	- Open the *Slope* tool
 	- Use the filled DEM again, you can use the default settings 
-	- Remember to make your layer permanent again
+
 
 **Answer the following questions on Moodle:**
 
@@ -243,7 +243,7 @@ As your final task, write a short reflection on what was done and why and add it
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI4dUdpZEh2bllqcDFERE5kIjp7In
 RleHQiOiIjIyMjIDIuMjogRGVmaW5pbmcgdGhlIHN1aXRhYmxl
-IGFyZWFzIiwic3RhcnQiOjEzMDQ0LCJlbmQiOjEzMDgxfSwiUW
+IGFyZWFzIiwic3RhcnQiOjEyOTk4LCJlbmQiOjEzMDM1fSwiUW
 xCWXU0dGw4dEtmMlJ6QiI6eyJzdGFydCI6MTA5LCJlbmQiOjE0
 MiwidGV4dCI6IipVcGRhdGVkIGJ5IFJvd2FuIHZhbiBkZXIgS2
 FhZGVuKiJ9LCJLTW1BdlFURk03MGd5clQxIjp7InN0YXJ0Ijox
@@ -271,11 +271,11 @@ NDAzMDQ3ODgiLCJ0ZXh0IjoiVGhpcyBpcyB2ZXJ5IHJlcGV0aX
 RpdmUgYW5kIGxvbmcsIEkgdGhpbmsgaXQgY291bGQgYmUgYSBs
 b3QgbW9yZSBjb25jaXNlIHdpdGhvdXQgbG9zaW5nIGFueSBpbm
 Zvcm1hdGlvbi4iLCJjcmVhdGVkIjoxNzk0Mjk3NzUzNzI3fX0s
-Imhpc3RvcnkiOlstMTQwNzg1MTUyMCw2MTE1OTY0NywyMjU1MD
-g3MDIsMTI3MzYxMTE5LDY2NDg5ODg5OCwxMzE4NzUzODksLTUy
-MjY4MzY3LDU5ODU3ODE2NywyMDA5NDY1MzU4LDE3MTAwNDQ0Mz
-ksLTEwMTM2MDQxMiw1Mzg0MzA3NjAsMTg3NDY5MTk4NCwtNzYx
-NjI0MDQwLDE1ODI1NzczNzQsOTIyODUwOTY3LDEyODg5OTk4ND
-YsLTkzMTIwNzE2OCwtMzcxNTgxNzg3LC0xNzQ2NDQxOTU2XX0=
+Imhpc3RvcnkiOlstMzM2MTU1MTg3LC0xNDA3ODUxNTIwLDYxMT
+U5NjQ3LDIyNTUwODcwMiwxMjczNjExMTksNjY0ODk4ODk4LDEz
+MTg3NTM4OSwtNTIyNjgzNjcsNTk4NTc4MTY3LDIwMDk0NjUzNT
+gsMTcxMDA0NDQzOSwtMTAxMzYwNDEyLDUzODQzMDc2MCwxODc0
+NjkxOTg0LC03NjE2MjQwNDAsMTU4MjU3NzM3NCw5MjI4NTA5Nj
+csMTI4ODk5OTg0NiwtOTMxMjA3MTY4LC0zNzE1ODE3ODddfQ==
 
 -->
