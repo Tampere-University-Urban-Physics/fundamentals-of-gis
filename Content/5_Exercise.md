@@ -140,7 +140,7 @@ In the earlier phase you already clipped the DEM, filled the DEM, calculated the
 
 8. Start off with the water criteria. Use the Buffer -tool to make a 10-meter buffer for the Bodies_of_Water -layer without dissolving. (Hint: Exercise 4)
 
-9. Next, you have to convert the newly created buffer zone -layer to raster format. As learned before in this practical, use the *Rasterize (Vector to Raster)* tool to make this rasterization. Choose “Pinta” as the field to assign the values to the output raster and check that the cell size matches the DEM.
+9. Next, you have to convert the newly created buffer zone -layer to raster format. As learned before in this practical, use the *Rasterize (Vector to Raster)* tool to make this rasterization. Choose “Pinta” as the field to assign the values to the output raster and check that the cell size matches the DEM again.
 
 10.  For further calculations we need to reclassify the data of the water buffer raster layer. Here, reclassifying means that we give the locations with water bodies the value of 0, meaning that those areas are not suitable for the cultivation purposes.
 		- Open the *Reclassify by table* tool
@@ -243,7 +243,7 @@ As your final task, write a short reflection on what was done and why and add it
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI4dUdpZEh2bllqcDFERE5kIjp7In
 RleHQiOiIjIyMjIDIuMjogRGVmaW5pbmcgdGhlIHN1aXRhYmxl
-IGFyZWFzIiwic3RhcnQiOjEyOTIxLCJlbmQiOjEyOTU4fSwiUW
+IGFyZWFzIiwic3RhcnQiOjEyOTI3LCJlbmQiOjEyOTY0fSwiUW
 xCWXU0dGw4dEtmMlJ6QiI6eyJzdGFydCI6MTA5LCJlbmQiOjE0
 MiwidGV4dCI6IipVcGRhdGVkIGJ5IFJvd2FuIHZhbiBkZXIgS2
 FhZGVuKiJ9LCJLTW1BdlFURk03MGd5clQxIjp7InN0YXJ0Ijox
@@ -288,7 +288,7 @@ I6eyJkaXNjdXNzaW9uSWQiOiJGVFk1N3cwMzhvaHhhWUgxIiwi
 c3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiVGhpcyBncmFwaC
 BoYXMgc29tZSBlcnJvcnMsIG5lZWRzIHRvIGJlIHJlbWFkZS4i
 LCJjcmVhdGVkIjoxNzk0Mjk5Mjk2MDkxfX0sImhpc3RvcnkiOl
-syMDA4NjI4MDAzLC0zMzYxNTUxODcsLTE0MDc4NTE1MjAsNjEx
+sxNzUwNjcyMDA0LC0zMzYxNTUxODcsLTE0MDc4NTE1MjAsNjEx
 NTk2NDcsMjI1NTA4NzAyLDEyNzM2MTExOSw2NjQ4OTg4OTgsMT
 MxODc1Mzg5LC01MjI2ODM2Nyw1OTg1NzgxNjcsMjAwOTQ2NTM1
 OCwxNzEwMDQ0NDM5LC0xMDEzNjA0MTIsNTM4NDMwNzYwLDE4Nz
