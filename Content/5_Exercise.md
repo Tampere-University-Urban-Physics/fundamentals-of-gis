@@ -69,9 +69,10 @@ This exercise focuses mainly on raster data and raster analysis. You have alread
 		- Our study area for this exercise is the same as the Muurla_Frame -layer, so we can use this for the clipping extent.
 		- Since we are clipping a raster, we need to use the *Clip raster by mask layer* tool, open this from the *Processing Toolbox*
 		- Set the input layer to your DEM and the mask layer ot Muurla_Frame
-		- Click run, 
-			- Make the temporary layer permanent, for rasters this is done by right-clicking the layer and *Export* > *Save as...* (Temporary raster layers don't have the "Make permanent" option)
-		- You should now have the DEM only for the Muurla_Frame, you can remove the original full-size DEM 
+		- Click run
+			- Make the temporary layer permanent by right-clicking the layer and *Export* > *Save as...* (Temporary raster layers don't have the "Make permanent" option)
+			- You can remove the temporary layer
+		- You should now have the DEM only for the Muurla_Frame, you can remove or hide the original full-size DEM
 
 *Reminder: Don't forget to give your files and layers informative names and save them in a folder for this exercise*
 
@@ -243,9 +244,9 @@ As your final task, write a short reflection on what was done and why and add it
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI4dUdpZEh2bllqcDFERE5kIjp7In
 RleHQiOiIjIyMjIDIuMjogRGVmaW5pbmcgdGhlIHN1aXRhYmxl
-IGFyZWFzIiwic3RhcnQiOjEzMjQ1LCJlbmQiOjEzMjgyfSwiVl
+IGFyZWFzIiwic3RhcnQiOjEzMjY0LCJlbmQiOjEzMzAxfSwiVl
 BZMFBXTEZ1MFk1cGNUayI6eyJ0ZXh0IjoiSGlsbHNoYWRlIiwi
-c3RhcnQiOjc2NDQsImVuZCI6NzY1M30sIlFsQll1NHRsOHRLZj
+c3RhcnQiOjc2NjMsImVuZCI6NzY3Mn0sIlFsQll1NHRsOHRLZj
 JSekIiOnsic3RhcnQiOjEwOSwiZW5kIjoxNDIsInRleHQiOiIq
 VXBkYXRlZCBieSBSb3dhbiB2YW4gZGVyIEthYWRlbioifSwiS0
 1tQXZRVEZNNzBneXJUMSI6eyJzdGFydCI6MTY3LCJlbmQiOjI4
@@ -277,11 +278,11 @@ emlnSiIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlRoaX
 MgaXMgdmVyeSByZXBldGl0aXZlIGFuZCBsb25nLCBJIHRoaW5r
 IGl0IGNvdWxkIGJlIGEgbG90IG1vcmUgY29uY2lzZSB3aXRob3
 V0IGxvc2luZyBhbnkgaW5mb3JtYXRpb24uIiwiY3JlYXRlZCI6
-MTc5NDI5Nzc1MzcyN319LCJoaXN0b3J5IjpbMTI1NjMzMTU2NS
-w2MTE1OTY0NywyMjU1MDg3MDIsMTI3MzYxMTE5LDY2NDg5ODg5
-OCwxMzE4NzUzODksLTUyMjY4MzY3LDU5ODU3ODE2NywyMDA5ND
-Y1MzU4LDE3MTAwNDQ0MzksLTEwMTM2MDQxMiw1Mzg0MzA3NjAs
-MTg3NDY5MTk4NCwtNzYxNjI0MDQwLDE1ODI1NzczNzQsOTIyOD
-UwOTY3LDEyODg5OTk4NDYsLTkzMTIwNzE2OCwtMzcxNTgxNzg3
-LC0xNzQ2NDQxOTU2XX0=
+MTc5NDI5Nzc1MzcyN319LCJoaXN0b3J5IjpbLTEzODUwMDM2Mj
+ksNjExNTk2NDcsMjI1NTA4NzAyLDEyNzM2MTExOSw2NjQ4OTg4
+OTgsMTMxODc1Mzg5LC01MjI2ODM2Nyw1OTg1NzgxNjcsMjAwOT
+Q2NTM1OCwxNzEwMDQ0NDM5LC0xMDEzNjA0MTIsNTM4NDMwNzYw
+LDE4NzQ2OTE5ODQsLTc2MTYyNDA0MCwxNTgyNTc3Mzc0LDkyMj
+g1MDk2NywxMjg4OTk5ODQ2LC05MzEyMDcxNjgsLTM3MTU4MTc4
+NywtMTc0NjQ0MTk1Nl19
 -->
