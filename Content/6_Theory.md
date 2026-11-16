@@ -26,6 +26,7 @@ When a kernel function is applied to each data point, the effect is like that of
 The kernel function generally creates a smoother-looking surface than one created with the simple method[^1].
 
 If you still have difficulty understanding this concept, try out this video: https://www.youtube.com/watch?v=x5zLaWT5KPs
+
 Otherwise, don't worry about it for now and move on! 
 
 ## Thiessen polygons/Voronoi diagram
@@ -92,7 +93,7 @@ RlZCI6MTc5NDgxNjMwMDIzOH0sIkU4bjNIaEJDU2xZcjFyZEci
 OnsiZGlzY3Vzc2lvbklkIjoiNU9Od0xpVnNiRThDMG56OSIsIn
 N1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IlVwZGF0ZSBzb3Vy
 Y2Ugb2YgdGhpcyB3aXRoIG91ciBvd24uIiwiY3JlYXRlZCI6MT
-c5NDgxNjMwMzMyNH19LCJoaXN0b3J5IjpbLTE3ODQ4MjM2NjMs
-LTk5ODc4MjYzOCw1NzI4NjU0NzUsNjUyODk1NzY0LC0xNzMyNz
-U5MzExLDExMjQ1MDg0ODgsLTY5MTM3ODUwOV19
+c5NDgxNjMwMzMyNH19LCJoaXN0b3J5IjpbOTg0ODY0NzAzLC05
+OTg3ODI2MzgsNTcyODY1NDc1LDY1Mjg5NTc2NCwtMTczMjc1OT
+MxMSwxMTI0NTA4NDg4LC02OTEzNzg1MDldfQ==
 -->
