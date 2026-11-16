@@ -77,7 +77,7 @@ Complete the exercise and submit a short report containing at least the followin
 
 10. The interpolation has produced a raster from point data. We can see how the IDW algorithm has estimated the concentration of air pollution between the different points as a continuous grid, where each pixel has a value. In reality, the spatial concentration of air pollution is more varying, with differences due to the presence of pollution emission sources, urban canyons, wind, and other factors, and will vary over time as well. But, this gives us an initial estimate of how concentrations change across Helsinki.
 
-12. Change the symbology. Try Singleband psuedocolor. What about the labels? Do we know pollution to this level of precision? The data from the stations had no decimal places, while the interpolated layer has many. **Hint** Reduce the Label precision in the Symbology to the same as the data you used to create the interpolation.
+11. Change the symbology. Try Singleband psuedocolor. What about the labels? Do we know pollution to this level of precision? The data from the stations had no decimal places, while the interpolated layer has many. **Hint** Reduce the Label precision in the Symbology to the same as the data you used to create the interpolation.
 
 ---
 
@@ -87,7 +87,7 @@ Complete the exercise and submit a short report containing at least the followin
 	- Open the *Zonal Statistics* tool
 	- Under *Input Layer*, select Postcodes_air_pollution. This tells QGIS that you want to calculate statistics within these postcode boundaries (the ‘zones’)
 	- Under *Raster Layer*, select your Interpolated air pollution data. This tells QGIS that you want to calculate statistics from this layer.
-	- Press *OK*. This will create a new vector layer that at first glance looks the same as the postcode layer. However, it now has the summary statistics for the raster joined to each postcode.
+	- This will create a new vector layer that at first glance looks the same as the postcode layer. However, it now has the summary statistics for the raster joined to each postcode.
 
 12. Open the *Attribute Table* of the new layer. You will see a column on the right that shows the average concentration. There is also a column called tr_mtu, which is the median income of households. By clicking on the column heading, you can sort the data ascending or descending. 
 	- What is the postcode with the highest NO2 concentrations? 
@@ -113,64 +113,41 @@ Complete the exercise and submit a short report containing at least the followin
 15. You’ve now answered your research questions. Make a nice informative map, showing the interpolated air pollution raster, the air pollution monitoring points, and the postcode boundaries. Insert a legend for concentrations, so we know how the air pollution is varying across the city. In your reflection, consider how accurate or realistic you think the interpolation is.
     
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJZUzl4R3lWaG5WRkd1b3l0Ijp7In
-RleHQiOiItIFdoYXQgaXMgdGhlIHBvc3Rjb2RlIHdpdGggdGhl
-IGhpZ2hlc3QgTk8yIGNvbmNlbnRyYXRpb25zPyBcblx0LSBXaG
-F0IGlzIHRoZSBwb3PigKYiLCJzdGFydCI6OTEzNCwiZW5kIjo5
-NDEzfSwickhsdmZReTdIcHAwOEtVdiI6eyJ0ZXh0IjoiV2hhdC
-Bwb3N0LWNvZGUgaGFkIHRoZSBtb3N0IE5PMiBtb25pdG9ycz8g
-SG93IG1hbnkgd2VyZSB0aGVyZT8iLCJzdGFydCI6MTAyNTAsIm
-VuZCI6MTAzMTJ9LCJhWmlBa1UxVUNwNW50cDFZIjp7InRleHQi
-OiIjIyBPVkVSVklFVyAmIFBVUlBPU0UiLCJzdGFydCI6MTUzLC
-JlbmQiOjE3NH0sImhqRDZoYWpHZklRNjNYRW4iOnsidGV4dCI6
-IjEzLiBXZSBjYW4gYWxzbyBqb2luIHRoZSBhaXIgcG9sbHV0aW
-9uIG1vbml0b3Jpbmcgc3RhdGlvbnMgcG9pbnQgZGF0YSB0byB0
-aGUgcG/igKYiLCJzdGFydCI6OTQxNiwiZW5kIjoxMDE0Nn0sIl
-VydkhSU2Jsank5c0hReEMiOnsidGV4dCI6IjExLiBMZXTigJlz
-IG5vdyBleGFtaW5lIHRoZSBjb25jZW50cmF0aW9ucyBpbiBkaW
-ZmZXJlbnQgcG9zdGNvZGVzIGluIEhlbHNpbmtpLiBUb+KApiIs
-InN0YXJ0Ijo4MTU1LCJlbmQiOjg4NDZ9LCI5eWZ6N09DR2hRR3
-FYbFhhIjp7InN0YXJ0IjozNzg0LCJlbmQiOjQwMDQsInRleHQi
-OiItIFdoYXQgYXJlIHRoZSBjb25jZW50cmF0aW9ucyBvZiBuaX
-Ryb2dlbiBkaW94aWRlIChOTzIpIGFpciBwb2xsdXRpb24gaW4g
-dGhlIEhl4oCmIn0sInpNZUtNaGh0R01JZ2JDQmciOnsic3Rhcn
-QiOjQzOTUsImVuZCI6NDcxMiwidGV4dCI6IjEuIERvd25sb2Fk
-IDdfRXhlcmNpc2VfZGF0YS56aXAgZnJvbSB0aGUgW0dpdGh1Yi
-ByZXBvc2l0b3J5XShodHRwczovL2dpdGh1Yi5jb23igKYifX0s
-ImNvbW1lbnRzIjp7ImIyU25KeUNZdGx6bWVLb2siOnsiZGlzY3
-Vzc2lvbklkIjoiWVM5eEd5VmhuVkZHdW95dCIsInN1YiI6Imdo
-OjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBzZWN0aW9uIGluIG1vb2
-RsZSB0byBmaWxsIHRoZXNlIG91dCIsImNyZWF0ZWQiOjE2ODc3
-Njk4OTIxNTd9LCJZMXBhck9XUml5Y0tEaWlCIjp7ImRpc2N1c3
-Npb25JZCI6InJIbHZmUXk3SHBwMDhLVXYiLCJzdWIiOiJnaDo0
-MDMwNDc4OCIsInRleHQiOiJBZGQgc2VjdGlvbiBpbiBNb29kbG
-UgdG8gZmlsbCB0aGlzIG91dCIsImNyZWF0ZWQiOjE2ODc3NzAx
-MTg3NTd9LCJKRmUxSmpYYjVEcW1seGUwIjp7ImRpc2N1c3Npb2
-5JZCI6ImFaaUFrVTFVQ3A1bnRwMVkiLCJzdWIiOiJnaDo0MDMw
-NDc4OCIsInRleHQiOiJBZGQgcGljdHVyZSIsImNyZWF0ZWQiOj
-E2ODc4NDQ3OTkyNjh9LCJaVkVUdHlLYTYwUjFvbmlmIjp7ImRp
-c2N1c3Npb25JZCI6ImhqRDZoYWpHZklRNjNYRW4iLCJzdWIiOi
-JnaDo0MDMwNDc4OCIsInRleHQiOiJSZW1vdmUgaW5zdHJ1Y3Rp
-b25zIHRvIGNoYWxsZW5nZSBzdHVkZW50cz8iLCJjcmVhdGVkIj
-oxNjg3OTM1MjgyNzk3fSwicDlQWW1sNE9OdG5Ya3lUNSI6eyJk
-aXNjdXNzaW9uSWQiOiJVcnZIUlNibGp5OXNIUXhDIiwic3ViIj
-oiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiUmVtb3ZlIGluc3RydWN0
-aW9ucyB0byBjaGFsbGVuZ2Ugc3R1ZGVudHM/IiwiY3JlYXRlZC
-I6MTY4NzkzNTI4NjgxMn0sInNGcUw2dE0xb2YwcW5RZEciOnsi
-ZGlzY3Vzc2lvbklkIjoiYVppQWtVMVVDcDVudHAxWSIsInN1Yi
-I6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFsc28gbW92ZSB0byB0
-aGVvcnk/IiwiY3JlYXRlZCI6MTc5NDgyMTM5MjE1NX0sImlveF
-pCd203ZFA0MjZIbkkiOnsiZGlzY3Vzc2lvbklkIjoiYVppQWtV
-MVVDcDVudHAxWSIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dC
-I6IkFsc28sIHNvIGxvbmcsIG1ha2UgdGhpcyBtb3JlIGNvbmNp
-c2UiLCJjcmVhdGVkIjoxNzk0ODIxNDg2NDE2fSwiOU1VYzEzbU
-ZnM1ZQQWRkdSI6eyJkaXNjdXNzaW9uSWQiOiI5eWZ6N09DR2hR
-R3FYbFhhIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQW
-RkIHNlY3Rpb24gaW4gbW9vZGxlIHRvIGZpbGwgdGhlc2Ugb3V0
-IiwiY3JlYXRlZCI6MTc5NDgyMTUzMTA3NH0sIlFRblIxZ3B6WT
-IzTmxRYXgiOnsiZGlzY3Vzc2lvbklkIjoiek1lS01oaHRHTUln
-YkNCZyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZC
-BkYXRhIHNlY3Rpb24iLCJjcmVhdGVkIjoxNzk0ODIxNTQ0NjQy
-fX0sImhpc3RvcnkiOlsxMDk4ODEzOTA0LDk3MDc0NDEyMSwtOT
-QxNjkzNjU5LDIwNzY2Nzg0NTFdfQ==
+eyJkaXNjdXNzaW9ucyI6eyJhWmlBa1UxVUNwNW50cDFZIjp7In
+RleHQiOiIjIyBPVkVSVklFVyAmIFBVUlBPU0UiLCJzdGFydCI6
+MTUzLCJlbmQiOjE3NH0sIjl5Zno3T0NHaFFHcVhsWGEiOnsic3
+RhcnQiOjM3ODQsImVuZCI6NDAwNCwidGV4dCI6Ii0gV2hhdCBh
+cmUgdGhlIGNvbmNlbnRyYXRpb25zIG9mIG5pdHJvZ2VuIGRpb3
+hpZGUgKE5PMikgYWlyIHBvbGx1dGlvbiBpbiB0aGUgSGXigKYi
+fSwiek1lS01oaHRHTUlnYkNCZyI6eyJzdGFydCI6NDM5NSwiZW
+5kIjo0NzEyLCJ0ZXh0IjoiMS4gRG93bmxvYWQgN19FeGVyY2lz
+ZV9kYXRhLnppcCBmcm9tIHRoZSBbR2l0aHViIHJlcG9zaXRvcn
+ldKGh0dHBzOi8vZ2l0aHViLmNvbeKApiJ9LCJUT1hIMjFOSmlT
+WFFkdDUyIjp7InN0YXJ0Ijo2NTYyLCJlbmQiOjgwNjksInRleH
+QiOiI5LiBMZXTigJlzIGludGVycG9sYXRlIE5PMiBjb25jZW50
+cmF0aW9uIGJldHdlZW4gdGhlIG1vbml0b3Jpbmcgc3RhdGlvbn
+MuIFxuXHQtICAgT+KApiJ9fSwiY29tbWVudHMiOnsiSkZlMUpq
+WGI1RHFtbHhlMCI6eyJkaXNjdXNzaW9uSWQiOiJhWmlBa1UxVU
+NwNW50cDFZIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0Ijoi
+QWRkIHBpY3R1cmUiLCJjcmVhdGVkIjoxNjg3ODQ0Nzk5MjY4fS
+wic0ZxTDZ0TTFvZjBxblFkRyI6eyJkaXNjdXNzaW9uSWQiOiJh
+WmlBa1UxVUNwNW50cDFZIiwic3ViIjoiZ2g6NDAzMDQ3ODgiLC
+J0ZXh0IjoiQWxzbyBtb3ZlIHRvIHRoZW9yeT8iLCJjcmVhdGVk
+IjoxNzk0ODIxMzkyMTU1fSwiaW94WkJ3bTdkUDQyNkhuSSI6ey
+JkaXNjdXNzaW9uSWQiOiJhWmlBa1UxVUNwNW50cDFZIiwic3Vi
+IjoiZ2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWxzbywgc28gbG9uZy
+wgbWFrZSB0aGlzIG1vcmUgY29uY2lzZSIsImNyZWF0ZWQiOjE3
+OTQ4MjE0ODY0MTZ9LCI5TVVjMTNtRmczVlBBZGR1Ijp7ImRpc2
+N1c3Npb25JZCI6Ijl5Zno3T0NHaFFHcVhsWGEiLCJzdWIiOiJn
+aDo0MDMwNDc4OCIsInRleHQiOiJBZGQgc2VjdGlvbiBpbiBtb2
+9kbGUgdG8gZmlsbCB0aGVzZSBvdXQiLCJjcmVhdGVkIjoxNzk0
+ODIxNTMxMDc0fSwiUVFuUjFncHpZMjNObFFheCI6eyJkaXNjdX
+NzaW9uSWQiOiJ6TWVLTWhodEdNSWdiQ0JnIiwic3ViIjoiZ2g6
+NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIGRhdGEgc2VjdGlvbiIsIm
+NyZWF0ZWQiOjE3OTQ4MjE1NDQ2NDJ9LCI4ejZYeEJjZHdoSUg5
+QUg4Ijp7ImRpc2N1c3Npb25JZCI6IlRPWEgyMU5KaVNYUWR0NT
+IiLCJzdWIiOiJnaDo0MDMwNDc4OCIsInRleHQiOiJUcnkgdG8g
+bWFrZSB0aGlzIG1vcmUgY29uY2lzZSIsImNyZWF0ZWQiOjE3OT
+Q4MjI0MjI5NDJ9fSwiaGlzdG9yeSI6Wy0xOTQ5NTMyNTI5LDk3
+MDc0NDEyMSwtOTQxNjkzNjU5LDIwNzY2Nzg0NTFdfQ==
 -->
