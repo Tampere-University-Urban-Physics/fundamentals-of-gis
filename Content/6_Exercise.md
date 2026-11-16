@@ -9,7 +9,7 @@ By Jonathon Taylor
 ## OVERVIEW & PURPOSE
 This exercise uses data from a historical event in London, which many people consider to be the original use of mapping to understand disease transmission. In the 1800’s, London was a rapidly growing city, with huge amounts of migration from rural England to the city. However, the city lacked modern infrastructure, and disease and over-crowding was rife.
 
-In 1854, there was a large cholera outbreak in London, with 120 deaths within three days in the Soho area of the city. Public health officials in the city were convinced that many diseases – including cholera – were spread by ‘miasma’, or toxic air and poor hygiene. However, a doctor and scientist in London, John Snow, was convinced that it was spread through contaminated water, but needed to find evidence to support his theory and convince city officials to close contaminated water pumps. To do this, he surveyed households in the area, plotted the locations of households with deaths, and used this to quantitative data to develop a theory about the contaminated water source.
+In 1854, there was a large cholera outbreak in London, with 120 deaths within three days in the Soho area of the city. Public health officials in the city were convinced that many diseases – including cholera – were spread by "miasma" or "bad air", a medical theory long abandoned now. A doctor and scientist in London, John Snow, was convinced that it was spread through contaminated water, but needed to find evidence to support his theory and convince city officials to close contaminated water pumps. To do this, he surveyed households in the area, plotted the locations of households with deaths, and used this to quantitative data to develop a theory about the contaminated water source.
 
 Henry Whitehead – the local priest – knew the area and residents in Soho well, and initially did not agree with John Snow’s theory about the contaminated water pump because he knew of residents who drank from the well and did not get sick. He began his own study, interviewing residents using a qualitative social science approach, and eventually came to agree with the theory about the contaminated pump. Crucially, it was Whitehead’s interviews that uncovered how the well became contaminated.
 
@@ -132,18 +132,19 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
 RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjIw
-NzgsImVuZCI6MjA5N30sIndQYkR1OUFJVjdpMnprdXciOnsidG
-V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6Mjk3NCwiZW5k
-IjoyOTg3fX0sImNvbW1lbnRzIjp7IkduZFIzaHhoZHF2OW5Icj
+ODgsImVuZCI6MjEwN30sIndQYkR1OUFJVjdpMnprdXciOnsidG
+V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6Mjk4NCwiZW5k
+IjoyOTk3fX0sImNvbW1lbnRzIjp7IkduZFIzaHhoZHF2OW5Icj
 EiOnsiZGlzY3Vzc2lvbklkIjoieDE1d1dOQks2SkR3N1ZpdiIs
 InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBzZWN0aW
 9uIiwiY3JlYXRlZCI6MTY4NjcyNzM3MzM4MH0sImZCamszbFdm
 TzF6T1FscHUiOnsiZGlzY3Vzc2lvbklkIjoid1BiRHU5QUlWN2
 kyemt1dyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ikxl
 dCBzdHVkZW50cyBkbyB0aGlzPyIsImNyZWF0ZWQiOjE2ODY3Mj
-c1NjcxMDh9fSwiaGlzdG9yeSI6WzE1MzQxMTg5MTksLTEzNTU1
-NzIxOTUsLTIwMjQ5NjUwMDYsMTk5Nzk2NDA5MiwtNjk4NDQ3NT
-M4LDIxMTA2Mjk2MjEsLTg0MzE3MzA3NCw2MDc0MTY1OTcsLTIw
-MzM0NTQ4MDMsLTM2NTI1MTg4Niw1OTI1ODIyNjQsLTE1MTI0Mj
-cwNiwtNTcyNzA1NjI4LDc1MDMzMDM4OF19
+c1NjcxMDh9fSwiaGlzdG9yeSI6Wy0xMDMzNjE3OSwxNTM0MTE4
+OTE5LC0xMzU1NTcyMTk1LC0yMDI0OTY1MDA2LDE5OTc5NjQwOT
+IsLTY5ODQ0NzUzOCwyMTEwNjI5NjIxLC04NDMxNzMwNzQsNjA3
+NDE2NTk3LC0yMDMzNDU0ODAzLC0zNjUyNTE4ODYsNTkyNTgyMj
+Y0LC0xNTEyNDI3MDYsLTU3MjcwNTYyOCw3NTAzMzAzODhdfQ==
+
 -->
