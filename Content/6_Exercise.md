@@ -68,8 +68,10 @@ Complete the exercise and submit a short report containing at least the followin
 
 7. Let’s now **change the symbology of the deaths_locations layer to identify addresses that had multiple deaths**. 
 	
+	- Use graduated symbology to visualize the amount of deaths at different addresses, decide yourself what are the best se
 	- Go to the symbology of the new reprojected deaths_locations layer
 	- Make the symbology *graduated* and the value "Num_Cases"
+	- 
 	- Change the method to *size*. Rather than changing the color of the symbol based on the number of cases, this will change the size of the symbol. 
 	- Make the classification mode *Natural Breaks* (remember what this means?) with three classes
 	- You can change the size range, try out what you think looks best.
@@ -141,10 +143,10 @@ ODE2OTM3NzU0fSwicHFTcmxaaXI4NlczQWF1RiI6eyJkaXNjdX
 NzaW9uSWQiOiI1TjVONzdHNWxLVHNIeXQwIiwic3ViIjoiZ2g6
 NDAzMDQ3ODgiLCJ0ZXh0IjoiSGF2ZSBzdHVkZW50cyBnZW9yZW
 ZlcmVuY2UgdGhpcz8iLCJjcmVhdGVkIjoxNzk0ODE2OTYwNzc4
-fX0sImhpc3RvcnkiOlstMTIxOTQwMzEwMiwtMTQxOTAyMjgxLD
-E0NDIxNTMyNjksMTUzNDExODkxOSwtMTM1NTU3MjE5NSwtMjAy
-NDk2NTAwNiwxOTk3OTY0MDkyLC02OTg0NDc1MzgsMjExMDYyOT
-YyMSwtODQzMTczMDc0LDYwNzQxNjU5NywtMjAzMzQ1NDgwMywt
-MzY1MjUxODg2LDU5MjU4MjI2NCwtMTUxMjQyNzA2LC01NzI3MD
-U2MjgsNzUwMzMwMzg4XX0=
+fX0sImhpc3RvcnkiOlstNTg1NDIyMTY3LC0xNDE5MDIyODEsMT
+Q0MjE1MzI2OSwxNTM0MTE4OTE5LC0xMzU1NTcyMTk1LC0yMDI0
+OTY1MDA2LDE5OTc5NjQwOTIsLTY5ODQ0NzUzOCwyMTEwNjI5Nj
+IxLC04NDMxNzMwNzQsNjA3NDE2NTk3LC0yMDMzNDU0ODAzLC0z
+NjUyNTE4ODYsNTkyNTgyMjY0LC0xNTEyNDI3MDYsLTU3MjcwNT
+YyOCw3NTAzMzAzODhdfQ==
 -->
