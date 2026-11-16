@@ -45,7 +45,7 @@ Complete the exercise and submit a short report containing at least the followin
 
 3. Import the Study_Area.shp file, to add it to your map project. Change the symbology to make the study area hollow (no fill, only borders)
 
-4. Let’s bring in some Google Earth data into our map using XYZ tiles to give the map some more context (Hint: Exercise 2 section 1.1)
+4. Let’s bring in a basemap using XYZ tiles to give us some more context while working (Hint: Exercise 2 section 1.1)
 
 
 5. Often the data sets that you want to work with will not come as spatial data sets. They might come, for example, from observations during field work that you record in a spreadsheet. In this step we will **add a table of data that contains fields with the latitude and longitude coordinates of the deaths addresses we want to analyze**. In our case, this data comes in a comma-separated values (CSV) file, or a text file that uses a comma to separate values.
@@ -142,9 +142,10 @@ ODE2OTM3NzU0fSwicHFTcmxaaXI4NlczQWF1RiI6eyJkaXNjdX
 NzaW9uSWQiOiI1TjVONzdHNWxLVHNIeXQwIiwic3ViIjoiZ2g6
 NDAzMDQ3ODgiLCJ0ZXh0IjoiSGF2ZSBzdHVkZW50cyBnZW9yZW
 ZlcmVuY2UgdGhpcz8iLCJjcmVhdGVkIjoxNzk0ODE2OTYwNzc4
-fX0sImhpc3RvcnkiOlsxNDQyMTUzMjY5LDE1MzQxMTg5MTksLT
-EzNTU1NzIxOTUsLTIwMjQ5NjUwMDYsMTk5Nzk2NDA5MiwtNjk4
-NDQ3NTM4LDIxMTA2Mjk2MjEsLTg0MzE3MzA3NCw2MDc0MTY1OT
-csLTIwMzM0NTQ4MDMsLTM2NTI1MTg4Niw1OTI1ODIyNjQsLTE1
-MTI0MjcwNiwtNTcyNzA1NjI4LDc1MDMzMDM4OF19
+fX0sImhpc3RvcnkiOlstMTQxOTAyMjgxLDE0NDIxNTMyNjksMT
+UzNDExODkxOSwtMTM1NTU3MjE5NSwtMjAyNDk2NTAwNiwxOTk3
+OTY0MDkyLC02OTg0NDc1MzgsMjExMDYyOTYyMSwtODQzMTczMD
+c0LDYwNzQxNjU5NywtMjAzMzQ1NDgwMywtMzY1MjUxODg2LDU5
+MjU4MjI2NCwtMTUxMjQyNzA2LC01NzI3MDU2MjgsNzUwMzMwMz
+g4XX0=
 -->
