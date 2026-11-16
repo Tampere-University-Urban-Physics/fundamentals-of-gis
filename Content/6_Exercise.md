@@ -68,7 +68,6 @@ Complete the exercise and submit a short report containing at least the followin
 
 7. Let’s now **change the symbology of the deaths_locations layer to identify addresses that had multiple deaths**. 
 	
-	- Remove the original deathsAddresses csv layer
 	- Go to the symbology of the new reprojected deaths_locations layer
 	- Make the symbology *graduated* and the value "Num_Cases"
 	- Change the method to *size*. Rather than changing the color of the symbol based on the number of cases, this will change the size of the symbol. 
@@ -142,10 +141,10 @@ ODE2OTM3NzU0fSwicHFTcmxaaXI4NlczQWF1RiI6eyJkaXNjdX
 NzaW9uSWQiOiI1TjVONzdHNWxLVHNIeXQwIiwic3ViIjoiZ2g6
 NDAzMDQ3ODgiLCJ0ZXh0IjoiSGF2ZSBzdHVkZW50cyBnZW9yZW
 ZlcmVuY2UgdGhpcz8iLCJjcmVhdGVkIjoxNzk0ODE2OTYwNzc4
-fX0sImhpc3RvcnkiOlstMTQxOTAyMjgxLDE0NDIxNTMyNjksMT
-UzNDExODkxOSwtMTM1NTU3MjE5NSwtMjAyNDk2NTAwNiwxOTk3
-OTY0MDkyLC02OTg0NDc1MzgsMjExMDYyOTYyMSwtODQzMTczMD
-c0LDYwNzQxNjU5NywtMjAzMzQ1NDgwMywtMzY1MjUxODg2LDU5
-MjU4MjI2NCwtMTUxMjQyNzA2LC01NzI3MDU2MjgsNzUwMzMwMz
-g4XX0=
+fX0sImhpc3RvcnkiOlstMTIxOTQwMzEwMiwtMTQxOTAyMjgxLD
+E0NDIxNTMyNjksMTUzNDExODkxOSwtMTM1NTU3MjE5NSwtMjAy
+NDk2NTAwNiwxOTk3OTY0MDkyLC02OTg0NDc1MzgsMjExMDYyOT
+YyMSwtODQzMTczMDc0LDYwNzQxNjU5NywtMjAzMzQ1NDgwMywt
+MzY1MjUxODg2LDU5MjU4MjI2NCwtMTUxMjQyNzA2LC01NzI3MD
+U2MjgsNzUwMzMwMzg4XX0=
 -->
