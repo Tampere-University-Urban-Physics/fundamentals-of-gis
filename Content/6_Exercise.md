@@ -18,11 +18,9 @@ Henry Whitehead – the local priest – knew the area and residents in Soho wel
 In this tutorial, we will learn about importing survey data and using QGIS to create a heatmap using this data, thus recreating one of the most famous epidemiological studies using modern GIS tools. The research question we want to ask ourselves is:
 - What water pump was the source of the 1854 cholera outbreak in London?
 
-## DATA USED/NEEDED
-
 ## Completion
 
-Work in pairs or individually. Complete the exercise and submit a short report containing at least the following:
+Complete the exercise and submit a short report containing at least the following:
 
 1. Maps of the outcome of the exercise
 
@@ -130,21 +128,23 @@ Work in pairs or individually. Complete the exercise and submit a short report c
 	- You can also make multiple maps, separating the data and making a map with the Thiessen polygons. Do what you think is best and argue why in your reflection! 
 
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJ4MTV3V05CSzZKRHc3Vml2Ijp7In
-RleHQiOiIjIyBEQVRBIFVTRUQvTkVFREVEIiwic3RhcnQiOjIw
-ODgsImVuZCI6MjEwN30sIndQYkR1OUFJVjdpMnprdXciOnsidG
-V4dCI6Imdlb3JlZmVyZW5jZWQiLCJzdGFydCI6Mjk4NCwiZW5k
-IjoyOTk3fX0sImNvbW1lbnRzIjp7IkduZFIzaHhoZHF2OW5Icj
-EiOnsiZGlzY3Vzc2lvbklkIjoieDE1d1dOQks2SkR3N1ZpdiIs
-InN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBzZWN0aW
-9uIiwiY3JlYXRlZCI6MTY4NjcyNzM3MzM4MH0sImZCamszbFdm
-TzF6T1FscHUiOnsiZGlzY3Vzc2lvbklkIjoid1BiRHU5QUlWN2
-kyemt1dyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6Ikxl
-dCBzdHVkZW50cyBkbyB0aGlzPyIsImNyZWF0ZWQiOjE2ODY3Mj
-c1NjcxMDh9fSwiaGlzdG9yeSI6Wy0xMDMzNjE3OSwxNTM0MTE4
-OTE5LC0xMzU1NTcyMTk1LC0yMDI0OTY1MDA2LDE5OTc5NjQwOT
-IsLTY5ODQ0NzUzOCwyMTEwNjI5NjIxLC04NDMxNzMwNzQsNjA3
-NDE2NTk3LC0yMDMzNDU0ODAzLC0zNjUyNTE4ODYsNTkyNTgyMj
-Y0LC0xNTEyNDI3MDYsLTU3MjcwNTYyOCw3NTAzMzAzODhdfQ==
-
+eyJkaXNjdXNzaW9ucyI6eyJXbGlaazN1Qkl5TmtDYVZXIjp7In
+N0YXJ0IjoyNDg4LCJlbmQiOjMzNDgsInRleHQiOiIxLiBEb3du
+bG9hZCA2X0V4ZXJjaXNlX2RhdGEuemlwIGZyb20gdGhlIFtHaX
+RodWIgcmVwb3NpdG9yeV0oaHR0cHM6Ly9naXRodWIuY29t4oCm
+In0sIjVONU43N0c1bEtUc0h5dDAiOnsic3RhcnQiOjI5NTksIm
+VuZCI6Mjk3OCwidGV4dCI6Imdlb3JlZmVyZW5jZWQgaW1hZ2Ui
+fX0sImNvbW1lbnRzIjp7IldpUEFHRnJtOThQRnhZalIiOnsiZG
+lzY3Vzc2lvbklkIjoiV2xpWmszdUJJeU5rQ2FWVyIsInN1YiI6
+ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZCBkYXRhIHNlY3Rpb2
+4gbGlrZSBvdGhlciBleGVyY2lzZXMiLCJjcmVhdGVkIjoxNzk0
+ODE2OTM3NzU0fSwicHFTcmxaaXI4NlczQWF1RiI6eyJkaXNjdX
+NzaW9uSWQiOiI1TjVONzdHNWxLVHNIeXQwIiwic3ViIjoiZ2g6
+NDAzMDQ3ODgiLCJ0ZXh0IjoiSGF2ZSBzdHVkZW50cyBnZW9yZW
+ZlcmVuY2UgdGhpcz8iLCJjcmVhdGVkIjoxNzk0ODE2OTYwNzc4
+fX0sImhpc3RvcnkiOlsxNDQyMTUzMjY5LDE1MzQxMTg5MTksLT
+EzNTU1NzIxOTUsLTIwMjQ5NjUwMDYsMTk5Nzk2NDA5MiwtNjk4
+NDQ3NTM4LDIxMTA2Mjk2MjEsLTg0MzE3MzA3NCw2MDc0MTY1OT
+csLTIwMzM0NTQ4MDMsLTM2NTI1MTg4Niw1OTI1ODIyNjQsLTE1
+MTI0MjcwNiwtNTcyNzA1NjI4LDc1MDMzMDM4OF19
 -->
