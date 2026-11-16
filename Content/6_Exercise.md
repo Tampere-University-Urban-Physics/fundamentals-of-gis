@@ -106,7 +106,7 @@ Complete the exercise and submit a short report containing at least the followin
 13. **Another way to show the distribution of cholera deaths is to create a heatmap**. A heatmap is a data visualization technique that shows magnitude of a phenomenon as color. In QGIS, the Kernel Density Tool calculates a magnitude per unit area from the point features using a kernel function to fit a smoothly tapered surface to each point. The result is a raster dataset which can reveal “hotspots” in the array of point data.
 	
 	- Open the tool *Heatmap (Kernel Density Estimation)* (Where do you find tools?)
-	- Select the deaths_locations layer as the Point Layer.
+	- Select the deathAddresses layer as the Point Layer.
 	- Try out the radius and pixel size options, what settings do you think would be good? (Hint: Radius 50, pixel 1x1)
 	- Select Num_Cases as the Weight Field. This will take into account the number of deaths at each address.
 	- Press Run to produce a heatmap. What do you think the numbers in the heatmap correspond to?
@@ -143,11 +143,11 @@ Nzk0ODE2OTYwNzc4fSwiYXcwYkVLSU9ZYnZZbDZaSiI6eyJkaX
 NjdXNzaW9uSWQiOiJmVng4V0h4YklVdXpNOW4yIiwic3ViIjoi
 Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHRoaXMgaW4gdGhlIG
 ZpbmFsIHJlcXVpcmVtZW50cyBmb3IgdGhlIHJlcG9ydC4iLCJj
-cmVhdGVkIjoxNzk0ODE3Njc3MTIyfX0sImhpc3RvcnkiOlstMT
-MzNjgwNjQ4Niw0ODIyMzQzNzUsLTE0MTkwMjI4MSwxNDQyMTUz
-MjY5LDE1MzQxMTg5MTksLTEzNTU1NzIxOTUsLTIwMjQ5NjUwMD
-YsMTk5Nzk2NDA5MiwtNjk4NDQ3NTM4LDIxMTA2Mjk2MjEsLTg0
-MzE3MzA3NCw2MDc0MTY1OTcsLTIwMzM0NTQ4MDMsLTM2NTI1MT
-g4Niw1OTI1ODIyNjQsLTE1MTI0MjcwNiwtNTcyNzA1NjI4LDc1
-MDMzMDM4OF19
+cmVhdGVkIjoxNzk0ODE3Njc3MTIyfX0sImhpc3RvcnkiOls4ND
+k3NDA5ODYsNDgyMjM0Mzc1LC0xNDE5MDIyODEsMTQ0MjE1MzI2
+OSwxNTM0MTE4OTE5LC0xMzU1NTcyMTk1LC0yMDI0OTY1MDA2LD
+E5OTc5NjQwOTIsLTY5ODQ0NzUzOCwyMTEwNjI5NjIxLC04NDMx
+NzMwNzQsNjA3NDE2NTk3LC0yMDMzNDU0ODAzLC0zNjUyNTE4OD
+YsNTkyNTgyMjY0LC0xNTEyNDI3MDYsLTU3MjcwNTYyOCw3NTAz
+MzAzODhdfQ==
 -->
