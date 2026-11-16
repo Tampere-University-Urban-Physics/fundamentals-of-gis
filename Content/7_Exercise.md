@@ -76,7 +76,8 @@ Complete the exercise and submit a short report containing at least the followin
 	- Run the tool
 
 10. The interpolation has produced a raster from point data. We can see how the IDW algorithm has estimated the concentration of air pollution between the different points as a continuous grid, where each pixel has a value. In reality, the spatial concentration of air pollution is more varying, with differences due to the presence of pollution emission sources, urban canyons, wind, and other factors, and will vary over time as well. But, this gives us an initial estimate of how concentrations change across Helsinki.
-11. Change the symbology. Try Singleband psuedocolor. What about the labels? Do we know pollution to this level of precision? The data from the stations had no decimal places, while the interpolated layer has many. **Hint** Reduce the Label precision in the Symbology to the same as the data you used to create the interpolation.
+
+12. Change the symbology. Try Singleband psuedocolor. What about the labels? Do we know pollution to this level of precision? The data from the stations had no decimal places, while the interpolated layer has many. **Hint** Reduce the Label precision in the Symbology to the same as the data you used to create the interpolation.
 
 ---
 
@@ -115,20 +116,20 @@ Complete the exercise and submit a short report containing at least the followin
 eyJkaXNjdXNzaW9ucyI6eyJZUzl4R3lWaG5WRkd1b3l0Ijp7In
 RleHQiOiItIFdoYXQgaXMgdGhlIHBvc3Rjb2RlIHdpdGggdGhl
 IGhpZ2hlc3QgTk8yIGNvbmNlbnRyYXRpb25zPyBcblx0LSBXaG
-F0IGlzIHRoZSBwb3PigKYiLCJzdGFydCI6OTEzMywiZW5kIjo5
-NDEyfSwickhsdmZReTdIcHAwOEtVdiI6eyJ0ZXh0IjoiV2hhdC
+F0IGlzIHRoZSBwb3PigKYiLCJzdGFydCI6OTEzNCwiZW5kIjo5
+NDEzfSwickhsdmZReTdIcHAwOEtVdiI6eyJ0ZXh0IjoiV2hhdC
 Bwb3N0LWNvZGUgaGFkIHRoZSBtb3N0IE5PMiBtb25pdG9ycz8g
-SG93IG1hbnkgd2VyZSB0aGVyZT8iLCJzdGFydCI6MTAyNDksIm
-VuZCI6MTAzMTF9LCJhWmlBa1UxVUNwNW50cDFZIjp7InRleHQi
+SG93IG1hbnkgd2VyZSB0aGVyZT8iLCJzdGFydCI6MTAyNTAsIm
+VuZCI6MTAzMTJ9LCJhWmlBa1UxVUNwNW50cDFZIjp7InRleHQi
 OiIjIyBPVkVSVklFVyAmIFBVUlBPU0UiLCJzdGFydCI6MTUzLC
 JlbmQiOjE3NH0sImhqRDZoYWpHZklRNjNYRW4iOnsidGV4dCI6
 IjEzLiBXZSBjYW4gYWxzbyBqb2luIHRoZSBhaXIgcG9sbHV0aW
 9uIG1vbml0b3Jpbmcgc3RhdGlvbnMgcG9pbnQgZGF0YSB0byB0
-aGUgcG/igKYiLCJzdGFydCI6OTQxNSwiZW5kIjoxMDE0NX0sIl
+aGUgcG/igKYiLCJzdGFydCI6OTQxNiwiZW5kIjoxMDE0Nn0sIl
 VydkhSU2Jsank5c0hReEMiOnsidGV4dCI6IjExLiBMZXTigJlz
 IG5vdyBleGFtaW5lIHRoZSBjb25jZW50cmF0aW9ucyBpbiBkaW
 ZmZXJlbnQgcG9zdGNvZGVzIGluIEhlbHNpbmtpLiBUb+KApiIs
-InN0YXJ0Ijo4MTU1LCJlbmQiOjg4NDV9LCI5eWZ6N09DR2hRR3
+InN0YXJ0Ijo4MTU1LCJlbmQiOjg4NDZ9LCI5eWZ6N09DR2hRR3
 FYbFhhIjp7InN0YXJ0IjozNzg0LCJlbmQiOjQwMDQsInRleHQi
 OiItIFdoYXQgYXJlIHRoZSBjb25jZW50cmF0aW9ucyBvZiBuaX
 Ryb2dlbiBkaW94aWRlIChOTzIpIGFpciBwb2xsdXRpb24gaW4g
@@ -170,6 +171,6 @@ IiwiY3JlYXRlZCI6MTc5NDgyMTUzMTA3NH0sIlFRblIxZ3B6WT
 IzTmxRYXgiOnsiZGlzY3Vzc2lvbklkIjoiek1lS01oaHRHTUln
 YkNCZyIsInN1YiI6ImdoOjQwMzA0Nzg4IiwidGV4dCI6IkFkZC
 BkYXRhIHNlY3Rpb24iLCJjcmVhdGVkIjoxNzk0ODIxNTQ0NjQy
-fX0sImhpc3RvcnkiOls5NzA3NDQxMjEsLTk0MTY5MzY1OSwyMD
-c2Njc4NDUxXX0=
+fX0sImhpc3RvcnkiOlsxMDk4ODEzOTA0LDk3MDc0NDEyMSwtOT
+QxNjkzNjU5LDIwNzY2Nzg0NTFdfQ==
 -->
