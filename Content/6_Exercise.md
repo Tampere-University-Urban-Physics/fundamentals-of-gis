@@ -98,7 +98,7 @@ Complete the exercise and submit a short report containing at least the followin
 12. Another possible way to identify the location of the outbreak could be to **find the spatial mean of the deaths – or the average x- and y-coordinate of all the features in the study area**. It’s useful for tracking changes in the distribution or for comparing the distributions of different types of features. Here, we will use the Mean Center to highlight the distribution of deaths.
 	
 	- Open the *Mean coordinate(s)* tool from the processing toolbox 
-	- Select deaths_locations as the Input vector layer.
+	- Select deathsAddresses as the Input vector layer.
 	- Set the Weight field as Num_Cases. By setting the weight to be the number of cases, we are accounting for the fact that some addresses had multiple deaths when we calculated the average coordinates. 
 		- You can find the weight field under the advanced options
 	- Click RUN to calculate the Mean Center and Close. What water pump is the spatial mean closest to?
@@ -143,10 +143,11 @@ Nzk0ODE2OTYwNzc4fSwiYXcwYkVLSU9ZYnZZbDZaSiI6eyJkaX
 NjdXNzaW9uSWQiOiJmVng4V0h4YklVdXpNOW4yIiwic3ViIjoi
 Z2g6NDAzMDQ3ODgiLCJ0ZXh0IjoiQWRkIHRoaXMgaW4gdGhlIG
 ZpbmFsIHJlcXVpcmVtZW50cyBmb3IgdGhlIHJlcG9ydC4iLCJj
-cmVhdGVkIjoxNzk0ODE3Njc3MTIyfX0sImhpc3RvcnkiOls0OD
-IyMzQzNzUsLTE0MTkwMjI4MSwxNDQyMTUzMjY5LDE1MzQxMTg5
-MTksLTEzNTU1NzIxOTUsLTIwMjQ5NjUwMDYsMTk5Nzk2NDA5Mi
-wtNjk4NDQ3NTM4LDIxMTA2Mjk2MjEsLTg0MzE3MzA3NCw2MDc0
-MTY1OTcsLTIwMzM0NTQ4MDMsLTM2NTI1MTg4Niw1OTI1ODIyNj
-QsLTE1MTI0MjcwNiwtNTcyNzA1NjI4LDc1MDMzMDM4OF19
+cmVhdGVkIjoxNzk0ODE3Njc3MTIyfX0sImhpc3RvcnkiOlstMT
+MzNjgwNjQ4Niw0ODIyMzQzNzUsLTE0MTkwMjI4MSwxNDQyMTUz
+MjY5LDE1MzQxMTg5MTksLTEzNTU1NzIxOTUsLTIwMjQ5NjUwMD
+YsMTk5Nzk2NDA5MiwtNjk4NDQ3NTM4LDIxMTA2Mjk2MjEsLTg0
+MzE3MzA3NCw2MDc0MTY1OTcsLTIwMzM0NTQ4MDMsLTM2NTI1MT
+g4Niw1OTI1ODIyNjQsLTE1MTI0MjcwNiwtNTcyNzA1NjI4LDc1
+MDMzMDM4OF19
 -->
