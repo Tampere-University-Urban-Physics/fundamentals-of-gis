@@ -68,14 +68,8 @@ Complete the exercise and submit a short report containing at least the followin
 
 7. Let’s now **change the symbology of the deaths_locations layer to identify addresses that had multiple deaths**. 
 	
-	- Use graduated symbology to visualize the amount of deaths at different addresses, decide yourself what are the best se
-	- Go to the symbology of the new reprojected deaths_locations layer
-	- Make the symbology *graduated* and the value "Num_Cases"
-	- 
-	- Change the method to *size*. Rather than changing the color of the symbol based on the number of cases, this will change the size of the symbol. 
-	- Make the classification mode *Natural Breaks* (remember what this means?) with three classes
-	- You can change the size range, try out what you think looks best.
-	- Alternatively, you can change the colour to be graduated. Pick which you prefer - varying the size, or having a colour gradient.
+	- Use graduated symbology to visualize the amount of deaths at different addresses, decide yourself what are the best settings to do this. 
+
 
 8. We now have the locations of the deaths overlaid on top of a Google image of modern London. But, things have changed a little bit in this area of London since the outbreak. Let’s **bring in an old map of the area**. 
 	
@@ -143,7 +137,7 @@ ODE2OTM3NzU0fSwicHFTcmxaaXI4NlczQWF1RiI6eyJkaXNjdX
 NzaW9uSWQiOiI1TjVONzdHNWxLVHNIeXQwIiwic3ViIjoiZ2g6
 NDAzMDQ3ODgiLCJ0ZXh0IjoiSGF2ZSBzdHVkZW50cyBnZW9yZW
 ZlcmVuY2UgdGhpcz8iLCJjcmVhdGVkIjoxNzk0ODE2OTYwNzc4
-fX0sImhpc3RvcnkiOlstNTg1NDIyMTY3LC0xNDE5MDIyODEsMT
+fX0sImhpc3RvcnkiOlstNzExMzMwNDI0LC0xNDE5MDIyODEsMT
 Q0MjE1MzI2OSwxNTM0MTE4OTE5LC0xMzU1NTcyMTk1LC0yMDI0
 OTY1MDA2LDE5OTc5NjQwOTIsLTY5ODQ0NzUzOCwyMTEwNjI5Nj
 IxLC04NDMxNzMwNzQsNjA3NDE2NTk3LC0yMDMzNDU0ODAzLC0z
